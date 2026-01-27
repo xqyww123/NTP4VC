@@ -3,8 +3,11 @@
 [![license](https://img.shields.io/badge/license-hibrid_open_source-blue.svg)](LICENSE)
 [![iclr](https://img.shields.io/badge/accepted_in-ICLR26-orange)](https://openreview.net/forum?id=MfDyickxQA)
 [![bib](https://img.shields.io/badge/cite_by-bibtex-brown)](bib.bib)
+![bib](https://img.shields.io/badge/support-Lean-D6ECFF)
+![bib](https://img.shields.io/badge/support-Isabelle-FEFE00)
+![bib](https://img.shields.io/badge/support-Rocq-FF540A)
 
-A benhamrk based on real-world industrial pipelines and projects, across the theorem provers Isabelle, Rocq, and Lean.
+A benchmark aimed at applying Neural Theorem Proving to a key bottleneck in the program verification industry: VC proof.
 
 <img src="./statistics/image.png" width="600">
 
