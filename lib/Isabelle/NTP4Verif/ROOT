@@ -1,0 +1,3 @@
+session NTP4Verif = "HOL-Library" +
+  sessions Automation_Base Word_Lib Minilang "HOL-Number_Theory" "List-Index"
+  theories NTP4Verif

@@ -1,0 +1,878 @@
+name: Why3.Base
+imports:
+  why3.BuiltIn.BuiltIn: Why3.Base
+atoms:
+  $id: [id]
+  $inhabitant: ['inhabitant', 'base.inhabitant']
+  $eq: ['eq', 'Logic.eq']
+  # $le: ['le', 'Peano.le']
+  # $lt: ['lt', 'Peano.lt']
+  # $plus: ['HAdd.hAdd']
+  # $minus: ['HSub.hSub']
+  # $times: ['HMul.hMul']
+  # $mod: ['HMod.hMod']
+  # $div: ['HDiv.hDiv']
+  # $unat: ['BitVec.toNat']
+  Int.nat: ['Z.to_nat', 'IntDef.Z.to_nat']
+  Int.int: ['Z.of_nat', 'IntDef.Z.of_nat']
+  Z.of_N: [Z.of_N]
+  Z.to_N: [Z.to_N]
+  nat$take: ['take', 'firstn', 'List.firstn']
+  nat$drop: ['drop', 'skipn', 'List.skipn']
+  take$i: ['take_i', 'Base.take_i']
+  drop$i: ['drop_i', 'Base.drop_i']
+  length$nat: ['length', 'List.length']
+  length$i: ['length_i', 'Base.length_i']
+  nth_opt$i: ['nth_error_i', 'Base.nth_error_i']
+  nth_opt$nat: ['nth_error', 'List.nth_error']
+  nat$nth: ['nth', 'List.nth']
+  nth$i: ['nth_i', 'Base.nth_i']
+  $map: [map, 'List.map']
+  $replicate: [replicate, list_basics.replicate]
+  $replicate_i: [replicate_i, Base.replicate_i]
+  slice$i: [slice_i, Base.slice_i]
+  $append: [app, List.app]
+
+  lsr$b: [bv_shiftr]
+  lsl$b: [bv_shiftl]
+  asr$b: [bv_ashiftr]
+  bv.BV8.lsr: ['bv_shiftr_i 8%N']
+  bv.BV16.lsr: ['bv_shiftr_i 16%N']
+  bv.BV32.lsr: ['bv_shiftr_i 32%N']
+  bv.BV64.lsr: ['bv_shiftr_i 64%N']
+  bv.BV128.lsr: ['bv_shiftr_i 128%N']
+  bv.BV256.lsr: ['bv_shiftr_i 256%N']
+  bv.BV8.lsl: ['bv_shiftl_i 8%N']
+  bv.BV16.lsl: ['bv_shiftl_i 16%N']
+  bv.BV32.lsl: ['bv_shiftl_i 32%N']
+  bv.BV64.lsl: ['bv_shiftl_i 64%N']
+  bv.BV128.lsl: ['bv_shiftl_i 128%N']
+  bv.BV256.lsl: ['bv_shiftl_i 256%N']
+  bv.BV8.asr: ['bv_ashiftr_i 8%N']
+  bv.BV16.asr: ['bv_ashiftr_i 16%N']
+  bv.BV32.asr: ['bv_ashiftr_i 32%N']
+  bv.BV64.asr: ['bv_ashiftr_i 64%N']
+  bv.BV128.asr: ['bv_ashiftr_i 128%N']
+  bv.BV256.asr: ['bv_ashiftr_i 256%N']
+
+  bv.BV8.add: [bv_add, definitions.bv_add, bitvector.definitions.bv_add]
+  bv.BV16.add: [bv_add, definitions.bv_add, bitvector.definitions.bv_add]
+  bv.BV32.add: [bv_add, definitions.bv_add, bitvector.definitions.bv_add]
+  bv.BV64.add: [bv_add, definitions.bv_add, bitvector.definitions.bv_add]
+  bv.BV128.add: [bv_add, definitions.bv_add, bitvector.definitions.bv_add]
+  bv.BV256.add: [bv_add, definitions.bv_add, bitvector.definitions.bv_add]
+  bv.BV8.sub: [bv_sub, definitions.bv_sub, bitvector.definitions.bv_sub]
+  bv.BV16.sub: [bv_sub, definitions.bv_sub, bitvector.definitions.bv_sub]
+  bv.BV32.sub: [bv_sub, definitions.bv_sub, bitvector.definitions.bv_sub]
+  bv.BV64.sub: [bv_sub, definitions.bv_sub, bitvector.definitions.bv_sub]
+  bv.BV128.sub: [bv_sub, definitions.bv_sub, bitvector.definitions.bv_sub]
+  bv.BV256.sub: [bv_sub, definitions.bv_sub, bitvector.definitions.bv_sub]
+  bv.BV8.mul: [bv_mul, definitions.bv_mul, bitvector.definitions.bv_mul]
+  bv.BV16.mul: [bv_mul, definitions.bv_mul, bitvector.definitions.bv_mul]
+  bv.BV32.mul: [bv_mul, definitions.bv_mul, bitvector.definitions.bv_mul]
+  bv.BV64.mul: [bv_mul, definitions.bv_mul, bitvector.definitions.bv_mul]
+  bv.BV128.mul: [bv_mul, definitions.bv_mul, bitvector.definitions.bv_mul]
+  bv.BV256.mul: [bv_mul, definitions.bv_mul, bitvector.definitions.bv_mul]
+  bv.BV8.udiv: [bv_divu, definitions.bv_divu, bitvector.definitions.bv_divu]
+  bv.BV16.udiv: [bv_divu, definitions.bv_divu, bitvector.definitions.bv_divu]
+  bv.BV32.udiv: [bv_divu, definitions.bv_divu, bitvector.definitions.bv_divu]
+  bv.BV64.udiv: [bv_divu, definitions.bv_divu, bitvector.definitions.bv_divu]
+  bv.BV128.udiv: [bv_divu, definitions.bv_divu, bitvector.definitions.bv_divu]
+  bv.BV256.udiv: [bv_divu, definitions.bv_divu, bitvector.definitions.bv_divu]
+  bv.BV8.urem: [bv_modu, definitions.bv_modu, bitvector.definitions.bv_modu]
+  bv.BV16.urem: [bv_modu, definitions.bv_modu, bitvector.definitions.bv_modu]
+  bv.BV32.urem: [bv_modu, definitions.bv_modu, bitvector.definitions.bv_modu]
+  bv.BV64.urem: [bv_modu, definitions.bv_modu, bitvector.definitions.bv_modu]
+  bv.BV128.urem: [bv_modu, definitions.bv_modu, bitvector.definitions.bv_modu]
+  bv.BV256.urem: [bv_modu, definitions.bv_modu, bitvector.definitions.bv_modu]
+  bv.BV8.sdiv: [bv_divs, definitions.bv_divs, bitvector.definitions.bv_divs]
+  bv.BV16.sdiv: [bv_divs, definitions.bv_divs, bitvector.definitions.bv_divs]
+  bv.BV32.sdiv: [bv_divs, definitions.bv_divs, bitvector.definitions.bv_divs]
+  bv.BV64.sdiv: [bv_divs, definitions.bv_divs, bitvector.definitions.bv_divs]
+  bv.BV128.sdiv: [bv_divs, definitions.bv_divs, bitvector.definitions.bv_divs]
+  bv.BV256.sdiv: [bv_divs, definitions.bv_divs, bitvector.definitions.bv_divs]
+  bv.BV8.srem: [bv_mods, definitions.bv_mods, bitvector.definitions.bv_mods]
+  bv.BV16.srem: [bv_mods, definitions.bv_mods, bitvector.definitions.bv_mods]
+  bv.BV32.srem: [bv_mods, definitions.bv_mods, bitvector.definitions.bv_mods]
+  bv.BV64.srem: [bv_mods, definitions.bv_mods, bitvector.definitions.bv_mods]
+  bv.BV128.srem: [bv_mods, definitions.bv_mods, bitvector.definitions.bv_mods]
+  bv.BV256.srem: [bv_mods, definitions.bv_mods, bitvector.definitions.bv_mods]
+
+  bv.BV8.bw_and: [bv_and, definitions.bv_and, bitvector.definitions.bv_and]
+  bv.BV16.bw_and: [bv_and, definitions.bv_and, bitvector.definitions.bv_and]
+  bv.BV32.bw_and: [bv_and, definitions.bv_and, bitvector.definitions.bv_and]
+  bv.BV64.bw_and: [bv_and, definitions.bv_and, bitvector.definitions.bv_and]
+  bv.BV128.bw_and: [bv_and, definitions.bv_and, bitvector.definitions.bv_and]
+  bv.BV256.bw_and: [bv_and, definitions.bv_and, bitvector.definitions.bv_and]
+  bv.BV8.bw_or: [bv_or, definitions.bv_or, bitvector.definitions.bv_or]
+  bv.BV16.bw_or: [bv_or, definitions.bv_or, bitvector.definitions.bv_or]
+  bv.BV32.bw_or: [bv_or, definitions.bv_or, bitvector.definitions.bv_or]
+  bv.BV64.bw_or: [bv_or, definitions.bv_or, bitvector.definitions.bv_or]
+  bv.BV128.bw_or: [bv_or, definitions.bv_or, bitvector.definitions.bv_or]
+  bv.BV256.bw_or: [bv_or, definitions.bv_or, bitvector.definitions.bv_or]
+  bv.BV8.bw_xor: [bv_xor, definitions.bv_xor, bitvector.definitions.bv_xor]
+  bv.BV16.bw_xor: [bv_xor, definitions.bv_xor, bitvector.definitions.bv_xor]
+  bv.BV32.bw_xor: [bv_xor, definitions.bv_xor, bitvector.definitions.bv_xor]
+  bv.BV64.bw_xor: [bv_xor, definitions.bv_xor, bitvector.definitions.bv_xor]
+  bv.BV128.bw_xor: [bv_xor, definitions.bv_xor, bitvector.definitions.bv_xor]
+  bv.BV256.bw_xor: [bv_xor, definitions.bv_xor, bitvector.definitions.bv_xor]
+
+  int.Int.infix_mn: [Z.sub]
+  int.Int.infix_pl: [Z.add]
+  int.Int.infix_as: [Z.mul]
+  int.Int.infix_lseq: [Z.le]
+  int.Int.infix_ls: [Z.lt]
+
+  real.Real.infix_pl: [Rplus, Rdefinitions.Rplus]
+  real.Real.infix_mn: [Rminus, Rdefinitions.Rminus]
+  real.Real.infix_as: [Rmult, Rdefinitions.Rmult]
+  real.Real.infix_lseq: [Rle, Rdefinitions.Rle]
+  real.Real.infix_ls: [Rlt, Rdefinitions.Rlt]
+  real.Real.infix_sl: [Rdiv, Rdefinitions.Rdiv]
+  Why3_Real.why3_divide: [Rdiv, Rdefinitions.Rdiv]
+  real.Real.prefix_mn: [Ropp, Rdefinitions.Ropp]
+
+  string.Char.code: [ascii_code, Base.ascii_code]
+  string.Char.chr : [ascii_of_code, Base.ascii_of_code]
+  char$code: [Ascii.nat_of_ascii]
+  code$char: [Ascii.ascii_of_nat]
+  string.String.prefixof: [String.prefix]
+  string.String.suffixof: [String.suffix]
+  string.String.contains: [str_contains, Base.str_contains]
+  str$length: [String.length]
+  $String: [String, String.String]
+  $EmptyString: [EmptyString, String.EmptyString]
+  string.Char.get: [get_str_i, Base.get_str_i]
+  str$get: [get_str, Base.get_str]
+  string.Char.make: [string_repeat_i, Base.string_repeat_i]
+  string$make: [string_repeat, Base.string_repeat]
+  string.String.concat: [append, String.append]
+  string.String.substring: [why3_substring, Base.why3_substring]
+  str$substring: [substring, String.substring]
+  string.String.le: [String.leb]
+  string.String.lt: [String.ltb]
+
+  list.SortedInt.sorted: ['Sorted Z.le']
+  real.Abs.abs: ['Rabs', 'Rbasic_fun.Rabs']
+  int.Abs.abs: ['Z.abs']
+  list.Distinct.distinct: [NoDup, base.NoDup, stdpp.base.NoDup]
+
+  mach.int.Int16.in_bounds: ["int'16_in_bounds", "Base.int'16_in_bounds"]
+  mach.int.Int31.in_bounds: ["int'31_in_bounds", "Base.int'31_in_bounds"]
+  mach.int.Int32.in_bounds: ["int'32_in_bounds", "Base.int'32_in_bounds"]
+  mach.int.Int63.in_bounds: ["int'63_in_bounds", "Base.int'63_in_bounds"]
+  mach.int.Int64.in_bounds: ["int'64_in_bounds", "Base.int'64_in_bounds"]
+  mach.int.UInt16.in_bounds: ["uint'16_in_bounds", "Base.uint'16_in_bounds"]
+  mach.int.UInt31.in_bounds: ["uint'31_in_bounds", "Base.uint'31_in_bounds"]
+  mach.int.UInt32.in_bounds: ["uint'32_in_bounds", "Base.uint'32_in_bounds"]
+  mach.int.UInt63.in_bounds: ["uint'63_in_bounds", "Base.uint'63_in_bounds"]
+  mach.int.UInt64.in_bounds: ["uint'64_in_bounds", "Base.uint'64_in_bounds"]
+  mach.int.Int16.max_int: ["int'16_max", "Base.int'16_max"]
+  mach.int.Int16.min_int: ["int'16_min", "Base.int'16_min"]
+  mach.int.Int31.max_int: ["int'31_max", "Base.int'31_max"]
+  mach.int.Int31.min_int: ["int'31_min", "Base.int'31_min"]
+  mach.int.Int32.max_int: ["int'32_max", "Base.int'32_max"]
+  mach.int.Int32.min_int: ["int'32_min", "Base.int'32_min"]
+  mach.int.Int63.max_int: ["int'63_max", "Base.int'63_max"]
+  mach.int.Int63.min_int: ["int'63_min", "Base.int'63_min"]
+  mach.int.Int64.max_int: ["int'64_max", "Base.int'64_max"]
+  mach.int.Int64.min_int: ["int'64_min", "Base.int'64_min"]
+  mach.int.UInt16.max_int: ["uint'16_max", "Base.uint'16_max"]
+  mach.int.UInt16.min_int: ["uint'16_min", "Base.uint'16_min"]
+  mach.int.UInt31.max_int: ["uint'31_max", "Base.uint'31_max"]
+  mach.int.UInt31.min_int: ["uint'31_min", "Base.uint'31_min"]
+  mach.int.UInt32.max_int: ["uint'32_max", "Base.uint'32_max"]
+  mach.int.UInt32.min_int: ["uint'32_min", "Base.uint'32_min"]
+  mach.int.UInt63.max_int: ["uint'63_max", "Base.uint'63_max"]
+  mach.int.UInt63.min_int: ["uint'63_min", "Base.uint'63_min"]
+  mach.int.UInt64.max_int: ["uint'64_max", "Base.uint'64_max"]
+  mach.int.UInt64.min_int: ["uint'64_min", "Base.uint'64_min"]
+  $bv_unsigned: [bv_unsigned, definitions.bv_unsigned, bitvector.definitions.bv_unsigned]
+  mach.int.Int16.int16'int: ["bv_signed", definitions.bv_signed, bitvector.definitions.bv_signed]
+  mach.int.Int31.int31'int: ["bv_signed", definitions.bv_signed, bitvector.definitions.bv_signed]
+  mach.int.Int32.int32'int: ["bv_signed", definitions.bv_signed, bitvector.definitions.bv_signed]
+  mach.int.Int63.int63'int: ["bv_signed", definitions.bv_signed, bitvector.definitions.bv_signed]
+  mach.int.Int64.int64'int: ["bv_signed", definitions.bv_signed, bitvector.definitions.bv_signed]
+  mach.int.UInt16.uint16'int: ["bv_unsigned", definitions.bv_unsigned, bitvector.definitions.bv_unsigned]
+  mach.int.UInt31.uint31'int: ["bv_unsigned", definitions.bv_unsigned, bitvector.definitions.bv_unsigned]
+  mach.int.UInt32.uint32'int: ["bv_unsigned", definitions.bv_unsigned, bitvector.definitions.bv_unsigned]
+  mach.int.UInt63.uint63'int: ["bv_unsigned", definitions.bv_unsigned, bitvector.definitions.bv_unsigned]
+  mach.int.UInt64.uint64'int: ["bv_unsigned", definitions.bv_unsigned, bitvector.definitions.bv_unsigned]
+  mach.c.UChar.uchar'int: ["bv_signed", definitions.bv_signed, bitvector.definitions.bv_signed]
+  mach.c.UChar.zero_unsigned: '(0%bv : bv 8%N)'
+  #mach.c.UChar.of_char: $id
+  #mach.c.UChar.to_char: $id
+  mach.int.UInt32GMP.zero_unsigned: '(0%bv : bv 32%N)'
+  mach.int.UInt32Gen.uint32'int: ["bv_unsigned", definitions.bv_unsigned, bitvector.definitions.bv_unsigned]
+  mach.int.UInt32GMP.is_msb_set: ["is_msb_set", Base.is_msb_set]
+  mach.int.UInt32GMP.uint32_max: ["uint'32_max", "Base.uint'32_max"]
+  mach.int.UInt32GMP.in_bounds: ["uint'32_in_bounds", "Base.uint'32_in_bounds"]
+  mach.int.UInt64GMP.zero_unsigned: '(0%bv : bv 64%N)'
+  mach.int.UInt64Gen.uint64'int: ["bv_unsigned", definitions.bv_unsigned, bitvector.definitions.bv_unsigned]
+  mach.int.UInt64GMP.is_msb_set: ["is_msb_set", Base.is_msb_set]
+  mach.int.UInt64GMP.uint64_max: ["uint'64_max", "Base.uint'64_max"]
+  mach.int.UInt64GMP.in_bounds: ["uint'64_in_bounds", "Base.uint'64_in_bounds"]
+  mach.int.Byte.byte'int: ["bv_unsigned", definitions.bv_unsigned, bitvector.definitions.bv_unsigned]
+  mach.int.Byte.zero_unsigned: '(0%bv : bv 8%N)'
+  mach.int.Byte.in_bounds: ["uint'8_in_bounds", "Base.uint'8_in_bounds"]
+  mach.peano.Peano.zero: '0%nat'
+  mach.peano.Peano.one : '1%nat'
+  mach.peano.Peano.succ: [S, Datatypes.S]
+  seq.Seq.create: [create_list_i, Base.create_list_i]
+  list$create: [create_list, Base.create_list]
+  seq.Seq.cons: [cons, List.cons]
+  seq.Reverse.reverse: [rev, List.rev]
+
+  nat$map.Occ.occ: [map_occ_list, Base.map_occ_list]
+  map.Occ.occ: [map_occ_list_i, Base.map_occ_list_i]
+  map.Map.set: [fun_updt, Base.fun_updt]
+  real.Real.inv: [Rinv, Rdefinitions.Rinv]
+  HOL.False: ['False', Logic.False]
+  HOL.True : ['True', Logic.True]
+  why3.Bool.Bool.True : ['true', Datatypes.true]
+  why3.Bool.Bool.False: ['false', Datatypes.false]
+  HOL.implies: [implb, Datatypes.implb]
+  Pure.dummy_pattern: '_'
+
+  mach.array.Array31.length: ['array31_length', 'Base.array31_length']
+  mach.array.Array32.length: ['array32_length', 'Base.array32_length']
+  mach.array.Array63.length: ['array63_length', 'Base.array63_length']
+  mach.array.Array31.elts: ['array31_elts', 'Base.array31_elts']
+  mach.array.Array32.elts: ['array32_elts', 'Base.array32_elts']
+  mach.array.Array63.elts: ['array63_elts', 'Base.array63_elts']
+  mach.array.Array31.mixfix_lbrb: ['array31_elts', 'Base.array31_elts']
+  mach.array.Array32.mixfix_lbrb: ['array32_elts', 'Base.array32_elts']
+  mach.array.Array63.mixfix_lbrb: ['array63_nth', 'Base.array63_nth']
+
+  list$set_i: [set_list_i, base.set_list_i]
+  list$set: [set_list, base.set_list]
+  list.HdTl.hd: [hd_error, List.hd_error]
+  list.HdTl.tl: [tl_error, Base.tl_error]
+  list.HdTlNoOpt.hd: [hd', Base.hd']
+  list.HdTlNoOpt.tl: [tl, List.tl]
+  $hd: [hd, List.hd]
+
+  int.Int.zero: '0%Z'
+  int.Int.one: '1%Z'
+  int.MinMax.min: [Z.min]
+  int.MinMax.max: [Z.max]
+  real.MinMax.min: [Rmin, Rbasic_fun.Rmin]
+  real.MinMax.max: [Rmax, Rbasic_fun.Rmax]
+  list.List.Cons: [cons, List.cons]
+  option.Option.None: [None, Datatypes.None]
+  option.Option.Some: [Some, Datatypes.Some]
+  option.Option.is_None: [is_None, Base.is_None]
+  why3.list.List.is_nil: [is_Nil, Base.is_Nil]
+  list.List.is_nil: [is_Nil, Base.is_Nil]
+  list.Reverse.reverse: [rev, List.rev]
+  list.RevAppend.rev_append: [rev_append, List.rev_append]
+  
+  $sdiv: [bv_divs, definitions.bv_divs, bitvector.definitions.bv_divs]
+  $smod: [bv_mods, definitions.bv_mods, bitvector.definitions.bv_mods]
+  int.EuclideanDivision.mod: [ZEuclid.modulo]
+  int.EuclideanDivision.div: [ZEuclid.div]
+  int.ComputerDivision.mod: [Z.quot]
+  int.ComputerDivision.div: [Z.rem]
+
+  bv.BV8.t'int: [bv_unsigned, definitions.bv_unsigned, bitvector.definitions.bv_unsigned]
+  bv.BV16.t'int: [bv_unsigned, definitions.bv_unsigned, bitvector.definitions.bv_unsigned]
+  bv.BV32.t'int: [bv_unsigned, definitions.bv_unsigned, bitvector.definitions.bv_unsigned]
+  bv.BV64.t'int: [bv_unsigned, definitions.bv_unsigned, bitvector.definitions.bv_unsigned]
+  bv.BV128.t'int: [bv_unsigned, definitions.bv_unsigned, bitvector.definitions.bv_unsigned]
+  bv.BV256.t'int: [bv_unsigned, definitions.bv_unsigned, bitvector.definitions.bv_unsigned]
+  bv.BV8.to_int: [bv_unsigned, definitions.bv_unsigned, bitvector.definitions.bv_unsigned]
+  bv.BV16.to_int: [bv_unsigned, definitions.bv_unsigned, bitvector.definitions.bv_unsigned]
+  bv.BV32.to_int: [bv_unsigned, definitions.bv_unsigned, bitvector.definitions.bv_unsigned]
+  bv.BV64.to_int: [bv_unsigned, definitions.bv_unsigned, bitvector.definitions.bv_unsigned]
+  bv.BV128.to_int: [bv_unsigned, definitions.bv_unsigned, bitvector.definitions.bv_unsigned]
+  bv.BV256.to_int: [bv_unsigned, definitions.bv_unsigned, bitvector.definitions.bv_unsigned]
+
+  $subseteq: [subseteq, base.subseteq]
+  set.Fset.is_empty: [is_empty, Base.is_empty]
+  set.Fset.empty: ['∅']
+  set.Fset.add: [insert_set, Base.insert_set] ### TODO: pretty syntax
+  set.Fset.remove: [remove_set, Base.remove_set]
+  $union: [union, base.union]
+  $inter: [intersection, base.intersection]
+  $sdiff: [difference, base.difference]
+  $disjoint: [disjoint, base.disjoint]
+  set.Fset.filter: [filter', Base.filter']
+  FSet$ffilter: [filter, base.filter]
+  set.Fset.map: [gset_map, Base.gset_map]
+  set.Fset.pick: [gset_pick_em, Base.gset_pick_em]
+  int.Power.power: [Z.pow]
+  bv.Pow2int.pow2: [pow2, Base.pow2]
+
+  int$size: [size_i, Base.size_i]
+  $size: [size, base.size]
+
+  take_bit$i: [bv_testbit, Base.bv_testbit]
+  take_bit$bv: [bv_testbit_b, Base.bv_testbit_b]
+  $testbit: [Z.testbit]
+  bit$and: [bv_and, definitions.bv_and, bitvector.definitions.bv_and]
+  bit$or: [bv_or, definitions.bv_or, bitvector.definitions.bv_or]
+  bit$xor: [bv_xor, definitions.bv_xor, bitvector.definitions.bv_xor]
+  bit$not: [bv_not, definitions.bv_not, bitvector.definitions.bv_not]
+  bit$neg: [bv_opp, definitions.bv_opp, bitvector.definitions.bv_opp]
+  $slt: [bv_slt, Base.bv_slt]
+  $sle: [bv_sle, Base.bv_sle]
+  $sge: [bv_sge, Base.bv_sge]
+  $sgt: [bv_sgt, Base.bv_sgt]
+  $ult: [bv_ult, Base.bv_ult]
+  $ule: [bv_ule, Base.bv_ule]
+  $uge: [bv_uge, Base.bv_uge]
+  $ugt: [bv_ugt, Base.bv_ugt]
+  bv_eq_sub$: [eq_sub_bv, Base.eq_sub_bv]
+  bv_eq_sub$i: [eq_sub_bv_z, Base.eq_sub_bv_z]
+  bv_eq_sub$bv: [eq_sub_bv_b, Base.eq_sub_bv_b]
+  number.Parity.even: [Z.Even]
+  number.Parity.odd: [Z.Odd]
+
+  bv.BV8.size_bv: ['w8_size_bv', 'Base.w8_size_bv']
+  bv.BV16.size_bv: ['w16_size_bv', 'Base.w16_size_bv']
+  bv.BV32.size_bv: ['w32_size_bv', 'Base.w32_size_bv']
+  bv.BV64.size_bv: ['w64_size_bv', 'Base.w64_size_bv']
+  bv.BV128.size_bv: ['w128_size_bv', 'Base.w128_size_bv']
+  bv.BV256.size_bv: ['w256_size_bv', 'Base.w256_size_bv']
+  bv.BV8.size: ['w8_size_i', 'Base.w8_size_i']
+  bv.BV16.size: ['w16_size_i', 'Base.w16_size_i']
+  bv.BV32.size: ['w32_size_i', 'Base.w32_size_i']
+  bv.BV64.size: ['w64_size_i', 'Base.w64_size_i']
+  bv.BV128.size: ['w128_size_i', 'Base.w128_size_i']
+  bv.BV256.size: ['w256_size_i', 'Base.w256_size_i']
+  word_rotl$i: [bv_rotl, Base.bv_rotl]
+  word_rotr$i: [bv_rotr, Base.bv_rotr]
+  word_rotl$bv: [bv_rotl_b, Base.bv_rotl_b]
+  word_rotr$bv: [bv_rotr_b, Base.bv_rotr_b]
+
+  bv$of_int: [Z_to_bv, definitions.Z_to_bv, bitvector.definitions.Z_to_bv]
+
+  bag.Bag.nb_occ: [multiplicity_i, Base.multiplicity_i]
+  bag.Bag.union: [gmultiset_disj_union, gmultiset.gmultiset_disj_union]
+  multiset$count: [multiplicity, gmultiset.multiplicity]
+  bag.Bag.empty_bag: '∅'
+  bag.Bag.add: [insert_mset, Base.insert_mset]
+
+  number.Divisibility.divides: [Z.divide]
+  number.Prime.prime: [prime, Znumtheory.prime]
+  number.Gcd.gcd: [Z.gcd]
+  number.Coprime.coprime: [Coprime_z]
+  
+  bool.Bool.xorb: [xorb, Datatypes.xorb]
+  bool.Bool.andb: [andb, Datatypes.andb]
+  bool.Bool.orb : [orb, Datatypes.orb]
+  bool.Bool.notb: [negb, Datatypes.negb]
+  bool.Bool.implb: [implb, Datatypes.implb]
+
+  $gcd: ['Int.gcd']
+  $member: [elem_of, base.elem_of]
+  HOL.If: bad_bad_bad_bad
+
+  set.Set.empty: '∅'
+  set.Set.all1: '⊤'
+  set.Set.add: [insert_set, Base.insert_set]
+  set.Set.remove: [remove_set, Base.remove_set]
+  set.Set.pick: [propset_pick, Base.propset_pick]
+  set.Set.product: [cprod, base.cprod]
+  set.Set.filter: [set_comprehension, Base.set_comprehension] ### TODO: pretty syntax
+  set.Set.map: [fmap, base.fmap]
+
+  fmap.Fmap.contents: [lookup_gmap_total, Base.lookup_gmap_total]
+  $Some: [Some, Datatypes.Some]
+  fmap.Fmap.domain: [dom, base.dom]
+  fmap.Fmap.mapsto: [fmapsto, base.fmapsto]
+  fmap.Fmap.is_empty: [is_empty, base.is_empty]
+  fmap.Fmap.add: [insert_gmap, Base.insert_gmap]
+  fmap.Fmap.remove: [delete_gmap, Base.delete_gmap]
+
+  set.FsetInt.min_elt: [gset_min, Base.gset_min]
+  set.FsetInt.max_elt: [gset_max, Base.gset_max]
+  set.FsetInt.interval: [gset_interval, Base.gset_interval]
+
+  array.ArrayExchange.exchange: [array_exchange, Base.array_exchange]
+  array.ArrayPermut.permut_all: [Permutation, Permutation.Permutation]
+  ArrayPermut$permut: [permut_sub, Base.permut_sub]
+  ArrayPermut$permut_sub: [permut_sub', Base.permut_sub']
+  list$sum: [list_sum, Base.list_sum]
+  count$list: [count_occ', Base.count_occ']
+
+  real.Square.sqrt: [sqrt, R_sqrt.sqrt]
+  real.Square.sqr: [Rsqr, RIneq.Rsqr]
+  real.ExpLog.exp: [exp, Rtrigo_def.exp]
+  real.ExpLog.log: [ln, Rpower.ln]
+  real$log: [Rlog, Rpower.Rlog]
+  real.PowerReal.pow: [Rpower, Rpower.Rpower]
+  real.FromInt.from_int: [Rdefinitions.IZR]
+
+  list.Combine.combine: [zip, base.zip]
+  list.Elements.elements: [list_to_gset, Base.list_to_gset]
+  list.FoldRight.fold_right: [foldr', Base.foldr']
+
+  list.Quant.for_all: [forallb, List.forallb]
+  list.Quant.for_some: [existsb, List.exists]
+  list.Quant.mem: [list_mem', Base.list_mem']
+
+  bv.BVConverter_8_32.toBig: 'bv_zero_extend 32'
+  bv.BVConverter_8_32.stoBig: 'bv_sign_extend 32'
+  bv.BVConverter_8_32.toSmall: 'bv_zero_extend 8'
+  bv.BVConverter_8_128.toBig: 'bv_zero_extend 128'
+  bv.BVConverter_8_128.stoBig: 'bv_sign_extend 128'
+  bv.BVConverter_8_128.toSmall: 'bv_zero_extend 8'
+  bv.BVConverter_32_64.toBig: 'bv_zero_extend 64'
+  bv.BVConverter_32_64.stoBig: 'bv_sign_extend 64'
+  bv.BVConverter_32_64.toSmall: 'bv_zero_extend 32'
+  bv.BVConverter_32_128.toBig: 'bv_zero_extend 128'
+  bv.BVConverter_32_128.stoBig: 'bv_sign_extend 128'
+  bv.BVConverter_32_128.toSmall: 'bv_zero_extend 32'
+  bv.BVConverter_64_128.toBig: 'bv_zero_extend 128'
+  bv.BVConverter_64_128.stoBig: 'bv_sign_extend 128'
+  bv.BVConverter_64_128.toSmall: 'bv_zero_extend 64'
+
+  real.Trigonometry.sin: [sin, Rtrigo_def.sin]
+  real.Trigonometry.cos: [cos, Rtrigo_def.cos]
+  real.Trigonometry.tan: [tan, Rtrigo1.tan]
+  real.Trigonometry.atan: [atan, Ratan.atan]
+  real.Trigonometry.pi: [PI, Rtrigo1.PI]
+
+  real.Truncate.truncate: [Ztrunc, Base.Ztrunc]
+  real.Truncate.floor: [Zfloor, Zfloor.Zfloor]
+  real.Truncate.ceil: [Zceil, Zfloor.Zceil]
+
+binops:
+  $eq: [" = ", 130, 131, 131]
+  $neq: [" ≠ ", 130, 131, 131]
+  $append: [' ++ ', 140, 141, 140]
+  $disjoint: [' ## ', 130, 131, 130]
+  bool.Bool.andb: [' && ', 160, 161, 160]
+  bool.Bool.orb : [' || ' , 150, 151, 150]
+
+  number.Divisibility.divides: [' | ', -1, 0, 0]
+  bag.Bag.union: [' ⊎ ', 150, 150, 151]
+  list.Append.infix_plpl: [' ++ ', 140, 141, 140]
+  seq.Seq.infix_plpl: [' ++ ', 140, 141, 140]
+
+  $comp: [' ∘ ', 160, 160, 161]
+  #TO FIX: nat$nth: [' ! ', 100, 100, 101]
+  # $le: [' ≤ ', 130, 131, 130]
+  # $ge: [' ≥ ', 130, 131, 130]
+  # $lt: [' < ', 130, 131, 130]
+  # $gt: [' > ', 130, 131, 130]
+
+  int.Int.infix_mn: [' - ', 150, 150, 151]
+  int.Int.infix_pl: [' + ', 150, 150, 151]
+  int.Int.infix_as: [' * ', 160, 160, 161]
+  int.Int.infix_lseq: [' ≤ ', 130, 131, 130]
+  int.Int.infix_ls: [' < ', 130, 131, 130]
+  int.Int.infix_gseq: [' ≥ ', 130, 131, 130]
+  int.Int.infix_gs: [' > ', 130, 131, 130]
+  # $plus: [' + ', 65, 65, 66]
+  # $minus: [' - ', 65, 65, 66]
+  # $times: [' * ', 70, 70, 71]
+  # $div: [' / ', 70, 70, 71]
+  # $mod: [' % ', 70, 70, 71]
+  # TODO
+
+  HOL.implies: [' -> ', 101, 102, 101]
+  HOL.conj: [' ∧ ', 120, 121, 120]
+  HOL.disj: [' ∨ ', 115, 116, 115]
+
+  $fmlookup: [' !! ', 180, 181, 180]
+
+  $member: [' ∈ ', 130, 131, 131]
+  $subseteq: [' ⊆ ', 140, 141, 140]
+  $union: [' ∪ ', 150, 150, 151]
+  $inter: [' ∩ ', 160, 160, 161]
+  $sdiff: [' ∖ ', 160, 160, 161]
+
+  set.Set.map: [" <$> ", 139, 139, 140]
+
+  array.ArrayPermut.permut_all: [' ≡ₚ ', 130, 131, 130]
+
+axioms: {}
+prefix_ops:
+  bool.Bool.notb: ['¬', 40, 40]
+  #Groups.uminus_class.uminus: ['- ', 165, 165]
+  int.Int.prefix_mn: ['- ', 165, 165]
+  HOL.Not: ['¬ ', 125, 125]
+binders:
+  HOL.All: ['∀', 2]
+  HOL.Ex : ['∃', 2]
+datatypes: {}
+defs: {}
+types:
+  $bv: ['bv', 'definitions.bv']
+  set.Set.set: [propset, propset.propset]
+  mach.int.Byte.byte: ['bv 8%N']
+  mach.c.UChar.uchar: ['bv 8%N']
+  string.Char.char: [ascii, Ascii.ascii]
+  why3.string_Char.char: [ascii, Ascii.ascii]
+  why3.BuiltIn.BuiltIn.string: [string, String.string]
+  mach.int.UInt32Gen.uint32: ['bv 32%N']
+  mach.int.UInt64Gen.uint64: ['bv 64%N']
+  mach.array.Array31.array: ['array31', 'Lean4Why3.array31']
+  mach.array.Array32.array: ['array32', 'Lean4Why3.array32']
+  mach.array.Array63.array: ['array63', 'Lean4Why3.array63']
+  mach.array.Array64.array: ['array64', 'Lean4Why3.array64']
+  mach.peano.Peano.t: [nat, Datatypes.nat]
+  mach.int.Int15.int15: ['bv 15%N']
+  mach.int.Int16.int16: ['bv 16%N']
+  mach.int.Int31.int31: ['bv 31%N']
+  mach.int.Int32.int32: ['bv 32%N']
+  mach.int.Int63.int63: ['bv 63%N']
+  mach.int.Int64.int64: ['bv 64%N']
+  int.Int15.int15: ['bv 15%N']
+  int.Int16.int16: ['bv 16%N']
+  int.Int31.int31: ['bv 31%N']
+  int.Int32.int32: ['bv 32%N']
+  int.Int63.int63: ['bv 63%N']
+  int.Int64.int64: ['bv 64%N']
+  $nat: ['nat', 'Datatypes.nat']
+  mach.peano.Peano.nat: ['nat', 'Datatypes.nat']
+  seq.Seq.seq: ['list', 'Datatypes.list']
+  Bool.bool: ['Prop']
+  why3.Bool.Bool.bool: ['bool']
+  why3.BuiltIn.BuiltIn.int: ['Z']
+  why3.BuiltIn.BuiltIn.real: ['R', 'Rdefinitions.R']
+  Real.real: ['R', 'Rdefinitions.R']
+  array.Array.array: ['list', 'Datatypes.list']
+  mach.int.Int63.int63: ['bv 63%N']
+  mach.int.Int64.int64: ['bv 64%N']
+  why3.Unit.Unit.unit: ['unit']
+  why3.Tuple0.Tuple0.tuple0: ['unit']
+  list.List.list: ['list', 'Datatypes.list']
+  option.Option.option: ['option']
+  bv.BV8.t: ['bv 8%N']
+  bv.BV16.t: ['bv 16%N']
+  bv.BV32.t: ['bv 32%N']
+  bv.BV64.t: ['bv 64%N']
+  bv.BV128.t: ['bv 128%N']
+  bv.BV256.t: ['bv 256%N']
+  set.Fset.fset: ['gset']
+  fmap.Fmap.fmap: ['gmap']
+  bag.Bag.bag: ['gmultiset']
+  set.SetAppInt.set: ['gset Z']
+
+rewrites:
+  mach.c.UChar.of_char#1: [bv$of_int, '8%N', [Int.int, [char$code, 0]]]
+  mach.c.UChar.to_char#1: [code$char, [Int.nat, [$bv_unsigned, 0]]]
+
+  why3.HighOrd.HighOrd.infix_at#0: $id
+  fmap.MapImpInt.to_fmap#0: $id
+  $id#1: [0]
+  $id#2: [0, 1]
+  $id#3: [0, 1, 2]
+
+  set.Fset.cardinal#0: int$size
+  fmap.Fmap.size#0: int$size
+  bag.Bag.card#0: int$size
+
+  length$i#1: [Int.int, [length$nat, 0]]
+  seq.Seq.length#0: length$i
+  array.Array.length#0: length$i
+  list.Length.length#0: length$i
+  string.String.length#1: [Int.int, [str$length, 0]]
+  string.Char.contents#1: [$String, 0, $EmptyString]
+  seq.Seq.snoc#2: [seq.Seq.infix_plpl, 0, [seq.Seq.singleton, 1]]
+  'seq.Seq.mixfix_lb_..rb#2': [drop$i, 1, 0]
+  'seq.Seq.mixfix_lb.._rb#2': [take$i, 1, 0]
+  string.Char.get#1: [str$get, 0, [Int.nat, 1]]
+
+  list.Mem.mem#0: $member
+  seq.Mem.mem#0: $member
+
+  take$i#1: [nat$take, [Int.nat, 0]]
+  drop$i#2: [nat$drop, [Int.nat, 0], 1]
+  take$i#2: [nat$take, [Int.nat, 0], 1]
+
+  nth$i#2: [nat$nth, [Int.nat, 1], 0, inhabitant]
+  seq.Seq.get#0: nth$i
+  array.Array.elts#0: nth$i
+  array.Array.mixfix_lbrb#0: nth$i
+  list.Nth.nth#2: [nth_opt$i, 1, 0]
+  list.NthNoOpt.nth#2: [nth$i, 1, 0]
+
+  option.Option.is_None#1: [$eq, 0, [option.Option.None, 0]]
+
+  array.Array.make#0: $replicate_i
+  $replicate_i#1: [$replicate, [Int.nat, 0]]
+  $replicate_i#2: [$replicate, [Int.nat, 0], 1]
+  string.Char.make#2: [string$make, [Int.nat, 0], 1]
+
+  list.Append.infix_plpl#0: $append
+  seq.Seq.infix_plpl#0: $append
+
+  string.String.substring#3: [str$substring, [Int.nat, 1], [Int.nat, 2], 0]
+  seq.Seq.mixfix_lb..rb#0: slice$i
+  take$i#1: [nat$take, [Int.nat, 0]]
+  drop$i#2: [nat$drop, [Int.nat, 0], 1]
+  take$i#2: [nat$take, [Int.nat, 0], 1]
+  slice$i#3: [nat$drop, [Int.nat, 1], [nat$take, [int.Int.infix_mn, [Int.nat, 2], [Int.nat, 1]], 0]]
+
+  set.Fset.subset#0: $subseteq
+  set.Fset.mem#0: $member
+  set.Fset.is_empty#1: [$eq, 0, set.Fset.empty]
+  set.Fset.disjoint#0: $disjoint
+  set.Fset$filter#2: [FSet.ffilter, 1, 0]
+  set.Fset.cardinal#1: [Int.int, [$size, 0]]
+  set.Fset.union#0: $union
+  set.Fset.inter#0: $inter
+  set.Fset.diff#0: $sdiff
+
+  set.Set.mem#0: $member
+  set.Set.subset#0: $subseteq
+  set.Set.is_empty#1: [$eq, 0, set.Set.empty]
+  set.Set.union#0: $union
+  set.Set.inter#0: $inter
+  set.Set.diff#0: $sdiff
+  set.Set.remove#2: [set.Set.diff, 1, [set.Set.singleton, 0]]
+  set.Set.disjoint#0: $disjoint
+
+  fmap.Fmap.find#2: [fmap.Fmap.contents, 1, 0]
+  fmap.Fmap.mem#2: [$member, 0, [fmap.Fmap.domain, 1]]
+  fmap.Fmap.mapsto#3: [$eq, [$fmlookup, 2, 0], [$Some, 1]]
+  fmap.Fmap.fm_is_empty#1: [$eq, 0, fmap.Fmap.empty]
+  fmap.Fmap.empty#0: ∅
+
+  string.Char.code#1: [Int.int, [char$code, 0]]
+  string.Char.chr#1 : [code$char, [Int.nat, 0]]
+
+  HOL.eq#0: $eq
+  why3.BuiltIn.BuiltIn.infix_eq#0: $eq
+  mach.int.Byte.byte'eq#0: $eq
+  mach.c.UChar.uchar'eq#0: $eq
+  mach.int.UInt32Gen.uint32'eq#0: $eq
+  mach.int.UInt64Gen.uint64'eq#0: $eq
+  string.Char.eq_string#0: $eq
+  seq.Seq.infix_eqeq#0 : $eq
+  set.Fset.infix_eqeq#0: $eq
+  bag.Bag.infix_eqeq#0: $eq
+
+  mach.peano.Peano.v#0: Int.int
+  map.Occ.occ#4: [Int.int, [nat$map.Occ.occ, 0, 1, 2, 3]]
+
+  bag.Bag.card#1: [Int.int, [$size, 0]]
+  bag.Bag.nb_occ#2: [Int.int, [multiset$count, 1, 0]]
+  bag.Bag.inter#0: $inter
+  bag.Bag.diff#0: $sdiff
+  bag.Bag.mem#0: $member
+
+  word_rotl$bv#2: [word_rotl$i, 0, [$bv_unsigned, 1]]
+  word_rotr$bv#2: [word_rotr$i, 0, [$bv_unsigned, 1]]
+
+  bv.BV8.rotate_left#0: word_rotl$i
+  bv.BV16.rotate_left#0: word_rotl$i
+  bv.BV32.rotate_left#0: word_rotl$i
+  bv.BV64.rotate_left#0: word_rotl$i
+  bv.BV128.rotate_left#0: word_rotl$i
+  bv.BV256.rotate_left#0: word_rotl$i
+  bv.BV8.rotate_right#0: word_rotr$i
+  bv.BV16.rotate_right#0: word_rotr$i
+  bv.BV32.rotate_right#0: word_rotr$i
+  bv.BV64.rotate_right#0: word_rotr$i
+  bv.BV128.rotate_right#0: word_rotr$i
+  bv.BV256.rotate_right#0: word_rotr$i
+  bv.BV8.rotate_left_bv#0: word_rotl$bv
+  bv.BV16.rotate_left_bv#0: word_rotl$bv
+  bv.BV32.rotate_left_bv#0: word_rotl$bv
+  bv.BV64.rotate_left_bv#0: word_rotl$bv
+  bv.BV128.rotate_left_bv#0: word_rotl$bv
+  bv.BV256.rotate_left_bv#0: word_rotl$bv
+  bv.BV8.rotate_right_bv#0: word_rotr$bv
+  bv.BV16.rotate_right_bv#0: word_rotr$bv
+  bv.BV32.rotate_right_bv#0: word_rotr$bv
+  bv.BV64.rotate_right_bv#0: word_rotr$bv
+  bv.BV128.rotate_right_bv#0: word_rotr$bv
+  bv.BV256.rotate_right_bv#0: word_rotr$bv
+
+  bv.BV8.lsr_bv#0: lsr$b
+  bv.BV16.lsr_bv#0: lsr$b
+  bv.BV32.lsr_bv#0: lsr$b
+  bv.BV64.lsr_bv#0: lsr$b
+  bv.BV128.lsr_bv#0: lsr$b
+  bv.BV256.lsr_bv#0: lsr$b
+  bv.BV8.lsl_bv#0: lsl$b
+  bv.BV16.lsl_bv#0: lsl$b
+  bv.BV32.lsl_bv#0: lsl$b
+  bv.BV64.lsl_bv#0: lsl$b
+  bv.BV128.lsl_bv#0: lsl$b
+  bv.BV256.lsl_bv#0: lsl$b
+  bv.BV8.asr_bv#0: asr$b
+  bv.BV16.asr_bv#0: asr$b
+  bv.BV32.asr_bv#0: asr$b
+  bv.BV64.asr_bv#0: asr$b
+  bv.BV128.asr_bv#0: asr$b
+  bv.BV256.asr_bv#0: asr$b
+
+  bv.BV8.lsr#2: [lsr$b, 0, [bv$of_int, '8%N', 1]]
+  bv.BV16.lsr#2: [lsr$b, 0, [bv$of_int, '16%N', 1]]
+  bv.BV32.lsr#2: [lsr$b, 0, [bv$of_int, '32%N', 1]]
+  bv.BV64.lsr#2: [lsr$b, 0, [bv$of_int, '64%N', 1]]
+  bv.BV128.lsr#2: [lsr$b, 0, [bv$of_int, '128%N', 1]]
+  bv.BV256.lsr#2: [lsr$b, 0, [bv$of_int, '256%N', 1]]
+  bv.BV8.lsl#2: [lsl$b, 0, [bv$of_int, '8%N', 1]]
+  bv.BV16.lsl#2: [lsl$b, 0, [bv$of_int, '16%N', 1]]
+  bv.BV32.lsl#2: [lsl$b, 0, [bv$of_int, '32%N', 1]]
+  bv.BV64.lsl#2: [lsl$b, 0, [bv$of_int, '64%N', 1]]
+  bv.BV128.lsl#2: [lsl$b, 0, [bv$of_int, '128%N', 1]]
+  bv.BV256.lsl#2: [lsl$b, 0, [bv$of_int, '256%N', 1]]
+  bv.BV8.asr#2: [asr$b, 0, [bv$of_int, '8%N', 1]]
+  bv.BV16.asr#2: [asr$b, 0, [bv$of_int, '16%N', 1]]
+  bv.BV32.asr#2: [asr$b, 0, [bv$of_int, '32%N', 1]]
+  bv.BV64.asr#2: [asr$b, 0, [bv$of_int, '64%N', 1]]
+  bv.BV128.asr#2: [asr$b, 0, [bv$of_int, '128%N', 1]]
+  bv.BV256.asr#2: [asr$b, 0, [bv$of_int, '256%N', 1]]
+
+
+  bv.BV8.ule#0: $ule
+  bv.BV16.ule#0: $ule
+  bv.BV32.ule#0: $ule
+  bv.BV64.ule#0: $ule
+  bv.BV128.ule#0: $ule
+  bv.BV256.ule#0: $ule
+  bv.BV8.ult#0: $ult
+  bv.BV16.ult#0: $ult
+  bv.BV32.ult#0: $ult
+  bv.BV64.ult#0: $ult
+  bv.BV128.ult#0: $ult
+  bv.BV256.ult#0: $ult
+  bv.BV8.uge#0: $uge
+  bv.BV16.uge#0: $uge
+  bv.BV32.uge#0: $uge
+  bv.BV64.uge#0: $uge
+  bv.BV128.uge#0: $uge
+  bv.BV256.uge#0: $uge
+  bv.BV8.ugt#0: $ugt
+  bv.BV16.ugt#0: $ugt
+  bv.BV32.ugt#0: $ugt
+  bv.BV64.ugt#0: $ugt
+  bv.BV128.ugt#0: $ugt
+  bv.BV256.ugt#0: $ugt
+  bv.BV8.sle#0: $sle
+  bv.BV16.sle#0: $sle
+  bv.BV32.sle#0: $sle
+  bv.BV64.sle#0: $sle
+  bv.BV128.sle#0: $sle
+  bv.BV256.sle#0: $sle
+  bv.BV8.sge#0: $sge
+  bv.BV16.sge#0: $sge
+  bv.BV32.sge#0: $sge
+  bv.BV64.sge#0: $sge
+  bv.BV128.sge#0: $sge
+  bv.BV256.sge#0: $sge
+  bv.BV8.slt#0: $slt
+  bv.BV16.slt#0: $slt
+  bv.BV32.slt#0: $slt
+  bv.BV64.slt#0: $slt
+  bv.BV128.slt#0: $slt
+  bv.BV256.slt#0: $slt
+  bv.BV8.sgt#0: $sgt
+  bv.BV16.sgt#0: $sgt
+  bv.BV32.sgt#0: $sgt
+  bv.BV64.sgt#0: $sgt
+  bv.BV128.sgt#0: $sgt
+  bv.BV256.sgt#0: $sgt
+
+  bv.BV8.nth#0: take_bit$i
+  bv.BV16.nth#0: take_bit$i
+  bv.BV32.nth#0: take_bit$i
+  bv.BV64.nth#0: take_bit$i
+  bv.BV128.nth#0: take_bit$i
+  bv.BV256.nth#0: take_bit$i
+  take_bit$i#2: [$testbit, [$bv_unsigned, 0], 1]
+
+  bv.BV8.nth_bv#0: take_bit$bv
+  bv.BV16.nth_bv#0: take_bit$bv
+  bv.BV32.nth_bv#0: take_bit$bv
+  bv.BV64.nth_bv#0: take_bit$bv
+  bv.BV128.nth_bv#0: take_bit$bv
+  bv.BV256.nth_bv#0: take_bit$bv
+  take_bit$bv#2: [$testbit, [$bv_unsigned, 0], [$bv_unsigned, 1]]
+
+
+  bv.BV8.of_int#0: [bv$of_int, '8%N']
+  bv.BV16.of_int#0: [bv$of_int, '16%N']
+  bv.BV32.of_int#0: [bv$of_int, '32%N']
+  bv.BV64.of_int#0: [bv$of_int, '64%N']
+  bv.BV128.of_int#0: [bv$of_int, '128%N']
+  bv.BV256.of_int#0: [bv$of_int, '256%N']
+
+  bv_eq_sub$i#4: [bv_eq_sub$, 0, 1, [Z.to_N, 2], [Z.to_N, 3]]
+  bv_eq_sub$bv#4: [bv_eq_sub$i, 0, 1, [$bv_unsigned, 2], [$bv_unsigned, 3]]
+  bv.BV8.eq_sub#0: bv_eq_sub$i
+  bv.BV16.eq_sub#0: bv_eq_sub$i
+  bv.BV32.eq_sub#0: bv_eq_sub$i
+  bv.BV64.eq_sub#0: bv_eq_sub$i
+  bv.BV128.eq_sub#0: bv_eq_sub$i
+  bv.BV256.eq_sub#0: bv_eq_sub$i
+  bv.BV8.eq_sub_bv#0: bv_eq_sub$bv
+  bv.BV16.eq_sub_bv#0: bv_eq_sub$bv
+  bv.BV32.eq_sub_bv#0: bv_eq_sub$bv
+  bv.BV64.eq_sub_bv#0: bv_eq_sub$bv
+  bv.BV128.eq_sub_bv#0: bv_eq_sub$bv
+  bv.BV256.eq_sub_bv#0: bv_eq_sub$bv
+  bv.BV8.bw_not#0: bit$not
+  bv.BV16.bw_not#0: bit$not
+  bv.BV32.bw_not#0: bit$not
+  bv.BV64.bw_not#0: bit$not
+  bv.BV128.bw_not#0: bit$not
+  bv.BV256.bw_not#0: bit$not
+  bv.BV8.neg#0: bit$neg
+  bv.BV16.neg#0: bit$neg
+  bv.BV32.neg#0: bit$neg
+  bv.BV64.neg#0: bit$neg
+  bv.BV128.neg#0: bit$neg
+  bv.BV256.neg#0: bit$neg
+
+  list$set_i#3: [list$set, 0, [Int.nat, 1], 2]
+  array.Array.mixfix_lblsmnrb#0: list$set_i
+  seq.Seq.set#0: list$set_i
+  seq.Seq.mixfix_lblsmnrb#0: list$set_i
+
+  seq.Seq.empty#0: $nil
+  array.Array.empty#0: $nil
+  list.List.Nil#0: $nil
+
+  $sge#2: [$sle, 1, 0]
+  $sgt#2: [$slt, 1, 0]
+  $uge#2: [$ule, 1, 0]
+  $ugt#2: [$ult, 1, 0]
+
+  seq.Seq.create#2: [list$create, [Int.nat, 0], [$comp, 1, Int.int]]
+
+  list.HdTlNoOpt.hd#1: [$hd, $inhabitant, 0]
+
+
+
+  array.ToList.to_list#0: slice$i
+  array.ToSeq.to_seq_sub#0: slice$i
+  array.ToSeq.to_seq#0: $id
+  seq.ToList.to_list#0: $id
+  seq.OfList.of_list#0: $id
+  seq.Distinct.distinct#0: list.Distinct.distinct
+
+  array.ArrayEq.array_eq#0: $eq
+  array.ArrayEq.array_eq_sub#4: [$eq, [slice$i, 0, 2, 3], [slice$i, 1, 2, 3]]
+  seq.SeqEq.seq_eq_sub#0: array.ArrayEq.array_eq_sub
+
+  array.ArrayPermut.permut#4: [ArrayPermut$permut, 0, 1, [Int.nat, 2], [Int.nat, 3]]
+  array.ArrayPermut.permut_sub#4: [ArrayPermut$permut_sub, 0, 1, [Int.nat, 2], [Int.nat, 3]]
+  array.ArraySum.sum#3: [list$sum, [slice$i, 0, 1, 2]]
+  seq.Sum.sum#0: list$sum
+  seq.Exchange.exchange#0: array.ArrayExchange.exchange
+  array.NumOfEq.numof#4: [Int.int, [count$list, [slice$i, 0, 2, 3], 1]]
+  seq.Occ.iseq#3: [$eq, [seq.Seq.get, 1, 2], 0]
+  seq.Occ.occ#4: [array.NumOfEq.numof, 1, 0, 2, 3]
+  seq.Occ.occ_all#2: [Int.int, [count$list, 1, 0]]
+
+  set.SetAppInt.to_fset#0: $id
+  set.SetAppInt.mk#0: $id
+  set.SetAppInt.choose1#0: set.Fset.pick
+  seq.SortedInt.sorted#0: list.SortedInt.sorted
+  seq.SortedInt.sorted_sub#3: [list.SortedInt.sorted, [slice$i, 0, 1, 2]]
+
+  real.ExpLog.log2#1: [real$log, '2', 0]
+  real.ExpLog.log10#1: [real$log, '10', 0]
+  list.NumOcc.num_occ#0: seq.Occ.occ_all
+  list.Permut.permut#0: array.ArrayPermut.permut_all
+  list.Sum.sum#0: list$sum
+  seq.Permut.permut_all#0: array.ArrayPermut.permut_all

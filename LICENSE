@@ -1,6 +1,44 @@
 The project is released under a hibrid license.
 
-- why3-for-NTP: LGPL v2.1
-- data/why3/frama_c/should_we_balance/src: GPL v2
-
+- path: [NTP4Verif, VCG.py, tool, test_set.isabelle.lst, test_set.lean.txt.lst, test_set.rocq.lst, statistics, ROOTS, README.md]
+  license: MIT
+  authors: Qiyuan Xu
+  url: https://github.com/xqyww123/NTP4VC
+- path: why3-for-NTP
+  license: LGPL v2.1
+  authors: why3's authors, modified by Qiyuan Xu
+  url: https://www.why3.org
+- path: [data/why3/pearl, data/why3/pearl_original]
+  authors: See https://toccata.gitlabpages.inria.fr/toccata/gallery/why3.en.html
+  license: LGPL v2.1
+  url: https://toccata.gitlabpages.inria.fr/toccata/gallery/why3.en.html
+- path: data/why3/frama_c/airborne
+  license: GPL v2
+  authors: See https://gitlab.isae-supaero.fr/b.pollien/paparazzi-frama-c
+  url: https://gitlab.isae-supaero.fr/b.pollien/paparazzi-frama-c/-/tree/master/sw/airborne
+- path: [data/why3/frama_c/contiki_list, data/why3/frama_c/contiki_memb]
+  license: BSD-3-Clause
+  authors:
+    - Swedish Institute of Computer Science
+    - Inria, CEA, Northern Arizona University
+- path: data/why3/frama_c/should_we_balance
+  license: GPL v2
+  authors: Julia Lawall, Keisuke Nishimura, Jean-Pierre Lozi
+  url: https://zenodo.org/records/13132904
+- path: [data/why3/frama_c/klibc_stdio, data/why3/frama_c/klibc_string]
+  authors: Nuno Carvalho, Cristiano Sousa
+  license: GPL v2
+  url: https://github.com/Beatgodes/klibc_framac_wp
+- path: data/why3/frama_c/standard_algorithms
+  authors: Jens Gerlach, Denis Efremov, Anton Alekseev
+  license: MIT
+  url: https://github.com/fraunhoferfokus/acsl-by-example
+- path: data/why3/frama_c/verker
+  authors: Denis Efremov, SetSplin, Mikhail Klementev, Ilya Shchepetkov
+  license: GPL v3
+  url: https://github.com/evdenis/verker
+- path: data/why3/frama_c/x509_parser
+  authors: Arnaud EBALARD, Patricia Mouy, Ryad Benadjila, Maxime Arthaud, Allan Blanchard, 
+  license: GPL v2
+  url: https://github.com/ANSSI-FR/x509-parser
 

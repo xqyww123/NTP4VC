@@ -1,6 +1,11 @@
-# NTP4Verif
+# NTP4VC
 
 ## Benchmarks
+
+The list of test set:
+- `test_set.isabelle.lst`
+- `test_set.lean.txt.lst`
+- `test_set.lean.txt.lst`
 
 All the cases are placed under
 - `./data/why3/pearl` for the pearls of algorithms and data structures (from Why3's official example gallery)
