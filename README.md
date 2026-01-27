@@ -125,8 +125,7 @@ WHY3_LOAD=./lib/frama-c/ ./tools/why3_auto_3.py data/why3/frama_c/contiki_list
 
 ## Citation
 ```
-@inproceedings{
-anonymous2026neural,
+@inproceedings{xu2026neural,
 title={Neural Theorem Proving for Verification Conditions: A Real-World Benchmark},
 author={Xu, Qiyuan and Luan, Xiaokun and Wang, Renxi and Joshua Ong Jun Leang and Wang, Peixin and Li, Haonan and Li, Wenda and Watt, Conrad},
 booktitle={The Fourteenth International Conference on Learning Representations},
