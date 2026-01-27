@@ -1,6 +1,6 @@
 # Neural Theorem Proving for Verification Conditions
 [![paper](https://img.shields.io/badge/paper-pdf-yellow.svg)](paper.pdf)
-[![license](https://img.shields.io/badge/license-hibrid_open_source-blue.svg)](LICENSE)
+[![license](https://img.shields.io/badge/license-hybrid_open_source-blue.svg)](LICENSE)
 [![iclr](https://img.shields.io/badge/accepted_in-ICLR26-orange)](https://openreview.net/forum?id=MfDyickxQA)
 [![bib](https://img.shields.io/badge/cite_by-bibtex-brown)](bib.bib)
 ![bib](https://img.shields.io/badge/lang-Lean-D6ECFF)
