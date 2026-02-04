@@ -1,0 +1,4 @@
+(coq.theory
+(package Why3Bench-frama_c)
+(name equal_range.S1_size_type_pair)
+(theories Why3 Why3.Qed Why3.Cint))

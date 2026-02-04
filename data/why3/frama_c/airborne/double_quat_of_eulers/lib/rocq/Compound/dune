@@ -1,0 +1,4 @@
+(coq.theory
+(package Why3Bench-frama_c)
+(name double_quat_of_eulers.Compound)
+(theories Why3.Memory Why3 Why3.Qed))

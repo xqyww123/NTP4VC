@@ -1,0 +1,4 @@
+(coq.theory
+(package Why3Bench-frama_c)
+(name float_rmat_transp_vmult.Axiomatic16)
+(theories Why3 float_rmat_transp_vmult.S9_RealVect3_s Why3.Memory Why3.Qed float_rmat_transp_vmult.Compound))

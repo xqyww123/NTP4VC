@@ -1,0 +1,4 @@
+(coq.theory
+(package Why3Bench-frama_c)
+(name adjacent_difference.A_DifferenceAxiomatic)
+(theories Why3 Why3.Cint Why3.Memory adjacent_difference.Compound adjacent_difference.Axiomatic Why3.Qed))

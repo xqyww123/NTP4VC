@@ -1,0 +1,4 @@
+(coq.theory
+(package Why3Bench-frama_c)
+(name iota.Axiomatic)
+(theories Why3 Why3.Memory iota.Compound Why3.Qed))

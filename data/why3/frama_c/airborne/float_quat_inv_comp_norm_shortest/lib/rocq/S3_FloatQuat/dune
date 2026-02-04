@@ -1,0 +1,4 @@
+(coq.theory
+(package Why3Bench-frama_c)
+(name float_quat_inv_comp_norm_shortest.S3_FloatQuat)
+(theories Why3 Why3.Qed))

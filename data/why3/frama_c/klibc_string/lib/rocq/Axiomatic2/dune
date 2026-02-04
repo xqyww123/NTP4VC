@@ -1,0 +1,4 @@
+(coq.theory
+(package Why3Bench-frama_c)
+(name klibc_string.Axiomatic2)
+(theories Why3 Why3.Qed))

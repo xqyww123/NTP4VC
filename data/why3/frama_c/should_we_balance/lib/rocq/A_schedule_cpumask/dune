@@ -1,0 +1,4 @@
+(coq.theory
+(package Why3Bench-frama_c)
+(name should_we_balance.A_schedule_cpumask)
+(theories Why3 should_we_balance.A_thread_variables_properties Why3.Cint Why3.Memory should_we_balance.Compound Why3.Qed))

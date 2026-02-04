@@ -1,0 +1,4 @@
+(coq.theory
+(package Why3Bench-frama_c)
+(name inner_product.A_InnerProductAxiomatic)
+(theories inner_product.Axiomatic Why3 Why3.Cint Why3.Memory inner_product.Compound Why3.Qed))

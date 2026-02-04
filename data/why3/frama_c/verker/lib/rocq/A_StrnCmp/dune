@@ -1,0 +1,4 @@
+(coq.theory
+(package Why3Bench-frama_c)
+(name verker.A_StrnCmp)
+(theories Why3 verker.A_Strnlen Why3.Cint verker.A_Strlen Why3.Memory verker.Compound Why3.Qed))

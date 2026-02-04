@@ -1,0 +1,4 @@
+(coq.theory
+(package Why3Bench-frama_c)
+(name float_rmat_of_axis_angle.Compound)
+(theories Why3 Why3.Memory Why3.Qed))

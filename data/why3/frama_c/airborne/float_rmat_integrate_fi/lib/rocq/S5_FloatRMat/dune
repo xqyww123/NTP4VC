@@ -1,0 +1,4 @@
+(coq.theory
+(package Why3Bench-frama_c)
+(name float_rmat_integrate_fi.S5_FloatRMat)
+(theories Why3.Qed Why3))

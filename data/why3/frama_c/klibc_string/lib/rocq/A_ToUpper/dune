@@ -1,0 +1,4 @@
+(coq.theory
+(package Why3Bench-frama_c)
+(name klibc_string.A_ToUpper)
+(theories Why3 klibc_string.Axiomatic2 Why3.Qed Why3.Cint))

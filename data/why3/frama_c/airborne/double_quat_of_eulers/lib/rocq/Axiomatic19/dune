@@ -1,0 +1,4 @@
+(coq.theory
+(package Why3Bench-frama_c)
+(name double_quat_of_eulers.Axiomatic19)
+(theories Why3.Memory double_quat_of_eulers.Compound Why3.Cfloat Why3.Qed Why3.Cmath Why3))

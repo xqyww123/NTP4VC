@@ -1,0 +1,4 @@
+(coq.theory
+(package Why3Bench-frama_c)
+(name float_quat_integrate.Compound)
+(theories Why3.Qed Why3.Memory Why3))

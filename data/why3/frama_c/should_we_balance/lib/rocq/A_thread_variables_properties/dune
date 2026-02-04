@@ -1,0 +1,4 @@
+(coq.theory
+(package Why3Bench-frama_c)
+(name should_we_balance.A_thread_variables_properties)
+(theories Why3 Why3.Qed))

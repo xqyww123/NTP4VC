@@ -1,0 +1,4 @@
+(coq.theory
+(package Why3Bench-frama_c)
+(name swap_ranges.Axiomatic)
+(theories Why3 Why3.Memory swap_ranges.Compound Why3.Qed))

@@ -1,0 +1,4 @@
+(coq.theory
+(package Why3Bench-frama_c)
+(name float_quat_comp.S12_RealQuatVect_s)
+(theories float_quat_comp.S9_RealVect3_s Why3 Why3.Qed))

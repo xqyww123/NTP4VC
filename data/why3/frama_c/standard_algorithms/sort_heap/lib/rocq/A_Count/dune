@@ -1,0 +1,4 @@
+(coq.theory
+(package Why3Bench-frama_c)
+(name sort_heap.A_Count)
+(theories Why3 sort_heap.Compound Why3.Cint Why3.Memory sort_heap.Axiomatic Why3.Qed))

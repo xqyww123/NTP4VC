@@ -1,0 +1,4 @@
+(coq.theory
+(package Why3Bench-frama_c)
+(name verker.Axiomatic3)
+(theories Why3 Why3.Qed))

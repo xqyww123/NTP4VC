@@ -1,0 +1,4 @@
+(coq.theory
+(package Why3Bench-frama_c)
+(name verker.A_CheckBytes8)
+(theories Why3 Why3.Cint Why3.Memory verker.Compound Why3.Qed))

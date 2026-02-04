@@ -1,0 +1,4 @@
+(coq.theory
+(package Why3Bench-frama_c)
+(name int32_quat_comp_inv_norm_shortest.Axiomatic15)
+(theories Why3.Memory int32_quat_comp_inv_norm_shortest.Compound Why3 Why3.Qed))

@@ -1,0 +1,4 @@
+(coq.theory
+(package Why3Bench-frama_c)
+(name remove_copy.Axiomatic)
+(theories Why3 Why3.Memory remove_copy.Compound Why3.Qed))

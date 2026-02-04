@@ -1,0 +1,4 @@
+(coq.theory
+(package Why3Bench-frama_c)
+(name float_rmat_of_quat.Axiomatic17)
+(theories Why3.Memory Why3.Cfloat Why3.Qed Why3.Cmath float_rmat_of_quat.S10_RealRMat_s float_rmat_of_quat.Compound Why3))

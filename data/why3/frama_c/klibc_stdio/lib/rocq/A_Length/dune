@@ -1,0 +1,4 @@
+(coq.theory
+(package Why3Bench-frama_c)
+(name klibc_stdio.A_Length)
+(theories klibc_stdio.Compound Why3 Why3.Memory klibc_stdio.Axiomatic Why3.Qed))

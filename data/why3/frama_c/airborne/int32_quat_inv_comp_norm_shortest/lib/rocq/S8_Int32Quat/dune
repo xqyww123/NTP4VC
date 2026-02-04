@@ -1,0 +1,4 @@
+(coq.theory
+(package Why3Bench-frama_c)
+(name int32_quat_inv_comp_norm_shortest.S8_Int32Quat)
+(theories Why3 Why3.Qed))

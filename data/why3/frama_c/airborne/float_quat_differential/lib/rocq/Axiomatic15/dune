@@ -1,0 +1,4 @@
+(coq.theory
+(package Why3Bench-frama_c)
+(name float_quat_differential.Axiomatic15)
+(theories Why3.Cfloat Why3 Why3.Memory float_quat_differential.Compound Why3.Qed Why3.Cmath))

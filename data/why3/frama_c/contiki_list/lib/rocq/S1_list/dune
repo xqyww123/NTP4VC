@@ -1,0 +1,4 @@
+(coq.theory
+(package Why3Bench-frama_c)
+(name contiki_list.S1_list)
+(theories Why3.Qed Why3 Why3.Memory))

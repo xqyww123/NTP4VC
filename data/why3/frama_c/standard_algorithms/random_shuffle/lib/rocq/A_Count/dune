@@ -1,0 +1,4 @@
+(coq.theory
+(package Why3Bench-frama_c)
+(name random_shuffle.A_Count)
+(theories random_shuffle.Compound Why3 Why3.Cint Why3.Memory random_shuffle.Axiomatic Why3.Qed))
