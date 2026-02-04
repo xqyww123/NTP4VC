@@ -1,0 +1,4 @@
+(coq.theory
+(package Why3Bench-pearl)
+(name lse.sum_real)
+(theories Why3))

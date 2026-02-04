@@ -1,0 +1,4 @@
+(coq.theory
+(package Why3Bench-pearl)
+(name verifythis_2016_matrix_multiplication.sum_extended)
+(theories Why3 Why3.int))

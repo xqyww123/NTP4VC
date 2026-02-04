@@ -1,0 +1,4 @@
+(coq.theory
+(package Why3Bench-pearl)
+(name lse.my_lse)
+(theories lse.my_exp_log Why3.ieee_float lse.sum_real Why3 lse.udouble lse.my_sum))

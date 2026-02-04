@@ -1,0 +1,4 @@
+(coq.theory
+(package Why3Bench-pearl)
+(name WP_revisited.blocking_semantics5)
+(theories Why3))

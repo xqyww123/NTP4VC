@@ -1,0 +1,4 @@
+(coq.theory
+(package Why3Bench-pearl)
+(name multiprecision.sqrtrem)
+(theories Why3.mach.int multiprecision.add_1 Why3.real multiprecision.ptralias Why3.why3.Ref Why3.mach.c multiprecision.toom multiprecision.valuation multiprecision.sqrt multiprecision.lemmas multiprecision.sub multiprecision.div Why3.map multiprecision.types Why3 Why3.mach.fxp multiprecision.add multiprecision.compare multiprecision.logical multiprecision.util multiprecision.mul multiprecision.sub_1))

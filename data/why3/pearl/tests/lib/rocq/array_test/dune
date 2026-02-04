@@ -1,0 +1,4 @@
+(coq.theory
+(package Why3Bench-pearl)
+(name tests.array_test)
+(theories Why3))

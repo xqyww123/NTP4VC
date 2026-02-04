@@ -1,0 +1,4 @@
+(coq.theory
+(package Why3Bench-pearl)
+(name prover.Firstorder_symbol_impl)
+(theories prover.Sum prover.Functions prover.Firstorder_symbol_spec Why3 prover.OptionFuncs prover.Nat))

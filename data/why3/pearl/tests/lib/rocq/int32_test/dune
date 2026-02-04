@@ -1,0 +1,4 @@
+(coq.theory
+(package Why3Bench-pearl)
+(name tests.int32_test)
+(theories Why3 Why3.why3.WellFounded))

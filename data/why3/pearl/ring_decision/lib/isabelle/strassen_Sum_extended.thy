@@ -1,0 +1,20 @@
+theory strassen_Sum_extended
+  imports "NTP4Verif.NTP4Verif" "Why3STD.int_Sum"
+begin
+consts addf :: "(int \<Rightarrow> int) \<Rightarrow> (int \<Rightarrow> int) \<Rightarrow> int \<Rightarrow> int"
+axiomatization where addf'def:   "addf f g x = f x + g x"
+  for f :: "int \<Rightarrow> int"
+  and g :: "int \<Rightarrow> int"
+  and x :: "int"
+consts smulf :: "(int \<Rightarrow> int) \<Rightarrow> int \<Rightarrow> int \<Rightarrow> int"
+axiomatization where smulf'def:   "smulf f l x = l * f x"
+  for f :: "int \<Rightarrow> int"
+  and l :: "int"
+  and x :: "int"
+consts sumf :: "(int \<Rightarrow> int \<Rightarrow> int) \<Rightarrow> int \<Rightarrow> int \<Rightarrow> int \<Rightarrow> int"
+axiomatization where sumf'def:   "sumf f a b x = sum (f x) a b"
+  for f :: "int \<Rightarrow> int \<Rightarrow> int"
+  and a :: "int"
+  and b :: "int"
+  and x :: "int"
+end

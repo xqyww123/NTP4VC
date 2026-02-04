@@ -1,0 +1,4 @@
+(coq.theory
+(package Why3Bench-pearl)
+(name tests.pqueue_test)
+(theories Why3.pqueue Why3 Why3.int))

@@ -1,0 +1,4 @@
+(coq.theory
+(package Why3Bench-pearl)
+(name multiprecision.set_str)
+(theories Why3.mach.int multiprecision.add_1 multiprecision.ptralias Why3.why3.Ref Why3.mach.c multiprecision.valuation multiprecision.toom multiprecision.lemmas multiprecision.sub multiprecision.div Why3.map multiprecision.types multiprecision.base_info Why3 multiprecision.powm multiprecision.add multiprecision.compare multiprecision.logical multiprecision.util multiprecision.mul multiprecision.sub_1 multiprecision.stringlemmas))

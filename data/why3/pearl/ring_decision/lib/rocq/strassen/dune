@@ -1,0 +1,4 @@
+(coq.theory
+(package Why3Bench-pearl)
+(name ring_decision.strassen)
+(theories Why3 Why3.int))

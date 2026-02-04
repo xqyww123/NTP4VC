@@ -1,0 +1,4 @@
+(coq.theory
+(package Why3Bench-pearl)
+(name numeric.substraction)
+(theories Why3 Why3.ufloat Why3.ieee_float Why3.real))

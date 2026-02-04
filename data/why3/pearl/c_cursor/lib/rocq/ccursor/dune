@@ -1,0 +1,4 @@
+(coq.theory
+(package Why3Bench-pearl)
+(name c_cursor.ccursor)
+(theories Why3.mach.c Why3.why3.Ref Why3.mach.int Why3.map Why3))

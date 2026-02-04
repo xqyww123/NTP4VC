@@ -1,0 +1,4 @@
+(coq.theory
+(package Why3Bench-pearl)
+(name verifythis_2016_matrix_multiplication.my_strassen)
+(theories Why3.int verifythis_2016_matrix_multiplication.matrices Why3.matrix verifythis_2016_matrix_multiplication.sum_extended verifythis_2016_matrix_multiplication.matrices_ring_simp Why3.why3.Ref Why3))

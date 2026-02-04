@@ -1,0 +1,4 @@
+(coq.theory
+(package Why3Bench-pearl)
+(name multiprecision.compare)
+(theories Why3.mach.int Why3.why3.Ref Why3.mach.c multiprecision.lemmas Why3.map multiprecision.types Why3))

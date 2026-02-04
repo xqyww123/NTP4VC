@@ -1,0 +1,4 @@
+(coq.theory
+(package Why3Bench-pearl)
+(name multiprecision.lineardecision)
+(theories Why3 Why3.why3.Ref Why3.debug Why3.mach.matrix Why3.int))
