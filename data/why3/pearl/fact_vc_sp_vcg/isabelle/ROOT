@@ -1,4 +1,4 @@
-session fact_vc_sp = NTP4Verif +
+session "pearl_fact_vc_sp" = NTP4Verif +
 theories
   "fact_vc_sp_FactImperative_fact_impqtvc"
   "fact_vc_sp_FactRecursive_test0qtvc"

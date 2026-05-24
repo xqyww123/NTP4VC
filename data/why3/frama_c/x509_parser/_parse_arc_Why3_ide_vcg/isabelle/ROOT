@@ -1,4 +1,4 @@
-session _parse_arc_Why3_ide = NTP4Verif +
+session "frama_c_x509_parser__parse_arc" = NTP4Verif +
 theories
   "X_parse_arc_Why3_ide_VC_parse_arc_post_2_part09_goal2"
   "X_parse_arc_Why3_ide_VC_parse_arc_assert_rte_mem_access_part2_goal6"

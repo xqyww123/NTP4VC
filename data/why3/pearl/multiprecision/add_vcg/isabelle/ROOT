@@ -1,4 +1,4 @@
-session add = NTP4Verif +
+session "pearl_multiprecision_add" = NTP4Verif +
 theories
   "add_AddOld_wmpn_add_n_in_placeqtvc"
   "add_Add_add_nqtvc"

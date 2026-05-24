@@ -1,4 +1,4 @@
-session verifythis_2021_shearsort = NTP4Verif +
+session "pearl_verifythis_2021_shearsort" = NTP4Verif +
 sessions
   "Why3STD"
 theories

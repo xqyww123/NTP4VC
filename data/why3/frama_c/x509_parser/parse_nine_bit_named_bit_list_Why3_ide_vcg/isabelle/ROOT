@@ -1,4 +1,4 @@
-session parse_nine_bit_named_bit_list_Why3_ide = NTP4Verif +
+session "frama_c_x509_parser_parse_nine_bit_named_bit_list" = NTP4Verif +
 theories
   "parse_nine_bit_named_bit_list_Why3_ide_VCparse_nine_bit_named_bit_list_assert_rte_mem_access_3_goal2"
   "parse_nine_bit_named_bit_list_Why3_ide_VCparse_nine_bit_named_bit_list_assert_rte_mem_access_2_goal1"

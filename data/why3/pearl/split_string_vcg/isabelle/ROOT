@@ -1,4 +1,4 @@
-session split_string = NTP4Verif +
+session "pearl_split_string" = NTP4Verif +
 theories
   "split_string_SplitString_split_stringqtvc"
   "split_string_SplitString_mixfix_lbrbqtvc"

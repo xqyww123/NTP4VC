@@ -1,4 +1,4 @@
-session induction = NTP4Verif +
+session "pearl_induction" = NTP4Verif +
 theories
   "induction_LemmaFunction1_ind_lemmaqtvc"
   "induction_Hyps"

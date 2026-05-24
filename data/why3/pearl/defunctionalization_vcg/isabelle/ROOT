@@ -1,4 +1,4 @@
-session defunctionalization = NTP4Verif +
+session "pearl_defunctionalization" = NTP4Verif +
 theories
   "defunctionalization_SemWithError_cps_correctqtvc"
   "defunctionalization_Expr"

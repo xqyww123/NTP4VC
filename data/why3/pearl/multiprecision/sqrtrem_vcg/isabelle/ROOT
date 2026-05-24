@@ -1,4 +1,4 @@
-session sqrtrem = NTP4Verif +
+session "pearl_multiprecision_sqrtrem" = NTP4Verif +
 theories
   "sqrtrem_Sqrt_wmpn_sqrtrem2qtvc"
   "sqrtrem_Sqrt_sqrt_normqtvc"

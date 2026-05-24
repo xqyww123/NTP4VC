@@ -1,4 +1,4 @@
-session memb_init_Why3_ide = NTP4Verif +
+session "frama_c_contiki_memb_memb_init" = NTP4Verif +
 theories
   "memb_init_Why3_ide_VCmemb_init_post_2_goal0"
   "memb_init_Why3_ide_VCmemb_init_assign_normal_part2_goal8"

@@ -1,4 +1,4 @@
-session _extract_complex_tag_Why3_ide = NTP4Verif +
+session "frama_c_x509_parser__extract_complex_tag" = NTP4Verif +
 theories
   "X_extract_complex_tag_Why3_ide_VC_extract_complex_tag_post_2_part10_goal0"
   "X_extract_complex_tag_Why3_ide_VC_extract_complex_tag_assert_rte_mem_access_part1_goal4"

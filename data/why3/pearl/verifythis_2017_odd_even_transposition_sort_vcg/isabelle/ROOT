@@ -1,4 +1,4 @@
-session verifythis_2017_odd_even_transposition_sort = NTP4Verif +
+session "pearl_verifythis_2017_odd_even_transposition_sort" = NTP4Verif +
 theories
   "verifythis_2017_odd_even_transposition_sort_Challenge3_odd_even_sortedqtvc"
   "verifythis_2017_odd_even_transposition_sort_Challenge3_odd_even_transposition_sortqtvc"

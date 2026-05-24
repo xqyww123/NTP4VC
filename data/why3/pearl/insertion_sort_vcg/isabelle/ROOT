@@ -1,4 +1,4 @@
-session insertion_sort = NTP4Verif +
+session "pearl_insertion_sort" = NTP4Verif +
 theories
   "insertion_sort_InsertionSort_test2qtvc"
   "insertion_sort_InsertionSort_benchqtvc"

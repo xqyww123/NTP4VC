@@ -1,4 +1,4 @@
-session verifythis_2015_dancing_links = NTP4Verif +
+session "pearl_verifythis_2015_dancing_links" = NTP4Verif +
 sessions
   "Why3STD"
 theories

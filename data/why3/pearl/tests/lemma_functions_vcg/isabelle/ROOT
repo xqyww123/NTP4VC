@@ -1,4 +1,4 @@
-session lemma_functions = NTP4Verif +
+session "pearl_tests_lemma_functions" = NTP4Verif +
 theories
   "lemma_functions_LemmaFunction2_g1"
   "lemma_functions_M_toy_exampleqtvc"

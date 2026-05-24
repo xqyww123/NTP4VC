@@ -1,4 +1,4 @@
-session same_fringe = NTP4Verif +
+session "pearl_same_fringe" = NTP4Verif +
 theories
   "same_fringe_SameFringe_test1qtvc"
   "same_fringe_SameFringe_enumqtvc"

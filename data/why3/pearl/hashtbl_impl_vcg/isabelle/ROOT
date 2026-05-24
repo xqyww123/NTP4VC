@@ -1,4 +1,4 @@
-session hashtbl_impl = NTP4Verif +
+session "pearl_hashtbl_impl" = NTP4Verif +
 theories
   "hashtbl_impl_HashtblImpl_clearqtvc"
   "hashtbl_impl_HashtblImpl_bucketqtvc"

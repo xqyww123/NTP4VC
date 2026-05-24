@@ -1,4 +1,4 @@
-session verifythis_fm2012_treedel = NTP4Verif +
+session "pearl_verifythis_fm2012_treedel" = NTP4Verif +
 sessions
   "Why3STD"
 theories

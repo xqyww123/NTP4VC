@@ -1,4 +1,4 @@
-session reverse_Why3_ide = NTP4Verif +
+session "frama_c_standard_algorithms_reverse_reverse" = NTP4Verif +
 theories
   "reverse_Why3_ide_VCreverse_loop_inv_middle_established_goal6"
   "reverse_Why3_ide_VCreverse_call_swap_pre_goal15"

@@ -1,4 +1,4 @@
-session __parse_open_mode_Why3_ide = NTP4Verif +
+session "frama_c_klibc_stdio___parse_open_mode" = NTP4Verif +
 theories
   "X__parse_open_mode_Why3_ide_VC__parse_open_mode_loop_term_positive_part1_goal23"
   "X__parse_open_mode_Why3_ide_VC__parse_open_mode_loop_inv_2_preserved_part3_goal2"

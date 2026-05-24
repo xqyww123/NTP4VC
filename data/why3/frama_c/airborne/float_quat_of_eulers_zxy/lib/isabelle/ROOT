@@ -1,4 +1,4 @@
-session airborne = NTP4Verif +
+session "frama_c_airborne_float_quat_of_eulers_zxy_lib" = NTP4Verif +
 sessions
   "Why3STD"
 theories

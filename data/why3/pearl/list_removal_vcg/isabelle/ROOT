@@ -1,4 +1,4 @@
-session list_removal = NTP4Verif +
+session "pearl_list_removal" = NTP4Verif +
 theories
   "list_removal_Top_list_concatqtvc"
   "list_removal_Top_no_cycle_to_nullqtvc"

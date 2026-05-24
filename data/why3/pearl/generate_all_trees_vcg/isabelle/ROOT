@@ -1,4 +1,4 @@
-session generate_all_trees = NTP4Verif +
+session "pearl_generate_all_trees" = NTP4Verif +
 theories
   "generate_all_trees_GenerateAllTrees"
   "generate_all_trees_GenerateAllTrees_combineqtvc"

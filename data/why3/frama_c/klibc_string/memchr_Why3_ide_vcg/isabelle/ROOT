@@ -1,4 +1,4 @@
-session memchr_Why3_ide = NTP4Verif +
+session "frama_c_klibc_string_memchr" = NTP4Verif +
 theories
   "memchr_Why3_ide_VCmemchr_loop_inv_2_established_part2_goal3"
   "memchr_Why3_ide_VCmemchr_loop_inv_3_preserved_goal4"

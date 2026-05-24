@@ -1,4 +1,4 @@
-session topological_sorting = NTP4Verif +
+session "pearl_topological_sorting" = NTP4Verif +
 theories
   "topological_sorting_Online_Basic_add_edgeqtvc"
   "topological_sorting_Graph"

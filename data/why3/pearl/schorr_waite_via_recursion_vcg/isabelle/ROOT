@@ -1,4 +1,4 @@
-session schorr_waite_via_recursion = NTP4Verif +
+session "pearl_schorr_waite_via_recursion" = NTP4Verif +
 theories
   "schorr_waite_via_recursion_SchorrWaite_schorr_waiteqtvc"
   "schorr_waite_via_recursion_Memory"

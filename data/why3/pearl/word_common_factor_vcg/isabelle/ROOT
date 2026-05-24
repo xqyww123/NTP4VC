@@ -1,4 +1,4 @@
-session word_common_factor = NTP4Verif +
+session "pearl_word_common_factor" = NTP4Verif +
 theories
   "word_common_factor_Top_common_factorqtvc"
   "word_common_factor_Top_powerqtvc"

@@ -1,4 +1,4 @@
-session parse_ext_policyConstraints_Why3_ide = NTP4Verif +
+session "frama_c_x509_parser_parse_ext_policyConstraints" = NTP4Verif +
 theories
   "parse_ext_policyConstraints_Why3_ide_VCparse_ext_policyConstraints_call_parse_integer_pre_goal0"
   "parse_ext_policyConstraints_Why3_ide_VCparse_ext_policyConstraints_call_parse_integer_pre_part1_goal1"

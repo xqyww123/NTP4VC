@@ -1,4 +1,4 @@
-session airborne = NTP4Verif +
+session "frama_c_airborne_float_rates_of_euler_dot_lib" = NTP4Verif +
 sessions
   "Why3STD"
 theories

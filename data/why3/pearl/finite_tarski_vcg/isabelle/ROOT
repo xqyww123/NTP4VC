@@ -1,4 +1,4 @@
-session finite_tarski = NTP4Verif +
+session "pearl_finite_tarski" = NTP4Verif +
 theories
   "finite_tarski_Tarski_rec_least_fix_pointqtvc"
   "finite_tarski_Tarski_while_least_fix_pointqtvc"

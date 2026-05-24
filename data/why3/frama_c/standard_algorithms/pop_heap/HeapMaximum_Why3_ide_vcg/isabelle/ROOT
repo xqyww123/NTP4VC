@@ -1,4 +1,4 @@
-session HeapMaximum_Why3_ide = NTP4Verif +
+session "frama_c_standard_algorithms_pop_heap_HeapMaximum" = NTP4Verif +
 theories
   "HeapMaximum_Why3_ide_VCHeapMaximum_loop_inv_preserved_goal1"
   "HeapMaximum_Why3_ide_VCHeapMaximum_post_goal0"

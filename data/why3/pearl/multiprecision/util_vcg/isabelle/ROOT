@@ -1,4 +1,4 @@
-session util = NTP4Verif +
+session "pearl_multiprecision_util" = NTP4Verif +
 theories
   "util_Util_wmpn_zeroqtvc"
   "util_Util_wmpn_copyiqtvc"

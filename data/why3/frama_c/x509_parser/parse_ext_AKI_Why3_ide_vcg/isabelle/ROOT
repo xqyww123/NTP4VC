@@ -1,4 +1,4 @@
-session parse_ext_AKI_Why3_ide = NTP4Verif +
+session "frama_c_x509_parser_parse_ext_AKI" = NTP4Verif +
 theories
   "parse_ext_AKI_Why3_ide_VCparse_ext_AKI_call_parse_id_len_pre_2_goal1"
   "parse_ext_AKI_Why3_ide_VCparse_ext_AKI_call_parse_GeneralNames_pre_part1_goal2"

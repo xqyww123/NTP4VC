@@ -1,4 +1,4 @@
-session flag2 = NTP4Verif +
+session "pearl_flag2" = NTP4Verif +
 theories
   "flag2_Flag_nb_occ_store_neq_neqqtvc"
   "flag2_Flag_nb_occ_store_eq_neqqtvc"

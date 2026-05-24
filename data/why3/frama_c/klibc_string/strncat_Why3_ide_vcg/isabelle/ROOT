@@ -1,4 +1,4 @@
-session strncat_Why3_ide = NTP4Verif +
+session "frama_c_klibc_string_strncat" = NTP4Verif +
 theories
   "strncat_Why3_ide_VCstrncat_loop_inv_5_established_part1_goal11"
   "strncat_Why3_ide_VCstrncat_larger_assign_normal_part13_goal21"

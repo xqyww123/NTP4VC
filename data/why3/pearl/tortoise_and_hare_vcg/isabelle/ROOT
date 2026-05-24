@@ -1,4 +1,4 @@
-session tortoise_and_hare = NTP4Verif +
+session "pearl_tortoise_and_hare" = NTP4Verif +
 theories
   "tortoise_and_hare_TortoiseAndHareAlgorithm_x0qtvc"
   "tortoise_and_hare_TortoiseAndHareAlgorithm_periodicityqtvc"

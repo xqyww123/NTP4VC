@@ -1,4 +1,4 @@
-session vstte10_aqueue = NTP4Verif +
+session "pearl_vstte10_aqueue" = NTP4Verif +
 theories
   "vstte10_aqueue_AmortizedQueue_queueqtvc"
   "vstte10_aqueue_AmortizedQueue_emptyqtvc"

@@ -1,4 +1,4 @@
-session Firstorder_term_spec = NTP4Verif +
+session "pearl_prover_Firstorder_term_spec" = NTP4Verif +
 theories
   "Firstorder_term_spec_Spec_size_positive_lemma_fo_term_listqtvc"
   "Firstorder_term_spec_Spec_size_positive_lemma_fo_termqtvc"

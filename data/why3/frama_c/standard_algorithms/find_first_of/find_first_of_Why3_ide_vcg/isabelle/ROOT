@@ -1,4 +1,4 @@
-session find_first_of_Why3_ide = NTP4Verif +
+session "frama_c_standard_algorithms_find_first_of_find_first_of" = NTP4Verif +
 theories
   "find_first_of_Why3_ide_VCfind_first_of_loop_inv_bound_established_goal1"
   "find_first_of_Why3_ide_VCfind_first_of_loop_inv_not_found_preserved_goal2"

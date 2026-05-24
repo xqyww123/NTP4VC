@@ -1,4 +1,4 @@
-session sysfs_streq_Why3_ide = NTP4Verif +
+session "frama_c_verker_sysfs_streq" = NTP4Verif +
 theories
   "sysfs_streq_Why3_ide_VCsysfs_streq_loop_inv_preserved_goal2"
   "sysfs_streq_Why3_ide_VCsysfs_streq_loop_inv_5_preserved_goal7"

@@ -1,4 +1,4 @@
-session verifythis_2018_mind_the_gap_2 = NTP4Verif +
+session "pearl_verifythis_2018_mind_the_gap_2" = NTP4Verif +
 theories
   "verifythis_2018_mind_the_gap_2_GapBuffer_rightqtvc"
   "verifythis_2018_mind_the_gap_2_GapBuffer_deleteqtvc"

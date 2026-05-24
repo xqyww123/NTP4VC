@@ -1,4 +1,4 @@
-session binary_multiplication = NTP4Verif +
+session "pearl_binary_multiplication" = NTP4Verif +
 theories
   "binary_multiplication_BinaryMultiplication_binary_multqtvc"
   "binary_multiplication_BinaryMultiplication63_binary_multqtvc"

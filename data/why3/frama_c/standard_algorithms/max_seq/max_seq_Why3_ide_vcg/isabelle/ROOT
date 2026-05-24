@@ -1,4 +1,4 @@
-session max_seq_Why3_ide = NTP4Verif +
+session "frama_c_standard_algorithms_max_seq_max_seq" = NTP4Verif +
 theories
   "max_seq_Why3_ide_VCmax_seq_assert_rte_mem_access_goal2"
   "max_seq_Why3_ide_VCmax_seq_post_goal0"

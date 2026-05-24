@@ -1,4 +1,4 @@
-session parse_UTCTime_Why3_ide = NTP4Verif +
+session "frama_c_x509_parser_parse_UTCTime" = NTP4Verif +
 theories
   "parse_UTCTime_Why3_ide_VCparse_UTCTime_call_compute_decimal_pre_part1_3_goal17"
   "parse_UTCTime_Why3_ide_VCparse_UTCTime_loop_inv_preserved_goal0"

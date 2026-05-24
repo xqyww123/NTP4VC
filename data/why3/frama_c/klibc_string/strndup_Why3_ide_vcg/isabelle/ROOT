@@ -1,4 +1,4 @@
-session strndup_Why3_ide = NTP4Verif +
+session "frama_c_klibc_string_strndup" = NTP4Verif +
 theories
   "strndup_Why3_ide_VCstrndup_call_strnlen_pre_goal0"
   "strndup_Why3_ide_VCstrndup_call_memcpy_pre_4_goal5"

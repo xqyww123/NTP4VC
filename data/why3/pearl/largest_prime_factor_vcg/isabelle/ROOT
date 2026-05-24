@@ -1,4 +1,4 @@
-session largest_prime_factor = NTP4Verif +
+session "pearl_largest_prime_factor" = NTP4Verif +
 theories
   "largest_prime_factor_PrimeFactor_largest_prime_factorqtvc"
   "largest_prime_factor_PrimeFactor_testqtvc"

@@ -1,4 +1,4 @@
-session min_element_Why3_ide = NTP4Verif +
+session "frama_c_standard_algorithms_min_element_min_element" = NTP4Verif +
 theories
   "min_element_Why3_ide_VCmin_element_post_result_goal2"
   "min_element_Why3_ide_VCmin_element_loop_inv_first_preserved_goal4"

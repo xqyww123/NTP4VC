@@ -1,3 +1,3 @@
-session matrix_test = NTP4Verif +
+session "pearl_tests_matrix_test" = NTP4Verif +
 theories
   "matrix_test_TestMatrix_test1qtvc"

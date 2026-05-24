@@ -1,4 +1,4 @@
-session checking_a_large_routine = NTP4Verif +
+session "pearl_checking_a_large_routine" = NTP4Verif +
 theories
   "checking_a_large_routine_CheckingALargeRoutine_routineqtvc"
   "checking_a_large_routine_CheckingALargeRoutine_routine2qtvc"

@@ -1,4 +1,4 @@
-session verker = NTP4Verif +
+session "frama_c_verker_lib" = NTP4Verif +
 sessions
   "Why3STD"
 theories

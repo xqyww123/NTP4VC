@@ -1,4 +1,4 @@
-session gcd = NTP4Verif +
+session "pearl_gcd" = NTP4Verif +
 theories
   "gcd_EuclideanAlgorithm_euclidqtvc"
   "gcd_BinaryGcd_odd_odd_div2qtvc"

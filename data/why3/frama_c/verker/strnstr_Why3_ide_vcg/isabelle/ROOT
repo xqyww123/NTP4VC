@@ -1,4 +1,4 @@
-session strnstr_Why3_ide = NTP4Verif +
+session "frama_c_verker_strnstr" = NTP4Verif +
 theories
   "strnstr_Why3_ide_VCstrnstr_call_memcmp_pre_2_goal2"
   "strnstr_Why3_ide_VCstrnstr_call_memcmp_pre_3_goal3"

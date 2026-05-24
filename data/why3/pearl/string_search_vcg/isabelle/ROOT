@@ -1,4 +1,4 @@
-session string_search = NTP4Verif +
+session "pearl_string_search" = NTP4Verif +
 theories
   "string_search_BadShiftTable_bad_shift_tableqtvc"
   "string_search_Spec"

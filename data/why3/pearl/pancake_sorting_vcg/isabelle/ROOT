@@ -1,4 +1,4 @@
-session pancake_sorting = NTP4Verif +
+session "pearl_pancake_sorting" = NTP4Verif +
 theories
   "pancake_sorting_Top_pancake_sortqtvc"
   "pancake_sorting_Top_flipqtvc"

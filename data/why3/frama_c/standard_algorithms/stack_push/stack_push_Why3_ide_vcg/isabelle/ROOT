@@ -1,4 +1,4 @@
-session stack_push_Why3_ide = NTP4Verif +
+session "frama_c_standard_algorithms_stack_push_stack_push" = NTP4Verif +
 theories
   "stack_push_Why3_ide_VCstack_push_assert_rte_mem_access_2_goal1"
   "stack_push_Why3_ide_VCstack_push_not_full_post_size_goal7"

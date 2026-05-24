@@ -1,4 +1,4 @@
-session parse_generalizedTime_Why3_ide = NTP4Verif +
+session "frama_c_x509_parser_parse_generalizedTime" = NTP4Verif +
 theories
   "parse_generalizedTime_Why3_ide_VCparse_generalizedTime_loop_inv_preserved_goal0"
   "parse_generalizedTime_Why3_ide_VCparse_generalizedTime_call_compute_year_pre_2_part2_goal11"

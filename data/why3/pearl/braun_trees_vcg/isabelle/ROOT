@@ -1,4 +1,4 @@
-session braun_trees = NTP4Verif +
+session "pearl_braun_trees" = NTP4Verif +
 theories
   "braun_trees_BraunHeaps_diffqtvc"
   "braun_trees_BraunHeaps_size_heightqtvc"

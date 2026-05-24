@@ -1,4 +1,4 @@
-session maximum_subarray = NTP4Verif +
+session "pearl_maximum_subarray" = NTP4Verif +
 sessions
   "Why3STD"
 theories

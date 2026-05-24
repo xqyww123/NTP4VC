@@ -1,4 +1,4 @@
-session isqrt_von_neumann = NTP4Verif +
+session "pearl_isqrt_von_neumann" = NTP4Verif +
 theories
   "isqrt_von_neumann_VonNeumann16_isqrt16qtvc"
   "isqrt_von_neumann_VonNeumann16_sqr_add2qtvc"

@@ -1,4 +1,4 @@
-session longest_increasing_subsequence = NTP4Verif +
+session "pearl_longest_increasing_subsequence" = NTP4Verif +
 theories
   "longest_increasing_subsequence_Backtracking_lissqtvc"
   "longest_increasing_subsequence_Spec"

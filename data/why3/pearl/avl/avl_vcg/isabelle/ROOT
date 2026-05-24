@@ -1,4 +1,4 @@
-session avl = NTP4Verif +
+session "pearl_avl_avl" = NTP4Verif +
 theories
   "avl_SelectionTypes_right_extendqtvc"
   "avl_AVL_singletonqtvc"

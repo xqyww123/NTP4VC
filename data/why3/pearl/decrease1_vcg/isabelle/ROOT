@@ -1,4 +1,4 @@
-session decrease1 = NTP4Verif +
+session "pearl_decrease1" = NTP4Verif +
 theories
   "decrease1_Decrease1_search_recqtvc"
   "decrease1_Decrease1_decrease1_inductionqtvc"

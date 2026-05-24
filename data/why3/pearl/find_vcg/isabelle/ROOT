@@ -1,4 +1,4 @@
-session find = NTP4Verif +
+session "pearl_find" = NTP4Verif +
 sessions
   "Why3STD"
 theories

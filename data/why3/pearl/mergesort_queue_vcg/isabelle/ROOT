@@ -1,4 +1,4 @@
-session mergesort_queue = NTP4Verif +
+session "pearl_mergesort_queue" = NTP4Verif +
 theories
   "mergesort_queue_MergesortQueue_Trans"
   "mergesort_queue_MergesortQueue_Refl"

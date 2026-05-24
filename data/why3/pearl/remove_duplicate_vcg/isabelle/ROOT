@@ -1,4 +1,4 @@
-session remove_duplicate = NTP4Verif +
+session "pearl_remove_duplicate" = NTP4Verif +
 theories
   "remove_duplicate_RemoveDuplicateQuadratic_remove_duplicateqtvc"
   "remove_duplicate_Spec"

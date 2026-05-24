@@ -1,4 +1,4 @@
-session inner_product_Why3_ide = NTP4Verif +
+session "frama_c_standard_algorithms_inner_product_inner_product" = NTP4Verif +
 theories
   "inner_product_Why3_ide_VCinner_product_loop_inv_inner_preserved_goal4"
   "inner_product_Why3_ide_VCinner_product_assert_rte_unsigned_overflow_goal12"

@@ -1,4 +1,4 @@
-session algo63 = NTP4Verif +
+session "pearl_algo63" = NTP4Verif +
 theories
   "algo63_Algo63_exchangeqtvc"
   "algo63_Algo63_partitionqtvc"

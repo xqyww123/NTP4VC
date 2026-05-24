@@ -1,4 +1,4 @@
-session parse_subjectpubkey_ec_Why3_ide = NTP4Verif +
+session "frama_c_x509_parser_parse_subjectpubkey_ec" = NTP4Verif +
 theories
   "parse_subjectpubkey_ec_Why3_ide_VCparse_subjectpubkey_ec_assert_rte_mem_access_goal0"
   "parse_subjectpubkey_ec_Why3_ide_VCparse_subjectpubkey_ec_assert_rte_mem_access_2_goal1"

@@ -1,4 +1,4 @@
-session mpz_mul = NTP4Verif +
+session "pearl_multiprecision_mpz_mul" = NTP4Verif +
 theories
   "mpz_mul_Zmul_wmpz_mul_siqtvc"
   "mpz_mul_Zmul_wmpz_mul_uiqtvc"

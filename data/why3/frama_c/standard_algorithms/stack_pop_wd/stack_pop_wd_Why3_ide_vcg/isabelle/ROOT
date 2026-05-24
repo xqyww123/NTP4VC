@@ -1,4 +1,4 @@
-session stack_pop_wd_Why3_ide = NTP4Verif +
+session "frama_c_standard_algorithms_stack_pop_wd_stack_pop_wd" = NTP4Verif +
 theories
   "stack_pop_wd_Why3_ide_VCstack_pop_wd_call_stack_pop_pre_valid_2_goal2"
   "stack_pop_wd_Why3_ide_VCstack_pop_wd_post_valid_goal0"

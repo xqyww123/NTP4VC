@@ -1,4 +1,4 @@
-session multiplication = NTP4Verif +
+session "pearl_numeric_multiplication" = NTP4Verif +
 theories
   "multiplication_MultiplicationDouble_multiplication_errors_basicqtvc"
   "multiplication_MultiplicationDouble_multiplication_errorsqtvc"

@@ -1,4 +1,4 @@
-session strnlen_Why3_ide = NTP4Verif +
+session "frama_c_klibc_string_strnlen" = NTP4Verif +
 theories
   "strnlen_Why3_ide_VCstrnlen_loop_term_decrease_goal7"
   "strnlen_Why3_ide_VCstrnlen_loop_inv_4_preserved_part1_goal3"

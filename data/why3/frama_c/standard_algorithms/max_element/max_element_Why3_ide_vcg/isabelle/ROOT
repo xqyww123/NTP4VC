@@ -1,4 +1,4 @@
-session max_element_Why3_ide = NTP4Verif +
+session "frama_c_standard_algorithms_max_element_max_element" = NTP4Verif +
 theories
   "max_element_Why3_ide_VCmax_element_not_empty_post_strict_goal10"
   "max_element_Why3_ide_VCmax_element_disjoint_not_empty_empty_goal1"

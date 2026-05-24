@@ -1,4 +1,4 @@
-session toy_compiler = NTP4Verif +
+session "pearl_toy_compiler" = NTP4Verif +
 theories
   "toy_compiler_Compiler_soundness_genqtvc"
   "toy_compiler_Expr"

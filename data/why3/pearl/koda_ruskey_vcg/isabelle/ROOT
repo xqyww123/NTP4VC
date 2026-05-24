@@ -1,4 +1,4 @@
-session koda_ruskey = NTP4Verif +
+session "pearl_koda_ruskey" = NTP4Verif +
 theories
   "koda_ruskey_Lemmas_white_whiteqtvc"
   "koda_ruskey_KodaRuskey_Spec"

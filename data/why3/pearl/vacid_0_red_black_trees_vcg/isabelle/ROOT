@@ -1,4 +1,4 @@
-session vacid_0_red_black_trees = NTP4Verif +
+session "pearl_vacid_0_red_black_trees" = NTP4Verif +
 theories
   "vacid_0_red_black_trees_RedBlackTree"
   "vacid_0_red_black_trees_RedBlackTree_memt_colorqtvc"

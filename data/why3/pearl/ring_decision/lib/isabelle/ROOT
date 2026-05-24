@@ -1,4 +1,4 @@
-session ring_decision = NTP4Verif +
+session "pearl_ring_decision_lib" = NTP4Verif +
 sessions
   "Why3STD"
 theories

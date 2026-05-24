@@ -1,4 +1,4 @@
-session strcpy_Why3_ide = NTP4Verif +
+session "frama_c_klibc_string_strcpy" = NTP4Verif +
 theories
   "strcpy_Why3_ide_VCstrcpy_loop_inv_4_preserved_part2_goal3"
   "strcpy_Why3_ide_VCstrcpy_loop_inv_9_preserved_part2_goal10"

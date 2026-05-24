@@ -1,4 +1,4 @@
-session is_sorted_Why3_ide = NTP4Verif +
+session "frama_c_standard_algorithms_is_sorted_is_sorted" = NTP4Verif +
 theories
   "is_sorted_Why3_ide_VCis_sorted_assert_rte_mem_access_goal3"
   "is_sorted_Why3_ide_VCis_sorted_post_goal0"

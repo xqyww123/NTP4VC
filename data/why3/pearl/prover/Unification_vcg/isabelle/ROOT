@@ -1,4 +1,4 @@
-session Unification = NTP4Verif +
+session "pearl_prover_Unification" = NTP4Verif +
 theories
   "Unification_Impl_conflictsqtvc"
   "Unification_Impl_unification_term_listqtvc"

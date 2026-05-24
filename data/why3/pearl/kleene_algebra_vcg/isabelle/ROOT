@@ -1,4 +1,4 @@
-session kleene_algebra = NTP4Verif +
+session "pearl_kleene_algebra" = NTP4Verif +
 theories
   "kleene_algebra_RelAlgebra_assoc_mulqtvc"
   "kleene_algebra_RelAlgebra_Mul_zero_l"

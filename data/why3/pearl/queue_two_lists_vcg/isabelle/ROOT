@@ -1,4 +1,4 @@
-session queue_two_lists = NTP4Verif +
+session "pearl_queue_two_lists" = NTP4Verif +
 theories
   "queue_two_lists_Correct_transferqtrefnqtvc"
   "queue_two_lists_Queue"

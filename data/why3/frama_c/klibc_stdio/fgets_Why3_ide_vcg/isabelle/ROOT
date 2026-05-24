@@ -1,4 +1,4 @@
-session fgets_Why3_ide = NTP4Verif +
+session "frama_c_klibc_stdio_fgets" = NTP4Verif +
 theories
   "fgets_Why3_ide_VCfgets_loop_term_positive_goal8"
   "fgets_Why3_ide_VCfgets_call_fgetc_pre_3_goal10"

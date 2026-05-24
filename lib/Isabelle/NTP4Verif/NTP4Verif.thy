@@ -1,5 +1,5 @@
 theory NTP4Verif
-  imports Complex_Main Automation_Base.Automation_Base Word_Lib.Word_Lemmas Minilang.Minilang
+  imports Complex_Main Word_Lib.Word_Lemmas
           "HOL-Library.Finite_Map" "HOL-Library.FSet" "HOL-Library.Multiset_Order"
           "HOL-Number_Theory.Prime_Powers" "HOL-Library.List_Lexorder" "HOL-Library.Char_ord"
           "HOL-Library.Sublist" "List-Index.List_Index"
@@ -7,7 +7,7 @@ theory NTP4Verif
           (* IEEE_Floating_Point.Conversion_IEEE_Float IEEE_Floating_Point.FP64 *)
 begin
 
-setup \<open>Context.theory_map (Default_Num_Typ.set NONE)\<close>
+(* setup \<open>Context.theory_map (Default_Num_Typ.set NONE)\<close> *)
 
 declare [[coercion_enabled = false]]
 
@@ -615,14 +615,12 @@ lemma cDiv_mod:
       smt (verit, best) minus_mult_div_eq_mod,
       smt (verit, best) mult_div_mod_eq mult_minus_left)
 
-declare [[quick_and_dirty]]
+(* declare [[quick_and_dirty]] *)
 
 notation semiring_bit_operations_class.and (infixr \<open>AND\<close> 64)
      and semiring_bit_operations_class.or  (infixr \<open>OR\<close> 59)
      and semiring_bit_operations_class.xor (infixr \<open>XOR\<close> 59)
 
-setup \<open>Context.theory_map (Default_Num_Typ.set (SOME \<^typ>\<open>int\<close>))\<close>
-
-term uchar_of_char
+(* setup \<open>Context.theory_map (Default_Num_Typ.set (SOME \<^typ>\<open>int\<close>))\<close> *)
 
 end

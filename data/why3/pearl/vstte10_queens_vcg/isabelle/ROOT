@@ -1,4 +1,4 @@
-session vstte10_queens = NTP4Verif +
+session "pearl_vstte10_queens" = NTP4Verif +
 theories
   "vstte10_queens_NQueens_bt_queensqtvc"
   "vstte10_queens_NQueens_count_queensqtvc"

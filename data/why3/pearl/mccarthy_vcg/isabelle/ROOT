@@ -1,4 +1,4 @@
-session mccarthy = NTP4Verif +
+session "pearl_mccarthy" = NTP4Verif +
 theories
   "mccarthy_McCarthyWithGhostMonitor_monitor2qtvc"
   "mccarthy_McCarthy91Mach_f91_pseudorecqtvc"

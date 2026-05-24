@@ -1,4 +1,4 @@
-session __strxspn_Why3_ide = NTP4Verif +
+session "frama_c_klibc_string___strxspn" = NTP4Verif +
 theories
   "X__strxspn_Why3_ide_VC__strxspn_loop_inv_4_preserved_part1_goal5"
   "X__strxspn_Why3_ide_VC__strxspn_disjoint_one_zero_goal0"

@@ -1,3 +1,3 @@
-session isxdigit_Why3_ide = NTP4Verif +
+session "frama_c_verker_isxdigit" = NTP4Verif +
 theories
   "isxdigit_Why3_ide_VCisxdigit_post_goal0"

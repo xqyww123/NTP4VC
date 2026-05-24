@@ -1,4 +1,4 @@
-session mutual_recursion = NTP4Verif +
+session "pearl_mutual_recursion" = NTP4Verif +
 theories
   "mutual_recursion_Top_f2qtvc"
   "mutual_recursion_Top_mqtvc"

@@ -1,4 +1,4 @@
-session lse = NTP4Verif +
+session "pearl_lse_lib" = NTP4Verif +
 sessions
   "Why3STD"
 theories

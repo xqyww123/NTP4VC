@@ -1,4 +1,4 @@
-session __init_stdio_Why3_ide = NTP4Verif +
+session "frama_c_klibc_stdio___init_stdio" = NTP4Verif +
 theories
   "X__init_stdio_Why3_ide_VC__init_stdio_post_5_goal6"
   "X__init_stdio_Why3_ide_VC__init_stdio_assign_normal_part5_goal13"

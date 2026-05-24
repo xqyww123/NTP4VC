@@ -1,4 +1,4 @@
-session sum_extended = NTP4Verif +
+session "pearl_verifythis_2016_matrix_multiplication_sum_extended" = NTP4Verif +
 theories
   "sum_extended_Sum_extended_sum_addqtvc"
   "sum_extended_Sum_extended_sum_multqtvc"

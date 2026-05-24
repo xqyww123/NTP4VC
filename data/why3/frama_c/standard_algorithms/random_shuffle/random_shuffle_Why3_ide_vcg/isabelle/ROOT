@@ -1,4 +1,4 @@
-session random_shuffle_Why3_ide = NTP4Verif +
+session "frama_c_standard_algorithms_random_shuffle_random_shuffle" = NTP4Verif +
 theories
   "random_shuffle_Why3_ide_VCrandom_shuffle_post_goal0"
   "random_shuffle_Why3_ide_VCrandom_shuffle_loop_inv_bounds_preserved_goal1"

@@ -1,4 +1,4 @@
-session coincidence_count_list = NTP4Verif +
+session "pearl_coincidence_count_list" = NTP4Verif +
 theories
   "coincidence_count_list_CoincidenceCountAnyType_eqqtrefnqtvc"
   "coincidence_count_list_CoincidenceCountList_Trans"

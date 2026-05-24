@@ -1,4 +1,4 @@
-session klibc_stdio = NTP4Verif +
+session "frama_c_klibc_stdio_lib" = NTP4Verif +
 sessions
   "Why3STD"
 theories

@@ -1,3 +1,3 @@
-session ewd673 = NTP4Verif +
+session "pearl_ewd673" = NTP4Verif +
 theories
   "ewd673_EWD673_sqtvc"

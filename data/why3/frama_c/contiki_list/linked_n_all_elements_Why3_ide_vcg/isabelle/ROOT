@@ -1,4 +1,4 @@
-session linked_n_all_elements_Why3_ide = NTP4Verif +
+session "frama_c_contiki_list_linked_n_all_elements" = NTP4Verif +
 theories
   "linked_n_all_elements_Why3_ide_VClinked_n_all_elements_assert_rte_signed_overflow_2_goal6"
   "linked_n_all_elements_Why3_ide_VClinked_n_all_elements_post_part1_goal0"

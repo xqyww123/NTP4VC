@@ -1,4 +1,4 @@
-session verifythis_2015_relaxed_prefix = NTP4Verif +
+session "pearl_verifythis_2015_relaxed_prefix" = NTP4Verif +
 sessions
   "Why3STD"
 theories

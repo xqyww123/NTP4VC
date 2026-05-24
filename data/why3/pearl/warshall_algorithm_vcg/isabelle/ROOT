@@ -1,4 +1,4 @@
-session warshall_algorithm = NTP4Verif +
+session "pearl_warshall_algorithm" = NTP4Verif +
 theories
   "warshall_algorithm_WarshallAlgorithm_weakeningqtvc"
   "warshall_algorithm_WarshallAlgorithm_transitive_closureqtvc"

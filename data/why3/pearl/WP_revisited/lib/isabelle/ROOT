@@ -1,4 +1,4 @@
-session WP_revisited = NTP4Verif +
+session "pearl_WP_revisited_lib" = NTP4Verif +
 theories
   "wp2_Imp"
   "blocking_semantics5_Syntax"

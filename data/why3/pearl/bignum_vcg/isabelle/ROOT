@@ -1,4 +1,4 @@
-session bignum = NTP4Verif +
+session "pearl_bignum" = NTP4Verif +
 theories
   "bignum_BigNum_msdqtvc"
   "bignum_BigNum_add_digitqtvc"

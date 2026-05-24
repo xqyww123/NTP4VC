@@ -1,4 +1,4 @@
-session div_u64_rem_Why3_ide = NTP4Verif +
+session "frama_c_verker_div_u64_rem" = NTP4Verif +
 theories
   "div_u64_rem_Why3_ide_VCdiv_u64_rem_post_goal0"
   "div_u64_rem_Why3_ide_VCdiv_u64_rem_post_2_goal1"

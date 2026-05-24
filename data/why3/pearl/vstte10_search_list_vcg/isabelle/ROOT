@@ -1,4 +1,4 @@
-session vstte10_search_list = NTP4Verif +
+session "pearl_vstte10_search_list" = NTP4Verif +
 theories
   "vstte10_search_list_SearchingALinkedList_headqtvc"
   "vstte10_search_list_SearchingALinkedList_search_loopqtvc"

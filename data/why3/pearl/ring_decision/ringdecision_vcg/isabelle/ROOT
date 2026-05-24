@@ -1,4 +1,4 @@
-session ringdecision = NTP4Verif +
+session "pearl_ring_decision_ringdecision" = NTP4Verif +
 theories
   "ringdecision_UnitaryCommutativeRingDecision_mon_appendqtvc"
   "ringdecision_UnitaryCommutativeRingDecision_squash_appendqtvc"

@@ -1,4 +1,4 @@
-session inverse_in_place = NTP4Verif +
+session "pearl_inverse_in_place" = NTP4Verif +
 sessions
   "Why3STD"
 theories

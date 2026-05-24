@@ -1,3 +1,3 @@
-session StrictUpperBoundShift_Why3_ide = NTP4Verif +
+session "frama_c_standard_algorithms_selection_sort_StrictUpperBoundShift" = NTP4Verif +
 theories
   "StrictUpperBoundShift_Why3_ide_VCStrictUpperBoundShift_post_goal0"

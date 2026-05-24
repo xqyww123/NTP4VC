@@ -1,4 +1,4 @@
-session verifythis_2021_lexicographic_permutations_1 = NTP4Verif +
+session "pearl_verifythis_2021_lexicographic_permutations_1" = NTP4Verif +
 theories
   "verifythis_2021_lexicographic_permutations_1_Top_lt_totalqtvc"
   "verifythis_2021_lexicographic_permutations_1_Top_all_permutationsqtvc"

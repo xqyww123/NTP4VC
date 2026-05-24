@@ -1,4 +1,4 @@
-session _parse_integer_fixup_radix_Why3_ide = NTP4Verif +
+session "frama_c_verker__parse_integer_fixup_radix" = NTP4Verif +
 theories
   "X_parse_integer_fixup_radix_Why3_ide_VC_parse_integer_fixup_radix_guess_post_goal6"
   "X_parse_integer_fixup_radix_Why3_ide_VC_parse_integer_fixup_radix_assign_exit_part1_goal0"

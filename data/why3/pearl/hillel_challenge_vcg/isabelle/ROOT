@@ -1,4 +1,4 @@
-session hillel_challenge = NTP4Verif +
+session "pearl_hillel_challenge" = NTP4Verif +
 theories
   "hillel_challenge_FulcrumNoOverflow_add_bigqtvc"
   "hillel_challenge_FulcrumNoOverflow_big_zeroqtvc"

@@ -1,4 +1,4 @@
-session sqrt = NTP4Verif +
+session "pearl_multiprecision_sqrt" = NTP4Verif +
 theories
   "sqrt_Sqrt1_trunc_lower_boundqtvc"
   "sqrt_Sqrt1_sqrt1qtvc"

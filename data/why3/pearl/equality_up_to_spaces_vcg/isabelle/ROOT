@@ -1,4 +1,4 @@
-session equality_up_to_spaces = NTP4Verif +
+session "pearl_equality_up_to_spaces" = NTP4Verif +
 theories
   "equality_up_to_spaces_Top_remove_spacesqtvc"
   "equality_up_to_spaces_Top_compare_up_to_spacesqtvc"

@@ -1,4 +1,4 @@
-session quicksort = NTP4Verif +
+session "pearl_quicksort" = NTP4Verif +
 sessions
   "Why3STD"
 theories

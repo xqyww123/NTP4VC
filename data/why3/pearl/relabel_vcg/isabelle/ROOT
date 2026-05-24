@@ -1,4 +1,4 @@
-session relabel = NTP4Verif +
+session "pearl_relabel" = NTP4Verif +
 theories
   "relabel_Relabel_labels_Nodeqtvc"
   "relabel_Relabel_freshqtvc"

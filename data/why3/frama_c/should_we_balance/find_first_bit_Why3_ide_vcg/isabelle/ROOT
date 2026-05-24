@@ -1,4 +1,4 @@
-session find_first_bit_Why3_ide = NTP4Verif +
+session "frama_c_should_we_balance_find_first_bit" = NTP4Verif +
 theories
   "find_first_bit_Why3_ide_VCfind_first_bit_loop_inv_preserved_goal0"
   "find_first_bit_Why3_ide_VCfind_first_bit_above_post_3_goal6"

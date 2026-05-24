@@ -1,4 +1,4 @@
-session binomial_heap = NTP4Verif +
+session "pearl_binomial_heap" = NTP4Verif +
 theories
   "binomial_heap_BinomialHeap_le_roots_transqtvc"
   "binomial_heap_BinomialHeap_is_emptyqtvc"

@@ -1,4 +1,4 @@
-session snapshotable_trees = NTP4Verif +
+session "pearl_snapshotable_trees" = NTP4Verif +
 theories
   "snapshotable_trees_ITree_addqtvc"
   "snapshotable_trees_Tree"

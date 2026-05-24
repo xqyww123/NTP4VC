@@ -1,4 +1,4 @@
-session strreplace_Why3_ide = NTP4Verif +
+session "frama_c_verker_strreplace" = NTP4Verif +
 theories
   "strreplace_Why3_ide_VCstrreplace_post_3_goal2"
   "strreplace_Why3_ide_VCstrreplace_loop_inv_4_preserved_goal8"

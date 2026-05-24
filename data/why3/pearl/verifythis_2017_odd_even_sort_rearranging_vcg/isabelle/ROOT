@@ -1,4 +1,4 @@
-session verifythis_2017_odd_even_sort_rearranging = NTP4Verif +
+session "pearl_verifythis_2017_odd_even_sort_rearranging" = NTP4Verif +
 theories
   "verifythis_2017_odd_even_sort_rearranging_Top_local_order_implies_sort_subqtvc"
   "verifythis_2017_odd_even_sort_rearranging_Top_decompose_entropyqtvc"

@@ -1,3 +1,3 @@
-session stack_size_wd_Why3_ide = NTP4Verif +
+session "frama_c_standard_algorithms_stack_size_wd_stack_size_wd" = NTP4Verif +
 theories
   "stack_size_wd_Why3_ide_VCstack_size_wd_post_equal_goal0"

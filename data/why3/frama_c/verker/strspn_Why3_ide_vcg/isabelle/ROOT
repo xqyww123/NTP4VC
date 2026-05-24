@@ -1,4 +1,4 @@
-session strspn_Why3_ide = NTP4Verif +
+session "frama_c_verker_strspn" = NTP4Verif +
 theories
   "strspn_Why3_ide_VCstrspn_loop_inv_8_established_goal15"
   "strspn_Why3_ide_VCstrspn_post_4_goal2"

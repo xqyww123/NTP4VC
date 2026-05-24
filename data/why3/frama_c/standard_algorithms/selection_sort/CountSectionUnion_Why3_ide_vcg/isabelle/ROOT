@@ -1,4 +1,4 @@
-session CountSectionUnion_Why3_ide = NTP4Verif +
+session "frama_c_standard_algorithms_selection_sort_CountSectionUnion" = NTP4Verif +
 theories
   "CountSectionUnion_Why3_ide_VCCountSectionUnion_post_goal0"
   "CountSectionUnion_Why3_ide_VCCountSectionUnion_assert_rte_unsigned_overflow_goal4"

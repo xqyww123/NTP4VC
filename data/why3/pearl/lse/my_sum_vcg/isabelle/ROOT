@@ -1,4 +1,4 @@
-session my_sum = NTP4Verif +
+session "pearl_lse_my_sum" = NTP4Verif +
 theories
   "my_sum_Sum_u_sum_accuracyqtvc"
   "my_sum_Combine_u_sum_accuracy_combineqtvc"

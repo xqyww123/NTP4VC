@@ -1,4 +1,4 @@
-session search = NTP4Verif +
+session "pearl_search" = NTP4Verif +
 theories
   "search_Path_path_inversionqtvc"
   "search_Path_shorter_pathqtvc"

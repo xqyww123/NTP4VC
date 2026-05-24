@@ -1,4 +1,4 @@
-session udouble = NTP4Verif +
+session "pearl_lse_udouble" = NTP4Verif +
 theories
   "udouble_UDouble_sub_bound_rightqtvc"
   "udouble_UDouble_add_bound_leftqtvc"

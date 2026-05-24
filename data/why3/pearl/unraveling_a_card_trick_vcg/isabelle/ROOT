@@ -1,4 +1,4 @@
-session unraveling_a_card_trick = NTP4Verif +
+session "pearl_unraveling_a_card_trick" = NTP4Verif +
 theories
   "unraveling_a_card_trick_GilbreathCardTrickPure_shuffle_symqtvc"
   "unraveling_a_card_trick_GilbreathCardTrick_shuffleqtvc"

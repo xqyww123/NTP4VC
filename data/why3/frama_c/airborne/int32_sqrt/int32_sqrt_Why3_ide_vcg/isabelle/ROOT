@@ -1,4 +1,4 @@
-session int32_sqrt_Why3_ide = NTP4Verif +
+session "frama_c_airborne_int32_sqrt_int32_sqrt" = NTP4Verif +
 theories
   "int32_sqrt_Why3_ide_VCint32_sqrt_loop_inv_4_preserved_goal5"
   "int32_sqrt_Why3_ide_VCint32_sqrt_loop_inv_established_goal2"

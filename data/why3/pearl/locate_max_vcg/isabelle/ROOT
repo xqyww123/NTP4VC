@@ -1,3 +1,3 @@
-session locate_max = NTP4Verif +
+session "pearl_locate_max" = NTP4Verif +
 theories
   "locate_max_Top_locate_maxqtvc"

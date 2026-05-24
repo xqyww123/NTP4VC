@@ -1,4 +1,4 @@
-session ccursor = NTP4Verif +
+session "pearl_c_cursor_ccursor" = NTP4Verif +
 theories
   "ccursor_PtrCursor_nextqtvc"
   "ccursor_PtrCursor_cursorqtvc"

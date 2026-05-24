@@ -1,4 +1,4 @@
-session int_sqrt_Why3_ide = NTP4Verif +
+session "frama_c_verker_int_sqrt" = NTP4Verif +
 theories
   "int_sqrt_Why3_ide_VCint_sqrt_assign_part3_goal0"
   "int_sqrt_Why3_ide_VCint_sqrt_loop_term_decrease_goal1"

@@ -1,4 +1,4 @@
-session linked_n_valid_range_Why3_ide = NTP4Verif +
+session "frama_c_contiki_list_linked_n_valid_range" = NTP4Verif +
 theories
   "linked_n_valid_range_Why3_ide_VClinked_n_valid_range_loop_inv_preserved_part1_goal1"
   "linked_n_valid_range_Why3_ide_VClinked_n_valid_range_post_goal0"

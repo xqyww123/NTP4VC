@@ -1,4 +1,4 @@
-session infinity_of_primes = NTP4Verif +
+session "pearl_infinity_of_primes" = NTP4Verif +
 theories
   "infinity_of_primes_Top_infinity_of_primesqtvc"
   "infinity_of_primes_Top_prime_factorqtvc"

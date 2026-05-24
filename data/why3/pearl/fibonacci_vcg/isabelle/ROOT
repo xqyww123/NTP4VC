@@ -1,4 +1,4 @@
-session fibonacci = NTP4Verif +
+session "pearl_fibonacci" = NTP4Verif +
 sessions
   "Why3STD"
 theories

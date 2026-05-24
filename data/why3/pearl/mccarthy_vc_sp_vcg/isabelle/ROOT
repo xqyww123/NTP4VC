@@ -1,4 +1,4 @@
-session mccarthy_vc_sp = NTP4Verif +
+session "pearl_mccarthy_vc_sp" = NTP4Verif +
 theories
   "mccarthy_vc_sp_McCarthy91_f91_pseudorecqtvc"
   "mccarthy_vc_sp_McCarthy91Mach_f91qtvc"

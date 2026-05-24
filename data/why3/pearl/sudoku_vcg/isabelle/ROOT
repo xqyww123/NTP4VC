@@ -1,4 +1,4 @@
-session sudoku = NTP4Verif +
+session "pearl_sudoku" = NTP4Verif +
 theories
   "sudoku_Solver_solveqtvc"
   "sudoku_Grid"

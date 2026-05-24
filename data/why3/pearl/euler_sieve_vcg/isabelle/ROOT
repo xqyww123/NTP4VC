@@ -1,4 +1,4 @@
-session euler_sieve = NTP4Verif +
+session "pearl_euler_sieve" = NTP4Verif +
 theories
   "euler_sieve_EulerSieve_prev_and_new_impl_all_multiples_markedqtvc"
   "euler_sieve_ArithmeticResults"

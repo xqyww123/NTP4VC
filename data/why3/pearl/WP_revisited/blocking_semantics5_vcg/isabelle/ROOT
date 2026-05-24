@@ -1,4 +1,4 @@
-session blocking_semantics5 = NTP4Verif +
+session "pearl_WP_revisited_blocking_semantics5" = NTP4Verif +
 theories
   "blocking_semantics5_Syntax_mident_decideqtvc"
   "blocking_semantics5_FreshVariables_eval_change_freeqtvc"

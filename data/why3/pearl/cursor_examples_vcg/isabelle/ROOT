@@ -1,4 +1,4 @@
-session cursor_examples = NTP4Verif +
+session "pearl_cursor_examples" = NTP4Verif +
 theories
   "cursor_examples_ListCursorImplqtimpl_cursorqtvc"
   "cursor_examples_TestArrayCursor_harness1qtvc"

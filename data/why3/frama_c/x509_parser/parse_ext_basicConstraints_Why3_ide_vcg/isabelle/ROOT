@@ -1,4 +1,4 @@
-session parse_ext_basicConstraints_Why3_ide = NTP4Verif +
+session "frama_c_x509_parser_parse_ext_basicConstraints" = NTP4Verif +
 theories
   "parse_ext_basicConstraints_Why3_ide_VCparse_ext_basicConstraints_assert_rte_mem_access_goal0"
   "parse_ext_basicConstraints_Why3_ide_VCparse_ext_basicConstraints_call_bufs_differ_pre_2_goal1"

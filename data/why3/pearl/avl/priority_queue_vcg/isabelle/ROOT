@@ -1,4 +1,4 @@
-session priority_queue = NTP4Verif +
+session "pearl_avl_priority_queue" = NTP4Verif +
 theories
   "priority_queue_PQueue_split_gives_minimumqtvc"
   "priority_queue_PQueue_monoid_sum_is_minqtvc"

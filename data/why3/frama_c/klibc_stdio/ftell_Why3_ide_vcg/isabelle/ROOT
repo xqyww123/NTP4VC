@@ -1,4 +1,4 @@
-session ftell_Why3_ide = NTP4Verif +
+session "frama_c_klibc_stdio_ftell" = NTP4Verif +
 theories
   "ftell_Why3_ide_VCftell_call_lseek_pre_goal1"
   "ftell_Why3_ide_VCftell_post_part1_goal0"

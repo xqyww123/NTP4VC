@@ -1,4 +1,4 @@
-session random_number_Why3_ide = NTP4Verif +
+session "frama_c_standard_algorithms_random_shuffle_random_number" = NTP4Verif +
 theories
   "random_number_Why3_ide_VCrandom_number_assert_rte_unsigned_downcast_goal1"
   "random_number_Why3_ide_VCrandom_number_post_goal0"

@@ -1,4 +1,4 @@
-session rac = NTP4Verif +
+session "pearl_tests_rac" = NTP4Verif +
 theories
   "rac_Functions_test5_auxqtvc"
   "rac_FunctionVariant_test5qtvc"

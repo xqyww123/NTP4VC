@@ -1,4 +1,4 @@
-session assigning_meanings_to_programs = NTP4Verif +
+session "pearl_assigning_meanings_to_programs" = NTP4Verif +
 theories
   "assigning_meanings_to_programs_Sum_sumqtvc"
   "assigning_meanings_to_programs_Division_divisionqtvc"

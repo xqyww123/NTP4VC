@@ -1,4 +1,4 @@
-session residual = NTP4Verif +
+session "pearl_residual" = NTP4Verif +
 theories
   "residual_Residual_accepts_epsilonqtvc"
   "residual_Residual_decide_memqtvc"

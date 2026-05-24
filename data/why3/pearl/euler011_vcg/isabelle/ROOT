@@ -1,4 +1,4 @@
-session euler011 = NTP4Verif +
+session "pearl_euler011" = NTP4Verif +
 theories
   "euler011_ProductFour_find_maxqtvc"
   "euler011_ProductFour_right_diag_cqtvc"

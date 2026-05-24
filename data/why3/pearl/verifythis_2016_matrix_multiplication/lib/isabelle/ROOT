@@ -1,4 +1,4 @@
-session verifythis_2016_matrix_multiplication = NTP4Verif +
+session "pearl_verifythis_2016_matrix_multiplication_lib" = NTP4Verif +
 sessions
   "Why3STD"
 theories

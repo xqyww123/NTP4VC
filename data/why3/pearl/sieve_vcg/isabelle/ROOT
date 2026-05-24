@@ -1,4 +1,4 @@
-session sieve = NTP4Verif +
+session "pearl_sieve" = NTP4Verif +
 sessions
   "Why3STD"
 theories

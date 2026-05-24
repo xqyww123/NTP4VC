@@ -1,4 +1,4 @@
-session stack_test = NTP4Verif +
+session "pearl_tests_stack_test" = NTP4Verif +
 theories
   "stack_test_Test_test1qtvc"
   "stack_test_Test_test0qtvc"

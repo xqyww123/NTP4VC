@@ -1,4 +1,4 @@
-session upper_bound_Why3_ide = NTP4Verif +
+session "frama_c_standard_algorithms_upper_bound_upper_bound" = NTP4Verif +
 theories
   "upper_bound_Why3_ide_VCupper_bound_loop_inv_bound_established_goal1"
   "upper_bound_Why3_ide_VCupper_bound_loop_term_decrease_goal11"

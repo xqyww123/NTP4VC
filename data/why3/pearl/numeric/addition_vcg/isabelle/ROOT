@@ -1,4 +1,4 @@
-session addition = NTP4Verif +
+session "pearl_numeric_addition" = NTP4Verif +
 theories
   "addition_AdditionDouble_addition_errors_basicqtvc"
   "addition_AdditionSingle_addition_errors_basicqtvc"

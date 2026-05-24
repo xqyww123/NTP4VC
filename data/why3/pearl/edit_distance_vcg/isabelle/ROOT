@@ -1,4 +1,4 @@
-session edit_distance = NTP4Verif +
+session "pearl_edit_distance" = NTP4Verif +
 theories
   "edit_distance_EditDistance_distanceqtvc"
   "edit_distance_MyWord"

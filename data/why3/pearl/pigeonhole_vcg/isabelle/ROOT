@@ -1,4 +1,4 @@
-session pigeonhole = NTP4Verif +
+session "pearl_pigeonhole" = NTP4Verif +
 theories
   "pigeonhole_Pigeonhole_belowqtvc"
   "pigeonhole_Pigeonhole_pigeonholeqtvc"

@@ -1,4 +1,4 @@
-session verifythis_2018_array_based_queuing_lock_1 = NTP4Verif +
+session "pearl_verifythis_2018_array_based_queuing_lock_1" = NTP4Verif +
 theories
   "verifythis_2018_array_based_queuing_lock_1_Top_incrementqtvc"
   "verifythis_2018_array_based_queuing_lock_1_Top_mainqtvc"

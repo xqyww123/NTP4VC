@@ -1,4 +1,4 @@
-session dreal = NTP4Verif +
+session "pearl_dreal" = NTP4Verif +
 theories
   "dreal_Misc"
   "dreal_Misc_sqrt2_estimate"

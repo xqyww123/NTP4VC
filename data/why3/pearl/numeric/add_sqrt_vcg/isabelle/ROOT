@@ -1,4 +1,4 @@
-session add_sqrt = NTP4Verif +
+session "pearl_numeric_add_sqrt" = NTP4Verif +
 theories
   "add_sqrt_AdditionSqrtDouble_add_sqrtqtvc"
   "add_sqrt_AdditionSqrtSingle_add_sqrtqtvc"

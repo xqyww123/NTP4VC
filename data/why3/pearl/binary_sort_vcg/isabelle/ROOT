@@ -1,4 +1,4 @@
-session binary_sort = NTP4Verif +
+session "pearl_binary_sort" = NTP4Verif +
 theories
   "binary_sort_BinarySort_occ_shiftqtvc"
   "binary_sort_BinarySort_binary_sortqtvc"

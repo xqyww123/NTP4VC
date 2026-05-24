@@ -1,4 +1,4 @@
-session wrap_lines = NTP4Verif +
+session "pearl_wrap_lines" = NTP4Verif +
 theories
   "wrap_lines_WrapLinesOCaml_spaceqtvc"
   "wrap_lines_WrapLinesOCaml_newlineqtvc"

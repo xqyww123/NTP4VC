@@ -1,4 +1,4 @@
-session index_of_not_in_subrange_Why3_ide = NTP4Verif +
+session "frama_c_contiki_list_index_of_not_in_subrange" = NTP4Verif +
 theories
   "index_of_not_in_subrange_Why3_ide_VCindex_of_not_in_subrange_assert_rte_signed_overflow_goal5"
   "index_of_not_in_subrange_Why3_ide_VCindex_of_not_in_subrange_loop_inv_2_established_goal3"

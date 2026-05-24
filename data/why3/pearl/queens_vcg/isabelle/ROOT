@@ -1,4 +1,4 @@
-session queens = NTP4Verif +
+session "pearl_queens" = NTP4Verif +
 theories
   "queens_Solution_no_duplicateqtvc"
   "queens_NQueensSetsTermination_tqtvc"

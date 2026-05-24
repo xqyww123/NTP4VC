@@ -1,4 +1,4 @@
-session renorm_factor_Why3_ide = NTP4Verif +
+session "frama_c_airborne_renorm_factor_renorm_factor" = NTP4Verif +
 theories
   "renorm_factor_Why3_ide_VCrenorm_factor_call_sqrtf_pre_finite_arg_goal0"
   "renorm_factor_Why3_ide_VCrenorm_factor_call_sqrtf_pre_arg_positive_goal1"

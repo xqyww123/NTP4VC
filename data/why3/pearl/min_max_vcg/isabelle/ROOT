@@ -1,4 +1,4 @@
-session min_max = NTP4Verif +
+session "pearl_min_max" = NTP4Verif +
 theories
   "min_max_Top_a_better_min_maxqtvc"
   "min_max_Top_divide_and_conquerqtvc"

@@ -1,4 +1,4 @@
-session copy_backward_Why3_ide = NTP4Verif +
+session "frama_c_standard_algorithms_copy_backward_copy_backward" = NTP4Verif +
 theories
   "copy_backward_Why3_ide_VCcopy_backward_assert_rte_mem_access_goal7"
   "copy_backward_Why3_ide_VCcopy_backward_post_equal_goal0"

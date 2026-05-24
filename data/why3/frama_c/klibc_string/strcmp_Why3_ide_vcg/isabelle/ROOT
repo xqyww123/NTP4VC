@@ -1,4 +1,4 @@
-session strcmp_Why3_ide = NTP4Verif +
+session "frama_c_klibc_string_strcmp" = NTP4Verif +
 theories
   "strcmp_Why3_ide_VCstrcmp_disjoint_not_eq_not_eq_i_j_eq_part2_goal2"
   "strcmp_Why3_ide_VCstrcmp_disjoint_not_eq_not_eq_i_j_eq_part1_goal1"

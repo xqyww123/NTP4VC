@@ -1,4 +1,4 @@
-session verifythis_2019_ghc_sort = NTP4Verif +
+session "pearl_verifythis_2019_ghc_sort" = NTP4Verif +
 theories
   "verifythis_2019_ghc_sort_Top_Trans1"
   "verifythis_2019_ghc_sort_Top_cutpointsqtvc"

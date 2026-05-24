@@ -1,4 +1,4 @@
-session array_of_list = NTP4Verif +
+session "pearl_array_of_list" = NTP4Verif +
 theories
   "array_of_list_Top_lengthqtvc"
   "array_of_list_Top_array_of_listqtvc"

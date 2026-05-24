@@ -1,4 +1,4 @@
-session f_puzzle = NTP4Verif +
+session "pearl_f_puzzle" = NTP4Verif +
 theories
   "f_puzzle_Solution_l5qtvc"
   "f_puzzle_Puzzle"

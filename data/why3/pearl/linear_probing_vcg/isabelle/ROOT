@@ -1,4 +1,4 @@
-session linear_probing = NTP4Verif +
+session "pearl_linear_probing" = NTP4Verif +
 theories
   "linear_probing_LinearProbing_addqtvc"
   "linear_probing_LinearProbing_copyqtvc"

@@ -1,4 +1,4 @@
-session vstte12_bfs = NTP4Verif +
+session "pearl_vstte12_bfs" = NTP4Verif +
 theories
   "vstte12_bfs_Graph_path_inversionqtvc"
   "vstte12_bfs_BFS_eqqtrefnqtvc"

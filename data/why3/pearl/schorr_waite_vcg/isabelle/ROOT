@@ -1,4 +1,4 @@
-session schorr_waite = NTP4Verif +
+session "pearl_schorr_waite" = NTP4Verif +
 sessions
   "Why3STD"
 theories

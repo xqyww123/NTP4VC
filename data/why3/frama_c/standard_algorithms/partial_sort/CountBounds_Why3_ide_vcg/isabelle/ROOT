@@ -1,4 +1,4 @@
-session CountBounds_Why3_ide = NTP4Verif +
+session "frama_c_standard_algorithms_partial_sort_CountBounds" = NTP4Verif +
 theories
   "CountBounds_Why3_ide_VCCountBounds_call_CountSectionBounds_pre_goal1"
   "CountBounds_Why3_ide_VCCountBounds_post_goal0"

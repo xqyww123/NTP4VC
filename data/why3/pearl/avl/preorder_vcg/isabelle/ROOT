@@ -1,4 +1,4 @@
-session preorder = NTP4Verif +
+session "pearl_avl_preorder" = NTP4Verif +
 theories
   "preorder_TotalFull_Total"
   "preorder_Full_Trans1"

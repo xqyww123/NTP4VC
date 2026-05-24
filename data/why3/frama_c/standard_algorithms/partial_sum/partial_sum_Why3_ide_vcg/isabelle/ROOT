@@ -1,4 +1,4 @@
-session partial_sum_Why3_ide = NTP4Verif +
+session "frama_c_standard_algorithms_partial_sum_partial_sum" = NTP4Verif +
 theories
   "partial_sum_Why3_ide_VCpartial_sum_assert_rte_mem_access_5_goal12"
   "partial_sum_Why3_ide_VCpartial_sum_assign_part2_goal17"

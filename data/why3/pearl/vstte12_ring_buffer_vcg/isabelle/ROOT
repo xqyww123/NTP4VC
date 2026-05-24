@@ -1,4 +1,4 @@
-session vstte12_ring_buffer = NTP4Verif +
+session "pearl_vstte12_ring_buffer" = NTP4Verif +
 theories
   "vstte12_ring_buffer_RingBufferSeq_popqtvc"
   "vstte12_ring_buffer_HarnessSeq_harnessqtvc"

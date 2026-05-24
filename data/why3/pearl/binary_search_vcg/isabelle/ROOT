@@ -1,4 +1,4 @@
-session binary_search = NTP4Verif +
+session "pearl_binary_search" = NTP4Verif +
 theories
   "binary_search_Complexity_log2qtvc"
   "binary_search_BinarySearch_binary_searchqtvc"

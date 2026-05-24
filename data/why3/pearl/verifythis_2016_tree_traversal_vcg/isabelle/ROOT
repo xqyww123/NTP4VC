@@ -1,4 +1,4 @@
-session verifythis_2016_tree_traversal = NTP4Verif +
+session "pearl_verifythis_2016_tree_traversal" = NTP4Verif +
 sessions
   "Why3STD"
 theories

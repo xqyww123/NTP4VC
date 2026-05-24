@@ -1,4 +1,4 @@
-session pqueue_test = NTP4Verif +
+session "pearl_tests_pqueue_test" = NTP4Verif +
 theories
   "pqueue_test_Test_test1qtvc"
   "pqueue_test_Test_test0qtvc"

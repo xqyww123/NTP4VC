@@ -1,4 +1,4 @@
-session anagrammi = NTP4Verif +
+session "pearl_anagrammi" = NTP4Verif +
 theories
   "anagrammi_Top_lt_transqtvc"
   "anagrammi_Top_anagrammiqtvc"

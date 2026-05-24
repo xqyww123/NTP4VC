@@ -1,4 +1,4 @@
-session ropes = NTP4Verif +
+session "pearl_ropes" = NTP4Verif +
 theories
   "ropes_MyString_app_assocqtvc"
   "ropes_Balance_string_of_array_frameqtvc"

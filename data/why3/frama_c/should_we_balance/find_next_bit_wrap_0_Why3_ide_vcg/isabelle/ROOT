@@ -1,4 +1,4 @@
-session find_next_bit_wrap_0_Why3_ide = NTP4Verif +
+session "frama_c_should_we_balance_find_next_bit_wrap_0" = NTP4Verif +
 theories
   "find_next_bit_wrap_0_Why3_ide_VCfind_next_bit_wrap_0_above_post_goal4"
   "find_next_bit_wrap_0_Why3_ide_VCfind_next_bit_wrap_0_call_find_first_bit_0_pre_2_goal3"

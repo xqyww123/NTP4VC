@@ -1,4 +1,4 @@
-session tree_of_array = NTP4Verif +
+session "pearl_tree_of_array" = NTP4Verif +
 theories
   "tree_of_array_TreeOfArray_tree_of_array_auxqtvc"
   "tree_of_array_TreeOfArray_tree_of_arrayqtvc"

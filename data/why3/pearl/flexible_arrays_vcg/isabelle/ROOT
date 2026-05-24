@@ -1,4 +1,4 @@
-session flexible_arrays = NTP4Verif +
+session "pearl_flexible_arrays" = NTP4Verif +
 sessions
   "Why3STD"
 theories

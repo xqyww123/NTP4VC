@@ -1,4 +1,4 @@
-session vect_scale_Why3_ide = NTP4Verif +
+session "frama_c_airborne_vect_scale_vect_scale" = NTP4Verif +
 theories
   "vect_scale_Why3_ide_VCvect_scale_call_sqrtf_pre_arg_positive_goal1"
   "vect_scale_Why3_ide_VCvect_scale_call_sqrtf_pre_finite_arg_goal0"

@@ -1,4 +1,4 @@
-session list_length_Why3_ide = NTP4Verif +
+session "frama_c_contiki_list_list_length" = NTP4Verif +
 theories
   "list_length_Why3_ide_VClist_length_assert_rte_signed_overflow_goal6"
   "list_length_Why3_ide_VClist_length_loop_inv_2_preserved_goal5"

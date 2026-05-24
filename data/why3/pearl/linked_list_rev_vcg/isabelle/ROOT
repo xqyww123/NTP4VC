@@ -1,4 +1,4 @@
-session linked_list_rev = NTP4Verif +
+session "pearl_linked_list_rev" = NTP4Verif +
 theories
   "linked_list_rev_YetAnotherInPlaceRev_is_listqtvc"
   "linked_list_rev_YetAnotherInPlaceRev_cells_of_listqtvc"

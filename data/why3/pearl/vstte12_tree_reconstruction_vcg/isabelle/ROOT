@@ -1,4 +1,4 @@
-session vstte12_tree_reconstruction = NTP4Verif +
+session "pearl_vstte12_tree_reconstruction" = NTP4Verif +
 theories
   "vstte12_tree_reconstruction_ZipperBased_tcqtvc"
   "vstte12_tree_reconstruction_Tree"

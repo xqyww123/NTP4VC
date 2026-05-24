@@ -1,4 +1,4 @@
-session verifythis_2024_challenge0 = NTP4Verif +
+session "pearl_verifythis_2024_challenge0" = NTP4Verif +
 theories
   "verifythis_2024_challenge0_Top_concat2qtvc"
   "verifythis_2024_challenge0_Top_str_lizardqtvc"

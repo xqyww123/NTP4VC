@@ -1,4 +1,4 @@
-session knuth_prime_numbers = NTP4Verif +
+session "pearl_knuth_prime_numbers" = NTP4Verif +
 theories
   "knuth_prime_numbers_PrimeNumbers_exists_primeqtvc"
   "knuth_prime_numbers_PrimeNumbers_benchqtvc"

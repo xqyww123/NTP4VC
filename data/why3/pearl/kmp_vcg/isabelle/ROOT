@@ -1,4 +1,4 @@
-session kmp = NTP4Verif +
+session "pearl_kmp" = NTP4Verif +
 theories
   "kmp_KnuthMorrisPratt_matches_transqtvc"
   "kmp_KnuthMorrisPratt_kmpqtvc"

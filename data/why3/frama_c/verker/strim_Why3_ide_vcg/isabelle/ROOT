@@ -1,4 +1,4 @@
-session strim_Why3_ide = NTP4Verif +
+session "frama_c_verker_strim" = NTP4Verif +
 theories
   "strim_Why3_ide_VCstrim_len_assign_exit_part5_goal18"
   "strim_Why3_ide_VCstrim_len_assign_normal_part6_goal20"

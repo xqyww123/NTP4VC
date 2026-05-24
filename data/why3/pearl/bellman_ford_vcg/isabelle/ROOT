@@ -1,4 +1,4 @@
-session bellman_ford = NTP4Verif +
+session "pearl_bellman_ford" = NTP4Verif +
 theories
   "bellman_ford_BellmanFord_initialize_single_sourceqtvc"
   "bellman_ford_Graph"

@@ -1,4 +1,4 @@
-session array_push_Why3_ide = NTP4Verif +
+session "frama_c_contiki_list_array_push" = NTP4Verif +
 theories
   "array_push_Why3_ide_VCarray_push_loop_inv_UnchangedLeft_preserved_part1_goal31"
   "array_push_Why3_ide_VCarray_push_loop_inv_IInBounds_preserved_part4_goal21"

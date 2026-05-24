@@ -1,4 +1,4 @@
-session space_saving = NTP4Verif +
+session "pearl_space_saving" = NTP4Verif +
 theories
   "space_saving_Top_minimum_kqtvc"
   "space_saving_Top_sqtvc"

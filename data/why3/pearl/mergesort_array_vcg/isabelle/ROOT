@@ -1,4 +1,4 @@
-session mergesort_array = NTP4Verif +
+session "pearl_mergesort_array" = NTP4Verif +
 theories
   "mergesort_array_NaturalMergesort_natural_mergesort2qtvc"
   "mergesort_array_NaturalMergesort_naturalrecqtvc"

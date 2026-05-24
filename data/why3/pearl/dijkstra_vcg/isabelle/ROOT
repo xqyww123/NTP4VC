@@ -1,4 +1,4 @@
-session dijkstra = NTP4Verif +
+session "pearl_dijkstra" = NTP4Verif +
 theories
   "dijkstra_DijkstraShortestPath_completeness_lemmaqtvc"
   "dijkstra_DijkstraShortestPath_path_inversionqtvc"

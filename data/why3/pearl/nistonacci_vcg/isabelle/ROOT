@@ -1,4 +1,4 @@
-session nistonacci = NTP4Verif +
+session "pearl_nistonacci" = NTP4Verif +
 theories
   "nistonacci_Top_nistqtvc"
   "nistonacci_Top_nistonacciqtvc"

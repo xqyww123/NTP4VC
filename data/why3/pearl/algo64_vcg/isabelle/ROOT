@@ -1,4 +1,4 @@
-session algo64 = NTP4Verif +
+session "pearl_algo64" = NTP4Verif +
 theories
   "algo64_Algo64_qsqtvc"
   "algo64_Algo64_quicksortqtvc"

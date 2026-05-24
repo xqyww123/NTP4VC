@@ -1,3 +1,3 @@
-session axiom_pop_of_push_Why3_ide = NTP4Verif +
+session "frama_c_standard_algorithms_axiom_pop_of_push_axiom_pop_of_push" = NTP4Verif +
 theories
   "axiom_pop_of_push_Why3_ide_VCaxiom_pop_of_push_post_equal_goal0"

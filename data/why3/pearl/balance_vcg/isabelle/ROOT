@@ -1,4 +1,4 @@
-session balance = NTP4Verif +
+session "pearl_balance" = NTP4Verif +
 theories
   "balance_Puzzle8_solve3qtvc"
   "balance_Roberval"

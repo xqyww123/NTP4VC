@@ -1,4 +1,4 @@
-session strncasecmp_Why3_ide = NTP4Verif +
+session "frama_c_klibc_string_strncasecmp" = NTP4Verif +
 theories
   "strncasecmp_Why3_ide_VCstrncasecmp_loop_inv_3_preserved_part1_goal2"
   "strncasecmp_Why3_ide_VCstrncasecmp_not_eq_post_part3_goal21"

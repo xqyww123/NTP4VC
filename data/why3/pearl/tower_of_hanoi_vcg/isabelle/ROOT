@@ -1,4 +1,4 @@
-session tower_of_hanoi = NTP4Verif +
+session "pearl_tower_of_hanoi" = NTP4Verif +
 theories
   "tower_of_hanoi_Hanoi"
   "tower_of_hanoi_Hanoi_hanoi_recqtvc"

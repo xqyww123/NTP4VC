@@ -1,4 +1,4 @@
-session partial_sort_Why3_ide = NTP4Verif +
+session "frama_c_standard_algorithms_partial_sort_partial_sort" = NTP4Verif +
 theories
   "partial_sort_Why3_ide_VCpartial_sort_assign_exit_part5_goal15"
   "partial_sort_Why3_ide_VCpartial_sort_post_reorder_goal2"

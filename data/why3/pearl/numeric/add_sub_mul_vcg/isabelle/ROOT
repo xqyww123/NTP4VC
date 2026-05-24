@@ -1,4 +1,4 @@
-session add_sub_mul = NTP4Verif +
+session "pearl_numeric_add_sub_mul" = NTP4Verif +
 theories
   "add_sub_mul_AddSubMulSingle_example1qtvc"
   "add_sub_mul_AddSubMulDouble_example2qtvc"

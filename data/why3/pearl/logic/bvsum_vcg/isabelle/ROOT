@@ -1,4 +1,4 @@
-session bvsum = NTP4Verif +
+session "pearl_logic_bvsum" = NTP4Verif +
 theories
   "bvsum_PureBV_g"
   "bvsum_PureBV_add_bvqtvc"

@@ -1,4 +1,4 @@
-session exp_log = NTP4Verif +
+session "pearl_numeric_exp_log" = NTP4Verif +
 theories
   "exp_log_ExpLogDouble_example4qtvc"
   "exp_log_ExpLogDouble_lse6qtvc"

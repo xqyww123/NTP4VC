@@ -1,4 +1,4 @@
-session _fwrite_Why3_ide = NTP4Verif +
+session "frama_c_klibc_stdio__fwrite" = NTP4Verif +
 theories
   "X_fwrite_Why3_ide_VC_fwrite_call_fwrite_noflush_pre_3_part8_goal20"
   "X_fwrite_Why3_ide_VC_fwrite_call_fwrite_noflush_pre_3_part3_2_goal19"

@@ -1,4 +1,4 @@
-session parse_DistributionPoint_Why3_ide = NTP4Verif +
+session "frama_c_x509_parser_parse_DistributionPoint" = NTP4Verif +
 theories
   "parse_DistributionPoint_Why3_ide_VCparse_DistributionPoint_post_part25_goal2"
   "parse_DistributionPoint_Why3_ide_VCparse_DistributionPoint_post_part19_goal0"

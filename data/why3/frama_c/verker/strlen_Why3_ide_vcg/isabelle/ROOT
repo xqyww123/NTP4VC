@@ -1,4 +1,4 @@
-session strlen_Why3_ide = NTP4Verif +
+session "frama_c_verker_strlen" = NTP4Verif +
 theories
   "strlen_Why3_ide_VCstrlen_post_2_goal1"
   "strlen_Why3_ide_VCstrlen_loop_inv_2_preserved_goal5"

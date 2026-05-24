@@ -1,4 +1,4 @@
-session disamb = NTP4Verif +
+session "pearl_disamb" = NTP4Verif +
 theories
   "disamb_Top_original_includedqtvc"
   "disamb_Top_di_strqtvc"

@@ -1,4 +1,4 @@
-session execute_tests = NTP4Verif +
+session "pearl_tests_execute_tests" = NTP4Verif +
 theories
   "execute_tests_Int63Test_t10qtvc"
   "execute_tests_ByteTest_t5qtvc"

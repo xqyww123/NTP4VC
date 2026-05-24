@@ -1,4 +1,4 @@
-session memcmp_Why3_ide = NTP4Verif +
+session "frama_c_verker_memcmp" = NTP4Verif +
 theories
   "memcmp_Why3_ide_VCmemcmp_loop_inv_3_established_goal7"
   "memcmp_Why3_ide_VCmemcmp_loop_inv_4_established_goal9"

@@ -1,4 +1,4 @@
-session ISet = NTP4Verif +
+session "pearl_prover_ISet" = NTP4Verif +
 theories
   "ISet_Impl_removeqtvc"
   "ISet_Impl_mergeqtvc"

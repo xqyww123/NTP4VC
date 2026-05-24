@@ -1,4 +1,4 @@
-session sf = NTP4Verif +
+session "pearl_sf" = NTP4Verif +
 theories
   "sf_HoareLogic_even_nonegqtvc"
   "sf_HoareLogic_sqrtqtvc"

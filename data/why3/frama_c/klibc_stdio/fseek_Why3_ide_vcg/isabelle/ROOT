@@ -1,4 +1,4 @@
-session fseek_Why3_ide = NTP4Verif +
+session "frama_c_klibc_stdio_fseek" = NTP4Verif +
 theories
   "fseek_Why3_ide_VCfseek_assign_normal_part21_goal15"
   "fseek_Why3_ide_VCfseek_assign_normal_part20_goal14"

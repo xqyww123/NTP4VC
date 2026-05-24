@@ -1,4 +1,4 @@
-session maximum_heap_child_Why3_ide = NTP4Verif +
+session "frama_c_standard_algorithms_pop_heap_maximum_heap_child" = NTP4Verif +
 theories
   "maximum_heap_child_Why3_ide_VCmaximum_heap_child_post_less_2_goal2"
   "maximum_heap_child_Why3_ide_VCmaximum_heap_child_assert_rte_unsigned_overflow_5_goal5"

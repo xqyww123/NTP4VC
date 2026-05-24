@@ -1,3 +1,3 @@
-session flag = NTP4Verif +
+session "pearl_flag" = NTP4Verif +
 theories
   "flag_Flag_dutch_flagqtvc"

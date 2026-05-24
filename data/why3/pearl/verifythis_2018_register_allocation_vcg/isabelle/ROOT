@@ -1,4 +1,4 @@
-session verifythis_2018_register_allocation = NTP4Verif +
+session "pearl_verifythis_2018_register_allocation" = NTP4Verif +
 theories
   "verifythis_2018_register_allocation_Top_mergeqtvc"
   "verifythis_2018_register_allocation_Top_initqtvc"

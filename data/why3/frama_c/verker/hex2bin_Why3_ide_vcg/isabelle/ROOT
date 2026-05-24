@@ -1,4 +1,4 @@
-session hex2bin_Why3_ide = NTP4Verif +
+session "frama_c_verker_hex2bin" = NTP4Verif +
 theories
   "hex2bin_Why3_ide_VChex2bin_loop_inv_established_goal1"
   "hex2bin_Why3_ide_VChex2bin_loop_inv_2_established_goal3"

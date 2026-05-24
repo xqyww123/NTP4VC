@@ -1,4 +1,4 @@
-session foveoos11_challenge2 = NTP4Verif +
+session "pearl_foveoos11_challenge2" = NTP4Verif +
 theories
   "foveoos11_challenge2_MaximumTree"
   "foveoos11_challenge2_MaximumTree_maximumqtvc"

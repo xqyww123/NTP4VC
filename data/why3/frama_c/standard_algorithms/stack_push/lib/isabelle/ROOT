@@ -1,4 +1,4 @@
-session standard_algorithms = NTP4Verif +
+session "frama_c_standard_algorithms_stack_push_lib" = NTP4Verif +
 sessions
   "Why3STD"
 theories

@@ -1,4 +1,4 @@
-session power = NTP4Verif +
+session "pearl_power" = NTP4Verif +
 theories
   "power_FastExponentiation_fast_expqtvc"
   "power_FastExponentiation_power_evenqtvc"

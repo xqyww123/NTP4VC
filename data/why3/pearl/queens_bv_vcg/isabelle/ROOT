@@ -1,4 +1,4 @@
-session queens_bv = NTP4Verif +
+session "pearl_queens_bv" = NTP4Verif +
 sessions
   "Why3STD"
 theories

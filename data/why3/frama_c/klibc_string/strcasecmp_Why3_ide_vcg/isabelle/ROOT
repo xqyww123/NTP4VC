@@ -1,4 +1,4 @@
-session strcasecmp_Why3_ide = NTP4Verif +
+session "frama_c_klibc_string_strcasecmp" = NTP4Verif +
 theories
   "strcasecmp_Why3_ide_VCstrcasecmp_loop_inv_5_preserved_goal12"
   "strcasecmp_Why3_ide_VCstrcasecmp_call_toupper_pre_part1_2_goal16"

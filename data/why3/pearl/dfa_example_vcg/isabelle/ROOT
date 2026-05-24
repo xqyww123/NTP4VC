@@ -1,4 +1,4 @@
-session dfa_example = NTP4Verif +
+session "pearl_dfa_example" = NTP4Verif +
 theories
   "dfa_example_DfaExample"
   "dfa_example_DfaExample_one_w_in_r1qtvc"

@@ -1,4 +1,4 @@
-session strsep_Why3_ide = NTP4Verif +
+session "frama_c_verker_strsep" = NTP4Verif +
 theories
   "strsep_Why3_ide_VCstrsep_disjoint_input_strpbrk_not_null_input_strpbrk_null____goal1"
   "strsep_Why3_ide_VCstrsep_complete_input_strpbrk_not_null_input_strpbrk_null____goal0"

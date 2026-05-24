@@ -1,4 +1,4 @@
-session parse_ia5_string_Why3_ide = NTP4Verif +
+session "frama_c_x509_parser_parse_ia5_string" = NTP4Verif +
 theories
   "parse_ia5_string_Why3_ide_VCparse_ia5_string_call_check_ia5_string_pre_goal1"
   "parse_ia5_string_Why3_ide_VCparse_ia5_string_assert_rte_mem_access_goal0"

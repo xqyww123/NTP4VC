@@ -1,4 +1,4 @@
-session pairing_heap = NTP4Verif +
+session "pearl_pairing_heap" = NTP4Verif +
 theories
   "pairing_heap_Occ_occ_tree_nonnegqtvc"
   "pairing_heap_HeapType"

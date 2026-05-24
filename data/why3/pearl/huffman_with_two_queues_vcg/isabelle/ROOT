@@ -1,4 +1,4 @@
-session huffman_with_two_queues = NTP4Verif +
+session "pearl_huffman_with_two_queues" = NTP4Verif +
 theories
   "huffman_with_two_queues_Top_add_lastqtvc"
   "huffman_with_two_queues_Top_sorted_tail_tailqtvc"

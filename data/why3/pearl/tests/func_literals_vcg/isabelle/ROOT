@@ -1,4 +1,4 @@
-session func_literals = NTP4Verif +
+session "pearl_tests_func_literals" = NTP4Verif +
 theories
   "func_literals_Top_seq_ok1qtvc"
   "func_literals_Top_array_ok4qtvc"

@@ -1,4 +1,4 @@
-session find_Why3_ide = NTP4Verif +
+session "frama_c_standard_algorithms_find_find" = NTP4Verif +
 theories
   "find_Why3_ide_VCfind_loop_inv_preserved_goal0"
   "find_Why3_ide_VCfind_loop_inv_established_goal1"

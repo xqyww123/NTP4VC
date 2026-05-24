@@ -1,3 +1,3 @@
-session array_most_frequent = NTP4Verif +
+session "pearl_array_most_frequent" = NTP4Verif +
 theories
   "array_most_frequent_Top_most_frequentqtvc"

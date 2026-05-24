@@ -1,4 +1,4 @@
-session swap = NTP4Verif +
+session "pearl_swap" = NTP4Verif +
 theories
   "swap_Swap_swapqtvc"
   "swap_SwapInt32xor_swapqtvc"

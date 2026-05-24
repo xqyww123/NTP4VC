@@ -1,4 +1,4 @@
-session list_pop_Why3_ide = NTP4Verif +
+session "frama_c_contiki_list_list_pop" = NTP4Verif +
 theories
   "list_pop_Why3_ide_VClist_pop_more_post_Separation_2_part1_goal22"
   "list_pop_Why3_ide_VClist_pop_post_3_part1_goal4"

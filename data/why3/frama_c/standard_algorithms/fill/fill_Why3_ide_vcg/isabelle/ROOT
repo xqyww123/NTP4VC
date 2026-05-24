@@ -1,4 +1,4 @@
-session fill_Why3_ide = NTP4Verif +
+session "frama_c_standard_algorithms_fill_fill" = NTP4Verif +
 theories
   "fill_Why3_ide_VCfill_post_constant_goal0"
   "fill_Why3_ide_VCfill_loop_inv_constant_preserved_goal3"

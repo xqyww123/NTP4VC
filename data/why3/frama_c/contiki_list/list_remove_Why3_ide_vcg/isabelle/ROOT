@@ -1,4 +1,4 @@
-session list_remove_Why3_ide = NTP4Verif +
+session "frama_c_contiki_list_list_remove" = NTP4Verif +
 theories
   "list_remove_Why3_ide_VClist_remove_does_not_contain_item_post_2_part1_goal73"
   "list_remove_Why3_ide_VClist_remove_contains_item_post_Unchanged_part4_goal59"

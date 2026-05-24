@@ -1,4 +1,4 @@
-session parse_directory_string_Why3_ide = NTP4Verif +
+session "frama_c_x509_parser_parse_directory_string" = NTP4Verif +
 theories
   "parse_directory_string_Why3_ide_VCparse_directory_string_assert_rte_mem_access_goal0"
   "parse_directory_string_Why3_ide_VCparse_directory_string_call_check_bmp_string_pre_goal6"

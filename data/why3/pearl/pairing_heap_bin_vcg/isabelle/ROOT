@@ -1,4 +1,4 @@
-session pairing_heap_bin = NTP4Verif +
+session "pearl_pairing_heap_bin" = NTP4Verif +
 sessions
   "Why3STD"
 theories

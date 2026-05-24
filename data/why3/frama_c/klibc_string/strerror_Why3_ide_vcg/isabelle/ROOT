@@ -1,4 +1,4 @@
-session strerror_Why3_ide = NTP4Verif +
+session "frama_c_klibc_string_strerror" = NTP4Verif +
 theories
   "strerror_Why3_ide_VCstrerror_call_memcpy_pre_4_goal2"
   "strerror_Why3_ide_VCstrerror_call_memcpy_pre_3_goal1"

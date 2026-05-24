@@ -1,4 +1,4 @@
-session parse_GeneralName_Why3_ide = NTP4Verif +
+session "frama_c_x509_parser_parse_GeneralName" = NTP4Verif +
 theories
   "parse_GeneralName_Why3_ide_VCparse_GeneralName_assert_rte_mem_access_goal11"
   "parse_GeneralName_Why3_ide_VCparse_GeneralName_call_get_length_pre_goal12"

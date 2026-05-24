@@ -1,4 +1,4 @@
-session three_idem_ring = NTP4Verif +
+session "pearl_three_idem_ring" = NTP4Verif +
 theories
   "three_idem_ring_Top_null_star_lqtvc"
   "three_idem_ring_Top_neg_negqtvc"

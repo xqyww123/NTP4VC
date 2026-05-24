@@ -1,4 +1,4 @@
-session search_n_Why3_ide = NTP4Verif +
+session "frama_c_standard_algorithms_search_n_search_n" = NTP4Verif +
 theories
   "search_n_Why3_ide_VCsearch_n_has_match_post_match_goal14"
   "search_n_Why3_ide_VCsearch_n_loop_inv_not_found_preserved_goal4"

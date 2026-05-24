@@ -1,4 +1,4 @@
-session mpz_getset = NTP4Verif +
+session "pearl_multiprecision_mpz_getset" = NTP4Verif +
 theories
   "mpz_getset_Set_wmpz_set_siqtvc"
   "mpz_getset_Set_wmpz_set_uiqtvc"

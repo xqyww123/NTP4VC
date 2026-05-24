@@ -1,4 +1,4 @@
-session vect_bound_in_2d_Why3_ide = NTP4Verif +
+session "frama_c_airborne_vect_bound_in_2d_vect_bound_in_2d" = NTP4Verif +
 theories
   "vect_bound_in_2d_Why3_ide_VCvect_bound_in_2d_call_sqrtf_pre_arg_positive_goal1"
   "vect_bound_in_2d_Why3_ide_VCvect_bound_in_2d_call_sqrtf_pre_finite_arg_goal0"

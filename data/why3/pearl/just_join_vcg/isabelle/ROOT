@@ -1,4 +1,4 @@
-session just_join = NTP4Verif +
+session "pearl_just_join" = NTP4Verif +
 theories
   "just_join_Top_split_lastqtvc"
   "just_join_Top_heightqtvc"

@@ -1,4 +1,4 @@
-session binomial = NTP4Verif +
+session "pearl_binomial" = NTP4Verif +
 theories
   "binomial_Top_computeqtvc"
   "binomial_Top_combqtvc"

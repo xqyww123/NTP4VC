@@ -1,4 +1,4 @@
-session monoid = NTP4Verif +
+session "pearl_avl_monoid" = NTP4Verif +
 theories
   "monoid_MonoidSumDef_agg_sing_coreqtvc"
   "monoid_MonoidSumDef_agg_cat"

@@ -1,4 +1,4 @@
-session ring_buffer = NTP4Verif +
+session "pearl_ring_buffer" = NTP4Verif +
 theories
   "ring_buffer_Top_dequeueqtvc"
   "ring_buffer_Top_enqueueqtvc"

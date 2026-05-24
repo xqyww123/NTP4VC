@@ -1,4 +1,4 @@
-session verifythis_2021_dll_to_bst = NTP4Verif +
+session "pearl_verifythis_2021_dll_to_bst" = NTP4Verif +
 theories
   "verifythis_2021_dll_to_bst_Top_dll_to_bstqtvc"
   "verifythis_2021_dll_to_bst_Top_size_altqtvc"

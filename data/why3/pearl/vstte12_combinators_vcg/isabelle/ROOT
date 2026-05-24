@@ -1,4 +1,4 @@
-session vstte12_combinators = NTP4Verif +
+session "pearl_vstte12_combinators" = NTP4Verif +
 theories
   "vstte12_combinators_Combinators_reductionqtvc"
   "vstte12_combinators_Combinators_ks_even_oddqtvc"

@@ -1,4 +1,4 @@
-session should_we_balance_Why3_ide = NTP4Verif +
+session "frama_c_should_we_balance_should_we_balance" = NTP4Verif +
 theories
   "should_we_balance_Why3_ide_VCshould_we_balance_not_newly_idle_without_idle_post_goal40"
   "should_we_balance_Why3_ide_VCshould_we_balance_assert_rte_mem_access_5_goal7"

@@ -1,4 +1,4 @@
-session patience = NTP4Verif +
+session "pearl_patience" = NTP4Verif +
 theories
   "patience_PatienceAbstract_play_gameqtvc"
   "patience_PigeonHole"

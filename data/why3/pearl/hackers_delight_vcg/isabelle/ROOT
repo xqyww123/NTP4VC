@@ -1,4 +1,4 @@
-session hackers_delight = NTP4Verif +
+session "pearl_hackers_delight" = NTP4Verif +
 sessions
   "Why3STD"
 theories

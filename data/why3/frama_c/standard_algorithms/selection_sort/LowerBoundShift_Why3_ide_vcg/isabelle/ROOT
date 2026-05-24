@@ -1,3 +1,3 @@
-session LowerBoundShift_Why3_ide = NTP4Verif +
+session "frama_c_standard_algorithms_selection_sort_LowerBoundShift" = NTP4Verif +
 theories
   "LowerBoundShift_Why3_ide_VCLowerBoundShift_post_goal0"

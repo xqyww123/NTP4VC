@@ -1,4 +1,4 @@
-session contiki_list = NTP4Verif +
+session "frama_c_contiki_list_lib" = NTP4Verif +
 sessions
   "Why3STD"
 theories

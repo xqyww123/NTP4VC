@@ -1,4 +1,4 @@
-session mergesort_list = NTP4Verif +
+session "pearl_mergesort_list" = NTP4Verif +
 theories
   "mergesort_list_OCamlMergesort_rev_merge_revqtvc"
   "mergesort_list_OCamlMergesort_sorted_rev_appendqtvc"

@@ -1,4 +1,4 @@
-session sum_real = NTP4Verif +
+session "pearl_lse_sum_real" = NTP4Verif +
 theories
   "sum_real_Sum_sumqtvc"
   "sum_real_Sum_sum_strictly_posqtvc"

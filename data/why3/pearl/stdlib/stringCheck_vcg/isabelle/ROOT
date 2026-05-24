@@ -1,4 +1,4 @@
-session stringCheck = NTP4Verif +
+session "pearl_stdlib_stringCheck" = NTP4Verif +
 theories
   "stringCheck_StringCheck_contains_substring"
   "stringCheck_StringCheck_substring_of_empty"

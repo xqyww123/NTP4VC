@@ -1,4 +1,4 @@
-session mpz_cmpabs = NTP4Verif +
+session "pearl_multiprecision_mpz_cmpabs" = NTP4Verif +
 theories
   "mpz_cmpabs_Zcmpabs_wmpz_cmpabsqtvc"
   "mpz_cmpabs_Zcmpabs_abs_valueqtvc"

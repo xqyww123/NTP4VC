@@ -1,4 +1,4 @@
-session memb_alloc_Why3_ide = NTP4Verif +
+session "frama_c_contiki_memb_memb_alloc" = NTP4Verif +
 theories
   "memb_alloc_Why3_ide_VCmemb_alloc_assert_rte_mem_access_7_goal9"
   "memb_alloc_Why3_ide_VCmemb_alloc_full_post_3_goal21"

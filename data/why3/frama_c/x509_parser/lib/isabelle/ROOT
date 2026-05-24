@@ -1,4 +1,4 @@
-session x509_parser = NTP4Verif +
+session "frama_c_x509_parser_lib" = NTP4Verif +
 sessions
   "Why3STD"
 theories

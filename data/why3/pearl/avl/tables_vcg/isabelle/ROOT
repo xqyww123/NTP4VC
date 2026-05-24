@@ -1,4 +1,4 @@
-session tables = NTP4Verif +
+session "pearl_avl_tables" = NTP4Verif +
 theories
   "tables_IMapAndSet_Trans"
   "tables_Map_insertqtvc"

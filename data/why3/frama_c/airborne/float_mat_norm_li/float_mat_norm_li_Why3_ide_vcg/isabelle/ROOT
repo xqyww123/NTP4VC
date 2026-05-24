@@ -1,4 +1,4 @@
-session float_mat_norm_li_Why3_ide = NTP4Verif +
+session "frama_c_airborne_float_mat_norm_li_float_mat_norm_li" = NTP4Verif +
 theories
   "float_mat_norm_li_Why3_ide_VCfloat_mat_norm_li_loop_inv_3_established_goal4"
   "float_mat_norm_li_Why3_ide_VCfloat_mat_norm_li_loop_inv_established_goal1"

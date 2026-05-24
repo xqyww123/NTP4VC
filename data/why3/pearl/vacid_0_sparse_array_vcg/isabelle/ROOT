@@ -1,4 +1,4 @@
-session vacid_0_sparse_array = NTP4Verif +
+session "pearl_vacid_0_sparse_array" = NTP4Verif +
 sessions
   "Why3STD"
 theories

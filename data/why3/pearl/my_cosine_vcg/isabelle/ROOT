@@ -1,3 +1,3 @@
-session my_cosine = NTP4Verif +
+session "pearl_my_cosine" = NTP4Verif +
 theories
   "my_cosine_M_my_cosineqtvc"

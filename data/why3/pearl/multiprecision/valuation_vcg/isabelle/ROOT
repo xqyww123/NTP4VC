@@ -1,4 +1,4 @@
-session valuation = NTP4Verif +
+session "pearl_multiprecision_valuation" = NTP4Verif +
 theories
   "valuation_Valuation_valuation_monotonousqtvc"
   "valuation_Valuation_valuation_modqtvc"

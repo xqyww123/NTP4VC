@@ -1,4 +1,4 @@
-session ungetc_Why3_ide = NTP4Verif +
+session "frama_c_klibc_stdio_ungetc" = NTP4Verif +
 theories
   "ungetc_Why3_ide_VCungetc_success_post_3_part1_goal12"
   "ungetc_Why3_ide_VCungetc_success_post_3_part2_goal13"

@@ -1,4 +1,4 @@
-session string_base64_encoding = NTP4Verif +
+session "pearl_string_base64_encoding" = NTP4Verif +
 theories
   "string_base64_encoding_Base64_int2b64qtvc"
   "string_base64_encoding_Base64_b642intqtvc"

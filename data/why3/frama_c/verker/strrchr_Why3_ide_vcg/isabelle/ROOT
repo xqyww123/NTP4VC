@@ -1,4 +1,4 @@
-session strrchr_Why3_ide = NTP4Verif +
+session "frama_c_verker_strrchr" = NTP4Verif +
 theories
   "strrchr_Why3_ide_VCstrrchr_loop_inv_5_preserved_goal8"
   "strrchr_Why3_ide_VCstrrchr_loop_inv_4_preserved_goal6"

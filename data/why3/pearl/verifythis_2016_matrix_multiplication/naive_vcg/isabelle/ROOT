@@ -1,3 +1,3 @@
-session naive = NTP4Verif +
+session "pearl_verifythis_2016_matrix_multiplication_naive" = NTP4Verif +
 theories
   "naive_MatrixMultiplication_mult_naiveqtvc"

@@ -1,4 +1,4 @@
-session iota_Why3_ide = NTP4Verif +
+session "frama_c_standard_algorithms_iota_iota" = NTP4Verif +
 theories
   "iota_Why3_ide_VCiota_post_increment_goal0"
   "iota_Why3_ide_VCiota_loop_inv_increment_established_goal4"

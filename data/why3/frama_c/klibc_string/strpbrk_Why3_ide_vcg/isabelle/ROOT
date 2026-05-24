@@ -1,4 +1,4 @@
-session strpbrk_Why3_ide = NTP4Verif +
+session "frama_c_klibc_string_strpbrk" = NTP4Verif +
 theories
   "strpbrk_Why3_ide_VCstrpbrk_exists_post_part1_goal2"
   "strpbrk_Why3_ide_VCstrpbrk_exists_post_4_part2_goal7"

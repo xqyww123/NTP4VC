@@ -1,4 +1,4 @@
-session should_we_balance = NTP4Verif +
+session "frama_c_should_we_balance_lib" = NTP4Verif +
 sessions
   "Why3STD"
 theories

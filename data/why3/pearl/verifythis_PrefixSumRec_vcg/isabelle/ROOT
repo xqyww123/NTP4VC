@@ -1,4 +1,4 @@
-session verifythis_PrefixSumRec = NTP4Verif +
+session "pearl_verifythis_PrefixSumRec" = NTP4Verif +
 theories
   "verifythis_PrefixSumRec_PrefixSumRec_downsweepqtvc"
   "verifythis_PrefixSumRec_PrefixSumRec_upsweepqtvc"

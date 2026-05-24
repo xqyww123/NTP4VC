@@ -1,4 +1,4 @@
-session PositiveCountImpliesHasValue_Why3_ide = NTP4Verif +
+session "frama_c_standard_algorithms_partial_sort_PositiveCountImpliesHasValue" = NTP4Verif +
 theories
   "PositiveCountImpliesHasValue_Why3_ide_VCPositiveCountImpliesHasValue_assert_rte_unsigned_overflow_goal4"
   "PositiveCountImpliesHasValue_Why3_ide_VCPositiveCountImpliesHasValue_loop_inv_2_preserved_goal2"

@@ -1,4 +1,4 @@
-session mpz_get_str = NTP4Verif +
+session "pearl_multiprecision_mpz_get_str" = NTP4Verif +
 theories
   "mpz_get_str_Zget_str_pow_monqtvc"
   "mpz_get_str_Zget_str_pow_mon_strictqtvc"

@@ -1,4 +1,4 @@
-session float_rmat_of_eulers_312_Why3_ide = NTP4Verif +
+session "frama_c_airborne_float_rmat_of_eulers_312_float_rmat_of_eulers_312" = NTP4Verif +
 theories
   "float_rmat_of_eulers_312_Why3_ide_VCfloat_rmat_of_eulers_312_call_sinf_pre_finite_arg_3_goal4"
   "float_rmat_of_eulers_312_Why3_ide_VCfloat_rmat_of_eulers_312_post_goal0"

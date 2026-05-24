@@ -1,4 +1,4 @@
-session register_allocation = NTP4Verif +
+session "pearl_register_allocation" = NTP4Verif +
 theories
   "register_allocation_OptimalNumberOfRegisters_measure_nonnegqtvc"
   "register_allocation_Spec"

@@ -1,4 +1,4 @@
-session tree_height = NTP4Verif +
+session "pearl_tree_height" = NTP4Verif +
 theories
   "tree_height_Iteration_helper1qtvc"
   "tree_height_HeightStack_height_stackqtvc"

@@ -1,4 +1,4 @@
-session verifythis_2018_le_rouge_et_le_noir_2 = NTP4Verif +
+session "pearl_verifythis_2018_le_rouge_et_le_noir_2" = NTP4Verif +
 theories
   "verifythis_2018_le_rouge_et_le_noir_2_Top_czeroqtvc"
   "verifythis_2018_le_rouge_et_le_noir_2_Top_cardinalqtvc"

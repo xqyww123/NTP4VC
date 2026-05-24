@@ -1,4 +1,4 @@
-session division = NTP4Verif +
+session "pearl_division" = NTP4Verif +
 theories
   "division_HoareSound_A5"
   "division_HoareSound_A4"

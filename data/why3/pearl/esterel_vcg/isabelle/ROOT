@@ -1,4 +1,4 @@
-session esterel = NTP4Verif +
+session "pearl_esterel" = NTP4Verif +
 theories
   "esterel_Esterel_maxUnionqtvc"
   "esterel_Esterel_intersectionqtvc"

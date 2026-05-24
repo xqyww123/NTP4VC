@@ -1,4 +1,4 @@
-session Nat = NTP4Verif +
+session "pearl_prover_Nat" = NTP4Verif +
 theories
   "Nat_Nat_one_nat_valueqtvc"
   "Nat_Nat_add_nat_simulate_add_intqtvc"

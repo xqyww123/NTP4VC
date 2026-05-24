@@ -1,4 +1,4 @@
-session lse = NTP4Verif +
+session "pearl_numeric_lse" = NTP4Verif +
 theories
   "lse_LSE_lseqtvc"
   "lse_Helpers_lt_compat_order_mult_lqtvc"

@@ -1,4 +1,4 @@
-session list_push_Why3_ide = NTP4Verif +
+session "frama_c_contiki_list_list_push" = NTP4Verif +
 theories
   "list_push_Why3_ide_VClist_push_contains_item_post_3_part1_goal32"
   "list_push_Why3_ide_VClist_push_call_list_remove_pre_Separation_part1_goal22"

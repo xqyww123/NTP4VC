@@ -1,4 +1,4 @@
-session c_cursor = NTP4Verif +
+session "pearl_c_cursor_lib" = NTP4Verif +
 sessions
   "Why3STD"
   "mach"

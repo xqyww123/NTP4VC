@@ -1,4 +1,4 @@
-session euler002 = NTP4Verif +
+session "pearl_euler002" = NTP4Verif +
 sessions
   "Why3STD"
 theories

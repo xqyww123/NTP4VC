@@ -1,4 +1,4 @@
-session Predicates = NTP4Verif +
+session "pearl_prover_Predicates" = NTP4Verif +
 theories
   "Predicates_Pred_pcompose_associativeqtvc"
   "Predicates_Pred_identity_neutralqtvc"

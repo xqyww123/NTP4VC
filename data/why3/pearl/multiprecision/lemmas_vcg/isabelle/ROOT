@@ -1,4 +1,4 @@
-session lemmas = NTP4Verif +
+session "pearl_multiprecision_lemmas" = NTP4Verif +
 theories
   "lemmas_Lemmas_value_sub_tailqtvc"
   "lemmas_Lemmas_value_concatqtvc"

@@ -1,4 +1,4 @@
-session mex = NTP4Verif +
+session "pearl_mex" = NTP4Verif +
 theories
   "mex_MexArray_mexqtvc"
   "mex_MexArrayInPlace_mexqtvc"

@@ -1,4 +1,4 @@
-session string_hex_encoding = NTP4Verif +
+session "pearl_string_hex_encoding" = NTP4Verif +
 theories
   "string_hex_encoding_Top_hexqtvc"
   "string_hex_encoding_Top_decode_encodeqtvc"

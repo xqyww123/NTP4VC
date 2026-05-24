@@ -1,4 +1,4 @@
-session dyck = NTP4Verif +
+session "pearl_dyck" = NTP4Verif +
 theories
   "dyck_Check_is_dyckqtvc"
   "dyck_Dyck"

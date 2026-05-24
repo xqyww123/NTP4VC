@@ -1,4 +1,4 @@
-session strncat_Why3_ide = NTP4Verif +
+session "frama_c_verker_strncat" = NTP4Verif +
 theories
   "strncat_Why3_ide_VCstrncat_assert_7_goal20"
   "strncat_Why3_ide_VCstrncat_loop_term_positive_goal26"

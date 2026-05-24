@@ -1,4 +1,4 @@
-session test_elim = NTP4Verif +
+session "pearl_tests_test_elim" = NTP4Verif +
 theories
   "test_elim_Ref_fqtvc"
   "test_elim_MatchPair_g"

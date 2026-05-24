@@ -1,4 +1,4 @@
-session adjacent_difference_Why3_ide = NTP4Verif +
+session "frama_c_standard_algorithms_adjacent_difference_adjacent_difference" = NTP4Verif +
 theories
   "adjacent_difference_Why3_ide_VCadjacent_difference_assert_rte_signed_overflow_2_goal12"
   "adjacent_difference_Why3_ide_VCadjacent_difference_post_unchanged_goal1"

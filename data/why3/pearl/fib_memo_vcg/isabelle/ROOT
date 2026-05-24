@@ -1,4 +1,4 @@
-session fib_memo = NTP4Verif +
+session "pearl_fib_memo" = NTP4Verif +
 theories
   "fib_memo_FibMemo_memo_fiboqtvc"
   "fib_memo_FibMemo_fiboqtvc"

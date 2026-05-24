@@ -1,3 +1,3 @@
-session algo65 = NTP4Verif +
+session "pearl_algo65" = NTP4Verif +
 theories
   "algo65_Algo65_findqtvc"

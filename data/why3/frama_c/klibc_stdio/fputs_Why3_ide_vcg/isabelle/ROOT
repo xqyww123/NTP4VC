@@ -1,4 +1,4 @@
-session fputs_Why3_ide = NTP4Verif +
+session "frama_c_klibc_stdio_fputs" = NTP4Verif +
 theories
   "fputs_Why3_ide_VCfputs_call__fwrite_pre_3_goal3"
   "fputs_Why3_ide_VCfputs_call_strlen_pre_goal0"

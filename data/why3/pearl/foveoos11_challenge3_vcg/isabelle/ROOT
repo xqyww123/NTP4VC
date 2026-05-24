@@ -1,4 +1,4 @@
-session foveoos11_challenge3 = NTP4Verif +
+session "pearl_foveoos11_challenge3" = NTP4Verif +
 sessions
   "Why3STD"
 theories
