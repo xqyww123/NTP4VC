@@ -1,4 +1,6 @@
 session "frama_c_contiki_list_list_item_next" = NTP4Verif +
+sessions
+  "frama_c_contiki_list_lib"
 theories
   "list_item_next_Why3_ide_VClist_item_next_assert_rte_mem_access_goal0"
   "list_item_next_Why3_ide_VClist_item_next_not_empty_post_part2_goal1"

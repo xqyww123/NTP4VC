@@ -1,5 +1,5 @@
 theory X_parse_arc_Why3_ide_VC_parse_arc_post_2_part09_goal2
-  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "Why3STD.Cint_Cint" "Why3STD.Cbits_Cbits" "../../lib/isabelle/Compound_Compound"
+  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "Why3STD.Cint_Cint" "Why3STD.Cbits_Cbits" "frama_c_x509_parser_lib.Compound_Compound"
 begin
 theorem goal2:
   fixes a_1 :: "addr"

@@ -1,4 +1,6 @@
 session "frama_c_klibc_string_strlen" = NTP4Verif +
+sessions
+  "frama_c_klibc_string_lib"
 theories
   "strlen_Why3_ide_VCstrlen_loop_inv_3_preserved_goal5"
   "strlen_Why3_ide_VCstrlen_loop_inv_2_preserved_part1_goal1"

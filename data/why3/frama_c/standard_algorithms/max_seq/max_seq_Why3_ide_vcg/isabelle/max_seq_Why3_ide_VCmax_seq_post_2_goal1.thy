@@ -1,5 +1,5 @@
 theory max_seq_Why3_ide_VCmax_seq_post_2_goal1
-  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "Why3STD.Cint_Cint" "../../lib/isabelle/Axiomatic_Axiomatic" "../../lib/isabelle/Compound_Compound"
+  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "Why3STD.Cint_Cint" "frama_c_standard_algorithms_max_seq_lib.Axiomatic_Axiomatic" "frama_c_standard_algorithms_max_seq_lib.Compound_Compound"
 begin
 theorem goal1:
   fixes a :: "addr"

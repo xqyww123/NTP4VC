@@ -1,4 +1,6 @@
 session "frama_c_klibc_stdio_rewind" = NTP4Verif +
+sessions
+  "frama_c_klibc_stdio_lib"
 theories
   "rewind_Why3_ide_VCrewind_call_fseek_pre_goal13"
   "rewind_Why3_ide_VCrewind_assign_exit_part6_goal5"

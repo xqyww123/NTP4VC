@@ -1,4 +1,6 @@
 session "pearl_prover_BacktrackArray" = NTP4Verif +
+sessions
+  "pearl_prover_lib"
 theories
   "BacktrackArray_Impl_add_eventqtvc"
   "BacktrackArray_Impl_resize_forqtvc"

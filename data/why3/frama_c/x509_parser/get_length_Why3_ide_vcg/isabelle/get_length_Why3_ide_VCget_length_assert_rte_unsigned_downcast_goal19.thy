@@ -1,5 +1,5 @@
 theory get_length_Why3_ide_VCget_length_assert_rte_unsigned_downcast_goal19
-  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "Why3STD.Cint_Cint" "Why3STD.Cbits_Cbits" "../../lib/isabelle/Compound_Compound"
+  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "Why3STD.Cint_Cint" "Why3STD.Cbits_Cbits" "frama_c_x509_parser_lib.Compound_Compound"
 begin
 theorem goal19:
   fixes a_1 :: "addr"

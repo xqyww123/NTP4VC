@@ -1,3 +1,5 @@
 session "frama_c_standard_algorithms_push_heap_heap_parent" = NTP4Verif +
+sessions
+  "frama_c_standard_algorithms_push_heap_lib"
 theories
   "heap_parent_Why3_ide_VCheap_parent_post_parent_goal0"

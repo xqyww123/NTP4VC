@@ -1,4 +1,6 @@
 session "frama_c_contiki_memb_memb_inmemb" = NTP4Verif +
+sessions
+  "frama_c_contiki_memb_lib"
 theories
   "memb_inmemb_Why3_ide_VCmemb_inmemb_assert_rte_signed_overflow_goal3"
   "memb_inmemb_Why3_ide_VCmemb_inmemb_assert_rte_mem_access_goal0"

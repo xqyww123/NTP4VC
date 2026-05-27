@@ -1,5 +1,5 @@
 theory float_mat_inv_2d_Why3_ide_VCfloat_mat_inv_2d_call_fabsf_pre_finite_arg_goal0
-  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "Why3STD.Cmath_Cmath" "Why3STD.Cfloat_Cfloat" "../../lib/isabelle/Compound_Compound"
+  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "Why3STD.Cmath_Cmath" "Why3STD.Cfloat_Cfloat" "frama_c_airborne_float_mat_inv_2d_lib.Compound_Compound"
 begin
 theorem goal0:
   fixes a :: "addr"

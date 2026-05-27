@@ -1,5 +1,5 @@
 theory cpumask_andnot_Why3_ide_VCcpumask_andnot_nonempty_dst1_post_2_goal17
-  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "Why3STD.Cint_Cint" "../../lib/isabelle/A_thread_variables_properties_A_thread_variables_properties" "../../lib/isabelle/Compound_Compound" "../../lib/isabelle/A_schedule_cpumask_A_schedule_cpumask"
+  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "Why3STD.Cint_Cint" "frama_c_should_we_balance_lib.A_thread_variables_properties_A_thread_variables_properties" "frama_c_should_we_balance_lib.Compound_Compound" "frama_c_should_we_balance_lib.A_schedule_cpumask_A_schedule_cpumask"
 begin
 theorem goal17:
   fixes t_3 :: "addr \<Rightarrow> addr"

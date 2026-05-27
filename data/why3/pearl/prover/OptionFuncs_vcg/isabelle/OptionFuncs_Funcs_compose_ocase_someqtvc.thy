@@ -1,5 +1,5 @@
 theory OptionFuncs_Funcs_compose_ocase_someqtvc
-  imports "NTP4Verif.NTP4Verif" "../../lib/isabelle/Functions_Config" "../../lib/isabelle/Functions_Func"
+  imports "NTP4Verif.NTP4Verif" "pearl_prover_lib.Functions_Config" "pearl_prover_lib.Functions_Func"
 begin
 consts some :: "'a \<Rightarrow> 'a option"
 axiomatization where some_def:   "some x = Some x"

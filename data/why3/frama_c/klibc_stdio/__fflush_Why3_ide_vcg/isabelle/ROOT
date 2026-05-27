@@ -1,4 +1,6 @@
 session "frama_c_klibc_stdio___fflush" = NTP4Verif +
+sessions
+  "frama_c_klibc_stdio_lib"
 theories
   "X__fflush_Why3_ide_VC__fflush_assign_normal_part02_goal22"
   "X__fflush_Why3_ide_VC__fflush_loop_inv_5_preserved_part6_goal7"

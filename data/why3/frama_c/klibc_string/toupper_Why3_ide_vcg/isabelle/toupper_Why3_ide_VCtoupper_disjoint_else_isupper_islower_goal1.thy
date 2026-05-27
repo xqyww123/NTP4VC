@@ -1,5 +1,5 @@
 theory toupper_Why3_ide_VCtoupper_disjoint_else_isupper_islower_goal1
-  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Cint_Cint" "../../lib/isabelle/Axiomatic2_Axiomatic2"
+  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Cint_Cint" "frama_c_klibc_string_lib.Axiomatic2_Axiomatic2"
 begin
 theorem goal1:
   fixes i :: "int"

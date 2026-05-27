@@ -1,5 +1,5 @@
 theory X__parse_open_mode_Why3_ide_VC__parse_open_mode_loop_inv_3_established_part1_goal21
-  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "../../lib/isabelle/Axiomatic_Axiomatic" "../../lib/isabelle/Compound_Compound"
+  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "frama_c_klibc_stdio_lib.Axiomatic_Axiomatic" "frama_c_klibc_stdio_lib.Compound_Compound"
 begin
 theorem goal21:
   fixes a :: "addr"

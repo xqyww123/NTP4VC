@@ -1,4 +1,6 @@
 session "pearl_verifythis_2016_matrix_multiplication_matrices_ring_simp" = NTP4Verif +
+sessions
+  "pearl_verifythis_2016_matrix_multiplication_lib"
 theories
   "matrices_ring_simp_Symb_symb_oppqtvc"
   "matrices_ring_simp_Symb_lm_merge_okqtvc"

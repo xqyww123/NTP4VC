@@ -1,5 +1,5 @@
 theory is_sorted_Why3_ide_VCis_sorted_loop_inv_sorted_established_goal2
-  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "Why3STD.Cint_Cint" "../../lib/isabelle/Compound_Compound" "../../lib/isabelle/Axiomatic_Axiomatic"
+  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "Why3STD.Cint_Cint" "frama_c_standard_algorithms_is_sorted_lib.Compound_Compound" "frama_c_standard_algorithms_is_sorted_lib.Axiomatic_Axiomatic"
 begin
 theorem goal2:
   fixes i :: "int"

@@ -1,5 +1,5 @@
 theory zalloc_Why3_ide_VCzalloc_assign_normal_part3_goal3
-  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "Why3STD.Cint_Cint" "../../lib/isabelle/Compound_Compound"
+  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "Why3STD.Cint_Cint" "frama_c_klibc_stdio_lib.Compound_Compound"
 begin
 theorem goal3:
   fixes a :: "addr"

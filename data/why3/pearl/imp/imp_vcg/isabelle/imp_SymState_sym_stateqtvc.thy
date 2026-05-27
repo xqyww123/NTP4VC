@@ -1,5 +1,5 @@
 theory imp_SymState_sym_stateqtvc
-  imports "NTP4Verif.NTP4Verif" "../../lib/isabelle/imp_Syntax" "../../lib/isabelle/imp_Svar" "../../lib/isabelle/imp_Constraint"
+  imports "NTP4Verif.NTP4Verif" "pearl_imp_lib.imp_Syntax" "pearl_imp_lib.imp_Svar" "pearl_imp_lib.imp_Constraint"
 begin
 theorem sym_state'vc:
   fixes o1 :: "imp_Svar.set"

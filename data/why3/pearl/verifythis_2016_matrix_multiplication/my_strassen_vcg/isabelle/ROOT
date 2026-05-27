@@ -1,4 +1,6 @@
 session "pearl_verifythis_2016_matrix_multiplication_my_strassen" = NTP4Verif +
+sessions
+  "pearl_verifythis_2016_matrix_multiplication_lib"
 theories
   "my_strassen_MatrixMultiplication_blitqtvc"
   "my_strassen_MatrixMultiplication_sub_wsqtvc"

@@ -1,5 +1,5 @@
 theory strncpy_Why3_ide_VCstrncpy_call_memset_pre_2_part2_goal21
-  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "../../lib/isabelle/Compound_Compound" "Why3STD.Cint_Cint" "../../lib/isabelle/Axiomatic_Axiomatic"
+  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "frama_c_klibc_string_lib.Compound_Compound" "Why3STD.Cint_Cint" "frama_c_klibc_string_lib.Axiomatic_Axiomatic"
 begin
 theorem goal21:
   fixes a_1 :: "addr"

@@ -1,4 +1,4 @@
 theory my_sum_Combine
-  imports "NTP4Verif.NTP4Verif" "../../lib/isabelle/my_sum_Sum" "../../lib/isabelle/sum_real_Sum" "../../lib/isabelle/udouble_UDouble" "Why3STD.ieee_float_RoundingMode"
+  imports "NTP4Verif.NTP4Verif" "my_sum_Sum" "sum_real_Sum" "udouble_UDouble" "Why3STD.ieee_float_RoundingMode"
 begin
 end

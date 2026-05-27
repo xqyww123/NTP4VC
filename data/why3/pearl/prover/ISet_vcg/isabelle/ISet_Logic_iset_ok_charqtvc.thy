@@ -1,5 +1,5 @@
 theory ISet_Logic_iset_ok_charqtvc
-  imports "NTP4Verif.NTP4Verif" "../../lib/isabelle/ISet_Types" "../../lib/isabelle/Functions_Config"
+  imports "NTP4Verif.NTP4Verif" "pearl_prover_lib.ISet_Types" "pearl_prover_lib.Functions_Config"
 begin
 inductive iset_ok :: "int list \<Rightarrow> bool" where
    Set_empty: "iset_ok (Nil :: int list)"

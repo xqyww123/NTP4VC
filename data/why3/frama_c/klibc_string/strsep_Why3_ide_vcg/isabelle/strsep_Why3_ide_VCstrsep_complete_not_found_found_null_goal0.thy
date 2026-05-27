@@ -1,5 +1,5 @@
 theory strsep_Why3_ide_VCstrsep_complete_not_found_found_null_goal0
-  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "../../lib/isabelle/Axiomatic_Axiomatic" "../../lib/isabelle/Compound_Compound" "../../lib/isabelle/A_Length_A_Length" "../../lib/isabelle/Axiomatic1_Axiomatic1" "Why3STD.Cint_Cint"
+  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "frama_c_klibc_string_lib.Axiomatic_Axiomatic" "frama_c_klibc_string_lib.Compound_Compound" "frama_c_klibc_string_lib.A_Length_A_Length" "frama_c_klibc_string_lib.Axiomatic1_Axiomatic1" "Why3STD.Cint_Cint"
 begin
 theorem goal0:
   fixes t_2 :: "addr \<Rightarrow> addr"

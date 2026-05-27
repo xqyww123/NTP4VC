@@ -1,4 +1,6 @@
 session "frama_c_standard_algorithms_rotate_copy_rotate_copy" = NTP4Verif +
+sessions
+  "frama_c_standard_algorithms_rotate_copy_lib"
 theories
   "rotate_copy_Why3_ide_VCrotate_copy_post_right_goal1"
   "rotate_copy_Why3_ide_VCrotate_copy_call_copy_pre_sep_goal8"

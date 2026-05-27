@@ -1,4 +1,6 @@
 session "pearl_multiprecision_base_info" = NTP4Verif +
+sessions
+  "pearl_multiprecision_lib"
 theories
   "base_info_BaseInfo_wmpn_base_power_of_two_pqtvc"
   "base_info_BaseInfo_wmpn_limb_size_in_base_2qtvc"

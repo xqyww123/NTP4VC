@@ -1,5 +1,5 @@
 theory strcasecmp_Why3_ide_VCstrcasecmp_loop_inv_5_preserved_goal12
-  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "../../lib/isabelle/Axiomatic_Axiomatic" "../../lib/isabelle/Compound_Compound" "../../lib/isabelle/A_Length_A_Length" "../../lib/isabelle/A_ToUpper_A_ToUpper" "Why3STD.Cint_Cint" "../../lib/isabelle/Axiomatic2_Axiomatic2"
+  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "frama_c_klibc_string_lib.Axiomatic_Axiomatic" "frama_c_klibc_string_lib.Compound_Compound" "frama_c_klibc_string_lib.A_Length_A_Length" "frama_c_klibc_string_lib.A_ToUpper_A_ToUpper" "Why3STD.Cint_Cint" "frama_c_klibc_string_lib.Axiomatic2_Axiomatic2"
 begin
 theorem goal12:
   fixes a :: "addr"

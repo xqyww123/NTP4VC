@@ -1,3 +1,5 @@
 session "frama_c_standard_algorithms_equal_range2_LowerBoundShift" = NTP4Verif +
+sessions
+  "frama_c_standard_algorithms_equal_range2_lib"
 theories
   "LowerBoundShift_Why3_ide_VCLowerBoundShift_post_goal0"

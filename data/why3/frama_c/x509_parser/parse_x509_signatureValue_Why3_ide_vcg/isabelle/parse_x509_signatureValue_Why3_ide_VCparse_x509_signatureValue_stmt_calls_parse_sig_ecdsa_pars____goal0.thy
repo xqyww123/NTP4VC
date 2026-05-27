@@ -1,5 +1,5 @@
 theory parse_x509_signatureValue_Why3_ide_VCparse_x509_signatureValue_stmt_calls_parse_sig_ecdsa_pars____goal0
-  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "../../lib/isabelle/Compound_Compound" "Why3STD.Cint_Cint" "../../lib/isabelle/Globals_Globals"
+  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "frama_c_x509_parser_lib.Compound_Compound" "Why3STD.Cint_Cint" "frama_c_x509_parser_lib.Globals_Globals"
 begin
 theorem goal0:
   fixes a :: "addr"

@@ -1,5 +1,5 @@
 theory blocking_semantics5_FreshVariables_cons_appendqtvc
-  imports "NTP4Verif.NTP4Verif" "../../lib/isabelle/blocking_semantics5_Syntax" "../../lib/isabelle/blocking_semantics5_SemOp"
+  imports "NTP4Verif.NTP4Verif" "pearl_WP_revisited_lib.blocking_semantics5_Syntax" "pearl_WP_revisited_lib.blocking_semantics5_SemOp"
 begin
 theorem cons_append'vc:
   fixes a :: "'a"

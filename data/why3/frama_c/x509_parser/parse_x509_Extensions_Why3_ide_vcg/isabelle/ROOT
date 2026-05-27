@@ -1,4 +1,6 @@
 session "frama_c_x509_parser_parse_x509_Extensions" = NTP4Verif +
+sessions
+  "frama_c_x509_parser_lib"
 theories
   "parse_x509_Extensions_Why3_ide_VCparse_x509_Extensions_loop_inv_established_goal4"
   "parse_x509_Extensions_Why3_ide_VCparse_x509_Extensions_loop_term_positive_goal5"

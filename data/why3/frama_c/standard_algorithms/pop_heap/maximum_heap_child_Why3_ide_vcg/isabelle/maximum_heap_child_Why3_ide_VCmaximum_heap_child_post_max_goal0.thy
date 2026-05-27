@@ -1,5 +1,5 @@
 theory maximum_heap_child_Why3_ide_VCmaximum_heap_child_post_max_goal0
-  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "Why3STD.Cint_Cint" "../../lib/isabelle/Axiomatic_Axiomatic" "../../lib/isabelle/Compound_Compound" "../../lib/isabelle/Axiomatic1_Axiomatic1" "../../lib/isabelle/A_Count_A_Count"
+  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "Why3STD.Cint_Cint" "frama_c_standard_algorithms_pop_heap_lib.Axiomatic_Axiomatic" "frama_c_standard_algorithms_pop_heap_lib.Compound_Compound" "frama_c_standard_algorithms_pop_heap_lib.Axiomatic1_Axiomatic1" "frama_c_standard_algorithms_pop_heap_lib.A_Count_A_Count"
 begin
 theorem goal0:
   fixes i :: "int"

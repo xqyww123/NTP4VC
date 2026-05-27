@@ -1,3 +1,5 @@
 session "frama_c_standard_algorithms_selection_sort_StrictUpperBoundForce" = NTP4Verif +
+sessions
+  "frama_c_standard_algorithms_selection_sort_lib"
 theories
   "StrictUpperBoundForce_Why3_ide_VCStrictUpperBoundForce_post_goal0"

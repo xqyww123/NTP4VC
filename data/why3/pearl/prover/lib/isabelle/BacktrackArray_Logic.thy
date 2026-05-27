@@ -1,5 +1,5 @@
 theory BacktrackArray_Logic
-  imports "NTP4Verif.NTP4Verif" "../../lib/isabelle/BacktrackArray_Types" "../../lib/isabelle/Functions_Config" "../../lib/isabelle/Functions_Func" "../../lib/isabelle/Predicates_Pred" "../../lib/isabelle/Choice_Choice"
+  imports "NTP4Verif.NTP4Verif" "BacktrackArray_Types" "Functions_Config" "Functions_Func" "Predicates_Pred" "Choice_Choice"
 begin
 consts func_of_array :: "'a list \<Rightarrow> 'a \<Rightarrow> int \<Rightarrow> 'a"
 axiomatization where func_of_array_def:   "func_of_array a def1 x = (if (0 :: int) \<le> x \<and> x < int (length a) then (nth a o nat) x else def1)"

@@ -1,4 +1,6 @@
 session "frama_c_klibc_string_memcpy" = NTP4Verif +
+sessions
+  "frama_c_klibc_string_lib"
 theories
   "memcpy_Why3_ide_VCmemcpy_post_goal0"
   "memcpy_Why3_ide_VCmemcpy_loop_assign_part5_goal14"

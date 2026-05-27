@@ -1,5 +1,5 @@
 theory Predicates_Pred_identity_neutralqtvc
-  imports "NTP4Verif.NTP4Verif" "../../lib/isabelle/Functions_Config" "../../lib/isabelle/Functions_Func"
+  imports "NTP4Verif.NTP4Verif" "pearl_prover_lib.Functions_Config" "pearl_prover_lib.Functions_Func"
 begin
 definition predExtensionalEqual :: "('a \<Rightarrow> bool) \<Rightarrow> ('a \<Rightarrow> bool) \<Rightarrow> _"
   where "predExtensionalEqual p q \<longleftrightarrow> (\<forall>(x :: 'a). p x = True \<longleftrightarrow> q x = True)" for p q

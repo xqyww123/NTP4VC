@@ -1,5 +1,5 @@
 theory check_record_ext_unknown_Why3_ide_VCcheck_record_ext_unknown_assign_part4_goal0
-  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "../../lib/isabelle/Compound_Compound" "Why3STD.Cint_Cint"
+  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "frama_c_x509_parser_lib.Compound_Compound" "Why3STD.Cint_Cint"
 begin
 theorem goal0:
   fixes a :: "addr"

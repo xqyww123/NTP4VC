@@ -1,4 +1,6 @@
 session "pearl_multiprecision_get_str" = NTP4Verif +
+sessions
+  "pearl_multiprecision_lib"
 theories
   "get_str_Get_str_wmpn_get_str_otherqtvc"
   "get_str_Get_str_wmpn_get_str_bitsqtvc"

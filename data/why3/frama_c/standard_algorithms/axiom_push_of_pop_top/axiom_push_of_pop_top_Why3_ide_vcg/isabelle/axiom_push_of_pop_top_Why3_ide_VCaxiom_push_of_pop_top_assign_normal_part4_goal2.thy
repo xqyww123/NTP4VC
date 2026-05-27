@@ -1,5 +1,5 @@
 theory axiom_push_of_pop_top_Why3_ide_VCaxiom_push_of_pop_top_assign_normal_part4_goal2
-  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "../../lib/isabelle/Axiomatic_Axiomatic" "../../lib/isabelle/Compound_Compound" "Why3STD.Cint_Cint"
+  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "frama_c_standard_algorithms_axiom_push_of_pop_top_lib.Axiomatic_Axiomatic" "frama_c_standard_algorithms_axiom_push_of_pop_top_lib.Compound_Compound" "Why3STD.Cint_Cint"
 begin
 theorem goal2:
   fixes a :: "addr"

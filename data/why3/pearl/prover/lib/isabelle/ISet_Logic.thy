@@ -1,5 +1,5 @@
 theory ISet_Logic
-  imports "NTP4Verif.NTP4Verif" "../../lib/isabelle/ISet_Types" "../../lib/isabelle/Functions_Config"
+  imports "NTP4Verif.NTP4Verif" "ISet_Types" "Functions_Config"
 begin
 inductive iset_ok :: "int list \<Rightarrow> bool" where
    Set_empty: "iset_ok (Nil :: int list)"

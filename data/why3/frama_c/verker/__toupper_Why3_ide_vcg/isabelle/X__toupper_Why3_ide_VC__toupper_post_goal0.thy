@@ -1,5 +1,5 @@
 theory X__toupper_Why3_ide_VC__toupper_post_goal0
-  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "../../lib/isabelle/Axiomatic3_Axiomatic3" "../../lib/isabelle/A_Ctype_A_Ctype" "Why3STD.Cint_Cint"
+  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "frama_c_verker_lib.Axiomatic3_Axiomatic3" "frama_c_verker_lib.A_Ctype_A_Ctype" "Why3STD.Cint_Cint"
 begin
 theorem goal0:
   fixes i_1 :: "int"

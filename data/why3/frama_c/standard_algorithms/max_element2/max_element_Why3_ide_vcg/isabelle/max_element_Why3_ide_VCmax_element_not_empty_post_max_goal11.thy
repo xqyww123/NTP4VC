@@ -1,5 +1,5 @@
 theory max_element_Why3_ide_VCmax_element_not_empty_post_max_goal11
-  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "Why3STD.Cint_Cint" "../../lib/isabelle/Compound_Compound" "../../lib/isabelle/Axiomatic_Axiomatic"
+  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "Why3STD.Cint_Cint" "frama_c_standard_algorithms_max_element2_lib.Compound_Compound" "frama_c_standard_algorithms_max_element2_lib.Axiomatic_Axiomatic"
 begin
 theorem goal11:
   fixes t_1 :: "addr \<Rightarrow> int"

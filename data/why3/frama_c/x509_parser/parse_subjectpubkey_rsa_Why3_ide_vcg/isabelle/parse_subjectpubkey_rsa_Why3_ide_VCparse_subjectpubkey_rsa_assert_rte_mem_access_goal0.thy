@@ -1,5 +1,5 @@
 theory parse_subjectpubkey_rsa_Why3_ide_VCparse_subjectpubkey_rsa_assert_rte_mem_access_goal0
-  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "../../lib/isabelle/Compound_Compound" "../../lib/isabelle/Globals_Globals" "Why3STD.Cint_Cint"
+  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "frama_c_x509_parser_lib.Compound_Compound" "frama_c_x509_parser_lib.Globals_Globals" "Why3STD.Cint_Cint"
 begin
 theorem goal0:
   fixes a :: "addr"

@@ -1,4 +1,6 @@
 session "frama_c_klibc_stdio_fclose" = NTP4Verif +
+sessions
+  "frama_c_klibc_stdio_lib"
 theories
   "fclose_Why3_ide_VCfclose_assign_exit_part2_goal1"
   "fclose_Why3_ide_VCfclose_assign_exit_part3_goal2"

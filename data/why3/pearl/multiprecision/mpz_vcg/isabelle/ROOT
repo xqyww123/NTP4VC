@@ -1,4 +1,6 @@
 session "pearl_multiprecision_mpz" = NTP4Verif +
+sessions
+  "pearl_multiprecision_lib"
 theories
   "mpz_Z_unchanged_transitiveqtvc"
   "mpz_Zutil_wmpz_reallocqtvc"

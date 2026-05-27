@@ -1,5 +1,5 @@
 theory float_quat_inv_comp_norm_shortest_Why3_ide_VCfloat_quat_inv_comp_norm_shortest_call_float_quat_normali____2_goal1
-  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "../../lib/isabelle/S3_FloatQuat_S3_FloatQuat" "Why3STD.Cmath_Cmath" "Why3STD.Cfloat_Cfloat"
+  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "frama_c_airborne_float_quat_inv_comp_norm_shortest_lib.S3_FloatQuat_S3_FloatQuat" "Why3STD.Cmath_Cmath" "Why3STD.Cfloat_Cfloat"
 begin
 theorem goal1:
   fixes f :: "s3_floatquat"

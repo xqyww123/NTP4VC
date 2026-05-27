@@ -1,5 +1,5 @@
 theory memccpy_Why3_ide_VCmemccpy_exists_c_assign_part05_goal18
-  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "../../lib/isabelle/Compound_Compound" "Why3STD.Cint_Cint" "../../lib/isabelle/A_PosOfChar_A_PosOfChar" "../../lib/isabelle/Axiomatic1_Axiomatic1" "../../lib/isabelle/A_Length_A_Length" "../../lib/isabelle/Axiomatic_Axiomatic"
+  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "frama_c_klibc_string_lib.Compound_Compound" "Why3STD.Cint_Cint" "frama_c_klibc_string_lib.A_PosOfChar_A_PosOfChar" "frama_c_klibc_string_lib.Axiomatic1_Axiomatic1" "frama_c_klibc_string_lib.A_Length_A_Length" "frama_c_klibc_string_lib.Axiomatic_Axiomatic"
 begin
 theorem goal18:
   fixes a :: "addr"

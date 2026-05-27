@@ -1,4 +1,6 @@
 session "pearl_multiprecision_mpz_div" = NTP4Verif +
+sessions
+  "pearl_multiprecision_lib"
 theories
   "mpz_div_Zdiv_wmpz_tdiv_qrqtvc"
   "mpz_div_Zdiv_wmpz_tdiv_qr_uiqtvc"

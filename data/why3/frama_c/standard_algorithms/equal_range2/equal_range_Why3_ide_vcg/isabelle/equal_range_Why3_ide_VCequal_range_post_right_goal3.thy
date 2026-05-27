@@ -1,5 +1,5 @@
 theory equal_range_Why3_ide_VCequal_range_post_right_goal3
-  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "../../lib/isabelle/S1_size_type_pair_S1_size_type_pair" "Why3STD.Cint_Cint" "../../lib/isabelle/Axiomatic_Axiomatic" "../../lib/isabelle/Compound_Compound"
+  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "frama_c_standard_algorithms_equal_range2_lib.S1_size_type_pair_S1_size_type_pair" "Why3STD.Cint_Cint" "frama_c_standard_algorithms_equal_range2_lib.Axiomatic_Axiomatic" "frama_c_standard_algorithms_equal_range2_lib.Compound_Compound"
 begin
 theorem goal3:
   fixes s :: "s1_size_type_pair"

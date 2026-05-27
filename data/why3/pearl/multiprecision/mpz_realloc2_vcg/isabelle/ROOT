@@ -1,3 +1,5 @@
 session "pearl_multiprecision_mpz_realloc2" = NTP4Verif +
+sessions
+  "pearl_multiprecision_lib"
 theories
   "mpz_realloc2_Zrealloc2_wmpz_realloc2qtvc"

@@ -1,5 +1,5 @@
 theory stack_size_Why3_ide_VCstack_size_assert_rte_mem_access_goal1
-  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "Why3STD.Cint_Cint" "../../lib/isabelle/Compound_Compound" "../../lib/isabelle/Axiomatic_Axiomatic"
+  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "Why3STD.Cint_Cint" "frama_c_standard_algorithms_stack_size_lib.Compound_Compound" "frama_c_standard_algorithms_stack_size_lib.Axiomatic_Axiomatic"
 begin
 theorem goal1:
   fixes a :: "addr"

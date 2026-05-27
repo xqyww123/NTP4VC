@@ -1,5 +1,5 @@
 theory blocking_semantics5_WP_distrib_conjqtvc
-  imports "NTP4Verif.NTP4Verif" "../../lib/isabelle/blocking_semantics5_Syntax" "../../lib/isabelle/blocking_semantics5_SemOp" "../../lib/isabelle/blocking_semantics5_Typing" "../../lib/isabelle/blocking_semantics5_TypingAndSemantics" "../../lib/isabelle/blocking_semantics5_FreshVariables"
+  imports "NTP4Verif.NTP4Verif" "pearl_WP_revisited_lib.blocking_semantics5_Syntax" "pearl_WP_revisited_lib.blocking_semantics5_SemOp" "pearl_WP_revisited_lib.blocking_semantics5_Typing" "pearl_WP_revisited_lib.blocking_semantics5_TypingAndSemantics" "pearl_WP_revisited_lib.blocking_semantics5_FreshVariables"
 begin
 consts fresh_from :: "fmla \<Rightarrow> ident"
 axiomatization where fresh_from_fmla:   "fresh_in_fmla (fresh_from f) f"

@@ -1,5 +1,5 @@
 theory float_quat_of_rmat_Why3_ide_VCfloat_quat_of_rmat_complete_a22_max_a11_max_a00_max_trace____goal0
-  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "../../lib/isabelle/Axiomatic15_Axiomatic15" "Why3STD.Cmath_Cmath" "Why3STD.Cfloat_Cfloat" "../../lib/isabelle/Compound_Compound" "../../lib/isabelle/Axiomatic17_Axiomatic17" "../../lib/isabelle/S10_RealRMat_s_S10_RealRMat_s" "../../lib/isabelle/Axiomatic19_Axiomatic19" "../../lib/isabelle/S11_RealQuat_s_S11_RealQuat_s" "Why3STD.Square_Square"
+  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "frama_c_airborne_float_quat_of_rmat_lib.Axiomatic15_Axiomatic15" "Why3STD.Cmath_Cmath" "Why3STD.Cfloat_Cfloat" "frama_c_airborne_float_quat_of_rmat_lib.Compound_Compound" "frama_c_airborne_float_quat_of_rmat_lib.Axiomatic17_Axiomatic17" "frama_c_airborne_float_quat_of_rmat_lib.S10_RealRMat_s_S10_RealRMat_s" "frama_c_airborne_float_quat_of_rmat_lib.Axiomatic19_Axiomatic19" "frama_c_airborne_float_quat_of_rmat_lib.S11_RealQuat_s_S11_RealQuat_s" "Why3STD.Square_Square"
 begin
 theorem goal0:
   fixes t_1 :: "addr \<Rightarrow> real"

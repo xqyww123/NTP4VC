@@ -1,5 +1,5 @@
 theory int32_quat_comp_inv_norm_shortest_Why3_ide_VCint32_quat_comp_inv_norm_shortest_call_int32_quat_comp_in____4_goal2
-  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "Why3STD.Cint_Cint" "../../lib/isabelle/Compound_Compound" "../../lib/isabelle/Axiomatic15_Axiomatic15"
+  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "Why3STD.Cint_Cint" "frama_c_airborne_int32_quat_comp_inv_norm_shortest_lib.Compound_Compound" "frama_c_airborne_int32_quat_comp_inv_norm_shortest_lib.Axiomatic15_Axiomatic15"
 begin
 theorem goal2:
   fixes a :: "addr"

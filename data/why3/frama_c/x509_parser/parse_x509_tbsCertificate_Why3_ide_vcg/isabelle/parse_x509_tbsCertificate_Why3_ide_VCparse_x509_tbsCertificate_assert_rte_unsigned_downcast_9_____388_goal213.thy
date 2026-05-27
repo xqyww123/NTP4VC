@@ -1,5 +1,5 @@
 theory parse_x509_tbsCertificate_Why3_ide_VCparse_x509_tbsCertificate_assert_rte_unsigned_downcast_9_____388_goal213
-  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "../../lib/isabelle/S22_S22" "../../lib/isabelle/Compound_Compound" "Why3STD.Cint_Cint"
+  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "frama_c_x509_parser_lib.S22_S22" "frama_c_x509_parser_lib.Compound_Compound" "Why3STD.Cint_Cint"
 begin
 theorem goal213:
   fixes s :: "s22"

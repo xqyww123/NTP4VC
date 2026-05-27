@@ -1,5 +1,5 @@
 theory Firstorder_symbol_impl_Logic
-  imports "NTP4Verif.NTP4Verif" "../../lib/isabelle/Firstorder_symbol_impl_Types" "../../lib/isabelle/Nat_Nat" "../../lib/isabelle/Functions_Config" "../../lib/isabelle/Functions_Func" "../../lib/isabelle/OptionFuncs_Funcs" "../../lib/isabelle/Sum_Sum" "../../lib/isabelle/Firstorder_symbol_spec_Spec"
+  imports "NTP4Verif.NTP4Verif" "Firstorder_symbol_impl_Types" "Nat_Nat" "Functions_Config" "Functions_Func" "OptionFuncs_Funcs" "Sum_Sum" "Firstorder_symbol_spec_Spec"
 begin
 fun nat_nlsize_symbol :: "'b0 nl_symbol \<Rightarrow> Nat_Nat.nat"  and nlsize_symbol :: "'b0 nl_symbol \<Rightarrow> int"
   where "nat_nlsize_symbol (NLFVar_symbol v0) = SNat ONat" for v0

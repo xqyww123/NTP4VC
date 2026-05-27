@@ -1,4 +1,6 @@
 session "frama_c_standard_algorithms_replace_copy_replace_copy" = NTP4Verif +
+sessions
+  "frama_c_standard_algorithms_replace_copy_lib"
 theories
   "replace_copy_Why3_ide_VCreplace_copy_loop_inv_replace_preserved_goal3"
   "replace_copy_Why3_ide_VCreplace_copy_post_replace_goal0"

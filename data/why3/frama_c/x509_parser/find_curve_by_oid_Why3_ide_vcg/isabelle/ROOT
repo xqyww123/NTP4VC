@@ -1,4 +1,6 @@
 session "frama_c_x509_parser_find_curve_by_oid" = NTP4Verif +
+sessions
+  "frama_c_x509_parser_lib"
 theories
   "find_curve_by_oid_Why3_ide_VCfind_curve_by_oid_call_bufs_differ_pre_goal1"
   "find_curve_by_oid_Why3_ide_VCfind_curve_by_oid_post_part4_goal0"

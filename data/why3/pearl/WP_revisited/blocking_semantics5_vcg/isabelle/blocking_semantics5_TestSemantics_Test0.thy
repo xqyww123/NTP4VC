@@ -1,5 +1,5 @@
 theory blocking_semantics5_TestSemantics_Test0
-  imports "NTP4Verif.NTP4Verif" "Why3STD.map_Const" "../../lib/isabelle/blocking_semantics5_Syntax" "../../lib/isabelle/blocking_semantics5_SemOp"
+  imports "NTP4Verif.NTP4Verif" "Why3STD.map_Const" "pearl_WP_revisited_lib.blocking_semantics5_Syntax" "pearl_WP_revisited_lib.blocking_semantics5_SemOp"
 begin
 consts x :: "ident"
 consts y :: "mident"

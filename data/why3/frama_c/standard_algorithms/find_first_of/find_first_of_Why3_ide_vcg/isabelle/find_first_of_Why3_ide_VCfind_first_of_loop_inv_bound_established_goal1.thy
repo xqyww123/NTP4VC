@@ -1,5 +1,5 @@
 theory find_first_of_Why3_ide_VCfind_first_of_loop_inv_bound_established_goal1
-  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "Why3STD.Cint_Cint" "../../lib/isabelle/Compound_Compound"
+  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "Why3STD.Cint_Cint" "frama_c_standard_algorithms_find_first_of_lib.Compound_Compound"
 begin
 theorem goal1:
   fixes a :: "addr"

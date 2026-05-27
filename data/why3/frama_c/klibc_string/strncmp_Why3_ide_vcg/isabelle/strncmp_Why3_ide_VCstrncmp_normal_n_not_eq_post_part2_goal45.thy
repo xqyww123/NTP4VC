@@ -1,5 +1,5 @@
 theory strncmp_Why3_ide_VCstrncmp_normal_n_not_eq_post_part2_goal45
-  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "Why3STD.Cint_Cint" "../../lib/isabelle/Compound_Compound" "../../lib/isabelle/Axiomatic_Axiomatic"
+  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "Why3STD.Cint_Cint" "frama_c_klibc_string_lib.Compound_Compound" "frama_c_klibc_string_lib.Axiomatic_Axiomatic"
 begin
 theorem goal45:
   fixes i :: "int"

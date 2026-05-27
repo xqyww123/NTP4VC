@@ -1,5 +1,5 @@
 theory ISet_Impl_mergeqtvc
-  imports "NTP4Verif.NTP4Verif" "../../lib/isabelle/ISet_Types" "../../lib/isabelle/Functions_Config" "../../lib/isabelle/ISet_Logic"
+  imports "NTP4Verif.NTP4Verif" "pearl_prover_lib.ISet_Types" "pearl_prover_lib.Functions_Config" "pearl_prover_lib.ISet_Logic"
 begin
 theorem merge'vc:
   fixes l1 :: "int list"

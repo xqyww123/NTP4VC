@@ -1,4 +1,6 @@
 session "pearl_prover_Functions" = NTP4Verif +
+sessions
+  "pearl_prover_lib"
 theories
   "Functions_Func_update_eqqtvc"
   "Functions_Func_const_compose_leftqtvc"

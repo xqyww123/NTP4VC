@@ -1,5 +1,5 @@
 theory list_add_Why3_ide_VClist_add_call_list_remove_pre_Item_Separation_part1_goal24
-  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "../../lib/isabelle/A_Index_of_item_A_Index_of_item" "../../lib/isabelle/Compound_Compound" "../../lib/isabelle/S1_list_S1_list" "Why3STD.Cint_Cint" "../../lib/isabelle/Axiomatic_Axiomatic"
+  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "frama_c_contiki_list_lib.A_Index_of_item_A_Index_of_item" "frama_c_contiki_list_lib.Compound_Compound" "frama_c_contiki_list_lib.S1_list_S1_list" "Why3STD.Cint_Cint" "frama_c_contiki_list_lib.Axiomatic_Axiomatic"
 begin
 theorem goal24:
   fixes t_1 :: "addr \<Rightarrow> addr"

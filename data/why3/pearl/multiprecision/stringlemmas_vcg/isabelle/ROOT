@@ -1,4 +1,6 @@
 session "pearl_multiprecision_stringlemmas" = NTP4Verif +
+sessions
+  "pearl_multiprecision_lib"
 theories
   "stringlemmas_Conversions_lowsublowupqtvc"
   "stringlemmas_Conversions_lowconcatqtvc"

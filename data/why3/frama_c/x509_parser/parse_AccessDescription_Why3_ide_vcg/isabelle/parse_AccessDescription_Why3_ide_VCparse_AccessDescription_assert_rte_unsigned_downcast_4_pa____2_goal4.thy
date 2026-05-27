@@ -1,5 +1,5 @@
 theory parse_AccessDescription_Why3_ide_VCparse_AccessDescription_assert_rte_unsigned_downcast_4_pa____2_goal4
-  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "../../lib/isabelle/Compound_Compound" "Why3STD.Cint_Cint"
+  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "frama_c_x509_parser_lib.Compound_Compound" "Why3STD.Cint_Cint"
 begin
 theorem goal4:
   fixes a_1 :: "addr"

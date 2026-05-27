@@ -1,3 +1,5 @@
 session "frama_c_standard_algorithms_equal_range2_StrictLowerBoundForce" = NTP4Verif +
+sessions
+  "frama_c_standard_algorithms_equal_range2_lib"
 theories
   "StrictLowerBoundForce_Why3_ide_VCStrictLowerBoundForce_post_goal0"

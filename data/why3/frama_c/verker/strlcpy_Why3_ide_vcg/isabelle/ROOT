@@ -1,4 +1,6 @@
 session "frama_c_verker_strlcpy" = NTP4Verif +
+sessions
+  "frama_c_verker_lib"
 theories
   "strlcpy_Why3_ide_VCstrlcpy_size_is_lower_src_assign_normal_part6_goal15"
   "strlcpy_Why3_ide_VCstrlcpy_assert_3_goal4"

@@ -1,4 +1,6 @@
 session "frama_c_verker_strcat" = NTP4Verif +
+sessions
+  "frama_c_verker_lib"
 theories
   "strcat_Why3_ide_VCstrcat_loop_inv_2_preserved_goal3"
   "strcat_Why3_ide_VCstrcat_loop_inv_established_goal2"

@@ -1,5 +1,5 @@
 theory should_we_balance_Why3_ide_VCshould_we_balance_loop_inv_i4_preserved_goal20
-  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "../../lib/isabelle/A_thread_variables_properties_A_thread_variables_properties" "../../lib/isabelle/Compound_Compound" "Why3STD.Cint_Cint" "../../lib/isabelle/A_schedule_cpumask_A_schedule_cpumask" "Why3STD.Cbits_Cbits"
+  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "frama_c_should_we_balance_lib.A_thread_variables_properties_A_thread_variables_properties" "frama_c_should_we_balance_lib.Compound_Compound" "Why3STD.Cint_Cint" "frama_c_should_we_balance_lib.A_schedule_cpumask_A_schedule_cpumask" "Why3STD.Cbits_Cbits"
 begin
 theorem goal20:
   fixes i_6 :: "int"

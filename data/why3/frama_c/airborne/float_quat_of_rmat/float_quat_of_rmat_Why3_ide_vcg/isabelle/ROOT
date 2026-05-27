@@ -1,4 +1,6 @@
 session "frama_c_airborne_float_quat_of_rmat_float_quat_of_rmat" = NTP4Verif +
+sessions
+  "frama_c_airborne_float_quat_of_rmat_lib"
 theories
   "float_quat_of_rmat_Why3_ide_VCfloat_quat_of_rmat_trace_pos_post_goal12"
   "float_quat_of_rmat_Why3_ide_VCfloat_quat_of_rmat_call_sqrtf_pre_finite_arg_goal1"

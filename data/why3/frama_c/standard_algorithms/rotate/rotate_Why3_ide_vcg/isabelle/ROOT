@@ -1,4 +1,6 @@
 session "frama_c_standard_algorithms_rotate_rotate" = NTP4Verif +
+sessions
+  "frama_c_standard_algorithms_rotate_lib"
 theories
   "rotate_Why3_ide_VCrotate_stmt_post_left_goal10"
   "rotate_Why3_ide_VCrotate_stmt_pre_right_goal9"

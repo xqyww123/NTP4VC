@@ -1,4 +1,6 @@
 session "frama_c_standard_algorithms_make_heap_make_heap" = NTP4Verif +
+sessions
+  "frama_c_standard_algorithms_make_heap_lib"
 theories
   "make_heap_Why3_ide_VCmake_heap_loop_inv_unchanged_preserved_goal5"
   "make_heap_Why3_ide_VCmake_heap_loop_inv_heap_established_goal2"

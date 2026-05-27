@@ -1,5 +1,5 @@
 theory my_strassen_MatrixMultiplication
-  imports "NTP4Verif.NTP4Verif" "Why3STD.Ref_Ref" "Why3STD.int_Sum" "../../lib/isabelle/matrices_MyMatrix" "../../lib/isabelle/matrices_MatrixArithmetic" "../../lib/isabelle/sum_extended_Sum_extended" "../../lib/isabelle/matrices_BlockMul" "../../lib/isabelle/matrices_ring_simp_Symb" "Why3STD.matrix_Matrix"
+  imports "NTP4Verif.NTP4Verif" "Why3STD.Ref_Ref" "Why3STD.int_Sum" "matrices_MyMatrix" "matrices_MatrixArithmetic" "sum_extended_Sum_extended" "matrices_BlockMul" "matrices_ring_simp_Symb" "Why3STD.matrix_Matrix"
 begin
 definition mdl :: "'a matrix \<Rightarrow> 'a mat"
   where "mdl m = create (matrix_Matrix.rows m) (columns m) (elts m)" for m

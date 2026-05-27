@@ -1,5 +1,5 @@
 theory A_DifferenceAxiomatic_A_DifferenceAxiomatic
-  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "Why3STD.Cint_Cint" "../../lib/isabelle/Compound_Compound" "../../lib/isabelle/Axiomatic_Axiomatic"
+  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "Why3STD.Cint_Cint" "Compound_Compound" "Axiomatic_Axiomatic"
 begin
 consts l_difference :: "(addr \<Rightarrow> int) \<Rightarrow> addr \<Rightarrow> int \<Rightarrow> int"
 axiomatization where Q_TL_Difference:   "is_sint32 (l_difference mint_0 a n)"

@@ -1,5 +1,5 @@
 theory parse_crldp_reasons_Why3_ide_VCparse_crldp_reasons_call_parse_nine_bit_named_bit_list_pre_goal0
-  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "../../lib/isabelle/Compound_Compound" "Why3STD.Cint_Cint"
+  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "frama_c_x509_parser_lib.Compound_Compound" "Why3STD.Cint_Cint"
 begin
 theorem goal0:
   fixes a_1 :: "addr"

@@ -1,5 +1,5 @@
 theory A_MatchString_A_MatchString
-  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "../../lib/isabelle/A_StrCmp_A_StrCmp" "../../lib/isabelle/Compound_Compound" "Why3STD.Cint_Cint" "../../lib/isabelle/A_Strlen_A_Strlen"
+  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "A_StrCmp_A_StrCmp" "Compound_Compound" "Why3STD.Cint_Cint" "A_Strlen_A_Strlen"
 begin
 consts l_match_string :: "(addr \<Rightarrow> addr) \<Rightarrow> (addr \<Rightarrow> int) \<Rightarrow> addr \<Rightarrow> int \<Rightarrow> addr \<Rightarrow> int"
 axiomatization where fix_l_match_string:   "if n = (0 :: int) then l_match_string mptr_0 mchar_0 a n s = (0 :: int) else if l_strcmp mchar_0 (mptr_0 (shift a (0 :: int))) s = (0 :: int) then l_match_string mptr_0 mchar_0 a n s = (0 :: int) else l_match_string mptr_0 mchar_0 (shift a (1 :: int)) (to_uint64 (n - (1 :: int))) s = l_match_string mptr_0 mchar_0 a n s"

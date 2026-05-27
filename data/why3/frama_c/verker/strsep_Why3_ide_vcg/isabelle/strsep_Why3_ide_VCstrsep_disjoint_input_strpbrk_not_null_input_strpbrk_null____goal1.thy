@@ -1,5 +1,5 @@
 theory strsep_Why3_ide_VCstrsep_disjoint_input_strpbrk_not_null_input_strpbrk_null____goal1
-  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "../../lib/isabelle/Axiomatic3_Axiomatic3" "Why3STD.Memory_Memory" "../../lib/isabelle/A_Strlen_A_Strlen" "../../lib/isabelle/Compound_Compound" "Why3STD.Cint_Cint" "../../lib/isabelle/A_StrPBrk_A_StrPBrk" "../../lib/isabelle/A_StrSpn_A_StrSpn"
+  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "frama_c_verker_lib.Axiomatic3_Axiomatic3" "Why3STD.Memory_Memory" "frama_c_verker_lib.A_Strlen_A_Strlen" "frama_c_verker_lib.Compound_Compound" "Why3STD.Cint_Cint" "frama_c_verker_lib.A_StrPBrk_A_StrPBrk" "frama_c_verker_lib.A_StrSpn_A_StrSpn"
 begin
 theorem goal1:
   fixes t_2 :: "addr \<Rightarrow> addr"

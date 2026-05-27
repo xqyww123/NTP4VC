@@ -1,3 +1,5 @@
 session "frama_c_verker_isalnum" = NTP4Verif +
+sessions
+  "frama_c_verker_lib"
 theories
   "isalnum_Why3_ide_VCisalnum_post_goal0"

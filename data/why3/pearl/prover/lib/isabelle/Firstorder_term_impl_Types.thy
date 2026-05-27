@@ -1,5 +1,5 @@
 theory Firstorder_term_impl_Types
-  imports "NTP4Verif.NTP4Verif" "../../lib/isabelle/Nat_Nat" "../../lib/isabelle/Functions_Config" "../../lib/isabelle/Functions_Func" "../../lib/isabelle/OptionFuncs_Funcs" "../../lib/isabelle/Sum_Sum" "../../lib/isabelle/Firstorder_symbol_spec_Spec" "../../lib/isabelle/Firstorder_symbol_impl_Types" "../../lib/isabelle/Firstorder_symbol_impl_Logic" "../../lib/isabelle/Firstorder_symbol_impl_Impl" "../../lib/isabelle/Firstorder_term_spec_Spec"
+  imports "NTP4Verif.NTP4Verif" "Nat_Nat" "Functions_Config" "Functions_Func" "OptionFuncs_Funcs" "Sum_Sum" "Firstorder_symbol_spec_Spec" "Firstorder_symbol_impl_Types" "Firstorder_symbol_impl_Logic" "Firstorder_symbol_impl_Impl" "Firstorder_term_spec_Spec"
 begin
 datatype ('b0, 'b3) nl_fo_term_list = NL_FONil | NL_FOCons "('b0, 'b3) nl_fo_term" "('b0, 'b3) nl_fo_term_list"
      and ('b0, 'b3) nl_fo_term = NLFVar_fo_term "'b3" | NLBruijn_fo_term "int" | NL_App "'b0 nl_symbol" "('b0, 'b3) nl_fo_term_list"

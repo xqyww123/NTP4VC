@@ -1,5 +1,5 @@
 theory wp2_WP_assigns_transqtvc
-  imports "NTP4Verif.NTP4Verif" "../../lib/isabelle/wp2_Imp"
+  imports "NTP4Verif.NTP4Verif" "pearl_WP_revisited_lib.wp2_Imp"
 begin
 typedecl  set
 consts to_fset :: "set \<Rightarrow> int fset"

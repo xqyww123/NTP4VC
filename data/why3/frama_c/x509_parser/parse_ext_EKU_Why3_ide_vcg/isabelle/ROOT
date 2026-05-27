@@ -1,4 +1,6 @@
 session "frama_c_x509_parser_parse_ext_EKU" = NTP4Verif +
+sessions
+  "frama_c_x509_parser_lib"
 theories
   "parse_ext_EKU_Why3_ide_VCparse_ext_EKU_loop_inv_preserved_part1_goal0"
   "parse_ext_EKU_Why3_ide_VCparse_ext_EKU_loop_inv_preserved_part2_goal1"

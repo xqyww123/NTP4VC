@@ -1,5 +1,5 @@
 theory X_parse_integer_fixup_radix_Why3_ide_VC_parse_integer_fixup_radix_guess_post_2_goal7
-  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "../../lib/isabelle/Axiomatic3_Axiomatic3" "Why3STD.Memory_Memory" "../../lib/isabelle/Compound_Compound" "Why3STD.Cint_Cint" "../../lib/isabelle/A_Ctype_A_Ctype" "../../lib/isabelle/A_IntBase_A_IntBase"
+  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "frama_c_verker_lib.Axiomatic3_Axiomatic3" "Why3STD.Memory_Memory" "frama_c_verker_lib.Compound_Compound" "Why3STD.Cint_Cint" "frama_c_verker_lib.A_Ctype_A_Ctype" "frama_c_verker_lib.A_IntBase_A_IntBase"
 begin
 theorem goal7:
   fixes t_6 :: "addr \<Rightarrow> int"

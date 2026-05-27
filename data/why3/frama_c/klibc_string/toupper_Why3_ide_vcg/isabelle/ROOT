@@ -1,4 +1,6 @@
 session "frama_c_klibc_string_toupper" = NTP4Verif +
+sessions
+  "frama_c_klibc_string_lib"
 theories
   "toupper_Why3_ide_VCtoupper_disjoint_else_isupper_islower_goal1"
   "toupper_Why3_ide_VCtoupper_isupper_post_goal6"

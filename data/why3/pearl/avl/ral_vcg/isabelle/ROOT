@@ -1,4 +1,6 @@
 session "pearl_avl_ral" = NTP4Verif +
+sessions
+  "pearl_avl_lib"
 theories
   "ral_RAL_singletonqtvc"
   "ral_RAL_selected_partqtvc"

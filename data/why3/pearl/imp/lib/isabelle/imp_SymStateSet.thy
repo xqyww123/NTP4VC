@@ -1,5 +1,5 @@
 theory imp_SymStateSet
-  imports "NTP4Verif.NTP4Verif" "../../lib/isabelle/imp_Syntax" "../../lib/isabelle/imp_Svar" "../../lib/isabelle/imp_Constraint" "../../lib/isabelle/imp_SymState"
+  imports "NTP4Verif.NTP4Verif" "imp_Syntax" "imp_Svar" "imp_Constraint" "imp_SymState"
 begin
 typedecl  set
 consts to_fset :: "set \<Rightarrow> sym_state fset"

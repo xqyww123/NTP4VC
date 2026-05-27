@@ -1,4 +1,6 @@
 session "pearl_prover_Firstorder_term_impl" = NTP4Verif +
+sessions
+  "pearl_prover_lib"
 theories
   "Firstorder_term_impl_Impl_construct_fo_termqtvc"
   "Firstorder_term_impl_Impl_bind_var_symbol_in_fo_term_listqtvc"

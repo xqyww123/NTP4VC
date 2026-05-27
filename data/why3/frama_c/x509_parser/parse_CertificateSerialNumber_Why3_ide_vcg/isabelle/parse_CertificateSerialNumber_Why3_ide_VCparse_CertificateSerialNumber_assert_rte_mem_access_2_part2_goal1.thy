@@ -1,5 +1,5 @@
 theory parse_CertificateSerialNumber_Why3_ide_VCparse_CertificateSerialNumber_assert_rte_mem_access_2_part2_goal1
-  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "Why3STD.Cint_Cint" "../../lib/isabelle/Compound_Compound"
+  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "Why3STD.Cint_Cint" "frama_c_x509_parser_lib.Compound_Compound"
 begin
 theorem goal1:
   fixes a_1 :: "addr"

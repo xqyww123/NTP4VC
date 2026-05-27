@@ -1,5 +1,5 @@
 theory int32_quat_comp_Why3_ide_VCint32_quat_comp_max_norm_post_goal4
-  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "../../lib/isabelle/Compound_Compound" "../../lib/isabelle/Axiomatic15_Axiomatic15" "Why3STD.Cint_Cint" "Why3STD.Cbits_Cbits"
+  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "frama_c_airborne_int32_quat_comp_lib.Compound_Compound" "frama_c_airborne_int32_quat_comp_lib.Axiomatic15_Axiomatic15" "Why3STD.Cint_Cint" "Why3STD.Cbits_Cbits"
 begin
 theorem goal4:
   fixes t_1 :: "addr \<Rightarrow> int"

@@ -1,5 +1,5 @@
 theory blocking_semantics5_FreshVariables
-  imports "NTP4Verif.NTP4Verif" "../../lib/isabelle/blocking_semantics5_Syntax" "../../lib/isabelle/blocking_semantics5_SemOp"
+  imports "NTP4Verif.NTP4Verif" "blocking_semantics5_Syntax" "blocking_semantics5_SemOp"
 begin
 fun msubst_term :: "term \<Rightarrow> mident \<Rightarrow> ident \<Rightarrow> term"
   where "msubst_term (Tvalue x0) x v = Tvalue x0" for x0 x v

@@ -1,4 +1,6 @@
 session "frama_c_klibc_string_memcmp" = NTP4Verif +
+sessions
+  "frama_c_klibc_string_lib"
 theories
   "memcmp_Why3_ide_VCmemcmp_loop_inv_N_RANGE_preserved_part1_goal7"
   "memcmp_Why3_ide_VCmemcmp_loop_inv_C1_RANGE_established_goal3"

@@ -1,5 +1,5 @@
 theory float_mat_norm_li_Why3_ide_VCfloat_mat_norm_li_loop_inv_established_goal1
-  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "Why3STD.Cint_Cint" "../../lib/isabelle/Axiomatic15_Axiomatic15" "../../lib/isabelle/Compound_Compound"
+  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "Why3STD.Cint_Cint" "frama_c_airborne_float_mat_norm_li_lib.Axiomatic15_Axiomatic15" "frama_c_airborne_float_mat_norm_li_lib.Compound_Compound"
 begin
 theorem goal1:
   fixes a :: "addr"

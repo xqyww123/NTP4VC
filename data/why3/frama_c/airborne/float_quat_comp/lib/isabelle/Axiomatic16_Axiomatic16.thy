@@ -1,5 +1,5 @@
 theory Axiomatic16_Axiomatic16
-  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "../../lib/isabelle/S9_RealVect3_s_S9_RealVect3_s" "Why3STD.Cmath_Cmath" "Why3STD.Cfloat_Cfloat"
+  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "S9_RealVect3_s_S9_RealVect3_s" "Why3STD.Cmath_Cmath" "Why3STD.Cfloat_Cfloat"
 begin
 definition l_scalar_product :: "s9_realvect3_s \<Rightarrow> s9_realvect3_s \<Rightarrow> real"
   where "l_scalar_product v1_0 v2_0 = f9_realvect3_s_x v1_0 * f9_realvect3_s_x v2_0 + f9_realvect3_s_y v1_0 * f9_realvect3_s_y v2_0 + f9_realvect3_s_z v1_0 * f9_realvect3_s_z v2_0" for v1_0 v2_0

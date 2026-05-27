@@ -1,4 +1,6 @@
 session "pearl_multiprecision_powm" = NTP4Verif +
+sessions
+  "pearl_multiprecision_lib"
 theories
   "powm_Powm_mod_mulqtvc"
   "powm_Powm_valueb_upper_boundqtvc"

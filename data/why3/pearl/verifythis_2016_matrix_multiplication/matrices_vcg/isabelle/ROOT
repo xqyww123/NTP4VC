@@ -1,4 +1,6 @@
 session "pearl_verifythis_2016_matrix_multiplication_matrices" = NTP4Verif +
+sessions
+  "pearl_verifythis_2016_matrix_multiplication_lib"
 theories
   "matrices_BlockMul_mul_blockqtvc"
   "matrices_MatrixArithmetic_mul_zero_leftqtvc"

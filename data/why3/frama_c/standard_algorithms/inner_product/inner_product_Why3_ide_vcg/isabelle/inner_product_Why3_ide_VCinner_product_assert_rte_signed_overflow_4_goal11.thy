@@ -1,5 +1,5 @@
 theory inner_product_Why3_ide_VCinner_product_assert_rte_signed_overflow_4_goal11
-  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "Why3STD.Cint_Cint" "../../lib/isabelle/Axiomatic1_Axiomatic1" "../../lib/isabelle/A_InnerProductAxiomatic_A_InnerProductAxiomatic" "../../lib/isabelle/Compound_Compound" "../../lib/isabelle/Axiomatic_Axiomatic"
+  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "Why3STD.Cint_Cint" "frama_c_standard_algorithms_inner_product_lib.Axiomatic1_Axiomatic1" "frama_c_standard_algorithms_inner_product_lib.A_InnerProductAxiomatic_A_InnerProductAxiomatic" "frama_c_standard_algorithms_inner_product_lib.Compound_Compound" "frama_c_standard_algorithms_inner_product_lib.Axiomatic_Axiomatic"
 begin
 theorem goal11:
   fixes t_1 :: "addr \<Rightarrow> int"

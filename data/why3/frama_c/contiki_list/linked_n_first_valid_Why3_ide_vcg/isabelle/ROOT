@@ -1,3 +1,5 @@
 session "frama_c_contiki_list_linked_n_first_valid" = NTP4Verif +
+sessions
+  "frama_c_contiki_list_lib"
 theories
   "linked_n_first_valid_Why3_ide_VClinked_n_first_valid_post_goal0"

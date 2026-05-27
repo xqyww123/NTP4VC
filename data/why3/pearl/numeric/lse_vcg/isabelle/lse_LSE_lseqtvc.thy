@@ -1,5 +1,5 @@
 theory lse_LSE_lseqtvc
-  imports "NTP4Verif.NTP4Verif" "Why3STD.Ref_Ref" "Why3STD.real_Sum" "../../lib/isabelle/lse_Helpers" "Why3STD.ieee_float_RoundingMode" "Why3STD.ufloat_USingle" "Why3STD.ufloat_HelperLemmas" "Why3STD.ufloat_USingleLemmas"
+  imports "NTP4Verif.NTP4Verif" "Why3STD.Ref_Ref" "Why3STD.real_Sum" "pearl_numeric_lib.lse_Helpers" "Why3STD.ieee_float_RoundingMode" "Why3STD.ufloat_USingle" "Why3STD.ufloat_HelperLemmas" "Why3STD.ufloat_USingleLemmas"
 begin
 consts exp_of_f :: "(int \<Rightarrow> usingle) \<Rightarrow> int \<Rightarrow> real"
 axiomatization where exp_of_f'def:   "exp_of_f f i = exp (real_fun f i)"

@@ -1,5 +1,5 @@
 theory blocking_semantics5_SemOp_steps_non_negqtvc
-  imports "NTP4Verif.NTP4Verif" "../../lib/isabelle/blocking_semantics5_Syntax"
+  imports "NTP4Verif.NTP4Verif" "pearl_WP_revisited_lib.blocking_semantics5_Syntax"
 begin
 typedecl  env
 typedecl  stack

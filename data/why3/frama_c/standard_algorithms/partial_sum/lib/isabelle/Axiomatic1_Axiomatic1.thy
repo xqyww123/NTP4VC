@@ -1,5 +1,5 @@
 theory Axiomatic1_Axiomatic1
-  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "../../lib/isabelle/A_AccumulateAxiomatic_A_AccumulateAxiomatic" "Why3STD.Cint_Cint" "../../lib/isabelle/Compound_Compound" "../../lib/isabelle/Axiomatic_Axiomatic"
+  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "A_AccumulateAxiomatic_A_AccumulateAxiomatic" "Why3STD.Cint_Cint" "Compound_Compound" "Axiomatic_Axiomatic"
 begin
 definition p_partialsum :: "(addr \<Rightarrow> int) \<Rightarrow> addr \<Rightarrow> int \<Rightarrow> addr \<Rightarrow> _"
   where "p_partialsum mint_0 a n b \<longleftrightarrow> (\<forall>(i :: int). (0 :: int) \<le> i \<longrightarrow> i < n \<longrightarrow> mint_0 (shift b i) = l_accumulate_1' mint_0 a ((1 :: int) + i) (0 :: int))" for mint_0 a n b

@@ -1,5 +1,5 @@
 theory div_u64_rem_0_Why3_ide_VCdiv_u64_rem_0_post_2_goal1
-  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "../../lib/isabelle/Axiomatic3_Axiomatic3" "Why3STD.Memory_Memory" "Why3STD.Cint_Cint"
+  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "frama_c_verker_lib.Axiomatic3_Axiomatic3" "Why3STD.Memory_Memory" "Why3STD.Cint_Cint"
 begin
 theorem goal1:
   fixes i_1 :: "int"

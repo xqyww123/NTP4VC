@@ -1,5 +1,5 @@
 theory blocking_semantics5_Typing
-  imports "NTP4Verif.NTP4Verif" "../../lib/isabelle/blocking_semantics5_Syntax"
+  imports "NTP4Verif.NTP4Verif" "blocking_semantics5_Syntax"
 begin
 definition type_value :: "value \<Rightarrow> datatype"
   where "type_value v = (case v of Vvoid \<Rightarrow> TYunit | Vint _ \<Rightarrow> TYint | Vbool _ \<Rightarrow> TYbool)" for v

@@ -1,3 +1,5 @@
 session "frama_c_x509_parser_parse_x509_signatureValue" = NTP4Verif +
+sessions
+  "frama_c_x509_parser_lib"
 theories
   "parse_x509_signatureValue_Why3_ide_VCparse_x509_signatureValue_stmt_calls_parse_sig_ecdsa_pars____goal0"

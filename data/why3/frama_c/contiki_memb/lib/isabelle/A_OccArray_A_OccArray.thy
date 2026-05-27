@@ -1,5 +1,5 @@
 theory A_OccArray_A_OccArray
-  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "../../lib/isabelle/Compound_Compound"
+  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "Compound_Compound"
 begin
 consts l_occ_a :: "(addr \<Rightarrow> int) \<Rightarrow> int \<Rightarrow> addr \<Rightarrow> int \<Rightarrow> int \<Rightarrow> int"
 axiomatization where Q_end_occ_a:   "l_occ_a mchar_0 e t from_0 to_0 = (0 :: int)"

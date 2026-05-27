@@ -1,4 +1,6 @@
 session "frama_c_verker_memchr_inv" = NTP4Verif +
+sessions
+  "frama_c_verker_lib"
 theories
   "memchr_inv_Why3_ide_VCmemchr_inv_call_check_bytes8_0_pre_3_goal2"
   "memchr_inv_Why3_ide_VCmemchr_inv_call_check_bytes8_0_pre_2_goal1"

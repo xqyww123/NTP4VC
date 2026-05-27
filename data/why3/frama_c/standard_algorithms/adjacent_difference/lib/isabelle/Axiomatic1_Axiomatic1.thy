@@ -1,5 +1,5 @@
 theory Axiomatic1_Axiomatic1
-  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "../../lib/isabelle/Compound_Compound" "../../lib/isabelle/A_DifferenceAxiomatic_A_DifferenceAxiomatic" "Why3STD.Cint_Cint" "../../lib/isabelle/Axiomatic_Axiomatic"
+  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "Compound_Compound" "A_DifferenceAxiomatic_A_DifferenceAxiomatic" "Why3STD.Cint_Cint" "Axiomatic_Axiomatic"
 begin
 definition p_adjacentdifference :: "(addr \<Rightarrow> int) \<Rightarrow> addr \<Rightarrow> int \<Rightarrow> addr \<Rightarrow> _"
   where "p_adjacentdifference mint_0 a n b \<longleftrightarrow> (\<forall>(i :: int). (0 :: int) \<le> i \<longrightarrow> i < n \<longrightarrow> mint_0 (shift b i) = l_difference mint_0 a i)" for mint_0 a n b

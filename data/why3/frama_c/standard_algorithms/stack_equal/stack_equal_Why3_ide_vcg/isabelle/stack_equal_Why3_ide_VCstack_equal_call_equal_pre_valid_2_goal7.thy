@@ -1,5 +1,5 @@
 theory stack_equal_Why3_ide_VCstack_equal_call_equal_pre_valid_2_goal7
-  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "Why3STD.Cint_Cint" "../../lib/isabelle/Compound_Compound" "../../lib/isabelle/Axiomatic_Axiomatic"
+  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "Why3STD.Cint_Cint" "frama_c_standard_algorithms_stack_equal_lib.Compound_Compound" "frama_c_standard_algorithms_stack_equal_lib.Axiomatic_Axiomatic"
 begin
 theorem goal7:
   fixes a_1 :: "addr"

@@ -1,5 +1,5 @@
 theory find_first_bit_0_Why3_ide_VCfind_first_bit_0_above_post_3_goal6
-  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "../../lib/isabelle/Compound_Compound" "../../lib/isabelle/A_thread_variables_properties_A_thread_variables_properties" "Why3STD.Cint_Cint"
+  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "frama_c_should_we_balance_lib.Compound_Compound" "frama_c_should_we_balance_lib.A_thread_variables_properties_A_thread_variables_properties" "Why3STD.Cint_Cint"
 begin
 theorem goal6:
   fixes a :: "addr"

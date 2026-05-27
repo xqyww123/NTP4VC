@@ -1,3 +1,5 @@
 session "frama_c_standard_algorithms_selection_sort_ForceSorted" = NTP4Verif +
+sessions
+  "frama_c_standard_algorithms_selection_sort_lib"
 theories
   "ForceSorted_Why3_ide_VCForceSorted_post_goal0"

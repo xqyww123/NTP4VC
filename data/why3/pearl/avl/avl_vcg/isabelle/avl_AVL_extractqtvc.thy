@@ -1,5 +1,5 @@
 theory avl_AVL_extractqtvc
-  imports "NTP4Verif.NTP4Verif" "Why3STD.Ref_Ref" "../../lib/isabelle/avl_SelectionTypes"
+  imports "NTP4Verif.NTP4Verif" "Why3STD.Ref_Ref" "pearl_avl_lib.avl_SelectionTypes"
 begin
 typedecl  t
 consts zero :: "t"

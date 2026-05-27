@@ -1,4 +1,6 @@
 session "pearl_lse_my_lse" = NTP4Verif +
+sessions
+  "pearl_lse_lib"
 theories
   "my_lse_LSE_lse_accuracyqtvc"
   "my_lse_LSE_u_exp_funqtvc"

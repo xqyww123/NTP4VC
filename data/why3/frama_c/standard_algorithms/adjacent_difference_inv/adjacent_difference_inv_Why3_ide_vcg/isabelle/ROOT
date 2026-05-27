@@ -1,4 +1,6 @@
 session "frama_c_standard_algorithms_adjacent_difference_inv_adjacent_difference_inv" = NTP4Verif +
+sessions
+  "frama_c_standard_algorithms_adjacent_difference_inv_lib"
 theories
   "adjacent_difference_inv_Why3_ide_VCadjacent_difference_inv_call_partial_sum_pre_bounds_goal5"
   "adjacent_difference_inv_Why3_ide_VCadjacent_difference_inv_post_unchanged_goal0"

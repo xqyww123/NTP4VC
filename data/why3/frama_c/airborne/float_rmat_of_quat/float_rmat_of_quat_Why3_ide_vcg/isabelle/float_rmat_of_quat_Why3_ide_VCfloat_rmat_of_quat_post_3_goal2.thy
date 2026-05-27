@@ -1,5 +1,5 @@
 theory float_rmat_of_quat_Why3_ide_VCfloat_rmat_of_quat_post_3_goal2
-  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "../../lib/isabelle/Axiomatic19_Axiomatic19" "../../lib/isabelle/S10_RealRMat_s_S10_RealRMat_s" "Why3STD.Cmath_Cmath" "Why3STD.Cfloat_Cfloat" "../../lib/isabelle/Compound_Compound" "../../lib/isabelle/Axiomatic15_Axiomatic15" "../../lib/isabelle/Axiomatic17_Axiomatic17"
+  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "frama_c_airborne_float_rmat_of_quat_lib.Axiomatic19_Axiomatic19" "frama_c_airborne_float_rmat_of_quat_lib.S10_RealRMat_s_S10_RealRMat_s" "Why3STD.Cmath_Cmath" "Why3STD.Cfloat_Cfloat" "frama_c_airborne_float_rmat_of_quat_lib.Compound_Compound" "frama_c_airborne_float_rmat_of_quat_lib.Axiomatic15_Axiomatic15" "frama_c_airborne_float_rmat_of_quat_lib.Axiomatic17_Axiomatic17"
 begin
 theorem goal2:
   fixes t_1 :: "addr \<Rightarrow> real"

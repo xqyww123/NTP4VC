@@ -1,4 +1,6 @@
 session "frama_c_contiki_memb_occ_a_split" = NTP4Verif +
+sessions
+  "frama_c_contiki_memb_lib"
 theories
   "occ_a_split_Why3_ide_VCocc_a_split_assert_rte_signed_overflow_goal3"
   "occ_a_split_Why3_ide_VCocc_a_split_loop_inv_preserved_goal0"

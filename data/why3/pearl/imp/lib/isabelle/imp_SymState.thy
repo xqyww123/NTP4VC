@@ -1,5 +1,5 @@
 theory imp_SymState
-  imports "NTP4Verif.NTP4Verif" "../../lib/isabelle/imp_Syntax" "../../lib/isabelle/imp_Svar" "../../lib/isabelle/imp_Constraint"
+  imports "NTP4Verif.NTP4Verif" "imp_Syntax" "imp_Svar" "imp_Constraint"
 begin
 typedecl  sym_state
 consts sigma :: "sym_state \<Rightarrow> t"

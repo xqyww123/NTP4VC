@@ -1,3 +1,5 @@
 session "frama_c_verker_isupper" = NTP4Verif +
+sessions
+  "frama_c_verker_lib"
 theories
   "isupper_Why3_ide_VCisupper_post_goal0"

@@ -1,5 +1,5 @@
 theory A_StrStr_A_StrStr
-  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "../../lib/isabelle/A_Strlen_A_Strlen" "../../lib/isabelle/Compound_Compound" "Why3STD.Cint_Cint"
+  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "A_Strlen_A_Strlen" "Compound_Compound" "Why3STD.Cint_Cint"
 begin
 consts l_strstr :: "addr \<Rightarrow> addr \<Rightarrow> addr"
 definition p_strmatch :: "(addr \<Rightarrow> int) \<Rightarrow> addr \<Rightarrow> addr \<Rightarrow> _"

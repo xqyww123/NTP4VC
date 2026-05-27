@@ -1,5 +1,5 @@
 theory imp_ConcreteInterpreter_interp_cmdqtvc
-  imports "NTP4Verif.NTP4Verif" "Why3STD.Ref_Ref" "../../lib/isabelle/imp_Syntax" "../../lib/isabelle/imp_ConcreteSemantics" "../../lib/isabelle/dict_Imperative"
+  imports "NTP4Verif.NTP4Verif" "Why3STD.Ref_Ref" "pearl_imp_lib.imp_Syntax" "pearl_imp_lib.imp_ConcreteSemantics" "pearl_imp_lib.dict_Imperative"
 begin
 typedecl  env
 theorem interp_cmd'vc:

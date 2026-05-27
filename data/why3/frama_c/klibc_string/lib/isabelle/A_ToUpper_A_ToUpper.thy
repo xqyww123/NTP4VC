@@ -1,5 +1,5 @@
 theory A_ToUpper_A_ToUpper
-  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Cint_Cint" "../../lib/isabelle/Axiomatic2_Axiomatic2"
+  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Cint_Cint" "Axiomatic2_Axiomatic2"
 begin
 consts l_toupper :: "int \<Rightarrow> int"
 axiomatization where Q_TL_ToUpper:   "is_sint8 (l_toupper c)"

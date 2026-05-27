@@ -1,5 +1,5 @@
 theory base_info_BaseInfo
-  imports "NTP4Verif.NTP4Verif" "Why3STD.Ref_Ref" "Why3STD.map_Const" "Why3STD.map_MapEq" "mach.int_Unsigned" "../../lib/isabelle/types_Config" "../../lib/isabelle/types_Types" "mach.c_C" "../../lib/isabelle/types_Int32Eq" "../../lib/isabelle/types_UInt64Eq" "../../lib/isabelle/logical_LogicalUtil" "../../lib/isabelle/lemmas_Lemmas" "../../lib/isabelle/logical_Logical" "../../lib/isabelle/ptralias_Alias"
+  imports "NTP4Verif.NTP4Verif" "Why3STD.Ref_Ref" "Why3STD.map_Const" "Why3STD.map_MapEq" "mach.int_Unsigned" "types_Config" "types_Types" "mach.c_C" "types_Int32Eq" "types_UInt64Eq" "logical_LogicalUtil" "lemmas_Lemmas" "logical_Logical" "ptralias_Alias"
 begin
 typedecl  wmpn_base_info
 consts b :: "wmpn_base_info \<Rightarrow> int"

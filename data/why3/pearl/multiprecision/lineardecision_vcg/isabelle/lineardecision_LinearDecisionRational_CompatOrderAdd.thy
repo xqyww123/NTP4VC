@@ -1,5 +1,5 @@
 theory lineardecision_LinearDecisionRational_CompatOrderAdd
-  imports "NTP4Verif.NTP4Verif" "Why3STD.Ref_Ref" "../../lib/isabelle/lineardecision_RationalCoeffs"
+  imports "NTP4Verif.NTP4Verif" "Why3STD.Ref_Ref" "pearl_multiprecision_lib.lineardecision_RationalCoeffs"
 begin
 theorem CompatOrderAdd:
   fixes x :: "real"

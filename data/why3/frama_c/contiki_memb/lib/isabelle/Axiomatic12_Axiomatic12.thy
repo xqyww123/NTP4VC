@@ -1,5 +1,5 @@
 theory Axiomatic12_Axiomatic12
-  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "../../lib/isabelle/Compound_Compound"
+  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "Compound_Compound"
 begin
 definition p_empty_block :: "(int \<Rightarrow> int) \<Rightarrow> addr \<Rightarrow> _"
   where "p_empty_block malloc_0 s \<longleftrightarrow> malloc_0 (base s) = (0 :: int) \<and> base_offset (offset s) = (0 :: int)" for malloc_0 s

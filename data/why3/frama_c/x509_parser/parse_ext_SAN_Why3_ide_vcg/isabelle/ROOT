@@ -1,4 +1,6 @@
 session "frama_c_x509_parser_parse_ext_SAN" = NTP4Verif +
+sessions
+  "frama_c_x509_parser_lib"
 theories
   "parse_ext_SAN_Why3_ide_VCparse_ext_SAN_assert_rte_mem_access_goal4"
   "parse_ext_SAN_Why3_ide_VCparse_ext_SAN_loop_inv_preserved_part2_goal1"

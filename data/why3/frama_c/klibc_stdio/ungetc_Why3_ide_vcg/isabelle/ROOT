@@ -1,4 +1,6 @@
 session "frama_c_klibc_stdio_ungetc" = NTP4Verif +
+sessions
+  "frama_c_klibc_stdio_lib"
 theories
   "ungetc_Why3_ide_VCungetc_success_post_3_part1_goal12"
   "ungetc_Why3_ide_VCungetc_success_post_3_part2_goal13"

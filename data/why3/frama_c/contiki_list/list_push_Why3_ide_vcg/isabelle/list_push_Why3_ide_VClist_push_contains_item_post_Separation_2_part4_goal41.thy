@@ -1,5 +1,5 @@
 theory list_push_Why3_ide_VClist_push_contains_item_post_Separation_2_part4_goal41
-  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "Why3STD.Cint_Cint" "../../lib/isabelle/Compound_Compound" "../../lib/isabelle/S1_list_S1_list" "../../lib/isabelle/Axiomatic_Axiomatic" "../../lib/isabelle/A_Index_of_item_A_Index_of_item" "../../lib/isabelle/Axiomatic1_Axiomatic1"
+  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "Why3STD.Cint_Cint" "frama_c_contiki_list_lib.Compound_Compound" "frama_c_contiki_list_lib.S1_list_S1_list" "frama_c_contiki_list_lib.Axiomatic_Axiomatic" "frama_c_contiki_list_lib.A_Index_of_item_A_Index_of_item" "frama_c_contiki_list_lib.Axiomatic1_Axiomatic1"
 begin
 theorem goal41:
   fixes t_3 :: "addr \<Rightarrow> addr"

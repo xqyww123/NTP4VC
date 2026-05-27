@@ -1,5 +1,5 @@
 theory rewind_Why3_ide_VCrewind_assign_normal_part3_goal8
-  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "../../lib/isabelle/Compound_Compound" "../../lib/isabelle/Axiomatic3_Axiomatic3" "Why3STD.Cint_Cint"
+  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "frama_c_klibc_stdio_lib.Compound_Compound" "frama_c_klibc_stdio_lib.Axiomatic3_Axiomatic3" "Why3STD.Cint_Cint"
 begin
 theorem goal8:
   fixes a_2 :: "addr"

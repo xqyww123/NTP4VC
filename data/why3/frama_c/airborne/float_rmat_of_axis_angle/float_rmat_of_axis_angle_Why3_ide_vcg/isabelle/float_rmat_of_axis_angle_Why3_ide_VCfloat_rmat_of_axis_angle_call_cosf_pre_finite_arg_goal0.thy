@@ -1,5 +1,5 @@
 theory float_rmat_of_axis_angle_Why3_ide_VCfloat_rmat_of_axis_angle_call_cosf_pre_finite_arg_goal0
-  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "Why3STD.Cmath_Cmath" "Why3STD.Cfloat_Cfloat" "../../lib/isabelle/Axiomatic15_Axiomatic15" "../../lib/isabelle/Compound_Compound"
+  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "Why3STD.Cmath_Cmath" "Why3STD.Cfloat_Cfloat" "frama_c_airborne_float_rmat_of_axis_angle_lib.Axiomatic15_Axiomatic15" "frama_c_airborne_float_rmat_of_axis_angle_lib.Compound_Compound"
 begin
 theorem goal0:
   fixes a :: "addr"

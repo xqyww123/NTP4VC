@@ -1,5 +1,5 @@
 theory find_next_bit_wrap_Why3_ide_VCfind_next_bit_wrap_disjoint_below_above_nowhere_goal1
-  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "../../lib/isabelle/A_thread_variables_properties_A_thread_variables_properties" "Why3STD.Cint_Cint" "../../lib/isabelle/Compound_Compound"
+  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "frama_c_should_we_balance_lib.A_thread_variables_properties_A_thread_variables_properties" "Why3STD.Cint_Cint" "frama_c_should_we_balance_lib.Compound_Compound"
 begin
 theorem goal1:
   fixes i_1 :: "int"

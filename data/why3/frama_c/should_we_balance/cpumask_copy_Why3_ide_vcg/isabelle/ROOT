@@ -1,4 +1,6 @@
 session "frama_c_should_we_balance_cpumask_copy" = NTP4Verif +
+sessions
+  "frama_c_should_we_balance_lib"
 theories
   "cpumask_copy_Why3_ide_VCcpumask_copy_assert_rte_signed_overflow_goal9"
   "cpumask_copy_Why3_ide_VCcpumask_copy_loop_assign_part3_goal10"

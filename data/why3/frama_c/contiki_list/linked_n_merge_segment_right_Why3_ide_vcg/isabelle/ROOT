@@ -1,3 +1,5 @@
 session "frama_c_contiki_list_linked_n_merge_segment_right" = NTP4Verif +
+sessions
+  "frama_c_contiki_list_lib"
 theories
   "linked_n_merge_segment_right_Why3_ide_VClinked_n_merge_segment_right_post_goal0"

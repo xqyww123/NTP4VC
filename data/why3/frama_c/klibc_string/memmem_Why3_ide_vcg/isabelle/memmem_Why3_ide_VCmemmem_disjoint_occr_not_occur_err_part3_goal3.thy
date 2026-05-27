@@ -1,5 +1,5 @@
 theory memmem_Why3_ide_VCmemmem_disjoint_occr_not_occur_err_part3_goal3
-  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "Why3STD.Cint_Cint" "../../lib/isabelle/Compound_Compound"
+  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "Why3STD.Cint_Cint" "frama_c_klibc_string_lib.Compound_Compound"
 begin
 theorem goal3:
   fixes a_4 :: "addr"

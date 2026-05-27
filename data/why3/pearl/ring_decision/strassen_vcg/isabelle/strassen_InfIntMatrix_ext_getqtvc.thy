@@ -1,5 +1,5 @@
 theory strassen_InfIntMatrix_ext_getqtvc
-  imports "NTP4Verif.NTP4Verif" "Why3STD.int_Sum" "../../lib/isabelle/strassen_Sum_extended" "../../lib/isabelle/strassen_MaxFun"
+  imports "NTP4Verif.NTP4Verif" "Why3STD.int_Sum" "pearl_ring_decision_lib.strassen_Sum_extended" "pearl_ring_decision_lib.strassen_MaxFun"
 begin
 consts infix_pl :: "int \<Rightarrow> int \<Rightarrow> int"
 consts prefix_mn :: "int \<Rightarrow> int"

@@ -1,4 +1,6 @@
 session "frama_c_verker_strcasecmp" = NTP4Verif +
+sessions
+  "frama_c_verker_lib"
 theories
   "strcasecmp_Why3_ide_VCstrcasecmp_loop_inv_2_preserved_goal1"
   "strcasecmp_Why3_ide_VCstrcasecmp_loop_assign_part6_goal9"

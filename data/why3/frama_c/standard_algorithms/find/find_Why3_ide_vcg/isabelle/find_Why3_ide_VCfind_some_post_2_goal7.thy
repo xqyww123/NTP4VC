@@ -1,5 +1,5 @@
 theory find_Why3_ide_VCfind_some_post_2_goal7
-  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "../../lib/isabelle/Compound_Compound" "Why3STD.Cint_Cint"
+  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "frama_c_standard_algorithms_find_lib.Compound_Compound" "Why3STD.Cint_Cint"
 begin
 theorem goal7:
   fixes t_1 :: "addr \<Rightarrow> int"

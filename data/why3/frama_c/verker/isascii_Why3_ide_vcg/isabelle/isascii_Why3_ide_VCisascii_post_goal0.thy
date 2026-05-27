@@ -1,5 +1,5 @@
 theory isascii_Why3_ide_VCisascii_post_goal0
-  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "../../lib/isabelle/Axiomatic3_Axiomatic3" "Why3STD.Cint_Cint"
+  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "frama_c_verker_lib.Axiomatic3_Axiomatic3" "Why3STD.Cint_Cint"
 begin
 theorem goal0:
   fixes i :: "int"

@@ -1,5 +1,5 @@
 theory max_element_Why3_ide_VCmax_element_post_result_goal2
-  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "Why3STD.Cint_Cint" "../../lib/isabelle/Compound_Compound"
+  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "Why3STD.Cint_Cint" "frama_c_standard_algorithms_max_element2_lib.Compound_Compound"
 begin
 theorem goal2:
   fixes i :: "int"

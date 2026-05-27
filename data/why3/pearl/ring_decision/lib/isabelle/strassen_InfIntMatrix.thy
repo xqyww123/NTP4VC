@@ -1,5 +1,5 @@
 theory strassen_InfIntMatrix
-  imports "NTP4Verif.NTP4Verif" "Why3STD.int_Sum" "../../lib/isabelle/strassen_Sum_extended" "../../lib/isabelle/strassen_MaxFun"
+  imports "NTP4Verif.NTP4Verif" "Why3STD.int_Sum" "strassen_Sum_extended" "strassen_MaxFun"
 begin
 consts infix_pl :: "int \<Rightarrow> int \<Rightarrow> int"
 consts prefix_mn :: "int \<Rightarrow> int"

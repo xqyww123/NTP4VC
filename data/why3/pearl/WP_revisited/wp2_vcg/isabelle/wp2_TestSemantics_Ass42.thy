@@ -1,5 +1,5 @@
 theory wp2_TestSemantics_Ass42
-  imports "NTP4Verif.NTP4Verif" "Why3STD.map_Const" "../../lib/isabelle/wp2_Imp"
+  imports "NTP4Verif.NTP4Verif" "Why3STD.map_Const" "pearl_WP_revisited_lib.wp2_Imp"
 begin
 theorem Ass42:
   fixes sigma' :: "int \<Rightarrow> value"

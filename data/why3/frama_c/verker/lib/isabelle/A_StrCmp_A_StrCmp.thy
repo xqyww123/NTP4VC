@@ -1,5 +1,5 @@
 theory A_StrCmp_A_StrCmp
-  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "../../lib/isabelle/Compound_Compound" "Why3STD.Cint_Cint" "../../lib/isabelle/A_Strlen_A_Strlen"
+  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "Compound_Compound" "Why3STD.Cint_Cint" "A_Strlen_A_Strlen"
 begin
 definition l_cmp :: "int \<Rightarrow> int \<Rightarrow> int"
   where "l_cmp a b = (if b = a then 0 :: int else if a < b then -(1 :: int) else (1 :: int))" for a b

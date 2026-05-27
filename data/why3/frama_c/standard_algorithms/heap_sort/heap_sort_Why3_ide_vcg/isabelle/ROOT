@@ -1,3 +1,5 @@
 session "frama_c_standard_algorithms_heap_sort_heap_sort" = NTP4Verif +
+sessions
+  "frama_c_standard_algorithms_heap_sort_lib"
 theories
   "heap_sort_Why3_ide_VCheap_sort_post_reorder_goal0"

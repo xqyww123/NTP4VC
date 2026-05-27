@@ -1,5 +1,5 @@
 theory wp2_HoareLogic_while_rule_extqtvc
-  imports "NTP4Verif.NTP4Verif" "../../lib/isabelle/wp2_Imp"
+  imports "NTP4Verif.NTP4Verif" "pearl_WP_revisited_lib.wp2_Imp"
 begin
 theorem while_rule_ext'vc:
   fixes inv' :: "fmla"

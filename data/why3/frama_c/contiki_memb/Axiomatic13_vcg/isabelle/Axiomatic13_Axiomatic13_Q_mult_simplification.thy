@@ -1,5 +1,5 @@
 theory Axiomatic13_Axiomatic13_Q_mult_simplification
-  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "../../lib/isabelle/Compound_Compound" "../../lib/isabelle/A_OccArray_A_OccArray"
+  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "frama_c_contiki_memb_lib.Compound_Compound" "frama_c_contiki_memb_lib.A_OccArray_A_OccArray"
 begin
 definition p_valid_memb :: "(int \<Rightarrow> int) \<Rightarrow> (addr \<Rightarrow> addr) \<Rightarrow> (addr \<Rightarrow> int) \<Rightarrow> addr \<Rightarrow> _"
   where "p_valid_memb malloc_0 mptr_0 mint_0 m \<longleftrightarrow> (let x :: int = mint_0 (shift m (0 :: int)); x_1 :: int = mint_0 (shift m (1 :: int)); x_2 :: int = x_1 * x; a :: addr = mptr_0 (shift m (2 :: int)); a_1 :: addr = mptr_0 (shift m (3 :: int)); a_2 :: addr = shift a (0 :: int); a_3 :: addr = shift a_1 (0 :: int) in (0 :: int) < x \<and> x_2 \<le> (2147483647 :: int) \<and> valid_rw malloc_0 m (4 :: int) \<and> valid_rw malloc_0 a (1 :: int) \<and> valid_rw malloc_0 a_1 (1 :: int) \<and> valid_rw malloc_0 a_2 x_1 \<and> valid_rw malloc_0 a_3 x_2 \<and> separated a_2 x_1 a_3 x_2)" for malloc_0 mptr_0 mint_0 m

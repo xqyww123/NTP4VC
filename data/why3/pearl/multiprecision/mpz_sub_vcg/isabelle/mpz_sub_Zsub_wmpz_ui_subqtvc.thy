@@ -1,5 +1,5 @@
 theory mpz_sub_Zsub_wmpz_ui_subqtvc
-  imports "NTP4Verif.NTP4Verif" "Why3STD.Ref_Ref" "Why3STD.map_Const" "Why3STD.map_MapEq" "mach.int_Unsigned" "mach.c_C" "../../lib/isabelle/lemmas_Lemmas" "../../lib/isabelle/types_Config" "../../lib/isabelle/types_Types" "../../lib/isabelle/types_Int32Eq" "../../lib/isabelle/types_UInt64Eq" "../../lib/isabelle/util_Util" "../../lib/isabelle/ptralias_Alias" "../../lib/isabelle/compare_Compare" "../../lib/isabelle/add_Add" "../../lib/isabelle/sub_Sub" "../../lib/isabelle/mpz_Z" "../../lib/isabelle/mpz_Zutil" "../../lib/isabelle/add_1_Add_1" "../../lib/isabelle/sub_1_Sub_1"
+  imports "NTP4Verif.NTP4Verif" "Why3STD.Ref_Ref" "Why3STD.map_Const" "Why3STD.map_MapEq" "mach.int_Unsigned" "mach.c_C" "pearl_multiprecision_lib.lemmas_Lemmas" "pearl_multiprecision_lib.types_Config" "pearl_multiprecision_lib.types_Types" "pearl_multiprecision_lib.types_Int32Eq" "pearl_multiprecision_lib.types_UInt64Eq" "pearl_multiprecision_lib.util_Util" "pearl_multiprecision_lib.ptralias_Alias" "pearl_multiprecision_lib.compare_Compare" "pearl_multiprecision_lib.add_Add" "pearl_multiprecision_lib.sub_Sub" "pearl_multiprecision_lib.mpz_Z" "pearl_multiprecision_lib.mpz_Zutil" "pearl_multiprecision_lib.add_1_Add_1" "pearl_multiprecision_lib.sub_1_Sub_1"
 begin
 theorem wmpz_ui_sub'vc:
   fixes mpz :: "mpz_memo"

@@ -1,5 +1,5 @@
 theory imp_Constraint
-  imports "NTP4Verif.NTP4Verif" "../../lib/isabelle/imp_Syntax" "../../lib/isabelle/imp_Svar"
+  imports "NTP4Verif.NTP4Verif" "imp_Syntax" "imp_Svar"
 begin
 typedecl  model
 typedecl  t

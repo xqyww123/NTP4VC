@@ -1,5 +1,5 @@
 theory blocking_semantics5_SemOp
-  imports "NTP4Verif.NTP4Verif" "../../lib/isabelle/blocking_semantics5_Syntax"
+  imports "NTP4Verif.NTP4Verif" "blocking_semantics5_Syntax"
 begin
 typedecl  env
 typedecl  stack

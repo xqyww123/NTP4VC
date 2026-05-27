@@ -1,4 +1,6 @@
 session "frama_c_verker_bsearch" = NTP4Verif +
+sessions
+  "frama_c_verker_lib"
 theories
   "bsearch_Why3_ide_VCbsearch_assign_normal_part1_goal2"
   "bsearch_Why3_ide_VCbsearch_assign_normal_part2_goal3"

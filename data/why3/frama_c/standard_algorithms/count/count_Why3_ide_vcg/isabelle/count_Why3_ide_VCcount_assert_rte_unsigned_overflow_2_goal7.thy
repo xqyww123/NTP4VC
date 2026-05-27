@@ -1,5 +1,5 @@
 theory count_Why3_ide_VCcount_assert_rte_unsigned_overflow_2_goal7
-  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "../../lib/isabelle/Axiomatic1_Axiomatic1" "../../lib/isabelle/A_Count_A_Count" "Why3STD.Cint_Cint" "../../lib/isabelle/Compound_Compound" "../../lib/isabelle/Axiomatic_Axiomatic"
+  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "frama_c_standard_algorithms_count_lib.Axiomatic1_Axiomatic1" "frama_c_standard_algorithms_count_lib.A_Count_A_Count" "Why3STD.Cint_Cint" "frama_c_standard_algorithms_count_lib.Compound_Compound" "frama_c_standard_algorithms_count_lib.Axiomatic_Axiomatic"
 begin
 theorem goal7:
   fixes t_1 :: "addr \<Rightarrow> int"

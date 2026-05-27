@@ -1,4 +1,6 @@
 session "frama_c_klibc_stdio_fread" = NTP4Verif +
+sessions
+  "frama_c_klibc_stdio_lib"
 theories
   "fread_Why3_ide_VCfread_call__fread_pre_2_part6_goal5"
   "fread_Why3_ide_VCfread_call__fread_pre_3_goal6"

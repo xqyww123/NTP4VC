@@ -1,4 +1,6 @@
 session "pearl_imp_imp" = NTP4Verif +
+sessions
+  "pearl_imp_lib"
 theories
   "imp_ConcreteSemantics_mk_loop_cnfqtvc"
   "imp_SymbolicInterpreter_bhv_unionqtvc"

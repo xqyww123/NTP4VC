@@ -1,3 +1,5 @@
 session "frama_c_verker_islower" = NTP4Verif +
+sessions
+  "frama_c_verker_lib"
 theories
   "islower_Why3_ide_VCislower_post_goal0"

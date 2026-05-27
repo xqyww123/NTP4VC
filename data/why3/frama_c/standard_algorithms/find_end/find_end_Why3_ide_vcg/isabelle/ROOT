@@ -1,4 +1,6 @@
 session "frama_c_standard_algorithms_find_end_find_end" = NTP4Verif +
+sessions
+  "frama_c_standard_algorithms_find_end_lib"
 theories
   "find_end_Why3_ide_VCfind_end_post_result_goal0"
   "find_end_Why3_ide_VCfind_end_assert_rte_unsigned_overflow_2_goal4"

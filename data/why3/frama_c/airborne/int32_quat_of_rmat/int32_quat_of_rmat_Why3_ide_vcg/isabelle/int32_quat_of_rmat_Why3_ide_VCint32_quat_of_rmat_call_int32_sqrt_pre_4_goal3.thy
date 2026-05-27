@@ -1,5 +1,5 @@
 theory int32_quat_of_rmat_Why3_ide_VCint32_quat_of_rmat_call_int32_sqrt_pre_4_goal3
-  imports "NTP4Verif.NTP4Verif" "Why3STD.real_Truncate" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "../../lib/isabelle/Compound_Compound" "../../lib/isabelle/Axiomatic15_Axiomatic15" "Why3STD.Cint_Cint" "Why3STD.Cbits_Cbits" "Why3STD.Cmath_Cmath" "Why3STD.Cfloat_Cfloat"
+  imports "NTP4Verif.NTP4Verif" "Why3STD.real_Truncate" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "frama_c_airborne_int32_quat_of_rmat_lib.Compound_Compound" "frama_c_airborne_int32_quat_of_rmat_lib.Axiomatic15_Axiomatic15" "Why3STD.Cint_Cint" "Why3STD.Cbits_Cbits" "Why3STD.Cmath_Cmath" "Why3STD.Cfloat_Cfloat"
 begin
 theorem goal3:
   fixes a :: "addr"

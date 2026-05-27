@@ -1,5 +1,5 @@
 theory Axiomatic15_Axiomatic15
-  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "Why3STD.Cmath_Cmath" "Why3STD.Cfloat_Cfloat" "../../lib/isabelle/Compound_Compound" "../../lib/isabelle/S5_FloatRMat_S5_FloatRMat"
+  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "Why3STD.Cmath_Cmath" "Why3STD.Cfloat_Cfloat" "Compound_Compound" "S5_FloatRMat_S5_FloatRMat"
 begin
 definition p_finite_floatrmat :: "(addr \<Rightarrow> real) \<Rightarrow> addr \<Rightarrow> _"
   where "p_finite_floatrmat mflt_0 rm_0 \<longleftrightarrow> (let a :: addr = shift rm_0 (0 :: int) in is_finite32 (mflt_0 (shift a (0 :: int))) \<and> is_finite32 (mflt_0 (shift a (1 :: int))) \<and> is_finite32 (mflt_0 (shift a (2 :: int))) \<and> is_finite32 (mflt_0 (shift a (3 :: int))) \<and> is_finite32 (mflt_0 (shift a (4 :: int))) \<and> is_finite32 (mflt_0 (shift a (5 :: int))) \<and> is_finite32 (mflt_0 (shift a (6 :: int))) \<and> is_finite32 (mflt_0 (shift a (7 :: int))) \<and> is_finite32 (mflt_0 (shift a (8 :: int))))" for mflt_0 rm_0

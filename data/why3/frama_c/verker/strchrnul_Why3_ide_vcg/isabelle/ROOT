@@ -1,4 +1,6 @@
 session "frama_c_verker_strchrnul" = NTP4Verif +
+sessions
+  "frama_c_verker_lib"
 theories
   "strchrnul_Why3_ide_VCstrchrnul_loop_inv_2_preserved_goal3"
   "strchrnul_Why3_ide_VCstrchrnul_assert_2_goal8"

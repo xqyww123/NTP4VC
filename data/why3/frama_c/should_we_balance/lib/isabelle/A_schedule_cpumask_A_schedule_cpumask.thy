@@ -1,5 +1,5 @@
 theory A_schedule_cpumask_A_schedule_cpumask
-  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "../../lib/isabelle/Compound_Compound" "../../lib/isabelle/A_thread_variables_properties_A_thread_variables_properties" "Why3STD.Cint_Cint"
+  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "Compound_Compound" "A_thread_variables_properties_A_thread_variables_properties" "Why3STD.Cint_Cint"
 begin
 consts l_idle_cpu :: "int \<Rightarrow> int"
 consts l_sched_group_cpus :: "addr \<Rightarrow> addr"

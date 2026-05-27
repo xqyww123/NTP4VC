@@ -1,4 +1,6 @@
 session "frama_c_x509_parser_parse_x509_subjectPublicKeyInfo" = NTP4Verif +
+sessions
+  "frama_c_x509_parser_lib"
 theories
   "parse_x509_subjectPublicKeyInfo_Why3_ide_VCparse_x509_subjectPublicKeyInfo_assert_rte_unsigned_downc____goal2"
   "parse_x509_subjectPublicKeyInfo_Why3_ide_VCparse_x509_subjectPublicKeyInfo_stmt_calls_parse_subjectp____goal0"

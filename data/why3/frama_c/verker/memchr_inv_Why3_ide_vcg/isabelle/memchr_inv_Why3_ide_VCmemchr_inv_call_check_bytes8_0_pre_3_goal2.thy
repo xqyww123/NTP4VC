@@ -1,5 +1,5 @@
 theory memchr_inv_Why3_ide_VCmemchr_inv_call_check_bytes8_0_pre_3_goal2
-  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "../../lib/isabelle/Axiomatic3_Axiomatic3" "Why3STD.Memory_Memory" "Why3STD.Cint_Cint" "../../lib/isabelle/Compound_Compound"
+  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "frama_c_verker_lib.Axiomatic3_Axiomatic3" "Why3STD.Memory_Memory" "Why3STD.Cint_Cint" "frama_c_verker_lib.Compound_Compound"
 begin
 theorem goal2:
   fixes t_2 :: "addr \<Rightarrow> int"

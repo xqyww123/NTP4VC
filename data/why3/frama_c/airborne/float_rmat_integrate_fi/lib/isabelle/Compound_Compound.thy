@@ -1,5 +1,5 @@
 theory Compound_Compound
-  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "../../lib/isabelle/S5_FloatRMat_S5_FloatRMat"
+  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "S5_FloatRMat_S5_FloatRMat"
 begin
 consts array1_float :: "addr \<Rightarrow> int \<Rightarrow> (addr \<Rightarrow> real) \<Rightarrow> int \<Rightarrow> real"
 definition load_s5_floatrmat :: "addr \<Rightarrow> (addr \<Rightarrow> real) \<Rightarrow> s5_floatrmat"

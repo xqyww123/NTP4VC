@@ -1,5 +1,5 @@
 theory Axiomatic_Axiomatic
-  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "../../lib/isabelle/Compound_Compound" "Why3STD.Cint_Cint"
+  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "Compound_Compound" "Why3STD.Cint_Cint"
 begin
 definition l_capacity :: "(addr \<Rightarrow> int) \<Rightarrow> addr \<Rightarrow> int"
   where "l_capacity mint_0 s = mint_0 (shift s (1 :: int))" for mint_0 s

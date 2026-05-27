@@ -1,3 +1,5 @@
 session "frama_c_verker_isdigit" = NTP4Verif +
+sessions
+  "frama_c_verker_lib"
 theories
   "isdigit_Why3_ide_VCisdigit_post_goal0"

@@ -308,3 +308,17 @@ verifythis_2016_matrix_multiplication/my_strassen_vcg/isabelle
 foveoos11_cm/array_max_vcg/isabelle
 foveoos11_cm/duplets_vcg/isabelle
 foveoos11_cm/tree_max_vcg/isabelle
+WP_revisited/lib/isabelle
+avl/lib/isabelle
+c_cursor/lib/isabelle
+foveoos11_cm/lib/isabelle
+imp/lib/isabelle
+logic/lib/isabelle
+lse/lib/isabelle
+multiprecision/lib/isabelle
+numeric/lib/isabelle
+prover/lib/isabelle
+ring_decision/lib/isabelle
+stdlib/lib/isabelle
+tests/lib/isabelle
+verifythis_2016_matrix_multiplication/lib/isabelle

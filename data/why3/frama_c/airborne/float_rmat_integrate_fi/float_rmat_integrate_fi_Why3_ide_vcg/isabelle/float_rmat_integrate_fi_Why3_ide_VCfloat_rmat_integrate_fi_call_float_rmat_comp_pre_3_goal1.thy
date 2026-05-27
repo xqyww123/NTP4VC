@@ -1,5 +1,5 @@
 theory float_rmat_integrate_fi_Why3_ide_VCfloat_rmat_integrate_fi_call_float_rmat_comp_pre_3_goal1
-  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "../../lib/isabelle/Axiomatic15_Axiomatic15" "Why3STD.Cmath_Cmath" "Why3STD.Cfloat_Cfloat" "../../lib/isabelle/Compound_Compound" "../../lib/isabelle/S5_FloatRMat_S5_FloatRMat" "../../lib/isabelle/Globals_Globals"
+  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "frama_c_airborne_float_rmat_integrate_fi_lib.Axiomatic15_Axiomatic15" "Why3STD.Cmath_Cmath" "Why3STD.Cfloat_Cfloat" "frama_c_airborne_float_rmat_integrate_fi_lib.Compound_Compound" "frama_c_airborne_float_rmat_integrate_fi_lib.S5_FloatRMat_S5_FloatRMat" "frama_c_airborne_float_rmat_integrate_fi_lib.Globals_Globals"
 begin
 theorem goal1:
   fixes a :: "addr"

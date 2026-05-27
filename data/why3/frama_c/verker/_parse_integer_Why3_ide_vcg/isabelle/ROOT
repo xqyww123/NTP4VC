@@ -1,3 +1,5 @@
 session "frama_c_verker__parse_integer" = NTP4Verif +
+sessions
+  "frama_c_verker_lib"
 theories
   "X_parse_integer_Why3_ide_VC_parse_integer_call_div_u64_pre_goal0"

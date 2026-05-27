@@ -1,4 +1,6 @@
 session "frama_c_should_we_balance_is_core_idle" = NTP4Verif +
+sessions
+  "frama_c_should_we_balance_lib"
 theories
   "is_core_idle_Why3_ide_VCis_core_idle_loop_inv_preserved_goal1"
   "is_core_idle_Why3_ide_VCis_core_idle_assert_rte_signed_overflow_goal6"

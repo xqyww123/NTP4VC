@@ -1,5 +1,5 @@
 theory A_Index_of_item_A_Index_of_item
-  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "../../lib/isabelle/Compound_Compound" "../../lib/isabelle/S1_list_S1_list"
+  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "Compound_Compound" "S1_list_S1_list"
 begin
 consts l_index_of :: "(addr \<Rightarrow> addr) \<Rightarrow> addr \<Rightarrow> addr \<Rightarrow> int \<Rightarrow> int \<Rightarrow> int"
 axiomatization where Q_no_more_elements:   "l_index_of mptr_0 item_0 array_0 down_0 up_0 = up_0"

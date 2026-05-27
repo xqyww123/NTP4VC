@@ -1,2 +1,4 @@
 ./lib/Isabelle/NTP4Verif
 ./generation/isabelle
+./data/why3/frama_c
+./data/why3/pearl

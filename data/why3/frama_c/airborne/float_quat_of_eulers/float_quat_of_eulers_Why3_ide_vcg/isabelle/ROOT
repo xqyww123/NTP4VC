@@ -1,4 +1,6 @@
 session "frama_c_airborne_float_quat_of_eulers_float_quat_of_eulers" = NTP4Verif +
+sessions
+  "frama_c_airborne_float_quat_of_eulers_lib"
 theories
   "float_quat_of_eulers_Why3_ide_VCfloat_quat_of_eulers_call_sinf_pre_finite_arg_2_goal1"
   "float_quat_of_eulers_Why3_ide_VCfloat_quat_of_eulers_call_sinf_pre_finite_arg_3_goal2"

@@ -1,5 +1,5 @@
 theory priority_queue_PQueue_split_gives_minimumqtvc
-  imports "NTP4Verif.NTP4Verif" "Why3STD.Ref_Ref" "Why3STD.int_NumOf" "../../lib/isabelle/avl_SelectionTypes"
+  imports "NTP4Verif.NTP4Verif" "Why3STD.Ref_Ref" "Why3STD.int_NumOf" "pearl_avl_lib.avl_SelectionTypes"
 begin
 consts balancing :: "nat"
 axiomatization where balancing'def:   "(0 :: int) < int balancing"

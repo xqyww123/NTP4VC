@@ -1,3 +1,5 @@
 session "frama_c_airborne_float_quat_of_axis_angle_float_quat_of_axis_angle" = NTP4Verif +
+sessions
+  "frama_c_airborne_float_quat_of_axis_angle_lib"
 theories
   "float_quat_of_axis_angle_Why3_ide_VCfloat_quat_of_axis_angle_call_sinf_pre_finite_arg_goal0"

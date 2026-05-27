@@ -1,5 +1,5 @@
 theory heap_parent_Why3_ide_VCheap_parent_post_parent_goal0
-  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Cint_Cint" "../../lib/isabelle/Axiomatic_Axiomatic" "Why3STD.Memory_Memory" "../../lib/isabelle/Compound_Compound"
+  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Cint_Cint" "frama_c_standard_algorithms_push_heap_lib.Axiomatic_Axiomatic" "Why3STD.Memory_Memory" "frama_c_standard_algorithms_push_heap_lib.Compound_Compound"
 begin
 theorem goal0:
   fixes i :: "int"

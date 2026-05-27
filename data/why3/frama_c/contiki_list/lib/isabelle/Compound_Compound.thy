@@ -1,5 +1,5 @@
 theory Compound_Compound
-  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "../../lib/isabelle/S1_list_S1_list"
+  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "S1_list_S1_list"
 begin
 definition load_s1_list :: "addr \<Rightarrow> (addr \<Rightarrow> real) \<Rightarrow> (addr \<Rightarrow> addr) \<Rightarrow> s1_list"
   where "load_s1_list p mflt_0 mptr_0 = s1_list'mk (mptr_0 (shift p (0 :: int))) (mflt_0 (shift p (1 :: int))) (mflt_0 (shift p (2 :: int))) (mflt_0 (shift p (3 :: int)))" for p mflt_0 mptr_0

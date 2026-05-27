@@ -1,5 +1,5 @@
 theory vect_bound_in_2d_Why3_ide_VCvect_bound_in_2d_call_sqrtf_pre_finite_arg_goal0
-  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "../../lib/isabelle/S2_FloatVect3_S2_FloatVect3" "Why3STD.Cmath_Cmath" "Why3STD.Cfloat_Cfloat"
+  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "frama_c_airborne_vect_bound_in_2d_lib.S2_FloatVect3_S2_FloatVect3" "Why3STD.Cmath_Cmath" "Why3STD.Cfloat_Cfloat"
 begin
 theorem goal0:
   fixes f :: "s2_floatvect3"

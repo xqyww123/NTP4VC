@@ -1,5 +1,5 @@
 theory Axiomatic19_Axiomatic19
-  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "../../lib/isabelle/S10_RealRMat_s_S10_RealRMat_s" "Why3STD.Memory_Memory" "../../lib/isabelle/Axiomatic17_Axiomatic17" "../../lib/isabelle/Compound_Compound" "Why3STD.Cmath_Cmath" "Why3STD.Cfloat_Cfloat" "../../lib/isabelle/S11_RealQuat_s_S11_RealQuat_s" "Why3STD.Square_Square"
+  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "S10_RealRMat_s_S10_RealRMat_s" "Why3STD.Memory_Memory" "Axiomatic17_Axiomatic17" "Compound_Compound" "Why3STD.Cmath_Cmath" "Why3STD.Cfloat_Cfloat" "S11_RealQuat_s_S11_RealQuat_s" "Why3STD.Square_Square"
 begin
 definition l_trace_1' :: "s10_realrmat_s \<Rightarrow> real"
   where "l_trace_1' rmat_0 = f10_realrmat_s_a00 rmat_0 + f10_realrmat_s_a11 rmat_0 + f10_realrmat_s_a22 rmat_0" for rmat_0

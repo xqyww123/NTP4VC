@@ -1,4 +1,6 @@
 session "frama_c_klibc_stdio_fputc" = NTP4Verif +
+sessions
+  "frama_c_klibc_stdio_lib"
 theories
   "fputc_Why3_ide_VCfputc_call__fwrite_pre_2_goal1"
   "fputc_Why3_ide_VCfputc_call__fwrite_pre_3_goal2"

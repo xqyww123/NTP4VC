@@ -1,4 +1,6 @@
 session "pearl_multiprecision_toom" = NTP4Verif +
+sessions
+  "pearl_multiprecision_lib"
 theories
   "toom_Toom_wmpn_toom22_mul_n_recqtvc"
   "toom_Toom_wmpn_toom22_mulqtvc"

@@ -1,5 +1,5 @@
 theory index_of_existing_item_weak_Why3_ide_VCindex_of_existing_item_weak_call_index_of_up_unexisting_i____2_goal3
-  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "../../lib/isabelle/Compound_Compound" "../../lib/isabelle/S1_list_S1_list" "../../lib/isabelle/A_Index_of_item_A_Index_of_item" "Why3STD.Cint_Cint"
+  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "frama_c_contiki_list_lib.Compound_Compound" "frama_c_contiki_list_lib.S1_list_S1_list" "frama_c_contiki_list_lib.A_Index_of_item_A_Index_of_item" "Why3STD.Cint_Cint"
 begin
 theorem goal3:
   fixes t_1 :: "addr \<Rightarrow> addr"

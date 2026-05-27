@@ -1,4 +1,6 @@
 session "frama_c_klibc_string_strchr" = NTP4Verif +
+sessions
+  "frama_c_klibc_string_lib"
 theories
   "strchr_Why3_ide_VCstrchr_exists_post_2_part2_goal8"
   "strchr_Why3_ide_VCstrchr_exists_post_part1_goal6"

@@ -1,4 +1,6 @@
 session "frama_c_standard_algorithms_mismatch_mismatch" = NTP4Verif +
+sessions
+  "frama_c_standard_algorithms_mismatch_lib"
 theories
   "mismatch_Why3_ide_VCmismatch_loop_inv_equal_preserved_goal2"
   "mismatch_Why3_ide_VCmismatch_loop_inv_bound_preserved_goal0"

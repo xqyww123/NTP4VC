@@ -1,5 +1,5 @@
 theory hex2bin_Why3_ide_VChex2bin_assert_2_goal11
-  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "../../lib/isabelle/Axiomatic3_Axiomatic3" "Why3STD.Memory_Memory" "Why3STD.Cint_Cint" "Why3STD.Cbits_Cbits" "../../lib/isabelle/Compound_Compound" "../../lib/isabelle/A_Ctype_A_Ctype" "../../lib/isabelle/A_HexToBin_A_HexToBin"
+  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "frama_c_verker_lib.Axiomatic3_Axiomatic3" "Why3STD.Memory_Memory" "Why3STD.Cint_Cint" "Why3STD.Cbits_Cbits" "frama_c_verker_lib.Compound_Compound" "frama_c_verker_lib.A_Ctype_A_Ctype" "frama_c_verker_lib.A_HexToBin_A_HexToBin"
 begin
 theorem goal11:
   fixes a :: "addr"

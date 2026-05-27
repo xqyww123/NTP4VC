@@ -1,4 +1,6 @@
 session "frama_c_x509_parser_parse_GeneralSubtrees" = NTP4Verif +
+sessions
+  "frama_c_x509_parser_lib"
 theories
   "parse_GeneralSubtrees_Why3_ide_VCparse_GeneralSubtrees_call_parse_GeneralName_pre_goal0"
   "parse_GeneralSubtrees_Why3_ide_VCparse_GeneralSubtrees_call_parse_id_len_pre_2_goal1"

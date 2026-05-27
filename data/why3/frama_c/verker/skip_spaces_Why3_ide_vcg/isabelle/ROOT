@@ -1,4 +1,6 @@
 session "frama_c_verker_skip_spaces" = NTP4Verif +
+sessions
+  "frama_c_verker_lib"
 theories
   "skip_spaces_Why3_ide_VCskip_spaces_loop_inv_3_preserved_goal9"
   "skip_spaces_Why3_ide_VCskip_spaces_assign_normal_part2_goal13"

@@ -1,4 +1,6 @@
 session "frama_c_klibc_stdio_fdopen" = NTP4Verif +
+sessions
+  "frama_c_klibc_stdio_lib"
 theories
   "fdopen_Why3_ide_VCfdopen_assign_exit_goal0"
   "fdopen_Why3_ide_VCfdopen_assign_normal_goal1"

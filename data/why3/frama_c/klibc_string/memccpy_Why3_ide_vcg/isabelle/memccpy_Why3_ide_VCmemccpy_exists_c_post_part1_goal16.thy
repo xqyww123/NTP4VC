@@ -1,5 +1,5 @@
 theory memccpy_Why3_ide_VCmemccpy_exists_c_post_part1_goal16
-  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "../../lib/isabelle/Compound_Compound" "Why3STD.Cint_Cint"
+  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "frama_c_klibc_string_lib.Compound_Compound" "Why3STD.Cint_Cint"
 begin
 theorem goal16:
   fixes t_2 :: "addr \<Rightarrow> int"

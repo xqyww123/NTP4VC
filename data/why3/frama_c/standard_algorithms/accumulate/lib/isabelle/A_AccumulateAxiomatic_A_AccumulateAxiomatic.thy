@@ -1,5 +1,5 @@
 theory A_AccumulateAxiomatic_A_AccumulateAxiomatic
-  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "Why3STD.Cint_Cint" "../../lib/isabelle/Compound_Compound" "../../lib/isabelle/Axiomatic_Axiomatic"
+  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "Why3STD.Cint_Cint" "Compound_Compound" "Axiomatic_Axiomatic"
 begin
 consts l_accumulate :: "(addr \<Rightarrow> int) \<Rightarrow> addr \<Rightarrow> int \<Rightarrow> int \<Rightarrow> int"
 axiomatization where Q_TL_Accumulate:   "is_sint32 (l_accumulate mint_0 a n init_0)"

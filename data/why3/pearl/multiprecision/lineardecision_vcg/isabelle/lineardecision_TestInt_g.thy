@@ -1,5 +1,5 @@
 theory lineardecision_TestInt_g
-  imports "NTP4Verif.NTP4Verif" "Why3STD.Ref_Ref" "mach.matrix_Matrix63" "Why3STD.debug_Debug" "../../lib/isabelle/lineardecision_RationalCoeffs" "../../lib/isabelle/lineardecision_LinearDecisionRational" "../../lib/isabelle/lineardecision_LinearDecisionInt"
+  imports "NTP4Verif.NTP4Verif" "Why3STD.Ref_Ref" "mach.matrix_Matrix63" "Why3STD.debug_Debug" "pearl_multiprecision_lib.lineardecision_RationalCoeffs" "pearl_multiprecision_lib.lineardecision_LinearDecisionRational" "pearl_multiprecision_lib.lineardecision_LinearDecisionInt"
 begin
 theorem g:
   fixes x :: "int"

@@ -1,5 +1,5 @@
 theory Axiomatic_Axiomatic
-  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "../../lib/isabelle/Compound_Compound"
+  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "Compound_Compound"
 begin
 definition l_heapparent :: "int \<Rightarrow> int"
   where "l_heapparent i = (i - (1 :: int)) cdiv (2 :: int)" for i

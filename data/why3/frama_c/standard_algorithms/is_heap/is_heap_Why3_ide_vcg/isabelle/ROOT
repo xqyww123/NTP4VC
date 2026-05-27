@@ -1,4 +1,6 @@
 session "frama_c_standard_algorithms_is_heap_is_heap" = NTP4Verif +
+sessions
+  "frama_c_standard_algorithms_is_heap_lib"
 theories
   "is_heap_Why3_ide_VCis_heap_assert_rte_unsigned_overflow_goal9"
   "is_heap_Why3_ide_VCis_heap_loop_inv_bound_preserved_goal1"

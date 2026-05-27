@@ -1,5 +1,5 @@
 theory stringlemmas_Conversions
-  imports "NTP4Verif.NTP4Verif" "Why3STD.Ref_Ref" "Why3STD.map_Const" "Why3STD.map_MapEq" "../../lib/isabelle/lemmas_Lemmas" "mach.int_Unsigned" "mach.c_C" "mach.c_String" "mach.c_UChar" "../../lib/isabelle/types_Config" "../../lib/isabelle/types_Types" "../../lib/isabelle/types_Int32Eq" "../../lib/isabelle/types_UInt64Eq"
+  imports "NTP4Verif.NTP4Verif" "Why3STD.Ref_Ref" "Why3STD.map_Const" "Why3STD.map_MapEq" "lemmas_Lemmas" "mach.int_Unsigned" "mach.c_C" "mach.c_String" "mach.c_UChar" "types_Config" "types_Types" "types_Int32Eq" "types_UInt64Eq"
 begin
 definition num_to_lowercase_text :: "8 word \<Rightarrow> char"
   where "num_to_lowercase_text d = (if (0 :: int) \<le> uint d \<and> uint d < (36 :: int) then ''0123456789abcdefghijklmnopqrstuvwxyz'' ! nat (uint d) else char_of (-(1 :: int)))" for d

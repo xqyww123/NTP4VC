@@ -1,4 +1,6 @@
 session "pearl_prover_Firstorder_symbol_spec" = NTP4Verif +
+sessions
+  "pearl_prover_lib"
 theories
   "Firstorder_symbol_spec_Spec_rename_then_subst_composition_lemma_symbolqtvc"
   "Firstorder_symbol_spec_Spec_free_var_equivalence_of_rename_symbolqtvc"

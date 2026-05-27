@@ -1,4 +1,6 @@
 session "frama_c_contiki_memb_memb_free" = NTP4Verif +
+sessions
+  "frama_c_contiki_memb_lib"
 theories
   "memb_free_Why3_ide_VCmemb_free_loop_inv_established_goal3"
   "memb_free_Why3_ide_VCmemb_free_alloc_found_post_3_goal17"

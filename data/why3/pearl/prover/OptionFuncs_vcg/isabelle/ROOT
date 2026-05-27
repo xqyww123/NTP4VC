@@ -1,4 +1,6 @@
 session "pearl_prover_OptionFuncs" = NTP4Verif +
+sessions
+  "pearl_prover_lib"
 theories
   "OptionFuncs_Funcs_ocase_noneqtvc"
   "OptionFuncs_Funcs_olift_defqtvc"

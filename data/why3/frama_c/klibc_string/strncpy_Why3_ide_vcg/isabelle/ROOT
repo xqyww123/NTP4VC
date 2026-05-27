@@ -1,4 +1,6 @@
 session "frama_c_klibc_string_strncpy" = NTP4Verif +
+sessions
+  "frama_c_klibc_string_lib"
 theories
   "strncpy_Why3_ide_VCstrncpy_loop_inv_5_preserved_part2_goal5"
   "strncpy_Why3_ide_VCstrncpy_loop_inv_7_preserved_goal9"

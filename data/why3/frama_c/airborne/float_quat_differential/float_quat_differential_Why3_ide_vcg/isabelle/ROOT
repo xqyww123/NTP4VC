@@ -1,4 +1,6 @@
 session "frama_c_airborne_float_quat_differential_float_quat_differential" = NTP4Verif +
+sessions
+  "frama_c_airborne_float_quat_differential_lib"
 theories
   "float_quat_differential_Why3_ide_VCfloat_quat_differential_call_sqrtf_pre_arg_positive_goal1"
   "float_quat_differential_Why3_ide_VCfloat_quat_differential_call_cos_pre_finite_arg_goal2"

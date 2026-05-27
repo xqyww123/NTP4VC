@@ -1,4 +1,6 @@
 session "frama_c_verker_strpbrk" = NTP4Verif +
+sessions
+  "frama_c_verker_lib"
 theories
   "strpbrk_Why3_ide_VCstrpbrk_loop_inv_7_established_goal11"
   "strpbrk_Why3_ide_VCstrpbrk_found_post_goal19"

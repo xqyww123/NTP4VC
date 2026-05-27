@@ -1,4 +1,6 @@
 session "frama_c_standard_algorithms_sort_heap_CountUnion" = NTP4Verif +
+sessions
+  "frama_c_standard_algorithms_sort_heap_lib"
 theories
   "CountUnion_Why3_ide_VCCountUnion_post_goal0"
   "CountUnion_Why3_ide_VCCountUnion_call_CountSectionUnion_pre_goal1"

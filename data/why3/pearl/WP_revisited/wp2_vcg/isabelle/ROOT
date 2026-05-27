@@ -1,4 +1,6 @@
 session "pearl_WP_revisited_wp2" = NTP4Verif +
+sessions
+  "pearl_WP_revisited_lib"
 theories
   "wp2_HoareLogic_consequence_ruleqtvc"
   "wp2_HoareLogic_while_rule_extqtvc"

@@ -1,4 +1,6 @@
 session "frama_c_airborne_float_rmat_norm_float_rmat_norm" = NTP4Verif +
+sessions
+  "frama_c_airborne_float_rmat_norm_lib"
 theories
   "float_rmat_norm_Why3_ide_VCfloat_rmat_norm_call_sqrtf_pre_arg_positive_goal1"
   "float_rmat_norm_Why3_ide_VCfloat_rmat_norm_call_sqrtf_pre_finite_arg_goal0"

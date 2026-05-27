@@ -1,5 +1,5 @@
 theory tree_max_TreeMax_max_auxqtvc
-  imports "NTP4Verif.NTP4Verif" "../../lib/isabelle/tree_max_BinTree"
+  imports "NTP4Verif.NTP4Verif" "pearl_foveoos11_cm_lib.tree_max_BinTree"
 begin
 theorem max_aux'vc:
   fixes t :: "tree"

@@ -1,5 +1,5 @@
 theory Axiomatic15_Axiomatic15
-  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "../../lib/isabelle/Compound_Compound" "Why3STD.Cint_Cint"
+  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "Compound_Compound" "Why3STD.Cint_Cint"
 begin
 definition p_valid_size :: "int \<Rightarrow> _"
   where "p_valid_size n \<longleftrightarrow> (0 :: int) \<le> n \<and> n \<le> (2147483646 :: int)" for n

@@ -1,5 +1,5 @@
 theory fopen_Why3_ide_VCfopen_call_fdopen_pre_goal2
-  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "../../lib/isabelle/Compound_Compound" "../../lib/isabelle/Globals_Globals" "Why3STD.Cint_Cint" "../../lib/isabelle/Axiomatic_Axiomatic"
+  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "frama_c_klibc_stdio_lib.Compound_Compound" "frama_c_klibc_stdio_lib.Globals_Globals" "Why3STD.Cint_Cint" "frama_c_klibc_stdio_lib.Axiomatic_Axiomatic"
 begin
 theorem goal2:
   fixes i_5 :: "int"

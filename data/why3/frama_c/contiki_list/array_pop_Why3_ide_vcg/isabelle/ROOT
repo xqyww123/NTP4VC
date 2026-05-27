@@ -1,4 +1,6 @@
 session "frama_c_contiki_list_array_pop" = NTP4Verif +
+sessions
+  "frama_c_contiki_list_lib"
 theories
   "array_pop_Why3_ide_VCarray_pop_post_LinkedNoHead_goal1"
   "array_pop_Why3_ide_VCarray_pop_assert_rte_mem_access_2_goal10"

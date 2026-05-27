@@ -1,4 +1,6 @@
 session "frama_c_verker_memmove" = NTP4Verif +
+sessions
+  "frama_c_verker_lib"
 theories
   "memmove_Why3_ide_VCmemmove_assert_2_goal19"
   "memmove_Why3_ide_VCmemmove_loop_inv_12_preserved_goal18"

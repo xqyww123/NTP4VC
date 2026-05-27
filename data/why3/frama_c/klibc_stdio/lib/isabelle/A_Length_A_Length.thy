@@ -1,5 +1,5 @@
 theory A_Length_A_Length
-  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "../../lib/isabelle/Axiomatic_Axiomatic" "../../lib/isabelle/Compound_Compound"
+  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "Axiomatic_Axiomatic" "Compound_Compound"
 begin
 consts l_length :: "(addr \<Rightarrow> int) \<Rightarrow> addr \<Rightarrow> int"
 axiomatization where Q_string_length:   "l_length mchar_0 s = n"

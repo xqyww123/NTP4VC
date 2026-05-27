@@ -1,4 +1,6 @@
 session "frama_c_standard_algorithms_stack_init_stack_init" = NTP4Verif +
+sessions
+  "frama_c_standard_algorithms_stack_init_lib"
 theories
   "stack_init_Why3_ide_VCstack_init_assert_rte_mem_access_goal4"
   "stack_init_Why3_ide_VCstack_init_assert_rte_mem_access_2_goal5"

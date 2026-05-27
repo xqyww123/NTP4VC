@@ -1,4 +1,6 @@
 session "frama_c_verker_memscan" = NTP4Verif +
+sessions
+  "frama_c_verker_lib"
 theories
   "memscan_Why3_ide_VCmemscan_complete_not_exists_found_goal0"
   "memscan_Why3_ide_VCmemscan_found_post_goal14"

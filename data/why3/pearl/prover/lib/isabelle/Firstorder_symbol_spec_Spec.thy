@@ -1,5 +1,5 @@
 theory Firstorder_symbol_spec_Spec
-  imports "NTP4Verif.NTP4Verif" "../../lib/isabelle/Nat_Nat" "../../lib/isabelle/Functions_Config" "../../lib/isabelle/Functions_Func" "../../lib/isabelle/OptionFuncs_Funcs" "../../lib/isabelle/Sum_Sum"
+  imports "NTP4Verif.NTP4Verif" "Nat_Nat" "Functions_Config" "Functions_Func" "OptionFuncs_Funcs" "Sum_Sum"
 begin
 datatype 'b0 symbol = Var_symbol "'b0"
 fun nat_size_symbol :: "'b0 symbol \<Rightarrow> Nat_Nat.nat"  and size_symbol :: "'b0 symbol \<Rightarrow> int"

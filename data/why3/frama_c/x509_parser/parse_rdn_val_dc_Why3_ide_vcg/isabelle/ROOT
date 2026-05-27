@@ -1,4 +1,6 @@
 session "frama_c_x509_parser_parse_rdn_val_dc" = NTP4Verif +
+sessions
+  "frama_c_x509_parser_lib"
 theories
   "parse_rdn_val_dc_Why3_ide_VCparse_rdn_val_dc_assert_rte_mem_access_2_part1_goal1"
   "parse_rdn_val_dc_Why3_ide_VCparse_rdn_val_dc_assert_rte_mem_access_3_part5_goal6"

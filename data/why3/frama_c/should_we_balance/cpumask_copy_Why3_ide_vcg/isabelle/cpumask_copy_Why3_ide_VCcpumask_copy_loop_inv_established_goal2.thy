@@ -1,5 +1,5 @@
 theory cpumask_copy_Why3_ide_VCcpumask_copy_loop_inv_established_goal2
-  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "../../lib/isabelle/A_thread_variables_properties_A_thread_variables_properties" "../../lib/isabelle/Compound_Compound"
+  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "frama_c_should_we_balance_lib.A_thread_variables_properties_A_thread_variables_properties" "frama_c_should_we_balance_lib.Compound_Compound"
 begin
 theorem goal2:
   fixes t_1 :: "addr \<Rightarrow> addr"

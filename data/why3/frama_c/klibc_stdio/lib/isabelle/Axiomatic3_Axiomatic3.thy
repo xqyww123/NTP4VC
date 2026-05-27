@@ -1,5 +1,5 @@
 theory Axiomatic3_Axiomatic3
-  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "../../lib/isabelle/Compound_Compound"
+  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "Compound_Compound"
 begin
 definition p_valid_file :: "(int \<Rightarrow> int) \<Rightarrow> (addr \<Rightarrow> int) \<Rightarrow> addr \<Rightarrow> _"
   where "p_valid_file malloc_0 mint_0 f \<longleftrightarrow> (0 :: int) \<le> mint_0 (shift f (0 :: int)) \<and> valid_rw malloc_0 f (3 :: int)" for malloc_0 mint_0 f

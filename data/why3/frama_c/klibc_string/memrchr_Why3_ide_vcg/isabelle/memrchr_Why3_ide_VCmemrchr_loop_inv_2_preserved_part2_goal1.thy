@@ -1,5 +1,5 @@
 theory memrchr_Why3_ide_VCmemrchr_loop_inv_2_preserved_part2_goal1
-  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "../../lib/isabelle/Compound_Compound" "Why3STD.Cint_Cint"
+  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "frama_c_klibc_string_lib.Compound_Compound" "Why3STD.Cint_Cint"
 begin
 theorem goal1:
   fixes i :: "int"

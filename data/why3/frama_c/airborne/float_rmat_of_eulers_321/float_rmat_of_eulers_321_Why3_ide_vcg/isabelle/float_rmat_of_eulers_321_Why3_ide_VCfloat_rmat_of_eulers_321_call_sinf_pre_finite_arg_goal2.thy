@@ -1,5 +1,5 @@
 theory float_rmat_of_eulers_321_Why3_ide_VCfloat_rmat_of_eulers_321_call_sinf_pre_finite_arg_goal2
-  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "Why3STD.Cmath_Cmath" "../../lib/isabelle/Compound_Compound" "../../lib/isabelle/Axiomatic15_Axiomatic15" "Why3STD.Cfloat_Cfloat"
+  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "Why3STD.Cmath_Cmath" "frama_c_airborne_float_rmat_of_eulers_321_lib.Compound_Compound" "frama_c_airborne_float_rmat_of_eulers_321_lib.Axiomatic15_Axiomatic15" "Why3STD.Cfloat_Cfloat"
 begin
 theorem goal2:
   fixes t_1 :: "addr \<Rightarrow> real"

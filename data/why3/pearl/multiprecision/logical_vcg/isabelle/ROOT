@@ -1,4 +1,6 @@
 session "pearl_multiprecision_logical" = NTP4Verif +
+sessions
+  "pearl_multiprecision_lib"
 theories
   "logical_Logical_wmpn_rshift_sepqtvc"
   "logical_Logical_wmpn_lshift_sepqtvc"

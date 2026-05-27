@@ -1,5 +1,5 @@
 theory fill_Why3_ide_VCfill_assert_rte_mem_access_goal5
-  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "Why3STD.Cint_Cint" "../../lib/isabelle/Compound_Compound" "../../lib/isabelle/Axiomatic_Axiomatic"
+  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "Why3STD.Cint_Cint" "frama_c_standard_algorithms_fill_lib.Compound_Compound" "frama_c_standard_algorithms_fill_lib.Axiomatic_Axiomatic"
 begin
 theorem goal5:
   fixes a :: "addr"

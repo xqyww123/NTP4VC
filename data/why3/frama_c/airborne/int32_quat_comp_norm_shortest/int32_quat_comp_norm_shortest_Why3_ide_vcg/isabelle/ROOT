@@ -1,4 +1,6 @@
 session "frama_c_airborne_int32_quat_comp_norm_shortest_int32_quat_comp_norm_shortest" = NTP4Verif +
+sessions
+  "frama_c_airborne_int32_quat_comp_norm_shortest_lib"
 theories
   "int32_quat_comp_norm_shortest_Why3_ide_VCint32_quat_comp_norm_shortest_call_int32_quat_comp_pre_4_goal2"
   "int32_quat_comp_norm_shortest_Why3_ide_VCint32_quat_comp_norm_shortest_call_int32_quat_wrap_shorte____2_goal4"

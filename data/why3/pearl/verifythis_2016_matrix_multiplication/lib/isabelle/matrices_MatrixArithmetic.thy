@@ -1,5 +1,5 @@
 theory matrices_MatrixArithmetic
-  imports "NTP4Verif.NTP4Verif" "Why3STD.int_Sum" "../../lib/isabelle/matrices_MyMatrix" "../../lib/isabelle/sum_extended_Sum_extended"
+  imports "NTP4Verif.NTP4Verif" "Why3STD.int_Sum" "matrices_MyMatrix" "sum_extended_Sum_extended"
 begin
 consts zerof :: "int \<Rightarrow> int \<Rightarrow> int"
 axiomatization where zerof'def:   "zerof x x_1 = (0 :: int)"

@@ -1,5 +1,5 @@
 theory lineardecision_LinearDecisionInt
-  imports "NTP4Verif.NTP4Verif" "Why3STD.Ref_Ref" "mach.matrix_Matrix63" "Why3STD.debug_Debug" "../../lib/isabelle/lineardecision_RationalCoeffs" "../../lib/isabelle/lineardecision_LinearDecisionRational"
+  imports "NTP4Verif.NTP4Verif" "Why3STD.Ref_Ref" "mach.matrix_Matrix63" "Why3STD.debug_Debug" "lineardecision_RationalCoeffs" "lineardecision_LinearDecisionRational"
 begin
 datatype  t' = IC "int" | Error
 definition interp_id :: "t' \<Rightarrow> (int \<Rightarrow> int) \<Rightarrow> int"

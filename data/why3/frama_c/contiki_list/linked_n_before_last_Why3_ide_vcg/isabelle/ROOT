@@ -1,4 +1,6 @@
 session "frama_c_contiki_list_linked_n_before_last" = NTP4Verif +
+sessions
+  "frama_c_contiki_list_lib"
 theories
   "linked_n_before_last_Why3_ide_VClinked_n_before_last_assert_rte_signed_overflow_3_goal4"
   "linked_n_before_last_Why3_ide_VClinked_n_before_last_loop_inv_preserved_part2_goal6"

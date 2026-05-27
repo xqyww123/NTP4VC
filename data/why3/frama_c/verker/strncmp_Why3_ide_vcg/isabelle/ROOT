@@ -1,4 +1,6 @@
 session "frama_c_verker_strncmp" = NTP4Verif +
+sessions
+  "frama_c_verker_lib"
 theories
   "strncmp_Why3_ide_VCstrncmp_loop_inv_7_preserved_goal13"
   "strncmp_Why3_ide_VCstrncmp_complete_not_equal_len_diff_equal_goal0"

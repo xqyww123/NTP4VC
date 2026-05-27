@@ -1,4 +1,6 @@
 session "frama_c_standard_algorithms_count_count" = NTP4Verif +
+sessions
+  "frama_c_standard_algorithms_count_lib"
 theories
   "count_Why3_ide_VCcount_assert_rte_unsigned_overflow_2_goal7"
   "count_Why3_ide_VCcount_loop_inv_bound_established_goal1"

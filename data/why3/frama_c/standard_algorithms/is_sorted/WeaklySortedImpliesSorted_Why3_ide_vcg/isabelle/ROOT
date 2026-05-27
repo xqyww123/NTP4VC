@@ -1,4 +1,6 @@
 session "frama_c_standard_algorithms_is_sorted_WeaklySortedImpliesSorted" = NTP4Verif +
+sessions
+  "frama_c_standard_algorithms_is_sorted_lib"
 theories
   "WeaklySortedImpliesSorted_Why3_ide_VCWeaklySortedImpliesSorted_assert_rte_unsigned_overflow_goal6"
   "WeaklySortedImpliesSorted_Why3_ide_VCWeaklySortedImpliesSorted_loop_inv_preserved_goal1"

@@ -1,5 +1,5 @@
 theory fread_Why3_ide_VCfread_call__fread_pre_2_part5_goal4
-  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "../../lib/isabelle/Compound_Compound" "Why3STD.Cint_Cint"
+  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "frama_c_klibc_stdio_lib.Compound_Compound" "Why3STD.Cint_Cint"
 begin
 theorem goal4:
   fixes t_1 :: "addr \<Rightarrow> int"

@@ -1,5 +1,5 @@
 theory Functions_Func_update_neqqtvc
-  imports "NTP4Verif.NTP4Verif" "../../lib/isabelle/Functions_Config"
+  imports "NTP4Verif.NTP4Verif" "pearl_prover_lib.Functions_Config"
 begin
 definition extensionalEqual :: "('a \<Rightarrow> 'b) \<Rightarrow> ('a \<Rightarrow> 'b) \<Rightarrow> _"
   where "extensionalEqual f g \<longleftrightarrow> (\<forall>(x :: 'a). f x = g x)" for f g

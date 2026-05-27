@@ -1,3 +1,5 @@
 session "frama_c_verker_isascii" = NTP4Verif +
+sessions
+  "frama_c_verker_lib"
 theories
   "isascii_Why3_ide_VCisascii_post_goal0"

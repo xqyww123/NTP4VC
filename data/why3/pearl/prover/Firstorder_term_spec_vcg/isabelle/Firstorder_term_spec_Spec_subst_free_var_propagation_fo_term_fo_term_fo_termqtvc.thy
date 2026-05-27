@@ -1,5 +1,5 @@
 theory Firstorder_term_spec_Spec_subst_free_var_propagation_fo_term_fo_term_fo_termqtvc
-  imports "NTP4Verif.NTP4Verif" "../../lib/isabelle/Nat_Nat" "../../lib/isabelle/Functions_Config" "../../lib/isabelle/Functions_Func" "../../lib/isabelle/OptionFuncs_Funcs" "../../lib/isabelle/Sum_Sum" "../../lib/isabelle/Firstorder_symbol_spec_Spec"
+  imports "NTP4Verif.NTP4Verif" "pearl_prover_lib.Nat_Nat" "pearl_prover_lib.Functions_Config" "pearl_prover_lib.Functions_Func" "pearl_prover_lib.OptionFuncs_Funcs" "pearl_prover_lib.Sum_Sum" "pearl_prover_lib.Firstorder_symbol_spec_Spec"
 begin
 datatype ('b0, 'b3) fo_term_list = FONil | FOCons "('b0, 'b3) fo_term" "('b0, 'b3) fo_term_list"
      and ('b0, 'b3) fo_term = Var_fo_term "'b3" | App "'b0 symbol" "('b0, 'b3) fo_term_list"

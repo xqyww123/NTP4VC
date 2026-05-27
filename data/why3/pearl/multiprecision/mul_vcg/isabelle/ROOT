@@ -1,4 +1,6 @@
 session "pearl_multiprecision_mul" = NTP4Verif +
+sessions
+  "pearl_multiprecision_lib"
 theories
   "mul_Mul_wmpn_addmul_1qtvc"
   "mul_Mul_wmpn_addmul_nqtvc"

@@ -1,3 +1,5 @@
 session "frama_c_verker__tolower" = NTP4Verif +
+sessions
+  "frama_c_verker_lib"
 theories
   "X_tolower_Why3_ide_VC_tolower_post_goal0"

@@ -1,5 +1,5 @@
 theory float_rates_of_euler_dot_Why3_ide_VCfloat_rates_of_euler_dot_call_cosf_pre_finite_arg_goal1
-  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "../../lib/isabelle/Axiomatic15_Axiomatic15" "Why3STD.Cmath_Cmath" "Why3STD.Cfloat_Cfloat" "../../lib/isabelle/Compound_Compound" "Why3STD.Square_Square"
+  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "frama_c_airborne_float_rates_of_euler_dot_lib.Axiomatic15_Axiomatic15" "Why3STD.Cmath_Cmath" "Why3STD.Cfloat_Cfloat" "frama_c_airborne_float_rates_of_euler_dot_lib.Compound_Compound" "Why3STD.Square_Square"
 begin
 theorem goal1:
   fixes t_1 :: "addr \<Rightarrow> real"

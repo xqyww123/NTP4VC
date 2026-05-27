@@ -1,5 +1,5 @@
 theory stack_pop_Why3_ide_VCstack_pop_assert_rte_unsigned_overflow_goal3
-  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "../../lib/isabelle/Compound_Compound" "../../lib/isabelle/Axiomatic_Axiomatic" "Why3STD.Cint_Cint"
+  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "frama_c_standard_algorithms_stack_pop_lib.Compound_Compound" "frama_c_standard_algorithms_stack_pop_lib.Axiomatic_Axiomatic" "Why3STD.Cint_Cint"
 begin
 theorem goal3:
   fixes t_1 :: "addr \<Rightarrow> int"

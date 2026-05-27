@@ -1,4 +1,6 @@
 session "frama_c_contiki_list_list_tail" = NTP4Verif +
+sessions
+  "frama_c_contiki_list_lib"
 theories
   "list_tail_Why3_ide_VClist_tail_loop_inv_4_preserved_goal8"
   "list_tail_Why3_ide_VClist_tail_loop_inv_2_established_goal5"

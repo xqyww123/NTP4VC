@@ -1,5 +1,5 @@
 theory copy_backward_Why3_ide_VCcopy_backward_loop_inv_unchanged_preserved_goal5
-  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "Why3STD.Cint_Cint" "../../lib/isabelle/Compound_Compound" "../../lib/isabelle/Axiomatic_Axiomatic"
+  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "Why3STD.Cint_Cint" "frama_c_standard_algorithms_copy_backward_lib.Compound_Compound" "frama_c_standard_algorithms_copy_backward_lib.Axiomatic_Axiomatic"
 begin
 theorem goal5:
   fixes i_1 :: "int"

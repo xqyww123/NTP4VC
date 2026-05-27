@@ -1,5 +1,5 @@
 theory blocking_semantics5_HoareLogic_many_steps_seqqtvc
-  imports "NTP4Verif.NTP4Verif" "../../lib/isabelle/blocking_semantics5_Syntax" "../../lib/isabelle/blocking_semantics5_SemOp" "../../lib/isabelle/blocking_semantics5_FreshVariables"
+  imports "NTP4Verif.NTP4Verif" "pearl_WP_revisited_lib.blocking_semantics5_Syntax" "pearl_WP_revisited_lib.blocking_semantics5_SemOp" "pearl_WP_revisited_lib.blocking_semantics5_FreshVariables"
 begin
 theorem many_steps_seq'vc:
   fixes sigma1 :: "mident \<Rightarrow> value"

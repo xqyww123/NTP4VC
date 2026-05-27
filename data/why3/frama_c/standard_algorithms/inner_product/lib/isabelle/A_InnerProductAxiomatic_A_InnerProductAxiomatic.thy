@@ -1,5 +1,5 @@
 theory A_InnerProductAxiomatic_A_InnerProductAxiomatic
-  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "Why3STD.Cint_Cint" "../../lib/isabelle/Compound_Compound" "../../lib/isabelle/Axiomatic_Axiomatic"
+  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "Why3STD.Cint_Cint" "Compound_Compound" "Axiomatic_Axiomatic"
 begin
 consts l_innerproduct :: "(addr \<Rightarrow> int) \<Rightarrow> addr \<Rightarrow> addr \<Rightarrow> int \<Rightarrow> int \<Rightarrow> int"
 axiomatization where Q_InnerProductEmpty:   "l_innerproduct mint_0 a b n init_0 = init_0"

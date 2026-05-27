@@ -1,3 +1,5 @@
 session "frama_c_standard_algorithms_selection_sort_UpperBoundShift" = NTP4Verif +
+sessions
+  "frama_c_standard_algorithms_selection_sort_lib"
 theories
   "UpperBoundShift_Why3_ide_VCUpperBoundShift_post_goal0"

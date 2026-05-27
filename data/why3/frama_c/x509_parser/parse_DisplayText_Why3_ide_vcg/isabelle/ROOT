@@ -1,4 +1,6 @@
 session "frama_c_x509_parser_parse_DisplayText" = NTP4Verif +
+sessions
+  "frama_c_x509_parser_lib"
 theories
   "parse_DisplayText_Why3_ide_VCparse_DisplayText_assert_rte_mem_access_goal0"
   "parse_DisplayText_Why3_ide_VCparse_DisplayText_call_check_visible_string_pre_goal3"

@@ -1,4 +1,6 @@
 session "frama_c_standard_algorithms_selection_sort_selection_sort" = NTP4Verif +
+sessions
+  "frama_c_standard_algorithms_selection_sort_lib"
 theories
   "selection_sort_Why3_ide_VCselection_sort_call_swap_pre_goal15"
   "selection_sort_Why3_ide_VCselection_sort_loop_inv_bound_established_goal2"

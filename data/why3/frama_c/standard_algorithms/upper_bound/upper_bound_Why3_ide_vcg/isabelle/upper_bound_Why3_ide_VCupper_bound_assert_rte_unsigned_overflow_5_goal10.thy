@@ -1,5 +1,5 @@
 theory upper_bound_Why3_ide_VCupper_bound_assert_rte_unsigned_overflow_5_goal10
-  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "Why3STD.Cint_Cint" "../../lib/isabelle/Axiomatic_Axiomatic" "../../lib/isabelle/Compound_Compound"
+  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "Why3STD.Cint_Cint" "frama_c_standard_algorithms_upper_bound_lib.Axiomatic_Axiomatic" "frama_c_standard_algorithms_upper_bound_lib.Compound_Compound"
 begin
 theorem goal10:
   fixes i_1 :: "int"

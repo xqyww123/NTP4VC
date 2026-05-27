@@ -1,5 +1,5 @@
 theory imp_ConcreteSemantics
-  imports "NTP4Verif.NTP4Verif" "../../lib/isabelle/imp_Syntax"
+  imports "NTP4Verif.NTP4Verif" "imp_Syntax"
 begin
 typedecl  environment
 datatype  expr_behaviour = Enormal "int" | Eunbound_var

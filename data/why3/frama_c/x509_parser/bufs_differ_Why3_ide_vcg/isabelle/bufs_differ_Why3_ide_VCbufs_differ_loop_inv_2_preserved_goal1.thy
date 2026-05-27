@@ -1,5 +1,5 @@
 theory bufs_differ_Why3_ide_VCbufs_differ_loop_inv_2_preserved_goal1
-  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "Why3STD.Cint_Cint" "../../lib/isabelle/Compound_Compound" "../../lib/isabelle/Axiomatic12_Axiomatic12"
+  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "Why3STD.Cint_Cint" "frama_c_x509_parser_lib.Compound_Compound" "frama_c_x509_parser_lib.Axiomatic12_Axiomatic12"
 begin
 theorem goal1:
   fixes a_1 :: "addr"

@@ -1,5 +1,5 @@
 theory my_sum_Combine_u_sum_accuracy_combineqtvc
-  imports "NTP4Verif.NTP4Verif" "../../lib/isabelle/my_sum_Sum" "../../lib/isabelle/sum_real_Sum" "../../lib/isabelle/udouble_UDouble" "Why3STD.ieee_float_RoundingMode"
+  imports "NTP4Verif.NTP4Verif" "pearl_lse_lib.my_sum_Sum" "pearl_lse_lib.sum_real_Sum" "pearl_lse_lib.udouble_UDouble" "Why3STD.ieee_float_RoundingMode"
 begin
 theorem u_sum_accuracy_combine'vc:
   fixes a :: "int"

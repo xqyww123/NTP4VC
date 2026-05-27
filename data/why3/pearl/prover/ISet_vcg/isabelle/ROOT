@@ -1,4 +1,6 @@
 session "pearl_prover_ISet" = NTP4Verif +
+sessions
+  "pearl_prover_lib"
 theories
   "ISet_Impl_removeqtvc"
   "ISet_Impl_mergeqtvc"

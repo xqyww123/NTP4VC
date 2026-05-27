@@ -1,5 +1,5 @@
 theory lineardecision_LinearDecisionIntMP
-  imports "NTP4Verif.NTP4Verif" "Why3STD.Ref_Ref" "mach.matrix_Matrix63" "Why3STD.debug_Debug" "../../lib/isabelle/lineardecision_RationalCoeffs" "../../lib/isabelle/lineardecision_MP64Coeffs" "../../lib/isabelle/lineardecision_LinearDecisionRationalMP"
+  imports "NTP4Verif.NTP4Verif" "Why3STD.Ref_Ref" "mach.matrix_Matrix63" "Why3STD.debug_Debug" "lineardecision_RationalCoeffs" "lineardecision_MP64Coeffs" "lineardecision_LinearDecisionRationalMP"
 begin
 datatype  t = I "int" | E "exp" | R
 definition mpinterp :: "t \<Rightarrow> (int \<Rightarrow> int) \<Rightarrow> int"

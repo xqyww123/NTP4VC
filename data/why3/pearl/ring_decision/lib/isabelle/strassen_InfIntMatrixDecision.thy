@@ -1,5 +1,5 @@
 theory strassen_InfIntMatrixDecision
-  imports "NTP4Verif.NTP4Verif" "Why3STD.int_Sum" "../../lib/isabelle/strassen_Sum_extended" "../../lib/isabelle/strassen_MaxFun" "../../lib/isabelle/strassen_InfIntMatrix"
+  imports "NTP4Verif.NTP4Verif" "Why3STD.int_Sum" "strassen_Sum_extended" "strassen_MaxFun" "strassen_InfIntMatrix"
 begin
 axiomatization where Assoc:   "x + y + z = x + (y + z)"
   for x :: "int"

@@ -1,5 +1,5 @@
 theory adjacent_difference_inv_Why3_ide_VCadjacent_difference_inv_post_unchanged_goal0
-  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "Why3STD.Cint_Cint" "../../lib/isabelle/Axiomatic2_Axiomatic2" "../../lib/isabelle/A_DifferenceAxiomatic_A_DifferenceAxiomatic" "../../lib/isabelle/Compound_Compound" "../../lib/isabelle/Axiomatic_Axiomatic" "../../lib/isabelle/Axiomatic1_Axiomatic1" "../../lib/isabelle/A_AccumulateAxiomatic_A_AccumulateAxiomatic"
+  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "Why3STD.Cint_Cint" "frama_c_standard_algorithms_adjacent_difference_inv_lib.Axiomatic2_Axiomatic2" "frama_c_standard_algorithms_adjacent_difference_inv_lib.A_DifferenceAxiomatic_A_DifferenceAxiomatic" "frama_c_standard_algorithms_adjacent_difference_inv_lib.Compound_Compound" "frama_c_standard_algorithms_adjacent_difference_inv_lib.Axiomatic_Axiomatic" "frama_c_standard_algorithms_adjacent_difference_inv_lib.Axiomatic1_Axiomatic1" "frama_c_standard_algorithms_adjacent_difference_inv_lib.A_AccumulateAxiomatic_A_AccumulateAxiomatic"
 begin
 theorem goal0:
   fixes a :: "addr"

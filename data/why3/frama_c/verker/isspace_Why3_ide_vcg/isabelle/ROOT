@@ -1,3 +1,5 @@
 session "frama_c_verker_isspace" = NTP4Verif +
+sessions
+  "frama_c_verker_lib"
 theories
   "isspace_Why3_ide_VCisspace_post_goal0"

@@ -1,4 +1,6 @@
 session "frama_c_klibc_stdio_zalloc" = NTP4Verif +
+sessions
+  "frama_c_klibc_stdio_lib"
 theories
   "zalloc_Why3_ide_VCzalloc_nonzero_post_part1_goal5"
   "zalloc_Why3_ide_VCzalloc_disjoint_nonzero_zero_goal1"

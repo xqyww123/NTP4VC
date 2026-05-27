@@ -1,3 +1,5 @@
 session "frama_c_standard_algorithms_equal_equal" = NTP4Verif +
+sessions
+  "frama_c_standard_algorithms_equal_lib"
 theories
   "equal_Why3_ide_VCequal_post_result_goal0"

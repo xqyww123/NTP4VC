@@ -1,5 +1,5 @@
 theory Axiomatic15_Axiomatic15
-  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "Why3STD.Cmath_Cmath" "Why3STD.Cfloat_Cfloat" "../../lib/isabelle/Compound_Compound"
+  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "Why3STD.Cmath_Cmath" "Why3STD.Cfloat_Cfloat" "Compound_Compound"
 begin
 definition p_finite_floatrates :: "(addr \<Rightarrow> real) \<Rightarrow> addr \<Rightarrow> _"
   where "p_finite_floatrates mflt_0 r \<longleftrightarrow> is_finite32 (mflt_0 (shift r (0 :: int))) \<and> is_finite32 (mflt_0 (shift r (1 :: int))) \<and> is_finite32 (mflt_0 (shift r (2 :: int)))" for mflt_0 r

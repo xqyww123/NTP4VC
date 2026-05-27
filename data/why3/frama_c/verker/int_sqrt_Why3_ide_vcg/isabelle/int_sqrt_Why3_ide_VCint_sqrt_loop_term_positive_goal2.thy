@@ -1,5 +1,5 @@
 theory int_sqrt_Why3_ide_VCint_sqrt_loop_term_positive_goal2
-  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "../../lib/isabelle/Axiomatic3_Axiomatic3" "Why3STD.Cint_Cint"
+  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "frama_c_verker_lib.Axiomatic3_Axiomatic3" "Why3STD.Cint_Cint"
 begin
 theorem goal2:
   fixes i_1 :: "int"

@@ -1,5 +1,5 @@
 theory X__init_stdio_Why3_ide_VC__init_stdio_assign_exit_part2_goal7
-  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "Why3STD.Cint_Cint" "../../lib/isabelle/Compound_Compound"
+  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "Why3STD.Cint_Cint" "frama_c_klibc_stdio_lib.Compound_Compound"
 begin
 theorem goal7:
   fixes a_2 :: "addr"

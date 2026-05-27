@@ -1,5 +1,5 @@
 theory parse_ext_CRLDP_Why3_ide_VCparse_ext_CRLDP_loop_inv_preserved_goal0
-  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "Why3STD.Cint_Cint" "../../lib/isabelle/Compound_Compound"
+  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "Why3STD.Cint_Cint" "frama_c_x509_parser_lib.Compound_Compound"
 begin
 theorem goal0:
   fixes a_1 :: "addr"

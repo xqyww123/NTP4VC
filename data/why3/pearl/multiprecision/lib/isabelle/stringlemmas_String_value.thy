@@ -1,5 +1,5 @@
 theory stringlemmas_String_value
-  imports "NTP4Verif.NTP4Verif" "Why3STD.Ref_Ref" "Why3STD.map_Const" "Why3STD.map_MapEq" "../../lib/isabelle/stringlemmas_String_lemmas" "../../lib/isabelle/lemmas_Lemmas" "mach.int_Unsigned" "mach.c_C" "mach.c_String" "mach.c_UChar" "../../lib/isabelle/types_Config" "../../lib/isabelle/types_Types" "../../lib/isabelle/types_Int32Eq" "../../lib/isabelle/types_UInt64Eq" "../../lib/isabelle/stringlemmas_Conversions"
+  imports "NTP4Verif.NTP4Verif" "Why3STD.Ref_Ref" "Why3STD.map_Const" "Why3STD.map_MapEq" "stringlemmas_String_lemmas" "lemmas_Lemmas" "mach.int_Unsigned" "mach.c_C" "mach.c_String" "mach.c_UChar" "types_Config" "types_Types" "types_Int32Eq" "types_UInt64Eq" "stringlemmas_Conversions"
 begin
 consts abs_value_sub_text :: "int \<Rightarrow> (int \<Rightarrow> char) \<Rightarrow> int \<Rightarrow> int \<Rightarrow> int"
 axiomatization where abs_value_sub_text'def:   "if n < m then abs_value_sub_text b s n m = text_to_num b (s (m - (1 :: int))) + b * abs_value_sub_text b s n (m - (1 :: int)) else abs_value_sub_text b s n m = (0 :: int)"

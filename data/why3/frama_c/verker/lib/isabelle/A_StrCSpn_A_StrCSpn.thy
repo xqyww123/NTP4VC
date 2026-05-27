@@ -1,5 +1,5 @@
 theory A_StrCSpn_A_StrCSpn
-  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "../../lib/isabelle/A_StrSpn_A_StrSpn" "../../lib/isabelle/Compound_Compound" "../../lib/isabelle/A_Strlen_A_Strlen" "Why3STD.Cint_Cint"
+  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "A_StrSpn_A_StrSpn" "Compound_Compound" "A_Strlen_A_Strlen" "Why3STD.Cint_Cint"
 begin
 consts l_strcspn :: "addr \<Rightarrow> addr \<Rightarrow> int"
 axiomatization where Q_strcspn_base_case:   "l_strcspn s reject_0 = (0 :: int)"

@@ -1,4 +1,6 @@
 session "frama_c_standard_algorithms_lower_bound_lower_bound" = NTP4Verif +
+sessions
+  "frama_c_standard_algorithms_lower_bound_lib"
 theories
   "lower_bound_Why3_ide_VClower_bound_loop_term_decrease_goal13"
   "lower_bound_Why3_ide_VClower_bound_loop_inv_bound_established_goal3"

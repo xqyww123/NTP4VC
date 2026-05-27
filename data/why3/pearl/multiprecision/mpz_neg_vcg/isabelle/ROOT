@@ -1,3 +1,5 @@
 session "pearl_multiprecision_mpz_neg" = NTP4Verif +
+sessions
+  "pearl_multiprecision_lib"
 theories
   "mpz_neg_Zneg_wmpz_negqtvc"

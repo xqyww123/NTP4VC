@@ -1,5 +1,5 @@
 theory parse_ext_EKU_Why3_ide_VCparse_ext_EKU_loop_term_decrease_part1_goal3
-  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "../../lib/isabelle/Compound_Compound" "../../lib/isabelle/Globals_Globals" "Why3STD.Cint_Cint"
+  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "frama_c_x509_parser_lib.Compound_Compound" "frama_c_x509_parser_lib.Globals_Globals" "Why3STD.Cint_Cint"
 begin
 theorem goal3:
   fixes a_2 :: "addr"

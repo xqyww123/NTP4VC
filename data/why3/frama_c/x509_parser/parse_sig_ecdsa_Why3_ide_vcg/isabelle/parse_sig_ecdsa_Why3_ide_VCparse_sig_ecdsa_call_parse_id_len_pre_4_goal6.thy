@@ -1,5 +1,5 @@
 theory parse_sig_ecdsa_Why3_ide_VCparse_sig_ecdsa_call_parse_id_len_pre_4_goal6
-  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "Why3STD.Cint_Cint" "../../lib/isabelle/Compound_Compound"
+  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "Why3STD.Cint_Cint" "frama_c_x509_parser_lib.Compound_Compound"
 begin
 theorem goal6:
   fixes a_1 :: "addr"

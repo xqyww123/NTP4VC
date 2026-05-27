@@ -1,4 +1,6 @@
 session "frama_c_klibc_stdio_fgetc" = NTP4Verif +
+sessions
+  "frama_c_klibc_stdio_lib"
 theories
   "fgetc_Why3_ide_VCfgetc_no_error_post_2_part1_goal7"
   "fgetc_Why3_ide_VCfgetc_error_assign_part3_goal4"

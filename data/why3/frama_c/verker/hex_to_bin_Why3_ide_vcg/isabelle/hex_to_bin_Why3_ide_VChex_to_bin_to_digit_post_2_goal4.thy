@@ -1,5 +1,5 @@
 theory hex_to_bin_Why3_ide_VChex_to_bin_to_digit_post_2_goal4
-  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "../../lib/isabelle/Axiomatic3_Axiomatic3" "Why3STD.Cint_Cint" "../../lib/isabelle/A_Ctype_A_Ctype" "../../lib/isabelle/A_HexToBin_A_HexToBin"
+  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "frama_c_verker_lib.Axiomatic3_Axiomatic3" "Why3STD.Cint_Cint" "frama_c_verker_lib.A_Ctype_A_Ctype" "frama_c_verker_lib.A_HexToBin_A_HexToBin"
 begin
 theorem goal4:
   fixes i_3 :: "int"

@@ -1,3 +1,5 @@
 session "frama_c_verker_toupper" = NTP4Verif +
+sessions
+  "frama_c_verker_lib"
 theories
   "toupper_Why3_ide_VCtoupper_post_goal0"

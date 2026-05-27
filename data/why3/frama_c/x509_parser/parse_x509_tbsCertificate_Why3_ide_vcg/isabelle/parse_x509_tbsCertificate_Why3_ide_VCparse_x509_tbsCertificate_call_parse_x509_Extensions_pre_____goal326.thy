@@ -1,5 +1,5 @@
 theory parse_x509_tbsCertificate_Why3_ide_VCparse_x509_tbsCertificate_call_parse_x509_Extensions_pre_____goal326
-  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "../../lib/isabelle/Compound_Compound" "Why3STD.Cint_Cint"
+  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "frama_c_x509_parser_lib.Compound_Compound" "Why3STD.Cint_Cint"
 begin
 theorem goal326:
   fixes a_2 :: "addr"

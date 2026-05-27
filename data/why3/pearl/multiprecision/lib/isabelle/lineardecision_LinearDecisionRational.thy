@@ -1,5 +1,5 @@
 theory lineardecision_LinearDecisionRational
-  imports "NTP4Verif.NTP4Verif" "Why3STD.Ref_Ref" "mach.matrix_Matrix63" "Why3STD.debug_Debug" "../../lib/isabelle/lineardecision_RationalCoeffs"
+  imports "NTP4Verif.NTP4Verif" "Why3STD.Ref_Ref" "mach.matrix_Matrix63" "Why3STD.debug_Debug" "lineardecision_RationalCoeffs"
 begin
 axiomatization where sub_def:   "a1 - a2 = a1 + -a2"
   for a1 :: "real"

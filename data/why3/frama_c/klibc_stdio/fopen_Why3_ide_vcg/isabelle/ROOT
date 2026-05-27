@@ -1,4 +1,6 @@
 session "frama_c_klibc_stdio_fopen" = NTP4Verif +
+sessions
+  "frama_c_klibc_stdio_lib"
 theories
   "fopen_Why3_ide_VCfopen_call___parse_open_mode_pre_goal1"
   "fopen_Why3_ide_VCfopen_post_part3_goal0"

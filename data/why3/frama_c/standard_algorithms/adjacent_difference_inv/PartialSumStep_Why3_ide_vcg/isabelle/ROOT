@@ -1,3 +1,5 @@
 session "frama_c_standard_algorithms_adjacent_difference_inv_PartialSumStep" = NTP4Verif +
+sessions
+  "frama_c_standard_algorithms_adjacent_difference_inv_lib"
 theories
   "PartialSumStep_Why3_ide_VCPartialSumStep_post_goal0"

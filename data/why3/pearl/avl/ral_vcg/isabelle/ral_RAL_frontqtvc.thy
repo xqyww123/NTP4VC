@@ -1,5 +1,5 @@
 theory ral_RAL_frontqtvc
-  imports "NTP4Verif.NTP4Verif" "Why3STD.Ref_Ref" "../../lib/isabelle/avl_SelectionTypes"
+  imports "NTP4Verif.NTP4Verif" "Why3STD.Ref_Ref" "pearl_avl_lib.avl_SelectionTypes"
 begin
 consts balancing :: "nat"
 axiomatization where balancing'def:   "(0 :: int) < int balancing"

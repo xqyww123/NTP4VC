@@ -1,5 +1,5 @@
 theory memb_init_Why3_ide_VCmemb_init_assign_exit_part2_goal7
-  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "../../lib/isabelle/Axiomatic13_Axiomatic13" "Why3STD.Memory_Memory" "../../lib/isabelle/Compound_Compound" "../../lib/isabelle/A_OccArray_A_OccArray" "Why3STD.Cint_Cint" "../../lib/isabelle/Axiomatic12_Axiomatic12" "../../lib/isabelle/A_MemSet_A_MemSet"
+  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "frama_c_contiki_memb_lib.Axiomatic13_Axiomatic13" "Why3STD.Memory_Memory" "frama_c_contiki_memb_lib.Compound_Compound" "frama_c_contiki_memb_lib.A_OccArray_A_OccArray" "Why3STD.Cint_Cint" "frama_c_contiki_memb_lib.Axiomatic12_Axiomatic12" "frama_c_contiki_memb_lib.A_MemSet_A_MemSet"
 begin
 theorem goal7:
   fixes a :: "addr"

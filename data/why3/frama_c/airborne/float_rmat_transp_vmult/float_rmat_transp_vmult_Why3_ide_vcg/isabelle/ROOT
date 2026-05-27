@@ -1,3 +1,5 @@
 session "frama_c_airborne_float_rmat_transp_vmult_float_rmat_transp_vmult" = NTP4Verif +
+sessions
+  "frama_c_airborne_float_rmat_transp_vmult_lib"
 theories
   "float_rmat_transp_vmult_Why3_ide_VCfloat_rmat_transp_vmult_post_goal0"

@@ -1,5 +1,5 @@
 theory parse_x509_Name_Why3_ide_VCparse_x509_Name_loop_term_decrease_goal5
-  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "Why3STD.Cint_Cint" "../../lib/isabelle/Compound_Compound"
+  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "Why3STD.Cint_Cint" "frama_c_x509_parser_lib.Compound_Compound"
 begin
 theorem goal5:
   fixes a_2 :: "addr"

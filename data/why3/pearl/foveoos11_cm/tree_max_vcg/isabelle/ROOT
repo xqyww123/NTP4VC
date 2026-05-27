@@ -1,4 +1,6 @@
 session "pearl_foveoos11_cm_tree_max" = NTP4Verif +
+sessions
+  "pearl_foveoos11_cm_lib"
 theories
   "tree_max_TreeMax_maxqtvc"
   "tree_max_BinTree_ge_transqtvc"

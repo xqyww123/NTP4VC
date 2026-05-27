@@ -1,5 +1,5 @@
 theory find_first_of_Why3_ide_VCfind_first_of_not_found_post_result_goal8
-  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "Why3STD.Cint_Cint" "../../lib/isabelle/Compound_Compound" "../../lib/isabelle/Axiomatic_Axiomatic"
+  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "Why3STD.Cint_Cint" "frama_c_standard_algorithms_find_first_of_lib.Compound_Compound" "frama_c_standard_algorithms_find_first_of_lib.Axiomatic_Axiomatic"
 begin
 theorem goal8:
   fixes t_1 :: "addr \<Rightarrow> int"

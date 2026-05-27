@@ -1,4 +1,6 @@
 session "frama_c_verker_match_string" = NTP4Verif +
+sessions
+  "frama_c_verker_lib"
 theories
   "match_string_Why3_ide_VCmatch_string_loop_term_positive_goal6"
   "match_string_Why3_ide_VCmatch_string_exists_post_4_goal10"

@@ -1,5 +1,5 @@
 theory matrices_ring_simp_Symb
-  imports "NTP4Verif.NTP4Verif" "Why3STD.int_Sum" "../../lib/isabelle/matrices_MyMatrix" "../../lib/isabelle/matrices_MatrixArithmetic" "../../lib/isabelle/sum_extended_Sum_extended"
+  imports "NTP4Verif.NTP4Verif" "Why3STD.int_Sum" "matrices_MyMatrix" "matrices_MatrixArithmetic" "sum_extended_Sum_extended"
 begin
 datatype  mono = mono'mk (m_prod: "int list") (m_pos: "bool")
 fun l_mdl :: "(int \<Rightarrow> int mat) \<Rightarrow> int list \<Rightarrow> int mat"

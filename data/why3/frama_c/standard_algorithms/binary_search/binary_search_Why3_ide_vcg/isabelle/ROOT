@@ -1,4 +1,6 @@
 session "frama_c_standard_algorithms_binary_search_binary_search" = NTP4Verif +
+sessions
+  "frama_c_standard_algorithms_binary_search_lib"
 theories
   "binary_search_Why3_ide_VCbinary_search_post_result_goal0"
   "binary_search_Why3_ide_VCbinary_search_assert_rte_mem_access_goal1"

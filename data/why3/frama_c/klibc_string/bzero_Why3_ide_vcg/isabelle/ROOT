@@ -1,3 +1,5 @@
 session "frama_c_klibc_string_bzero" = NTP4Verif +
+sessions
+  "frama_c_klibc_string_lib"
 theories
   "bzero_Why3_ide_VCbzero_post_goal0"

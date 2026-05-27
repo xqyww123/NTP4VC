@@ -1,4 +1,6 @@
 session "frama_c_standard_algorithms_replace_replace" = NTP4Verif +
+sessions
+  "frama_c_standard_algorithms_replace_lib"
 theories
   "replace_Why3_ide_VCreplace_assert_rte_mem_access_2_goal8"
   "replace_Why3_ide_VCreplace_loop_inv_replace_established_goal4"

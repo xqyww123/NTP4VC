@@ -1,3 +1,5 @@
 session "frama_c_contiki_memb_Axiomatic13" = NTP4Verif +
+sessions
+  "frama_c_contiki_memb_lib"
 theories
   "Axiomatic13_Axiomatic13_Q_mult_simplification"

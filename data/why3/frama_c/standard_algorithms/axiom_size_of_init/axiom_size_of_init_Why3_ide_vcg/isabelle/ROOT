@@ -1,3 +1,5 @@
 session "frama_c_standard_algorithms_axiom_size_of_init_axiom_size_of_init" = NTP4Verif +
+sessions
+  "frama_c_standard_algorithms_axiom_size_of_init_lib"
 theories
   "axiom_size_of_init_Why3_ide_VCaxiom_size_of_init_post_size_goal0"

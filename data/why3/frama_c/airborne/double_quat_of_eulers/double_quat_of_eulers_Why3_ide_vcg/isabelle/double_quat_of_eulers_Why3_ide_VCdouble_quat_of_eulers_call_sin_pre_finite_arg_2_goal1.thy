@@ -1,5 +1,5 @@
 theory double_quat_of_eulers_Why3_ide_VCdouble_quat_of_eulers_call_sin_pre_finite_arg_2_goal1
-  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "../../lib/isabelle/Axiomatic19_Axiomatic19" "Why3STD.Cmath_Cmath" "Why3STD.Cfloat_Cfloat" "../../lib/isabelle/Compound_Compound"
+  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "frama_c_airborne_double_quat_of_eulers_lib.Axiomatic19_Axiomatic19" "Why3STD.Cmath_Cmath" "Why3STD.Cfloat_Cfloat" "frama_c_airborne_double_quat_of_eulers_lib.Compound_Compound"
 begin
 theorem goal1:
   fixes t_1 :: "addr \<Rightarrow> real"

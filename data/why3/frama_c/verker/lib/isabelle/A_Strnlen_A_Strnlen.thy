@@ -1,5 +1,5 @@
 theory A_Strnlen_A_Strnlen
-  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "../../lib/isabelle/Compound_Compound" "Why3STD.Cint_Cint" "../../lib/isabelle/A_Strlen_A_Strlen"
+  imports "NTP4Verif.NTP4Verif" "Why3STD.Qed_Qed" "Why3STD.Memory_Memory" "Compound_Compound" "Why3STD.Cint_Cint" "A_Strlen_A_Strlen"
 begin
 definition p_valid_strn :: "(int \<Rightarrow> int) \<Rightarrow> (addr \<Rightarrow> int) \<Rightarrow> addr \<Rightarrow> int \<Rightarrow> _"
   where "p_valid_strn malloc_0 mchar_0 s cnt_0 \<longleftrightarrow> (let a :: addr = shift s (0 :: int) in valid_rw malloc_0 a ((1 :: int) + cnt_0) \<or> (\<exists>(i :: int). mchar_0 (shift s i) = (0 :: int) \<and> i < cnt_0 \<and> is_uint64 i \<and> valid_rw malloc_0 a ((1 :: int) + i)) \<and> (\<forall>(j :: int). j \<le> cnt_0 \<longrightarrow> is_sint8 (mchar_0 (shift s j))))" for malloc_0 mchar_0 s cnt_0
