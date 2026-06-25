@@ -14,6 +14,6 @@ definition num_to_bothcase_text :: "8 word \<Rightarrow> char"
 definition to_bothcase_text :: "(int \<Rightarrow> 8 word) \<Rightarrow> (int \<Rightarrow> char) \<Rightarrow> int \<Rightarrow> int \<Rightarrow> _"
   where "to_bothcase_text d t m n \<longleftrightarrow> (\<forall>(i :: int). n \<le> i \<and> i < m \<longrightarrow> t i = num_to_bothcase_text (d i))" for d t m n
 theorem upsublowup'vc:
-  shows "''ABCDEFGHIJKLMNOPQRSTUVWXYZ'' = drop (10 :: nat) (take ((26 :: nat) - (10 :: nat)) ''0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz'')"
+  shows "''ABCDEFGHIJKLMNOPQRSTUVWXYZ'' = substring ''0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz'' 10 26"
   sorry
 end

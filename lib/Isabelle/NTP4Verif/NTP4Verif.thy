@@ -42,6 +42,8 @@ abbreviation (input) replicate_i where "replicate_i n x \<equiv> replicate (nat 
 
 abbreviation (input) slice where "slice l i j \<equiv> take (j - i) (drop i l)"
 abbreviation (input) slice_i where "slice_i l i j \<equiv> take (nat j - nat i) (drop (nat i) l)"
+definition substring :: "'a list \<Rightarrow> int \<Rightarrow> int \<Rightarrow> 'a list"
+  where "substring s i x = (if i < 0 then [] else take (nat x) (drop (nat i) s))"
 
 abbreviation (input) fset_is_empty where "fset_is_empty s \<equiv> s = fempty"
 abbreviation (input) set_is_empty where "set_is_empty s \<equiv> s = {}"

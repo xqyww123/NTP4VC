@@ -41,6 +41,7 @@ atoms:
   string.Char.chr : ['char_of', 'String.char_of']
   string.String.prefixof: ['prefix', 'Sublist.prefix']
   string.String.suffixof: ['suffix', 'Sublist.suffix']
+  string.String.substring: ['substring', 'NTP4Verif.substring']
   $contains: ['sublist', 'Sublist.sublist']
   list.SortedInt.sorted: ['sorted', 'List.sorted']
   real.Abs.abs: ['abs', 'Groups.abs']
@@ -590,7 +591,6 @@ rewrites:
   seq.Seq.infix_plpl#0: $append
   string.String.concat#0: $append
 
-  string.String.substring#0: slice$i
   seq.Seq.mixfix_lb..rb#0: slice$i
   take$i#1: [nat$take, [Int.nat, 0]]
   drop$i#2: [nat$drop, [Int.nat, 0], 1]
