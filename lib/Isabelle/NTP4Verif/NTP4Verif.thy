@@ -177,10 +177,10 @@ abbreviation (input) s64_to_s128 :: "64 word \<Rightarrow> 128 word" where \<ope
 abbreviation (input) u128_to_u64 :: "128 word \<Rightarrow> 64 word" where \<open>u128_to_u64 \<equiv> ucast\<close>
 
 abbreviation (input) bv_eq_sub :: "'a::len word \<Rightarrow> 'a word \<Rightarrow> int \<Rightarrow> int \<Rightarrow> bool" where
-  "bv_eq_sub a b i n \<equiv> take_bit (nat n) (drop_bit (LENGTH('a) - nat n - nat i) a) = take_bit (nat n) (drop_bit (LENGTH('a) - nat n - nat i) b)"
+  "bv_eq_sub a b i n \<equiv> take_bit (nat n) (drop_bit (nat i) a) = take_bit (nat n) (drop_bit (nat i) b)"
 
 abbreviation (input) bv_eq_sub_bv :: "'a::len word \<Rightarrow> 'a word \<Rightarrow> 'a word \<Rightarrow> 'a word \<Rightarrow> bool" where
-  "bv_eq_sub_bv a b i n \<equiv> take_bit (unat n) (drop_bit (LENGTH('a) - unat n - unat i) a) = take_bit (unat n) (drop_bit (LENGTH('a) - unat n - unat i) b)"
+  "bv_eq_sub_bv a b i n \<equiv> take_bit (unat n) (drop_bit (unat i) a) = take_bit (unat n) (drop_bit (unat i) b)"
 
 abbreviation (input) "w8_size_i \<equiv> (8 :: int)"
 abbreviation (input) "w16_size_i \<equiv> (16 :: int)"
