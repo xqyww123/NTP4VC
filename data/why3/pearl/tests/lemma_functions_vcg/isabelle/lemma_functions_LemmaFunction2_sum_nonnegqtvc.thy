@@ -9,6 +9,6 @@ theorem sum_nonneg'vc:
   assumes fact1: "l \<le> u"
   assumes fact2: "u \<le> int (length a)"
   assumes fact3: "\<forall>(i :: int). (0 :: int) \<le> i \<and> i < int (length a) \<longrightarrow> (0 :: int) \<le> a ! nat i"
-  shows "(0 :: int) \<le> sum_list (drop (nat l) (take (nat u - nat l) a))"
+  shows "(0 :: int) \<le> sum_list (take (nat u - nat l) (drop (nat l) a))"
   sorry
 end

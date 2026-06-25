@@ -52,6 +52,6 @@ theorem numof_equiv'vc:
   fixes v1 :: "'a"
   fixes a2 :: "'a list"
   assumes fact0: "\<forall>(i :: int). l \<le> i \<and> i < u \<longrightarrow> a1 ! nat i = v1 \<longleftrightarrow> a2 ! nat i = v1"
-  shows "count_list (drop (nat l) (take (nat u - nat l) a1)) v1 = count_list (drop (nat l) (take (nat u - nat l) a2)) v1"
+  shows "count_list (take (nat u - nat l) (drop (nat l) a1)) v1 = count_list (take (nat u - nat l) (drop (nat l) a2)) v1"
   sorry
 end

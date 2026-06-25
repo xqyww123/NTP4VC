@@ -2,7 +2,7 @@ theory string_hex_encoding_Top_hexqtvc
   imports "NTP4Verif.NTP4Verif" "Why3STD.string_StringBuffer"
 begin
 definition valid_hex_char :: "char \<Rightarrow> _"
-  where "valid_hex_char c \<longleftrightarrow> (48 :: int) \<le> of_char c \<and> of_char c < (58 :: int) \<or> (65 :: int) \<le> of_char c \<and> of_char c < (71 :: int)" for c
+  where "valid_hex_char c \<longleftrightarrow> (48 :: int) \<le> char_code c \<and> char_code c < (58 :: int) \<or> (65 :: int) \<le> char_code c \<and> char_code c < (71 :: int)" for c
 definition hex :: "int \<Rightarrow> char"
   where "hex i = (if (0 :: int) \<le> i \<and> i < (10 :: int) then char_of (i + (48 :: int)) else if (10 :: int) \<le> i \<and> i < (16 :: int) then char_of (i + (55 :: int)) else [CHR 0x0] ! (0 :: nat))" for i
 theorem hex'vc:

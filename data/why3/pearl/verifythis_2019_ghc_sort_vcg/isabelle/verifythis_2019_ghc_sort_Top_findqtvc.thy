@@ -88,7 +88,7 @@ theorem find'vc:
   assumes fact0: "(0 :: int) \<le> s"
   assumes fact1: "s < e"
   assumes fact2: "e \<le> int (length seq1)"
-  assumes fact3: "(1 :: int) \<le> int (count_list (drop (nat s) (take (nat e - nat s) seq1)) v)"
-  shows "let o1 :: int = seq1 ! nat s in (\<not>o1 = v \<longrightarrow> (let o2 :: int = s + (1 :: int) in ((0 :: int) \<le> e - s \<and> e - o2 < e - s) \<and> ((0 :: int) \<le> o2 \<and> o2 < e \<and> e \<le> int (length seq1)) \<and> (1 :: int) \<le> int (count_list (drop (nat o2) (take (nat e - nat o2) seq1)) v))) \<and> (\<forall>(result :: int). (if o1 = v then result = s else (s + (1 :: int) \<le> result \<and> result < e) \<and> seq1 ! nat result = v) \<longrightarrow> (s \<le> result \<and> result < e) \<and> seq1 ! nat result = v)"
+  assumes fact3: "(1 :: int) \<le> int (count_list (take (nat e - nat s) (drop (nat s) seq1)) v)"
+  shows "let o1 :: int = seq1 ! nat s in (\<not>o1 = v \<longrightarrow> (let o2 :: int = s + (1 :: int) in ((0 :: int) \<le> e - s \<and> e - o2 < e - s) \<and> ((0 :: int) \<le> o2 \<and> o2 < e \<and> e \<le> int (length seq1)) \<and> (1 :: int) \<le> int (count_list (take (nat e - nat o2) (drop (nat o2) seq1)) v))) \<and> (\<forall>(result :: int). (if o1 = v then result = s else (s + (1 :: int) \<le> result \<and> result < e) \<and> seq1 ! nat result = v) \<longrightarrow> (s \<le> result \<and> result < e) \<and> seq1 ! nat result = v)"
   sorry
 end

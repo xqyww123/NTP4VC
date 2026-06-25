@@ -14,9 +14,9 @@ definition num_to_bothcase_text :: "8 word \<Rightarrow> char"
 definition to_bothcase_text :: "(int \<Rightarrow> 8 word) \<Rightarrow> (int \<Rightarrow> char) \<Rightarrow> int \<Rightarrow> int \<Rightarrow> _"
   where "to_bothcase_text d t m n \<longleftrightarrow> (\<forall>(i :: int). n \<le> i \<and> i < m \<longrightarrow> t i = num_to_bothcase_text (d i))" for d t m n
 definition text_to_num_onecase :: "char \<Rightarrow> int"
-  where "text_to_num_onecase c = (if of_char (''0'' ! (0 :: nat)) \<le> of_char c \<and> of_char c \<le> of_char (''9'' ! (0 :: nat)) then of_char c - of_char (''0'' ! (0 :: nat)) else if of_char (''a'' ! (0 :: nat)) \<le> of_char c \<and> of_char c \<le> of_char (''z'' ! (0 :: nat)) then of_char c - of_char (''a'' ! (0 :: nat)) + (10 :: int) else if of_char (''A'' ! (0 :: nat)) \<le> of_char c \<and> of_char c \<le> of_char (''Z'' ! (0 :: nat)) then of_char c - of_char (''A'' ! (0 :: nat)) + (10 :: int) else -(1 :: int))" for c
+  where "text_to_num_onecase c = (if char_code (''0'' ! (0 :: nat)) \<le> char_code c \<and> char_code c \<le> char_code (''9'' ! (0 :: nat)) then char_code c - char_code (''0'' ! (0 :: nat)) else if char_code (''a'' ! (0 :: nat)) \<le> char_code c \<and> char_code c \<le> char_code (''z'' ! (0 :: nat)) then char_code c - char_code (''a'' ! (0 :: nat)) + (10 :: int) else if char_code (''A'' ! (0 :: nat)) \<le> char_code c \<and> char_code c \<le> char_code (''Z'' ! (0 :: nat)) then char_code c - char_code (''A'' ! (0 :: nat)) + (10 :: int) else -(1 :: int))" for c
 definition text_to_num_bothcase :: "char \<Rightarrow> int"
-  where "text_to_num_bothcase c = (if of_char (''0'' ! (0 :: nat)) \<le> of_char c \<and> of_char c \<le> of_char (''9'' ! (0 :: nat)) then of_char c - of_char (''0'' ! (0 :: nat)) else if of_char (''a'' ! (0 :: nat)) \<le> of_char c \<and> of_char c \<le> of_char (''z'' ! (0 :: nat)) then of_char c - of_char (''a'' ! (0 :: nat)) + (36 :: int) else if of_char (''A'' ! (0 :: nat)) \<le> of_char c \<and> of_char c \<le> of_char (''Z'' ! (0 :: nat)) then of_char c - of_char (''A'' ! (0 :: nat)) + (10 :: int) else -(1 :: int))" for c
+  where "text_to_num_bothcase c = (if char_code (''0'' ! (0 :: nat)) \<le> char_code c \<and> char_code c \<le> char_code (''9'' ! (0 :: nat)) then char_code c - char_code (''0'' ! (0 :: nat)) else if char_code (''a'' ! (0 :: nat)) \<le> char_code c \<and> char_code c \<le> char_code (''z'' ! (0 :: nat)) then char_code c - char_code (''a'' ! (0 :: nat)) + (36 :: int) else if char_code (''A'' ! (0 :: nat)) \<le> char_code c \<and> char_code c \<le> char_code (''Z'' ! (0 :: nat)) then char_code c - char_code (''A'' ! (0 :: nat)) + (10 :: int) else -(1 :: int))" for c
 definition text_to_num :: "int \<Rightarrow> char \<Rightarrow> int"
   where "text_to_num base c = (if -(36 :: int) \<le> base \<and> base \<le> (36 :: int) then text_to_num_onecase c else text_to_num_bothcase c)" for base c
 definition num_to_text :: "int \<Rightarrow> 8 word \<Rightarrow> char"
@@ -24,6 +24,6 @@ definition num_to_text :: "int \<Rightarrow> 8 word \<Rightarrow> char"
 definition to_num :: "int \<Rightarrow> (int \<Rightarrow> char) \<Rightarrow> (int \<Rightarrow> 8 word) \<Rightarrow> int \<Rightarrow> int \<Rightarrow> _"
   where "to_num base t d n m \<longleftrightarrow> (\<forall>(i :: int). n \<le> i \<and> i < m \<longrightarrow> uint (d i) = text_to_num base (t i))" for base t d n m
 theorem diglow'vc:
-  shows "of_char (''9'' ! (0 :: nat)) < of_char (''a'' ! (0 :: nat))"
+  shows "char_code (''9'' ! (0 :: nat)) < char_code (''a'' ! (0 :: nat))"
   sorry
 end

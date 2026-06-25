@@ -37,7 +37,7 @@ atoms:
   asr$b:   ['word_ashr_bv', 'NTP4Verif.word_ashr_bv']
   asr$nat: ['sshiftr', 'Bit_Shifts_Infix_Syntax.sshiftr']
 
-  string.Char.code: ['of_char', 'String.of_char']
+  string.Char.code: ['char_code', 'NTP4Verif.char_code']
   string.Char.chr : ['char_of', 'String.char_of']
   string.String.prefixof: ['prefix', 'Sublist.prefix']
   string.String.suffixof: ['suffix', 'Sublist.suffix']
@@ -595,7 +595,7 @@ rewrites:
   take$i#1: [nat$take, [Int.nat, 0]]
   drop$i#2: [nat$drop, [Int.nat, 0], 1]
   take$i#2: [nat$take, [Int.nat, 0], 1]
-  slice$i#3: [nat$drop, [Int.nat, 1], [nat$take, [int.Int.infix_mn, [Int.nat, 2], [Int.nat, 1]], 0]]
+  slice$i#3: [nat$take, [int.Int.infix_mn, [Int.nat, 2], [Int.nat, 1]], [nat$drop, [Int.nat, 1], 0]]
 
   set.Fset.is_empty#1: [$eq, 0, set.Fset.empty]
   set.Fset.disjoint#2: [$eq, [set.Fset.inter, 0, 1], set.Fset.empty]

@@ -29,6 +29,6 @@ theorem shift_lemma'vc:
   assumes fact3: "sint i < j"
   assumes fact4: "j < sint i + sint (the (fmlookup (to_fmap (sht bst)) (text ! nat (sint i + int (length (pat bst))))))"
   assumes fact5: "j \<le> int (length text) - int (length (pat bst))"
-  shows "\<not>drop (nat j) (take (length (pat bst) - nat j) text) = pat bst"
+  shows "\<not>take (length (pat bst) - nat j) (drop (nat j) text) = pat bst"
   sorry
 end

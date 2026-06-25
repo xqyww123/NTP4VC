@@ -62,7 +62,7 @@ theorem eq_sub_permut'vc:
   fixes u :: "int"
   assumes fact0: "a1 <~~> a2"
   assumes fact1: "drop (0 :: nat) (take (nat u - (0 :: nat)) a1) = drop (0 :: nat) (take (nat u - (0 :: nat)) a2)"
-  shows "\<forall>(a11 :: int list) (a21 :: int list) (i1 :: int) (i2 :: int) (i3 :: int). (i1 \<le> i2 \<and> i2 \<le> i3) \<and> permut_sub' a11 a21 (nat i1) (nat i3) \<and> drop (nat i1) (take (nat i2 - nat i1) a11) = drop (nat i1) (take (nat i2 - nat i1) a21) \<longrightarrow> permut_sub' a11 a21 (nat i2) (nat i3)"
+  shows "\<forall>(a11 :: int list) (a21 :: int list) (i1 :: int) (i2 :: int) (i3 :: int). (i1 \<le> i2 \<and> i2 \<le> i3) \<and> permut_sub' a11 a21 (nat i1) (nat i3) \<and> take (nat i2 - nat i1) (drop (nat i1) a11) = take (nat i2 - nat i1) (drop (nat i1) a21) \<longrightarrow> permut_sub' a11 a21 (nat i2) (nat i3)"
   and "permut_sub' a1 a2 (nat u) (length a1)"
   sorry
 end

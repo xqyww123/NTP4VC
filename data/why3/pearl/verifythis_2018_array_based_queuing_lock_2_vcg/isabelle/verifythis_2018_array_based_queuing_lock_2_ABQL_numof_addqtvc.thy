@@ -54,6 +54,6 @@ theorem numof_add'vc:
   assumes fact0: "l \<le> i"
   assumes fact1: "i < u"
   assumes fact2: "\<not>a ! nat i = v1"
-  shows "int (count_list (drop (nat l) (take (nat u - nat l) (a[nat i := v1]))) v1) = int (count_list (drop (nat l) (take (nat u - nat l) a)) v1) + (1 :: int)"
+  shows "int (count_list (take (nat u - nat l) (drop (nat l) (a[nat i := v1]))) v1) = int (count_list (take (nat u - nat l) (drop (nat l) a)) v1) + (1 :: int)"
   sorry
 end

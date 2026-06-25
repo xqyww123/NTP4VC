@@ -40,8 +40,8 @@ abbreviation (input) rev_append where "rev_append r s \<equiv> rev r @ s"
 abbreviation (input) create_list where "create_list n f \<equiv> map (\<lambda>x. f (int x)) [0 ..< nat n]"
 abbreviation (input) replicate_i where "replicate_i n x \<equiv> replicate (nat n) x"
 
-abbreviation (input) slice where "slice l i j \<equiv> drop i (take (j - i) l)" 
-abbreviation (input) slice_i where "slice_i l i j \<equiv> drop (nat i) (take (nat j - nat i) l)" 
+abbreviation (input) slice where "slice l i j \<equiv> take (j - i) (drop i l)"
+abbreviation (input) slice_i where "slice_i l i j \<equiv> take (nat j - nat i) (drop (nat i) l)"
 
 abbreviation (input) fset_is_empty where "fset_is_empty s \<equiv> s = fempty"
 abbreviation (input) set_is_empty where "set_is_empty s \<equiv> s = {}"
@@ -155,6 +155,10 @@ abbreviation (input) w128_of_int :: "int \<Rightarrow> 128 word" where "w128_of_
 abbreviation (input) w256_of_int :: "int \<Rightarrow> 256 word" where "w256_of_int \<equiv> of_int"
 abbreviation (input) uchar_of_char :: "char \<Rightarrow> 8 word" where "uchar_of_char \<equiv> of_char"
 abbreviation (input) char_of_uchar :: "8 word \<Rightarrow> char" where "char_of_uchar x \<equiv> char_of (unat x)"
+\<comment> \<open>why3 \<open>Char.code : char \<rightarrow> int\<close>. Pinned to \<open>int\<close> (the \<open>:: char \<Rightarrow> int\<close> signature
+   monomorphises the otherwise-polymorphic \<open>of_char\<close>, so character comparisons such as
+   \<open>code x \<le> code y\<close> no longer leave free type vars that surface as phantom \<open>itself\<close> args).\<close>
+abbreviation (input) char_code :: "char \<Rightarrow> int" where "char_code \<equiv> of_char"
 
 abbreviation (input) u8_to_u32 :: "8 word \<Rightarrow> 32 word" where \<open>u8_to_u32 \<equiv> ucast\<close>
 abbreviation (input) s8_to_s32 :: "8 word \<Rightarrow> 32 word" where \<open>s8_to_s32 \<equiv> scast\<close>

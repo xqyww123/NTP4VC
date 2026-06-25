@@ -23,6 +23,6 @@ theorem tree_inorder'vc:
   fixes lo :: "int"
   fixes hi :: "int"
   assumes fact0: "tree prev next s root t1 lo hi"
-  shows "inorder s t1 = drop (nat lo) (take (nat hi - nat lo) s)"
+  shows "inorder s t1 = take (nat hi - nat lo) (drop (nat lo) s)"
   sorry
 end
