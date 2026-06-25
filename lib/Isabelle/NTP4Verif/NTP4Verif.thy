@@ -52,6 +52,7 @@ abbreviation (input) fset_remove where "fset_remove x s \<equiv> s |-| {| x |}"
 abbreviation (input) set_remove where "set_remove x A \<equiv> A - {x}"
 
 abbreviation (input) fset_pick where "fset_pick s \<equiv> (@x. x |\<in>| s)"
+abbreviation (input) set_pick where "set_pick s \<equiv> (@x. x \<in> s)"
 
 abbreviation (input) fset_disjoint where "fset_disjoint A B \<equiv> A |\<inter>| B = fempty"
 
@@ -126,7 +127,7 @@ abbreviation permut_sub' :: "'a list \<Rightarrow> 'a list \<Rightarrow> nat \<R
     \<and> slice a1 l u <~~> slice a2 l u" for a1 a2 l u
 
 abbreviation list_mem' :: "('a \<Rightarrow> 'a \<Rightarrow> bool) \<Rightarrow> 'a \<Rightarrow> 'a list \<Rightarrow> bool"
-  where "list_mem' eq x l \<equiv> list_all (eq x) l" for eq x l
+  where "list_mem' eq x l \<equiv> list_ex (eq x) l" for eq x l
 
 abbreviation trunc_toward_zero :: "real \<Rightarrow> int" where
     "trunc_toward_zero x \<equiv> (if x \<ge> 0 then \<lfloor>x\<rfloor> else \<lceil>x\<rceil>)"

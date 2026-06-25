@@ -286,7 +286,7 @@ atoms:
   set.Set.all1: [UNIV, Set.UNIV]
   set.Set.add: [insert, Set.insert]
   set.Set.remove: [set_remove, NTP4Verif.set_remove]
-  set.Set.pick: [the_elem, Set.the_elem]
+  set.Set.pick: ['set_pick', 'NTP4Verif.set_pick']
   set.Set.disjoint: [disjnt, Set.disjnt]
   set.Set.product: [Product_Type.Times]
   set.Set.filter: [set_filter, NTP4Verif.set_filter]
