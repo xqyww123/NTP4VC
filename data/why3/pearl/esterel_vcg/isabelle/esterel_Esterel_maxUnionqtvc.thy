@@ -4,7 +4,7 @@ begin
 typedecl  s
 consts bv :: "s \<Rightarrow> 64 word"
 consts mdl :: "s \<Rightarrow> int fset"
-axiomatization where s'invariant:   "((0 :: int) \<le> i \<and> i < (64 :: int)) \<and> (take_bit (nat i) (bv self) \<noteq> (0)) = True \<longleftrightarrow> i |\<in>| mdl self"
+axiomatization where s'invariant:   "((0 :: int) \<le> i \<and> i < (64 :: int)) \<and> ((0 \<le> i \<and> bit (bv self) (nat i))) = True \<longleftrightarrow> i |\<in>| mdl self"
   for i :: "int"
   and self :: "s"
 definition s'eq :: "s \<Rightarrow> s \<Rightarrow> _"

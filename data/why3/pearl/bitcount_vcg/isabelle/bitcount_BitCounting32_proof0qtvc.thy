@@ -4,7 +4,7 @@ begin
 definition step0 :: "32 word \<Rightarrow> 32 word \<Rightarrow> _"
   where "step0 n x1 \<longleftrightarrow> x1 = n - ((n >> unat (1 :: 32 word)) AND (1431655765 :: 32 word))" for n x1
 consts nth_closure :: "32 word \<Rightarrow> int \<Rightarrow> bool"
-axiomatization where nth_closure_def:   "nth_closure y y1 = (take_bit (nat y1) y \<noteq> (0))"
+axiomatization where nth_closure_def:   "nth_closure y y1 = ((0 \<le> y1 \<and> bit y (nat y1)))"
   for y :: "32 word"
   and y1 :: "int"
 theorem proof0'vc:

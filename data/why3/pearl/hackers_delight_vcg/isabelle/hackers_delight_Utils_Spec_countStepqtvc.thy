@@ -3,7 +3,7 @@ theory hackers_delight_Utils_Spec_countStepqtvc
 begin
 theorem countStep'vc:
   fixes b :: "32 word"
-  shows "\<not>(take_bit (unat (0 :: 32 word)) b \<noteq> (0)) = True \<longleftrightarrow> hackers_delight_Utils.count (b >> unat (1 :: 32 word)) = hackers_delight_Utils.count b"
-  and "(take_bit (unat (0 :: 32 word)) b \<noteq> (0)) = True \<longleftrightarrow> hackers_delight_Utils.count (b >> unat (1 :: 32 word)) = hackers_delight_Utils.count b - (1 :: 32 word)"
+  shows "\<not>(bit b (unat (0 :: 32 word))) = True \<longleftrightarrow> hackers_delight_Utils.count (b >> unat (1 :: 32 word)) = hackers_delight_Utils.count b"
+  and "(bit b (unat (0 :: 32 word))) = True \<longleftrightarrow> hackers_delight_Utils.count (b >> unat (1 :: 32 word)) = hackers_delight_Utils.count b - (1 :: 32 word)"
   sorry
 end

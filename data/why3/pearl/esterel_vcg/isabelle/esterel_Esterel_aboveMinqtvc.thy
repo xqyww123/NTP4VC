@@ -4,7 +4,7 @@ begin
 typedecl  s
 consts bv :: "s \<Rightarrow> 64 word"
 consts mdl :: "s \<Rightarrow> int fset"
-axiomatization where s'invariant:   "((0 :: int) \<le> i \<and> i < (64 :: int)) \<and> (take_bit (nat i) (bv self) \<noteq> (0)) = True \<longleftrightarrow> i |\<in>| mdl self"
+axiomatization where s'invariant:   "((0 :: int) \<le> i \<and> i < (64 :: int)) \<and> ((0 \<le> i \<and> bit (bv self) (nat i))) = True \<longleftrightarrow> i |\<in>| mdl self"
   for i :: "int"
   and self :: "s"
 definition s'eq :: "s \<Rightarrow> s \<Rightarrow> _"
@@ -16,6 +16,6 @@ axiomatization where s'inj:   "a = b"
 theorem aboveMin'vc:
   fixes a :: "s"
   assumes fact0: "\<not>mdl a = fempty"
-  shows "let res :: 64 word = bv a OR -bv a; o1 :: int fset = Ico_fset_int (Min (fset (mdl a))) (64 :: int) in (\<forall>(i :: int). ((0 :: int) \<le> i \<and> i < (64 :: int)) \<and> (take_bit (nat i) res \<noteq> (0)) = True \<longleftrightarrow> i |\<in>| o1) \<and> (\<forall>(result :: s). bv result = res \<and> mdl result = o1 \<longrightarrow> mdl result = Ico_fset_int (Min (fset (mdl a))) (64 :: int))"
+  shows "let res :: 64 word = bv a OR -bv a; o1 :: int fset = Ico_fset_int (Min (fset (mdl a))) (64 :: int) in (\<forall>(i :: int). ((0 :: int) \<le> i \<and> i < (64 :: int)) \<and> ((0 \<le> i \<and> bit res (nat i))) = True \<longleftrightarrow> i |\<in>| o1) \<and> (\<forall>(result :: s). bv result = res \<and> mdl result = o1 \<longrightarrow> mdl result = Ico_fset_int (Min (fset (mdl a))) (64 :: int))"
   sorry
 end

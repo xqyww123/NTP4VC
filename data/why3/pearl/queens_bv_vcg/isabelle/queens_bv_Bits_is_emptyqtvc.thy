@@ -4,7 +4,7 @@ begin
 typedecl  t
 consts bv :: "t \<Rightarrow> 32 word"
 consts mdl :: "t \<Rightarrow> int fset"
-axiomatization where t'invariant:   "((0 :: int) \<le> i \<and> i < (32 :: int)) \<and> (take_bit (nat i) (bv self) \<noteq> (0)) = True \<longleftrightarrow> i |\<in>| mdl self"
+axiomatization where t'invariant:   "((0 :: int) \<le> i \<and> i < (32 :: int)) \<and> ((0 \<le> i \<and> bit (bv self) (nat i))) = True \<longleftrightarrow> i |\<in>| mdl self"
   for i :: "int"
   and self :: "t"
 definition t'eq :: "t \<Rightarrow> t \<Rightarrow> _"

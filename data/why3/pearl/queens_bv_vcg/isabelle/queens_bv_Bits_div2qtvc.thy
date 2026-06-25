@@ -4,7 +4,7 @@ begin
 typedecl  t
 consts bv :: "t \<Rightarrow> 32 word"
 consts mdl :: "t \<Rightarrow> int fset"
-axiomatization where t'invariant:   "((0 :: int) \<le> i \<and> i < (32 :: int)) \<and> (take_bit (nat i) (bv self) \<noteq> (0)) = True \<longleftrightarrow> i |\<in>| mdl self"
+axiomatization where t'invariant:   "((0 :: int) \<le> i \<and> i < (32 :: int)) \<and> ((0 \<le> i \<and> bit (bv self) (nat i))) = True \<longleftrightarrow> i |\<in>| mdl self"
   for i :: "int"
   and self :: "t"
 definition t'eq :: "t \<Rightarrow> t \<Rightarrow> _"
@@ -15,6 +15,6 @@ axiomatization where t'inj:   "a = b"
   and b :: "t"
 theorem div2'vc:
   fixes a :: "t"
-  shows "let o1 :: int fset = pred (mdl a); o2 :: 32 word = bv a >> unat (1 :: 32 word) in (\<forall>(i :: int). ((0 :: int) \<le> i \<and> i < (32 :: int)) \<and> (take_bit (nat i) o2 \<noteq> (0)) = True \<longleftrightarrow> i |\<in>| o1) \<and> (\<forall>(result :: t). bv result = o2 \<and> mdl result = o1 \<longrightarrow> mdl result = pred (mdl a))"
+  shows "let o1 :: int fset = pred (mdl a); o2 :: 32 word = bv a >> unat (1 :: 32 word) in (\<forall>(i :: int). ((0 :: int) \<le> i \<and> i < (32 :: int)) \<and> ((0 \<le> i \<and> bit o2 (nat i))) = True \<longleftrightarrow> i |\<in>| o1) \<and> (\<forall>(result :: t). bv result = o2 \<and> mdl result = o1 \<longrightarrow> mdl result = pred (mdl a))"
   sorry
 end

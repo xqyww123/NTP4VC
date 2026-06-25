@@ -12,7 +12,7 @@ definition step3 :: "32 word \<Rightarrow> 32 word \<Rightarrow> _"
 definition step4 :: "32 word \<Rightarrow> 32 word \<Rightarrow> _"
   where "step4 x4 x5 \<longleftrightarrow> x5 = x4 + (x4 >> unat (16 :: 32 word))" for x4 x5
 consts nth_closure :: "32 word \<Rightarrow> int \<Rightarrow> bool"
-axiomatization where nth_closure_def:   "nth_closure y y1 = (take_bit (nat y1) y \<noteq> (0))"
+axiomatization where nth_closure_def:   "nth_closure y y1 = ((0 \<le> y1 \<and> bit y (nat y1)))"
   for y :: "32 word"
   and y1 :: "int"
 definition count_logic :: "32 word \<Rightarrow> int"

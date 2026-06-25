@@ -2,7 +2,7 @@ theory hackers_delight_Hackers_delight_nthGrayqtvc
   imports "NTP4Verif.NTP4Verif" "Why3STD.WellFounded_WellFounded" "Why3STD.int_NumOf" "./hackers_delight_Utils"
 begin
 definition validAscii :: "32 word \<Rightarrow> _"
-  where "validAscii b \<longleftrightarrow> (take_bit (unat (0 :: 32 word)) (hackers_delight_Utils.count b) \<noteq> (0)) = False" for b
+  where "validAscii b \<longleftrightarrow> (bit (hackers_delight_Utils.count b) (unat (0 :: 32 word))) = False" for b
 definition toGray :: "32 word \<Rightarrow> 32 word"
   where "toGray bv = bv XOR (bv >> unat (1 :: 32 word))" for bv
 definition fromGray :: "32 word \<Rightarrow> 32 word"
@@ -11,6 +11,6 @@ theorem nthGray'vc:
   fixes i :: "32 word"
   fixes b :: "32 word"
   assumes fact0: "i < (31 :: 32 word)"
-  shows "((take_bit (unat i) b \<noteq> (0)) \<noteq> (take_bit (unat (i + (1 :: 32 word))) b \<noteq> (0))) = True \<longleftrightarrow> (take_bit (unat i) (toGray b) \<noteq> (0)) = True"
+  shows "((bit b (unat i)) \<noteq> (bit b (unat (i + (1 :: 32 word))))) = True \<longleftrightarrow> (bit (toGray b) (unat i)) = True"
   sorry
 end

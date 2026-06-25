@@ -204,6 +204,7 @@ atoms:
   take_bit$i: ['take_bit_i', 'NTP4Verif.take_bit_i']
   take_bit$nat: ['take_bit', 'Bit_Operations.take_bit']
   take_bit$bv: ['take_bit_bv', 'NTP4Verif.take_bit_bv']
+  $bit: ['bit', 'Bit_Operations.bit']
   bit$and: ['and', 'Bit_Operations.and']
   bit$or: ['or', 'Bit_Operations.or']
   bit$xor: ['xor', 'Bit_Operations.xor']
@@ -806,7 +807,7 @@ rewrites:
   bv.BV64.nth#0: take_bit$i
   bv.BV128.nth#0: take_bit$i
   bv.BV256.nth#0: take_bit$i
-  take_bit$i#2: [$neq, [take_bit$nat, [Int.nat, 1], 0], '0']
+  take_bit$i#2: [HOL.conj, [$le, '0', 1], [$bit, 0, [Int.nat, 1]]]
 
   bv.BV8.nth_bv#0: take_bit$bv
   bv.BV16.nth_bv#0: take_bit$bv
@@ -814,7 +815,7 @@ rewrites:
   bv.BV64.nth_bv#0: take_bit$bv
   bv.BV128.nth_bv#0: take_bit$bv
   bv.BV256.nth_bv#0: take_bit$bv
-  take_bit$bv#2: [$neq, [take_bit$nat, [$unat, 1], 0], '0']
+  take_bit$bv#2: [$bit, 0, [$unat, 1]]
 
   bv.BV8.bw_and#0: bit$and
   bv.BV16.bw_and#0: bit$and

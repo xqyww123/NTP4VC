@@ -134,8 +134,8 @@ abbreviation trunc_toward_zero :: "real \<Rightarrow> int" where
 
 section \<open> Words \<close>
 
-abbreviation (input) take_bit_i where "take_bit_i (x::'a::len word) i \<equiv> take_bit (nat i) x \<noteq> 0"
-abbreviation (input) take_bit_bv where "take_bit_bv (x::'a::len word) i \<equiv> take_bit (unat i) x \<noteq> 0"
+abbreviation (input) take_bit_i where "take_bit_i (x::'a::len word) i \<equiv> 0 \<le> i \<and> bit x (nat i)"
+abbreviation (input) take_bit_bv where "take_bit_bv (x::'a::len word) i \<equiv> bit x (unat i)"
 
 abbreviation word_sli (infixl \<open><<\<^sub>i\<close> 55)
   where "(x::'a::len word) <<\<^sub>i n \<equiv> x << nat n"

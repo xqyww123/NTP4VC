@@ -4,7 +4,7 @@ begin
 typedecl  t
 consts bv :: "t \<Rightarrow> 32 word"
 consts mdl :: "t \<Rightarrow> int fset"
-axiomatization where t'invariant:   "((0 :: int) \<le> i \<and> i < (32 :: int)) \<and> (take_bit (nat i) (bv self) \<noteq> (0)) = True \<longleftrightarrow> i |\<in>| mdl self"
+axiomatization where t'invariant:   "((0 :: int) \<le> i \<and> i < (32 :: int)) \<and> ((0 \<le> i \<and> bit (bv self) (nat i))) = True \<longleftrightarrow> i |\<in>| mdl self"
   for i :: "int"
   and self :: "t"
 definition t'eq :: "t \<Rightarrow> t \<Rightarrow> _"
@@ -16,6 +16,6 @@ axiomatization where t'inj:   "a = b"
 theorem below'vc:
   fixes n :: "32 word"
   assumes fact0: "n \<le> (32 :: 32 word)"
-  shows "let o1 :: int fset = Ico_fset_int (0 :: int) (uint n); o2 :: 32 word = not ((4294967295 :: 32 word) << unat n) in (\<forall>(i :: int). ((0 :: int) \<le> i \<and> i < (32 :: int)) \<and> (take_bit (nat i) o2 \<noteq> (0)) = True \<longleftrightarrow> i |\<in>| o1) \<and> (\<forall>(result :: t). bv result = o2 \<and> mdl result = o1 \<longrightarrow> mdl result = Ico_fset_int (0 :: int) (uint n))"
+  shows "let o1 :: int fset = Ico_fset_int (0 :: int) (uint n); o2 :: 32 word = not ((4294967295 :: 32 word) << unat n) in (\<forall>(i :: int). ((0 :: int) \<le> i \<and> i < (32 :: int)) \<and> ((0 \<le> i \<and> bit o2 (nat i))) = True \<longleftrightarrow> i |\<in>| o1) \<and> (\<forall>(result :: t). bv result = o2 \<and> mdl result = o1 \<longrightarrow> mdl result = Ico_fset_int (0 :: int) (uint n))"
   sorry
 end

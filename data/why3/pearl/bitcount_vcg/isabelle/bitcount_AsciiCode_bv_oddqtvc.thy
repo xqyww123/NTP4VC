@@ -5,6 +5,6 @@ definition validAscii :: "32 word \<Rightarrow> _"
   where "validAscii b \<longleftrightarrow> even (count_logic b)" for b
 theorem bv_odd'vc:
   fixes b :: "32 word"
-  shows "odd (uint b) \<longleftrightarrow> (take_bit (0 :: nat) b \<noteq> (0)) = True"
+  shows "odd (uint b) \<longleftrightarrow> (bit b (0 :: nat)) = True"
   sorry
 end

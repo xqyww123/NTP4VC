@@ -10,7 +10,7 @@ definition step2 :: "32 word \<Rightarrow> 32 word \<Rightarrow> _"
 definition step3 :: "32 word \<Rightarrow> 32 word \<Rightarrow> _"
   where "step3 x3 x4 \<longleftrightarrow> x4 = x3 + (x3 >> unat (8 :: 32 word))" for x3 x4
 consts nth_closure :: "32 word \<Rightarrow> int \<Rightarrow> bool"
-axiomatization where nth_closure_def:   "nth_closure y y1 = (take_bit (nat y1) y \<noteq> (0))"
+axiomatization where nth_closure_def:   "nth_closure y y1 = ((0 \<le> y1 \<and> bit y (nat y1)))"
   for y :: "32 word"
   and y1 :: "int"
 theorem proof3'vc:

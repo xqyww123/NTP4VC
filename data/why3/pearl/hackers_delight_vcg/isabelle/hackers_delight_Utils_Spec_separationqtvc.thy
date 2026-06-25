@@ -2,7 +2,7 @@ theory hackers_delight_Utils_Spec_separationqtvc
   imports "NTP4Verif.NTP4Verif" "Why3STD.WellFounded_WellFounded" "Why3STD.int_NumOf" "./hackers_delight_Utils"
 begin
 definition nth_diff :: "32 word \<Rightarrow> 32 word \<Rightarrow> int \<Rightarrow> _"
-  where "nth_diff a b i \<longleftrightarrow> \<not>(take_bit (nat i) a \<noteq> (0)) = (take_bit (nat i) b \<noteq> (0))" for a b i
+  where "nth_diff a b i \<longleftrightarrow> \<not>((0 \<le> i \<and> bit a (nat i))) = ((0 \<le> i \<and> bit b (nat i)))" for a b i
 theorem separation'vc:
   fixes a :: "32 word"
   fixes b :: "32 word"

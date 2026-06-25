@@ -4,7 +4,7 @@ begin
 typedecl  s
 consts bv :: "s \<Rightarrow> 64 word"
 consts mdl :: "s \<Rightarrow> int fset"
-axiomatization where s'invariant:   "((0 :: int) \<le> i \<and> i < (64 :: int)) \<and> (take_bit (nat i) (bv self) \<noteq> (0)) = True \<longleftrightarrow> i |\<in>| mdl self"
+axiomatization where s'invariant:   "((0 :: int) \<le> i \<and> i < (64 :: int)) \<and> ((0 \<le> i \<and> bit (bv self) (nat i))) = True \<longleftrightarrow> i |\<in>| mdl self"
   for i :: "int"
   and self :: "s"
 definition s'eq :: "s \<Rightarrow> s \<Rightarrow> _"
@@ -16,6 +16,6 @@ axiomatization where s'inj:   "a = b"
 theorem union'vc:
   fixes b :: "s"
   fixes a :: "s"
-  shows "let o1 :: int fset = mdl b |\<union>| mdl a; o2 :: 64 word = bv a OR bv b in (\<forall>(i :: int). ((0 :: int) \<le> i \<and> i < (64 :: int)) \<and> (take_bit (nat i) o2 \<noteq> (0)) = True \<longleftrightarrow> i |\<in>| o1) \<and> (\<forall>(result :: s). bv result = o2 \<and> mdl result = o1 \<longrightarrow> mdl result = mdl b |\<union>| mdl a)"
+  shows "let o1 :: int fset = mdl b |\<union>| mdl a; o2 :: 64 word = bv a OR bv b in (\<forall>(i :: int). ((0 :: int) \<le> i \<and> i < (64 :: int)) \<and> ((0 \<le> i \<and> bit o2 (nat i))) = True \<longleftrightarrow> i |\<in>| o1) \<and> (\<forall>(result :: s). bv result = o2 \<and> mdl result = o1 \<longrightarrow> mdl result = mdl b |\<union>| mdl a)"
   sorry
 end
