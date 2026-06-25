@@ -54,7 +54,7 @@ inductive only_K :: "term \<Rightarrow> bool" where
    only_K_K: "only_K K"
  | only_K_App: "only_K t1 \<Longrightarrow> only_K t2 \<Longrightarrow> only_K (App t1 t2)" for t1 :: "term" and t2 :: "term"
 consts ks :: "int \<Rightarrow> term"
-axiomatization where ks'def:   "if n = (0 :: int) then ks n = K else ks n = App (ks (n - (1 :: int))) K"
+axiomatization where ks_def:   "if n = (0 :: int) then ks n = K else ks n = App (ks (n - (1 :: int))) K"
  if "(0 :: int) \<le> n"
   for n :: "int"
 axiomatization where ks'spec:   "only_K (ks n)"

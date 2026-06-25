@@ -2,7 +2,7 @@ theory sum_SumDouble_usum_recqtvc
   imports "NTP4Verif.NTP4Verif" "Why3STD.Ref_Ref" "Why3STD.real_Sum" "Why3STD.ieee_float_RoundingMode" "Why3STD.ufloat_UDouble" "Why3STD.ufloat_HelperLemmas" "Why3STD.ufloat_UDoubleLemmas"
 begin
 consts abs_real_fun :: "(int \<Rightarrow> udouble) \<Rightarrow> int \<Rightarrow> real"
-axiomatization where abs_real_fun'def:   "abs_real_fun f i = abs (to_real (f i))"
+axiomatization where abs_real_fun_def:   "abs_real_fun f i = abs (to_real (f i))"
   for f :: "int \<Rightarrow> udouble"
   and i :: "int"
 theorem usum_rec'vc:

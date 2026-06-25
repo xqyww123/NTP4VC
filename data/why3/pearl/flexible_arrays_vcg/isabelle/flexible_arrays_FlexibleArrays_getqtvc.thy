@@ -17,7 +17,7 @@ axiomatization where t'inj:   "a = b"
   for a :: "'a t"
   and b :: "'a t"
 consts empty :: "'a t"
-axiomatization where empty'def:   "size (empty :: 'a t) = (0 :: int)"
+axiomatization where size_def:   "size (empty :: 'a t) = (0 :: int)"
 theorem get'vc:
   fixes i :: "int"
   fixes t1 :: "'a t"

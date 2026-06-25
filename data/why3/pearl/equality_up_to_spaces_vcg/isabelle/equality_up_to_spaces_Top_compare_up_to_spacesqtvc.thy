@@ -9,7 +9,7 @@ axiomatization where eq'spec:   "eq x y = True \<longleftrightarrow> x = y"
   and y :: "char"
 typedecl  char_string
 consts remove_spaces :: "char list \<Rightarrow> char list"
-axiomatization where remove_spaces'def:   "if int (length s) = (0 :: int) then remove_spaces s = s else if eq (s ! (0 :: nat)) space = True then remove_spaces s = remove_spaces (drop (1 :: nat) s) else remove_spaces s = Cons (s ! (0 :: nat)) (remove_spaces (drop (1 :: nat) s))"
+axiomatization where remove_spaces_def:   "if int (length s) = (0 :: int) then remove_spaces s = s else if eq (s ! (0 :: nat)) space = True then remove_spaces s = remove_spaces (drop (1 :: nat) s) else remove_spaces s = Cons (s ! (0 :: nat)) (remove_spaces (drop (1 :: nat) s))"
   for s :: "char list"
 theorem compare_up_to_spaces'vc:
   fixes x :: "char list"

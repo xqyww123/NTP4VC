@@ -4,7 +4,7 @@ begin
 definition prefix_tl :: "int \<Rightarrow> int"
   where "prefix_tl x = -x - (1 :: int)" for x
 consts fc :: "(int \<Rightarrow> int) \<Rightarrow> int \<Rightarrow> bool"
-axiomatization where fc'def:   "fc m n = True \<longleftrightarrow> (0 :: int) \<le> m n"
+axiomatization where fc_def:   "fc m n = True \<longleftrightarrow> (0 :: int) \<le> m n"
   for m :: "int \<Rightarrow> int"
   and n :: "int"
 definition numof :: "(int \<Rightarrow> int) \<Rightarrow> int \<Rightarrow> int \<Rightarrow> int"

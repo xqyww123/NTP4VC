@@ -14,7 +14,7 @@ fun ctx_bound' :: "(lineardecision_LinearDecisionIntMP.expr' \<times> lineardeci
   where "ctx_bound' (Nil :: (lineardecision_LinearDecisionIntMP.expr' \<times> lineardecision_LinearDecisionIntMP.expr') list) b = True" for b
       | "ctx_bound' (Cons eq t) b = (eq_bound' eq b \<and> ctx_bound' t b)" for eq t b
 consts max_var' :: "lineardecision_LinearDecisionIntMP.expr' \<Rightarrow> int"
-axiomatization where max_var''def:   "case e of lineardecision_LinearDecisionIntMP.Var i \<Rightarrow> max_var' e = i | lineardecision_LinearDecisionIntMP.Coeff _ \<Rightarrow> max_var' e = (0 :: int) | lineardecision_LinearDecisionIntMP.Sum e1 e2 \<Rightarrow> max_var' e = max (max_var' e1) (max_var' e2) | lineardecision_LinearDecisionIntMP.Diff e1 e2 \<Rightarrow> max_var' e = max (max_var' e1) (max_var' e2) | lineardecision_LinearDecisionIntMP.ProdL e1 _ \<Rightarrow> max_var' e = max_var' e1 | lineardecision_LinearDecisionIntMP.ProdR _ e1 \<Rightarrow> max_var' e = max_var' e1"
+axiomatization where max_var'_def:   "case e of lineardecision_LinearDecisionIntMP.Var i \<Rightarrow> max_var' e = i | lineardecision_LinearDecisionIntMP.Coeff _ \<Rightarrow> max_var' e = (0 :: int) | lineardecision_LinearDecisionIntMP.Sum e1 e2 \<Rightarrow> max_var' e = max (max_var' e1) (max_var' e2) | lineardecision_LinearDecisionIntMP.Diff e1 e2 \<Rightarrow> max_var' e = max (max_var' e1) (max_var' e2) | lineardecision_LinearDecisionIntMP.ProdL e1 _ \<Rightarrow> max_var' e = max_var' e1 | lineardecision_LinearDecisionIntMP.ProdR _ e1 \<Rightarrow> max_var' e = max_var' e1"
  if "lineardecision_LinearDecisionIntMP.valid_expr' e"
   for e :: "lineardecision_LinearDecisionIntMP.expr'"
 axiomatization where max_var''spec'0:   "(0 :: int) \<le> max_var' e"

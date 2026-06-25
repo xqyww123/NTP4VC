@@ -8,7 +8,7 @@ definition tworedneighbors :: "color list \<Rightarrow> int \<Rightarrow> _"
 definition valid :: "color list \<Rightarrow> _"
   where "valid c \<longleftrightarrow> (\<forall>(i :: int). (0 :: int) \<le> i \<and> i < int (length c) \<longrightarrow> c ! nat i = Red \<longrightarrow> tworedneighbors c i)" for c
 consts first_black_tile :: "color list \<Rightarrow> int"
-axiomatization where first_black_tile'def:   "if int (length c) = (0 :: int) then first_black_tile c = (0 :: int) else (case c ! (0 :: nat) of Black \<Rightarrow> first_black_tile c = (0 :: int) | Red \<Rightarrow> first_black_tile c = (1 :: int) + first_black_tile (drop (1 :: nat) c))"
+axiomatization where first_black_tile_def:   "if int (length c) = (0 :: int) then first_black_tile c = (0 :: int) else (case c ! (0 :: nat) of Black \<Rightarrow> first_black_tile c = (0 :: int) | Red \<Rightarrow> first_black_tile c = (1 :: int) + first_black_tile (drop (1 :: nat) c))"
   for c :: "color list"
 axiomatization where first_black_tile'spec'2'0:   "(0 :: int) \<le> first_black_tile c"
   for c :: "color list"

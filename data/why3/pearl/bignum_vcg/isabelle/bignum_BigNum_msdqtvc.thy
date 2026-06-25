@@ -2,7 +2,7 @@ theory bignum_BigNum_msdqtvc
   imports "NTP4Verif.NTP4Verif"
 begin
 consts base :: "int"
-axiomatization where base'def:   "(1 :: int) < base"
+axiomatization where base_def:   "(1 :: int) < base"
 typedecl  digit
 typedecl  num
 fun "value" :: "int list \<Rightarrow> int"

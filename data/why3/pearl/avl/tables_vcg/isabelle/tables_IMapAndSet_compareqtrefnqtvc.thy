@@ -3,7 +3,7 @@ theory tables_IMapAndSet_compareqtrefnqtvc
 begin
 typedecl  t
 consts balancing :: "nat"
-axiomatization where balancing'def:   "int balancing = int (0 :: nat) + (1 :: int)"
+axiomatization where balancing_def:   "int balancing = int (0 :: nat) + (1 :: int)"
 theorem compare'refn'vc:
   fixes x :: "int"
   fixes y :: "int"

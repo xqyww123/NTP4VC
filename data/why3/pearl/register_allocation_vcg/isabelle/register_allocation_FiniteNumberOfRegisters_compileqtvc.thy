@@ -2,7 +2,7 @@ theory register_allocation_FiniteNumberOfRegisters_compileqtvc
   imports "NTP4Verif.NTP4Verif" "./register_allocation_Spec" "./register_allocation_DWP"
 begin
 consts k :: "int"
-axiomatization where k'def:   "(2 :: int) \<le> k"
+axiomatization where k_def:   "(2 :: int) \<le> k"
 consts identity :: "(state \<Rightarrow> bool) \<Rightarrow> state \<Rightarrow> bool"
 consts exec_closure :: "instr \<Rightarrow> state \<Rightarrow> state"
 axiomatization where identity_def:   "identity y = y"

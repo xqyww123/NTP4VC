@@ -15,7 +15,7 @@ axiomatization where edges_def'1:   "y |\<in>| vertices"
   for x :: "vertex"
   and y :: "vertex"
 consts s :: "vertex"
-axiomatization where s'def:   "s |\<in>| vertices"
+axiomatization where s_def:   "s |\<in>| vertices"
 theorem vertices_cardinal_pos'vc:
   shows "(0 :: int) < int (fcard vertices)"
   sorry

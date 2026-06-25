@@ -2,7 +2,7 @@ theory tables_Map_is_emptyqtvc
   imports "NTP4Verif.NTP4Verif" "Why3STD.Ref_Ref" "pearl_avl_lib.avl_SelectionTypes"
 begin
 consts balancing :: "nat"
-axiomatization where balancing'def:   "(0 :: int) < int balancing"
+axiomatization where balancing_def:   "(0 :: int) < int balancing"
 typedecl  t
 consts le :: "t \<Rightarrow> t \<Rightarrow> bool"
 axiomatization where Refl:   "le x x"
@@ -109,7 +109,7 @@ datatype 'a view1 = AEmpty1 | ANode1 "'a t4" "t \<times> 'a" "'a t4" "nat"
 typedecl 'a t5
 datatype 'a m4 = m'mk2 (domn1: "t \<Rightarrow> bool") (func1: "t \<Rightarrow> 'a") (card1: "int")
 consts fc :: "'a t4 \<Rightarrow> t \<Rightarrow> 'a"
-axiomatization where fc'def:   "fc t6 k = (case func (m3 t6) k of (_, v) \<Rightarrow> v)"
+axiomatization where fc_def:   "fc t6 k = (case func (m3 t6) k of (_, v) \<Rightarrow> v)"
   for t6 :: "'a t4"
   and k :: "t"
 definition m5 :: "'a t4 \<Rightarrow> 'a m4"

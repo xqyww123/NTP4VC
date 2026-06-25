@@ -2,7 +2,7 @@ theory verifythis_2021_lexicographic_permutations_2_ArrayListConversions_of_to_l
   imports "NTP4Verif.NTP4Verif" "Why3STD.map_MapEq"
 begin
 consts to_list_from :: "int \<Rightarrow> int list \<Rightarrow> int list"
-axiomatization where to_list_from'def:   "if i = int (length a) then to_list_from i a = (Nil :: int list) else to_list_from i a = Cons (a ! nat i) (to_list_from (i + (1 :: int)) a)"
+axiomatization where to_list_from_def:   "if i = int (length a) then to_list_from i a = (Nil :: int list) else to_list_from i a = Cons (a ! nat i) (to_list_from (i + (1 :: int)) a)"
  if "(0 :: int) \<le> i"
  and "i \<le> int (length a)"
   for i :: "int"

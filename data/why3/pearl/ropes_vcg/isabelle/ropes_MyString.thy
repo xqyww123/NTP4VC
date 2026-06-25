@@ -9,7 +9,7 @@ axiomatization where length'spec:   "(0 :: int) \<le> length x"
   for x :: "char_string"
 consts mixfix_lbrb :: "char_string \<Rightarrow> int \<Rightarrow> char"
 consts empty :: "char_string"
-axiomatization where empty'def:   "length empty = (0 :: int)"
+axiomatization where length_def:   "length empty = (0 :: int)"
 definition infix_eqeq :: "char_string \<Rightarrow> char_string \<Rightarrow> _"
   where "infix_eqeq s1 s2 \<longleftrightarrow> length s1 = length s2 \<and> (\<forall>(i :: int). (0 :: int) \<le> i \<and> i < length s1 \<longrightarrow> mixfix_lbrb s1 i = mixfix_lbrb s2 i)" for s1 s2
 axiomatization where extensionality:   "s1 = s2"

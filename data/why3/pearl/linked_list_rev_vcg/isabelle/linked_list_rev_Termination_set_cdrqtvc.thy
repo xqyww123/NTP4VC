@@ -5,7 +5,7 @@ typedecl  loc
 consts null :: "loc"
 datatype  mem = mem'mk ("next": "loc \<Rightarrow> loc")
 consts o1 :: "(loc \<Rightarrow> loc) \<Rightarrow> loc \<Rightarrow> loc \<Rightarrow> loc \<Rightarrow> loc"
-axiomatization where o'def:   "o1 mem1 p v x = (if x = p then v else mem1 x)"
+axiomatization where o1_def:   "o1 mem1 p v x = (if x = p then v else mem1 x)"
   for mem1 :: "loc \<Rightarrow> loc"
   and p :: "loc"
   and v :: "loc"

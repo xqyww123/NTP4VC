@@ -2,11 +2,11 @@ theory my_lse_LSE
   imports "NTP4Verif.NTP4Verif" "udouble_UDouble" "Why3STD.ieee_float_RoundingMode" "my_exp_log_ExpLogLemmas" "my_exp_log_ExpLogApprox" "sum_real_Sum" "my_sum_Sum" "my_sum_Bound" "my_sum_Combine"
 begin
 consts exp_fun :: "(int \<Rightarrow> udouble) \<Rightarrow> int \<Rightarrow> real"
-axiomatization where exp_fun'def:   "exp_fun a i = exp (real_fun a i)"
+axiomatization where exp_fun_def:   "exp_fun a i = exp (real_fun a i)"
   for a :: "int \<Rightarrow> udouble"
   and i :: "int"
 consts u_exp_fun :: "(int \<Rightarrow> udouble) \<Rightarrow> int \<Rightarrow> udouble"
-axiomatization where u_exp_fun'def:   "u_exp_fun a i = u_exp (a i)"
+axiomatization where u_exp_fun_def:   "u_exp_fun a i = u_exp (a i)"
   for a :: "int \<Rightarrow> udouble"
   and i :: "int"
 definition u_sum_of_u_exp :: "(int \<Rightarrow> udouble) \<Rightarrow> int \<Rightarrow> int \<Rightarrow> udouble"

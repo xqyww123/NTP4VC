@@ -2,7 +2,7 @@ theory linked_list_rev_InPlaceRevSeq_non_empty_seqqtvc
   imports "NTP4Verif.NTP4Verif"
 begin
 consts result :: "'a list \<Rightarrow> int \<Rightarrow> 'a"
-axiomatization where result'def:   "result s i = s ! nat (int (length s) - (1 :: int) - i)"
+axiomatization where result_def:   "result s i = s ! nat (int (length s) - (1 :: int) - i)"
   for s :: "'a list"
   and i :: "int"
 typedecl  loc

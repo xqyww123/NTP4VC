@@ -8,7 +8,7 @@ definition tworedneighbors :: "color list \<Rightarrow> int \<Rightarrow> _"
 definition valid :: "color list \<Rightarrow> _"
   where "valid c \<longleftrightarrow> (\<forall>(i :: int). (0 :: int) \<le> i \<and> i < int (length c) \<longrightarrow> c ! nat i = Red \<longrightarrow> tworedneighbors c i)" for c
 consts fc :: "int \<Rightarrow> color"
-axiomatization where fc'def:   "fc y0 = Black"
+axiomatization where fc_def:   "fc y0 = Black"
   for y0 :: "int"
 theorem colo_0'vc:
   fixes c :: "color list"

@@ -4,10 +4,10 @@ begin
 datatype 'a array = array'mk (length: "int") (elts: "int \<Rightarrow> 'a")
 consts o1 :: "'a \<Rightarrow> int \<Rightarrow> 'a"
 consts o2 :: "'a \<Rightarrow> int \<Rightarrow> 'a"
-axiomatization where o'def:   "o1 v x = v"
+axiomatization where o1_def:   "o1 v x = v"
   for v :: "'a"
   and x :: "int"
-axiomatization where o'def1:   "o2 v x = v"
+axiomatization where o2_def:   "o2 v x = v"
   for v :: "'a"
   and x :: "int"
 theorem make'vc:

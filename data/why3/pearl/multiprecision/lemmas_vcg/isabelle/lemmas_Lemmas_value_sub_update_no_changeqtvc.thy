@@ -4,7 +4,7 @@ begin
 definition map_eq_sub_shift :: "(int \<Rightarrow> 'a) \<Rightarrow> (int \<Rightarrow> 'a) \<Rightarrow> int \<Rightarrow> int \<Rightarrow> int \<Rightarrow> _"
   where "map_eq_sub_shift x y xi yi sz \<longleftrightarrow> (\<forall>(i :: int). (0 :: int) \<le> i \<and> i < sz \<longrightarrow> x (xi + i) = y (yi + i))" for x y xi yi sz
 consts value_sub :: "(int \<Rightarrow> 64 word) \<Rightarrow> int \<Rightarrow> int \<Rightarrow> int"
-axiomatization where value_sub'def:   "if n < m then value_sub x n m = uint (x n) + ((18446744073709551615 :: int) + (1 :: int)) * value_sub x (n + (1 :: int)) m else value_sub x n m = (0 :: int)"
+axiomatization where value_sub_def:   "if n < m then value_sub x n m = uint (x n) + ((18446744073709551615 :: int) + (1 :: int)) * value_sub x (n + (1 :: int)) m else value_sub x n m = (0 :: int)"
   for n :: "int"
   and m :: "int"
   and x :: "int \<Rightarrow> 64 word"

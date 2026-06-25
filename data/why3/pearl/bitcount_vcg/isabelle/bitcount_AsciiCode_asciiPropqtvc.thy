@@ -4,7 +4,7 @@ begin
 definition validAscii :: "32 word \<Rightarrow> _"
   where "validAscii b \<longleftrightarrow> even (count_logic b)" for b
 consts fun_or :: "('a \<Rightarrow> bool) \<Rightarrow> ('a \<Rightarrow> bool) \<Rightarrow> 'a \<Rightarrow> bool"
-axiomatization where fun_or'def:   "fun_or f g x = True \<longleftrightarrow> f x = True \<or> g x = True"
+axiomatization where fun_or_def:   "fun_or f g x = True \<longleftrightarrow> f x = True \<or> g x = True"
   for f :: "'a \<Rightarrow> bool"
   and g :: "'a \<Rightarrow> bool"
   and x :: "'a"

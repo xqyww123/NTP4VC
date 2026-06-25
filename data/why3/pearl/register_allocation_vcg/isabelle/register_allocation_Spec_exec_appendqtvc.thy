@@ -12,7 +12,7 @@ typedecl  register
 datatype  instr = Iload "addr" "int" | Ineg "int" | Iadd "int" "int" | Ipush "int" | Ipop "int"
 typedecl  registers
 consts update :: "(int \<Rightarrow> int) \<Rightarrow> int \<Rightarrow> int \<Rightarrow> int \<Rightarrow> int"
-axiomatization where update'def:   "update reg r v r' = (if r' = r then v else reg r')"
+axiomatization where update_def:   "update reg r v r' = (if r' = r then v else reg r')"
   for reg :: "int \<Rightarrow> int"
   and r :: "int"
   and v :: "int"

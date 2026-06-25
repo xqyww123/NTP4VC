@@ -4,7 +4,7 @@ begin
 definition increasing :: "int list \<Rightarrow> _"
   where "increasing a \<longleftrightarrow> (\<forall>(i :: int) (j :: int). (0 :: int) \<le> i \<and> i < j \<and> j < int (length a) \<longrightarrow> a ! nat i \<le> a ! nat j)" for a
 consts bagofsub :: "'a list \<Rightarrow> int \<Rightarrow> int \<Rightarrow> 'a multiset"
-axiomatization where bagofsub'def:   "if hi \<le> lo then bagofsub a lo hi = ({#} :: 'a multiset) else bagofsub a lo hi = add_mset (a ! nat lo) (bagofsub a (lo + (1 :: int)) hi)"
+axiomatization where bagofsub_def:   "if hi \<le> lo then bagofsub a lo hi = ({#} :: 'a multiset) else bagofsub a lo hi = add_mset (a ! nat lo) (bagofsub a (lo + (1 :: int)) hi)"
  if "(0 :: int) \<le> lo"
  and "lo \<le> hi"
  and "hi \<le> int (length a)"

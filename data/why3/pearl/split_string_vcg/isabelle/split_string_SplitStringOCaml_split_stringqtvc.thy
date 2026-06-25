@@ -5,7 +5,7 @@ typedecl  char
 typedecl  string'
 consts contents' :: "string' \<Rightarrow> char list"
 consts concat :: "string' list \<Rightarrow> char \<Rightarrow> char list"
-axiomatization where concat'def:   "if int (length ss) = (1 :: int) then concat ss sep = contents' (ss ! (0 :: nat)) else concat ss sep = concat (drop (0 :: nat) (take (nat (int (length ss) - (1 :: int)) - (0 :: nat)) ss)) sep @ Cons sep (contents' (ss ! nat (int (length ss) - (1 :: int))))"
+axiomatization where concat_def:   "if int (length ss) = (1 :: int) then concat ss sep = contents' (ss ! (0 :: nat)) else concat ss sep = concat (drop (0 :: nat) (take (nat (int (length ss) - (1 :: int)) - (0 :: nat)) ss)) sep @ Cons sep (contents' (ss ! nat (int (length ss) - (1 :: int))))"
  if "(1 :: int) \<le> int (length ss)"
   for ss :: "string' list"
   and sep :: "char"

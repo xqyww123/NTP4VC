@@ -2,7 +2,7 @@ theory priority_queue_PQueue_addqtvc
   imports "NTP4Verif.NTP4Verif" "Why3STD.Ref_Ref" "Why3STD.int_NumOf" "pearl_avl_lib.avl_SelectionTypes"
 begin
 consts balancing :: "nat"
-axiomatization where balancing'def:   "(0 :: int) < int balancing"
+axiomatization where balancing_def:   "(0 :: int) < int balancing"
 typedecl 'a t
 typedecl  t1
 consts key :: "'a t \<Rightarrow> t1"
@@ -38,7 +38,7 @@ axiomatization where neutral'0:   "op x None = x"
 axiomatization where neutral'1:   "x = op None x"
   for x :: "t1 option"
 consts agg :: "('a \<Rightarrow> t1 option) \<Rightarrow> 'a list \<Rightarrow> t1 option"
-axiomatization where agg'def:   "if int (length s) = (0 :: int) then agg f s = None else agg f s = op (f (s ! (0 :: nat))) (agg f (drop (1 :: nat) s))"
+axiomatization where agg_def:   "if int (length s) = (0 :: int) then agg f s = None else agg f s = op (f (s ! (0 :: nat))) (agg f (drop (1 :: nat) s))"
   for s :: "'a list"
   and f :: "'a \<Rightarrow> t1 option"
 definition measure :: "'a t \<Rightarrow> t1 option"
@@ -88,7 +88,7 @@ typedecl  part
 typedecl 'a t4
 datatype 'a m2 = m'mk1 (bag: "'a t \<Rightarrow> int") (minimum: "'a t") (card: "int")
 consts to_bag :: "'a list \<Rightarrow> 'a \<Rightarrow> int"
-axiomatization where to_bag'def:   "to_bag s x = int (count_list (drop (0 :: nat) (take (length s - (0 :: nat)) s)) x)"
+axiomatization where to_bag_def:   "to_bag s x = int (count_list (drop (0 :: nat) (take (length s - (0 :: nat)) s)) x)"
   for s :: "'a list"
   and x :: "'a"
 consts get_minimum_index :: "'a t list \<Rightarrow> int"

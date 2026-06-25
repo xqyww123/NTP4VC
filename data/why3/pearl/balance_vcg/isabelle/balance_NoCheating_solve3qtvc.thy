@@ -11,10 +11,10 @@ definition spec :: "int list \<Rightarrow> int \<Rightarrow> int \<Rightarrow> i
   where "spec balls lo hi lb w \<longleftrightarrow> ((0 :: int) \<le> lo \<and> lo \<le> lb \<and> lb < hi \<and> hi \<le> int (length balls) \<and> int (length balls) = (8 :: int)) \<and> (\<forall>(i :: int). lo \<le> i \<and> i < hi \<longrightarrow> \<not>i = lb \<longrightarrow> balls ! nat i = w) \<and> balls ! nat lb < w" for balls lo hi lb w
 consts o1 :: "int \<Rightarrow> int \<Rightarrow> bool"
 consts o2 :: "int \<Rightarrow> int \<Rightarrow> bool"
-axiomatization where o'def:   "o1 lo i = True \<longleftrightarrow> i = lo + (1 :: int)"
+axiomatization where o1_def:   "o1 lo i = True \<longleftrightarrow> i = lo + (1 :: int)"
   for lo :: "int"
   and i :: "int"
-axiomatization where o'def1:   "o2 lo i = True \<longleftrightarrow> i = lo"
+axiomatization where o2_def:   "o2 lo i = True \<longleftrightarrow> i = lo"
   for lo :: "int"
   and i :: "int"
 theorem solve3'vc:

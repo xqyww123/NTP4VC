@@ -21,7 +21,7 @@ typedecl 'a cut_list
 definition proper_cuts :: "('a list \<times> 'a list) list \<Rightarrow> 'a list \<Rightarrow> _"
   where "proper_cuts c l \<longleftrightarrow> distinct c \<and> (\<forall>(l1 :: 'a list) (l2 :: 'a list). (l1, l2) \<in> set c \<longleftrightarrow> cut l1 l2 l)" for c l
 consts cons :: "'a \<Rightarrow> 'a list \<times> 'a list \<Rightarrow> 'a list \<times> 'a list"
-axiomatization where cons'def:   "cons x l = (case l of (l1, l2) \<Rightarrow> (Cons x l1, l2))"
+axiomatization where cons_def:   "cons x l = (case l of (l1, l2) \<Rightarrow> (Cons x l1, l2))"
   for x :: "'a"
   and l :: "'a list \<times> 'a list"
 axiomatization where cons'spec'0:   "injective (cons x)"

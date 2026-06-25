@@ -38,7 +38,7 @@ axiomatization where Mul_distr_r:   "infix_as (infix_pl y z) x = infix_pl (infix
   and z :: "t"
   and x :: "t"
 consts infix_cf :: "t \<Rightarrow> int \<Rightarrow> t"
-axiomatization where infix_cf'def:   "if n = (0 :: int) then infix_cf x n = one else infix_cf x n = infix_as x (infix_cf x (n - (1 :: int)))"
+axiomatization where infix_cf_def:   "if n = (0 :: int) then infix_cf x n = one else infix_cf x n = infix_as x (infix_cf x (n - (1 :: int)))"
  if "(0 :: int) \<le> n"
   for n :: "int"
   and x :: "t"

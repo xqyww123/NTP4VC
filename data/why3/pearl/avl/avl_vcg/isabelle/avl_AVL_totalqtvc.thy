@@ -26,7 +26,7 @@ axiomatization where agg_cat:   "agg f (s1 @ s2) = op (agg f s1) (agg f s2)"
 typedecl 'a t1
 consts measure :: "'a t1 \<Rightarrow> t"
 consts balancing :: "nat"
-axiomatization where balancing'def:   "(0 :: int) < int balancing"
+axiomatization where balancing_def:   "(0 :: int) < int balancing"
 datatype 'a tree = Empty | Node "'a tree" "'a t1" "'a tree" "nat" "t"
 datatype 'a m = m'mk (seq: "'a t1 list") (hgt: "int")
 definition node_model :: "'a list \<Rightarrow> 'a \<Rightarrow> 'a list \<Rightarrow> 'a list"

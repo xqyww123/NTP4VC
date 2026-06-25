@@ -2,7 +2,7 @@ theory maximum_subarray_BoundedIntegers_maximum_subarrayqtvc
   imports "NTP4Verif.NTP4Verif" "Why3STD.Ref_Ref" "Why3STD.int_Sum"
 begin
 consts fc :: "63 word array63 \<Rightarrow> int \<Rightarrow> int"
-axiomatization where fc'def:   "fc a i = sint (array63_elts a ! nat i)"
+axiomatization where fc_def:   "fc a i = sint (array63_elts a ! nat i)"
   for a :: "63 word array63"
   and i :: "int"
 definition sum :: "63 word array63 \<Rightarrow> int \<Rightarrow> int \<Rightarrow> int"

@@ -2,7 +2,7 @@ theory tables_MapBase_selected_partqtrefnqtvc
   imports "NTP4Verif.NTP4Verif" "Why3STD.Ref_Ref" "pearl_avl_lib.avl_SelectionTypes"
 begin
 consts balancing :: "nat"
-axiomatization where balancing'def:   "(0 :: int) < int balancing"
+axiomatization where balancing_def:   "(0 :: int) < int balancing"
 typedecl 'a t
 typedecl  t1
 consts key :: "'a t \<Rightarrow> t1"

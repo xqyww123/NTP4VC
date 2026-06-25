@@ -2,7 +2,7 @@ theory matrices_BlockMul_mul_blockqtvc
   imports "NTP4Verif.NTP4Verif" "Why3STD.int_Sum" "pearl_verifythis_2016_matrix_multiplication_lib.matrices_MyMatrix" "pearl_verifythis_2016_matrix_multiplication_lib.matrices_MatrixArithmetic" "pearl_verifythis_2016_matrix_multiplication_lib.sum_extended_Sum_extended"
 begin
 consts ofs2 :: "int mat \<Rightarrow> int \<Rightarrow> int \<Rightarrow> int \<Rightarrow> int \<Rightarrow> int"
-axiomatization where ofs2'def:   "ofs2 a ai aj i j = get a (ai + i) (aj + j)"
+axiomatization where ofs2_def:   "ofs2 a ai aj i j = get a (ai + i) (aj + j)"
   for a :: "int mat"
   and ai :: "int"
   and aj :: "int"

@@ -2,7 +2,7 @@ theory ropes_Balance_string_of_array_lengthqtvc
   imports "NTP4Verif.NTP4Verif" "Why3STD.Ref_Ref" "Why3STD.int_Fibonacci" "./ropes_MyString" "./ropes_Rope"
 begin
 consts max :: "int"
-axiomatization where max'def:   "(2 :: int) \<le> max"
+axiomatization where max_def:   "(2 :: int) \<le> max"
 consts string_of_array :: "rope list \<Rightarrow> int \<Rightarrow> int \<Rightarrow> char_string"
 axiomatization where string_of_array_empty:   "infix_eqeq (string_of_array q l l) ropes_MyString.empty"
  if "(0 :: int) \<le> l"

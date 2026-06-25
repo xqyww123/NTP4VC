@@ -2,7 +2,7 @@ theory muller_Muller_compactqtvc
   imports "NTP4Verif.NTP4Verif" "Why3STD.Ref_Ref" "Why3STD.int_NumOf"
 begin
 consts fc :: "int list \<Rightarrow> int \<Rightarrow> bool"
-axiomatization where fc'def:   "fc a i = True \<longleftrightarrow> \<not>a ! nat i = (0 :: int)"
+axiomatization where fc_def:   "fc a i = True \<longleftrightarrow> \<not>a ! nat i = (0 :: int)"
   for a :: "int list"
   and i :: "int"
 definition numof :: "int list \<Rightarrow> int \<Rightarrow> int \<Rightarrow> int"

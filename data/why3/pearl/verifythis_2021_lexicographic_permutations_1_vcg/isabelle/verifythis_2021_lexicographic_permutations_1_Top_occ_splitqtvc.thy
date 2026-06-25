@@ -6,7 +6,7 @@ typedecl  permutation
 definition lt :: "int list \<Rightarrow> int list \<Rightarrow> _"
   where "lt p q \<longleftrightarrow> (length p = length q \<and> (0 :: int) < int (length q)) \<and> (\<exists>(i :: int). ((0 :: int) \<le> i \<and> i < int (length p)) \<and> (\<forall>(j :: int). (0 :: int) \<le> j \<and> j < i \<longrightarrow> p ! nat j = q ! nat j) \<and> p ! nat i < q ! nat i)" for p q
 consts iseq :: "'a \<Rightarrow> 'a list \<Rightarrow> int \<Rightarrow> bool"
-axiomatization where iseq'def:   "iseq x s i = True \<longleftrightarrow> s ! nat i = x"
+axiomatization where iseq_def:   "iseq x s i = True \<longleftrightarrow> s ! nat i = x"
   for x :: "'a"
   and s :: "'a list"
   and i :: "int"

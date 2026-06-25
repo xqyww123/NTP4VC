@@ -18,7 +18,7 @@ axiomatization where sorted_append:   "sorted l1 \<and> sorted l2 \<and> (\<fora
   for l1 :: "int list"
   and l2 :: "int list"
 consts destruct :: "'xi list \<Rightarrow> 'xi \<times> 'xi list"
-axiomatization where destruct'def:   "case l of Cons h t \<Rightarrow> destruct l = (h, t) | _ \<Rightarrow> False"
+axiomatization where destruct_def:   "case l of Cons h t \<Rightarrow> destruct l = (h, t) | _ \<Rightarrow> False"
  if "\<not>is_Nil l"
   for l :: "'xi list"
 theorem peek'vc:

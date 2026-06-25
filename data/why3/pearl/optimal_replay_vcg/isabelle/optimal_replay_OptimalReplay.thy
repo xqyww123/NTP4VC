@@ -2,7 +2,7 @@ theory optimal_replay_OptimalReplay
   imports "NTP4Verif.NTP4Verif" "Why3STD.Ref_Ref"
 begin
 consts n :: "int"
-axiomatization where n'def:   "(0 :: int) < n"
+axiomatization where n_def:   "(0 :: int) < n"
 consts f :: "int \<Rightarrow> int"
 axiomatization where f'spec'0:   "(0 :: int) \<le> f k"
  if "(0 :: int) < k"

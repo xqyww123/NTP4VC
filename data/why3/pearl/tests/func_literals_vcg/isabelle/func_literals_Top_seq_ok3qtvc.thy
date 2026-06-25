@@ -3,10 +3,10 @@ theory func_literals_Top_seq_ok3qtvc
 begin
 consts o1 :: "int \<Rightarrow> int \<Rightarrow> int"
 consts fc :: "int \<Rightarrow> int \<Rightarrow> int"
-axiomatization where o'def:   "o1 default x'x = (if x'x = (0 :: int) then 0 :: int else if x'x = (1 :: int) then 1 :: int else if x'x = (2 :: int) then 2 :: int else if x'x = (3 :: int) then 3 :: int else default)"
+axiomatization where o1_def:   "o1 default x'x = (if x'x = (0 :: int) then 0 :: int else if x'x = (1 :: int) then 1 :: int else if x'x = (2 :: int) then 2 :: int else if x'x = (3 :: int) then 3 :: int else default)"
   for default :: "int"
   and x'x :: "int"
-axiomatization where fc'def:   "fc default x'x = (if x'x = (0 :: int) then 0 :: int else if x'x = (1 :: int) then 1 :: int else if x'x = (2 :: int) then 2 :: int else if x'x = (3 :: int) then 3 :: int else default)"
+axiomatization where fc_def:   "fc default x'x = (if x'x = (0 :: int) then 0 :: int else if x'x = (1 :: int) then 1 :: int else if x'x = (2 :: int) then 2 :: int else if x'x = (3 :: int) then 3 :: int else default)"
   for default :: "int"
   and x'x :: "int"
 theorem seq_ok3'vc:

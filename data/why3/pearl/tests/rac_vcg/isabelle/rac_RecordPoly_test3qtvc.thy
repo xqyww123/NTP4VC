@@ -6,9 +6,9 @@ datatype 'a t2 = t2'mk (f: "int \<Rightarrow> 'a")
 datatype 'a t3 = t3'mk (elts: "int \<Rightarrow> 'a") (length: "int")
 consts o1 :: "int \<Rightarrow> bool"
 consts o2 :: "int \<Rightarrow> bool"
-axiomatization where o'def:   "o1 x = True"
+axiomatization where o1_def:   "o1 x = True"
   for x :: "int"
-axiomatization where o'def1:   "o2 x = True"
+axiomatization where o2_def:   "o2 x = True"
   for x :: "int"
 theorem test3'vc:
   shows "(0 :: int) < (3 :: int)"

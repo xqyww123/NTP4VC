@@ -2,7 +2,7 @@ theory maximum_subarray_MaxProd_maximum_subarrayqtvc
   imports "NTP4Verif.NTP4Verif" "Why3STD.Ref_Ref"
 begin
 consts prod :: "int list \<Rightarrow> int \<Rightarrow> int \<Rightarrow> int"
-axiomatization where prod'def:   "if lo = hi then prod a lo hi = (1 :: int) else prod a lo hi = prod a lo (hi - (1 :: int)) * a ! nat (hi - (1 :: int))"
+axiomatization where prod_def:   "if lo = hi then prod a lo hi = (1 :: int) else prod a lo hi = prod a lo (hi - (1 :: int)) * a ! nat (hi - (1 :: int))"
  if "(0 :: int) \<le> lo"
  and "lo \<le> hi"
  and "hi \<le> int (length a)"

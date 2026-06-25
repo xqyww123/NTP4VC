@@ -2,7 +2,7 @@ theory priority_queue_PQueue_zeroqtrefnqtvc
   imports "NTP4Verif.NTP4Verif" "Why3STD.Ref_Ref" "pearl_avl_lib.avl_SelectionTypes"
 begin
 consts balancing :: "nat"
-axiomatization where balancing'def:   "(0 :: int) < int balancing"
+axiomatization where balancing_def:   "(0 :: int) < int balancing"
 typedecl 'a t
 typedecl  t1
 consts key :: "'a t \<Rightarrow> t1"
@@ -38,7 +38,7 @@ axiomatization where neutral'0:   "op x None = x"
 axiomatization where neutral'1:   "x = op None x"
   for x :: "t1 option"
 consts agg :: "('a \<Rightarrow> t1 option) \<Rightarrow> 'a list \<Rightarrow> t1 option"
-axiomatization where agg'def:   "if int (length s) = (0 :: int) then agg f s = None else agg f s = op (f (s ! (0 :: nat))) (agg f (drop (1 :: nat) s))"
+axiomatization where agg_def:   "if int (length s) = (0 :: int) then agg f s = None else agg f s = op (f (s ! (0 :: nat))) (agg f (drop (1 :: nat) s))"
   for s :: "'a list"
   and f :: "'a \<Rightarrow> t1 option"
 definition measure :: "'a t \<Rightarrow> t1 option"

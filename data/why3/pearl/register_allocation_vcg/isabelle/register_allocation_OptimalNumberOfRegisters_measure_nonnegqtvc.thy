@@ -2,7 +2,7 @@ theory register_allocation_OptimalNumberOfRegisters_measure_nonnegqtvc
   imports "NTP4Verif.NTP4Verif" "./register_allocation_Spec" "./register_allocation_DWP"
 begin
 consts k :: "int"
-axiomatization where k'def:   "(2 :: int) \<le> k"
+axiomatization where k_def:   "(2 :: int) \<le> k"
 fun n :: "expr \<Rightarrow> int"
   where "n (Evar x) = (1 :: int)" for x
       | "n (Eneg e1) = n e1" for e1

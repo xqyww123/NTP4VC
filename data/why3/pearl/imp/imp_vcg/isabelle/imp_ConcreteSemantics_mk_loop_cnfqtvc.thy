@@ -26,7 +26,7 @@ axiomatization where config'inj:   "a = b"
   for a :: "config"
   and b :: "config"
 consts no_limit_cnf :: "config"
-axiomatization where no_limit_cnf'def:   "loop_limit no_limit_cnf = None"
+axiomatization where loop_limit_def:   "loop_limit no_limit_cnf = None"
 theorem mk_loop_cnf'vc:
   shows "True"
   sorry

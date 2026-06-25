@@ -2,7 +2,7 @@ theory binomial_Top_combqtvc
   imports "NTP4Verif.NTP4Verif"
 begin
 consts infix_sl :: "int \<Rightarrow> int \<Rightarrow> int"
-axiomatization where infix_sl'def:   "infix_sl x y = x ediv y"
+axiomatization where infix_sl_def:   "infix_sl x y = x ediv y"
  if "\<not>y = (0 :: int)"
   for y :: "int"
   and x :: "int"

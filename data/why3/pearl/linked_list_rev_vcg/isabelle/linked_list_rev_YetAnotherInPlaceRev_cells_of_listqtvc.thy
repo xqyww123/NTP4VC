@@ -14,10 +14,10 @@ definition frame :: "mem \<Rightarrow> mem \<Rightarrow> (int \<Rightarrow> loc)
   where "frame m1 m2 s n \<longleftrightarrow> (\<forall>(p :: loc). (\<forall>(i :: int). (0 :: int) \<le> i \<and> i < n \<longrightarrow> \<not>p = s i) \<longrightarrow> next m1 p = next m2 p)" for m1 m2 s n
 consts is_list :: "mem \<Rightarrow> loc \<Rightarrow> (int \<Rightarrow> loc) \<Rightarrow> int \<Rightarrow> bool"
 consts result :: "(int \<Rightarrow> loc) \<Rightarrow> int \<Rightarrow> loc"
-axiomatization where result'def:   "result s i = s (i + (1 :: int))"
+axiomatization where result_def:   "result s i = s (i + (1 :: int))"
   for s :: "int \<Rightarrow> loc"
   and i :: "int"
-axiomatization where is_list'def:   "if n = (0 :: int) then is_list m l s n \<longleftrightarrow> l = null else is_list m l s n \<longleftrightarrow> (let q1' :: loc = s (0 :: int) in l = q1' \<and> \<not>q1' = null) \<and> is_list m (next m l) (result s) (n - (1 :: int))"
+axiomatization where is_list_def:   "if n = (0 :: int) then is_list m l s n \<longleftrightarrow> l = null else is_list m l s n \<longleftrightarrow> (let q1' :: loc = s (0 :: int) in l = q1' \<and> \<not>q1' = null) \<and> is_list m (next m l) (result s) (n - (1 :: int))"
  if "(0 :: int) \<le> n"
   for n :: "int"
   and m :: "mem"

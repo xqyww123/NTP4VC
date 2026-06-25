@@ -22,7 +22,7 @@ axiomatization where buffer'inj:   "a = b"
 definition len_contents :: "buffer \<Rightarrow> int"
   where "len_contents b = int (length (data b)) - r b + l b" for b
 consts contents :: "buffer \<Rightarrow> int \<Rightarrow> char"
-axiomatization where contents'def:   "contents b i = (if (0 :: int) \<le> i \<and> i < l b then (nth (data b) o nat) i else if l b \<le> i \<and> i \<le> len_contents b then (nth (data b) o nat) (i + r b - l b) else dummy_char)"
+axiomatization where contents_def:   "contents b i = (if (0 :: int) \<le> i \<and> i < l b then (nth (data b) o nat) i else if l b \<le> i \<and> i \<le> len_contents b then (nth (data b) o nat) (i + r b - l b) else dummy_char)"
   for b :: "buffer"
   and i :: "int"
 definition same_contents :: "buffer \<Rightarrow> buffer \<Rightarrow> _"

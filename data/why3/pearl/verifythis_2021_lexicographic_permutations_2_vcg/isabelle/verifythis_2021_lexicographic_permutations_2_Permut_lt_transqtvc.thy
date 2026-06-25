@@ -10,7 +10,7 @@ definition le :: "int list \<Rightarrow> int list \<Rightarrow> _"
 definition lt :: "int list \<Rightarrow> int list \<Rightarrow> _"
   where "lt a1 a2 \<longleftrightarrow> le a1 a2 \<and> \<not>a1 = a2" for a1 a2
 consts find_eq :: "int list \<Rightarrow> int list \<Rightarrow> int \<Rightarrow> int"
-axiomatization where find_eq'def:   "if i = int (length a1) \<or> \<not>a1 ! nat i = a2 ! nat i then find_eq a1 a2 i = i else find_eq a1 a2 i = find_eq a1 a2 (i + (1 :: int))"
+axiomatization where find_eq_def:   "if i = int (length a1) \<or> \<not>a1 ! nat i = a2 ! nat i then find_eq a1 a2 i = i else find_eq a1 a2 i = find_eq a1 a2 (i + (1 :: int))"
  if "length a1 = length a2"
  and "(0 :: int) \<le> i"
  and "i \<le> int (length a1)"

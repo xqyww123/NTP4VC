@@ -3,7 +3,7 @@ theory tables_IMapAndSet_lt_def1
 begin
 typedecl  t
 consts balancing :: "nat"
-axiomatization where balancing'def:   "int balancing = int (0 :: nat) + (1 :: int)"
+axiomatization where balancing_def:   "int balancing = int (0 :: nat) + (1 :: int)"
 typedecl 'a t1
 definition key :: "int \<times> 'a \<Rightarrow> int"
   where "key t2 = (case t2 of (a, _) \<Rightarrow> a)" for t2
@@ -89,7 +89,7 @@ datatype 'a view1 = AEmpty1 | ANode1 "'a t4" "int \<times> 'a" "'a t4" "nat"
 typedecl 'a t5
 datatype 'a m4 = m'mk2 (domn1: "int \<Rightarrow> bool") (func1: "int \<Rightarrow> 'a") (card1: "int")
 consts fc :: "'a t4 \<Rightarrow> int \<Rightarrow> 'a"
-axiomatization where fc'def:   "fc t6 k = (case func (m3 t6) k of (_, v) \<Rightarrow> v)"
+axiomatization where fc_def:   "fc t6 k = (case func (m3 t6) k of (_, v) \<Rightarrow> v)"
   for t6 :: "'a t4"
   and k :: "int"
 definition m5 :: "'a t4 \<Rightarrow> 'a m4"

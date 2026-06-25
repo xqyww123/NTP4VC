@@ -3,9 +3,9 @@ theory euler_sieve_EulerSieveImpl_tqtvc
 begin
 consts o1 :: "int \<Rightarrow> bool"
 consts o2 :: "int \<Rightarrow> int"
-axiomatization where o'def:   "o1 i = True \<longleftrightarrow> i < (2 :: int)"
+axiomatization where o1_def:   "o1 i = True \<longleftrightarrow> i < (2 :: int)"
   for i :: "int"
-axiomatization where o'def1:   "o2 i = i + (1 :: int)"
+axiomatization where o2_def:   "o2 i = i + (1 :: int)"
   for i :: "int"
 theorem t'vc:
   shows "(0 :: int) \<le> (2 :: int)"

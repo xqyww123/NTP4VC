@@ -2,11 +2,11 @@ theory my_lse_LSE_lse_accuracyqtvc
   imports "NTP4Verif.NTP4Verif" "pearl_lse_lib.udouble_UDouble" "Why3STD.ieee_float_RoundingMode" "pearl_lse_lib.my_exp_log_ExpLogLemmas" "pearl_lse_lib.my_exp_log_ExpLogApprox" "pearl_lse_lib.sum_real_Sum" "pearl_lse_lib.my_sum_Sum" "pearl_lse_lib.my_sum_Bound" "pearl_lse_lib.my_sum_Combine"
 begin
 consts exp_fun :: "(int \<Rightarrow> udouble) \<Rightarrow> int \<Rightarrow> real"
-axiomatization where exp_fun'def:   "exp_fun a i = exp (real_fun a i)"
+axiomatization where exp_fun_def:   "exp_fun a i = exp (real_fun a i)"
   for a :: "int \<Rightarrow> udouble"
   and i :: "int"
 consts u_exp_fun :: "(int \<Rightarrow> udouble) \<Rightarrow> int \<Rightarrow> udouble"
-axiomatization where u_exp_fun'def:   "u_exp_fun a i = u_exp (a i)"
+axiomatization where u_exp_fun_def:   "u_exp_fun a i = u_exp (a i)"
   for a :: "int \<Rightarrow> udouble"
   and i :: "int"
 definition u_sum_of_u_exp :: "(int \<Rightarrow> udouble) \<Rightarrow> int \<Rightarrow> int \<Rightarrow> udouble"

@@ -11,7 +11,7 @@ definition inside_memory :: "(int \<Rightarrow> loc) \<Rightarrow> int \<Rightar
 definition finite_memory :: "mem \<Rightarrow> (int \<Rightarrow> loc) \<Rightarrow> int \<Rightarrow> _"
   where "finite_memory m s n \<longleftrightarrow> (\<forall>(i :: int). (0 :: int) \<le> i \<and> i < n \<longrightarrow> inside_memory s n (next m (s i)))" for m s n
 consts fc :: "(int \<Rightarrow> loc) \<Rightarrow> (loc \<Rightarrow> int) \<Rightarrow> int \<Rightarrow> bool"
-axiomatization where fc'def:   "fc s idx i = True \<longleftrightarrow> (0 :: int) < idx (s i)"
+axiomatization where fc_def:   "fc s idx i = True \<longleftrightarrow> (0 :: int) < idx (s i)"
   for s :: "int \<Rightarrow> loc"
   and idx :: "loc \<Rightarrow> int"
   and i :: "int"

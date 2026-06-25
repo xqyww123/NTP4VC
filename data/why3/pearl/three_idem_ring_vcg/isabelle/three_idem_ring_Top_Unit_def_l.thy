@@ -34,7 +34,7 @@ axiomatization where Mul_distr_r:   "infix_as (infix_pl y z) x = infix_pl (infix
   and z :: "t"
   and x :: "t"
 consts mul :: "t \<Rightarrow> int \<Rightarrow> t"
-axiomatization where mul'def:   "if n = (0 :: int) then mul x n = zero else mul x n = infix_pl x (mul x (n - (1 :: int)))"
+axiomatization where mul_def:   "if n = (0 :: int) then mul x n = zero else mul x n = infix_pl x (mul x (n - (1 :: int)))"
  if "(0 :: int) \<le> n"
   for n :: "int"
   and x :: "t"

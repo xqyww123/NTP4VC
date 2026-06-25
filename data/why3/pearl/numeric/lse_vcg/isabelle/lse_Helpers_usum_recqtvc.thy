@@ -2,11 +2,11 @@ theory lse_Helpers_usum_recqtvc
   imports "NTP4Verif.NTP4Verif" "Why3STD.real_Sum" "Why3STD.ieee_float_RoundingMode" "Why3STD.ufloat_USingle" "Why3STD.ufloat_HelperLemmas" "Why3STD.ufloat_USingleLemmas"
 begin
 consts abs_fun :: "(int \<Rightarrow> real) \<Rightarrow> int \<Rightarrow> real"
-axiomatization where abs_fun'def:   "abs_fun f i = abs (f i)"
+axiomatization where abs_fun_def:   "abs_fun f i = abs (f i)"
   for f :: "int \<Rightarrow> real"
   and i :: "int"
 consts abs_real_fun :: "(int \<Rightarrow> usingle) \<Rightarrow> int \<Rightarrow> real"
-axiomatization where abs_real_fun'def:   "abs_real_fun f i = abs_fun (real_fun f) i"
+axiomatization where abs_real_fun_def:   "abs_real_fun f i = abs_fun (real_fun f) i"
   for f :: "int \<Rightarrow> usingle"
   and i :: "int"
 theorem usum_rec'vc:

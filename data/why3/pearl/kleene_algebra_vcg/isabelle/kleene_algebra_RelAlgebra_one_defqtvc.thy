@@ -4,7 +4,7 @@ begin
 typedecl  a
 typedecl  t
 consts fc :: "a \<Rightarrow> a \<times> a"
-axiomatization where fc'def:   "fc a1 = (a1, a1)"
+axiomatization where fc_def:   "fc a1 = (a1, a1)"
   for a1 :: "a"
 definition one :: "(a \<times> a) set"
   where "one = image fc UNIV"

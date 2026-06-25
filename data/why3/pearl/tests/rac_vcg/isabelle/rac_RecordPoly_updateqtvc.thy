@@ -5,7 +5,7 @@ datatype 'a t1 = t1'mk (x: "'a")
 datatype 'a t2 = t2'mk (f: "int \<Rightarrow> 'a")
 datatype 'a t3 = t3'mk (elts: "int \<Rightarrow> 'a") (length: "int")
 consts o1 :: "int \<Rightarrow> 'a \<Rightarrow> (int \<Rightarrow> 'a) \<Rightarrow> int \<Rightarrow> 'a"
-axiomatization where o'def:   "o1 i x1 f1 j = (if j = i then x1 else f1 j)"
+axiomatization where o1_def:   "o1 i x1 f1 j = (if j = i then x1 else f1 j)"
   for i :: "int"
   and x1 :: "'a"
   and f1 :: "int \<Rightarrow> 'a"

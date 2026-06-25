@@ -3,7 +3,7 @@ theory word_common_factor_Top_common_factorqtvc
 begin
 typedecl  char
 consts power :: "char list \<Rightarrow> int \<Rightarrow> char list"
-axiomatization where power'def:   "if n = (0 :: int) then power w n = [] else power w n = w @ power w (n - (1 :: int))"
+axiomatization where power_def:   "if n = (0 :: int) then power w n = [] else power w n = w @ power w (n - (1 :: int))"
  if "(0 :: int) \<le> n"
   for n :: "int"
   and w :: "char list"

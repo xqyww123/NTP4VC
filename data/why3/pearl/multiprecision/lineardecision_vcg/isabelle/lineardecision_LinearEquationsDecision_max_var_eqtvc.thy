@@ -129,7 +129,7 @@ axiomatization where infix_eqeq'spec'1:   "\<forall>(i :: int). (0 :: int) \<le>
   for a1 :: "coeff array63"
   and b :: "coeff array63"
 consts max_var :: "expr \<Rightarrow> int"
-axiomatization where max_var'def:   "case e of Term _ i \<Rightarrow> max_var e = i | Cst _ \<Rightarrow> max_var e = (0 :: int) | Add e1 e2 \<Rightarrow> max_var e = max (max_var e1) (max_var e2)"
+axiomatization where max_var_def:   "case e of Term _ i \<Rightarrow> max_var e = i | Cst _ \<Rightarrow> max_var e = (0 :: int) | Add e1 e2 \<Rightarrow> max_var e = max (max_var e1) (max_var e2)"
  if "valid_expr e"
   for e :: "expr"
 axiomatization where max_var'spec'0:   "(0 :: int) \<le> max_var e"

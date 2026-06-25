@@ -41,7 +41,7 @@ typedecl  nondet_source
 typedecl  rng
 consts source :: "rng \<Rightarrow> nondet_source"
 consts fc :: "'a list \<Rightarrow> 'a \<Rightarrow> int \<Rightarrow> bool"
-axiomatization where fc'def:   "fc a v1 i = True \<longleftrightarrow> a ! nat i = v1"
+axiomatization where fc_def:   "fc a v1 i = True \<longleftrightarrow> a ! nat i = v1"
   for a :: "'a list"
   and v1 :: "'a"
   and i :: "int"

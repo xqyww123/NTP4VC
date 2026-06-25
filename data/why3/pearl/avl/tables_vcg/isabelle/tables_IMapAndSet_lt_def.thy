@@ -3,7 +3,7 @@ theory tables_IMapAndSet_lt_def
 begin
 typedecl  t
 consts balancing :: "nat"
-axiomatization where balancing'def:   "int balancing = int (0 :: nat) + (1 :: int)"
+axiomatization where balancing_def:   "int balancing = int (0 :: nat) + (1 :: int)"
 theorem lt_def:
   fixes x :: "int"
   fixes y :: "int"

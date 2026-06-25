@@ -4,7 +4,7 @@ begin
 definition in_base :: "int \<Rightarrow> (int \<Rightarrow> 8 word) \<Rightarrow> int \<Rightarrow> int \<Rightarrow> _"
   where "in_base b x n m \<longleftrightarrow> (\<forall>(i :: int). n \<le> i \<and> i < m \<longrightarrow> (0 :: int) \<le> uint (x i) \<and> uint (x i) < b)" for b x n m
 consts svalue_le_sub :: "int \<Rightarrow> (int \<Rightarrow> 8 word) \<Rightarrow> int \<Rightarrow> int \<Rightarrow> int"
-axiomatization where svalue_le_sub'def:   "if n < m then svalue_le_sub b x n m = uint (x n) + b * svalue_le_sub b x (n + (1 :: int)) m else svalue_le_sub b x n m = (0 :: int)"
+axiomatization where svalue_le_sub_def:   "if n < m then svalue_le_sub b x n m = uint (x n) + b * svalue_le_sub b x (n + (1 :: int)) m else svalue_le_sub b x n m = (0 :: int)"
   for n :: "int"
   and m :: "int"
   and b :: "int"
@@ -14,7 +14,7 @@ definition string_in_base :: "int \<Rightarrow> 8 word ptr \<Rightarrow> _"
 definition svalue_le :: "int \<Rightarrow> 8 word ptr \<Rightarrow> int \<Rightarrow> int"
   where "svalue_le b x sz = svalue_le_sub b (pelts x) (offset x) (offset x + sz)" for b x sz
 consts svalue_sub :: "int \<Rightarrow> (int \<Rightarrow> 8 word) \<Rightarrow> int \<Rightarrow> int \<Rightarrow> int"
-axiomatization where svalue_sub'def:   "if n < m then svalue_sub b x n m = uint (x (m - (1 :: int))) + b * svalue_sub b x n (m - (1 :: int)) else svalue_sub b x n m = (0 :: int)"
+axiomatization where svalue_sub_def:   "if n < m then svalue_sub b x n m = uint (x (m - (1 :: int))) + b * svalue_sub b x n (m - (1 :: int)) else svalue_sub b x n m = (0 :: int)"
   for n :: "int"
   and m :: "int"
   and b :: "int"

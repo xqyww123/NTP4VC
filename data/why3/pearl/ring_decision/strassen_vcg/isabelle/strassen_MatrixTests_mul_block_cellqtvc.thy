@@ -20,7 +20,7 @@ axiomatization where cols_def:   "cols a = c"
 definition is_finite :: "mat \<Rightarrow> _"
   where "is_finite m \<longleftrightarrow> strassen_InfIntMatrix.size m (rows m) (cols m)" for m
 consts ofs2 :: "mat \<Rightarrow> int \<Rightarrow> int \<Rightarrow> int \<Rightarrow> int \<Rightarrow> int"
-axiomatization where ofs2'def:   "ofs2 a ai aj i j = get a (ai + i) (aj + j)"
+axiomatization where ofs2_def:   "ofs2 a ai aj i j = get a (ai + i) (aj + j)"
   for a :: "mat"
   and ai :: "int"
   and aj :: "int"

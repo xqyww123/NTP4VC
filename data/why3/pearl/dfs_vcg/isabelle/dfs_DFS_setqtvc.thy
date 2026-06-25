@@ -8,7 +8,7 @@ consts left1 :: "loc \<Rightarrow> loc"
 consts right1 :: "loc \<Rightarrow> loc"
 typedecl  marks
 consts o1 :: "(loc \<Rightarrow> bool) \<Rightarrow> loc \<Rightarrow> bool \<Rightarrow> loc \<Rightarrow> bool"
-axiomatization where o'def:   "o1 m l b x = True \<longleftrightarrow> (if x = l then b = True else m x = True)"
+axiomatization where o1_def:   "o1 m l b x = True \<longleftrightarrow> (if x = l then b = True else m x = True)"
   for m :: "loc \<Rightarrow> bool"
   and l :: "loc"
   and b :: "bool"

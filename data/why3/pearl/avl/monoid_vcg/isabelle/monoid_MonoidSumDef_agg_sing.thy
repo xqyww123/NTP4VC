@@ -13,7 +13,7 @@ axiomatization where neutral'0:   "op x zero = x"
 axiomatization where neutral'1:   "x = op zero x"
   for x :: "t"
 consts agg :: "('a \<Rightarrow> t) \<Rightarrow> 'a list \<Rightarrow> t"
-axiomatization where agg'def:   "if int (length s) = (0 :: int) then agg f s = zero else agg f s = op (f (s ! (0 :: nat))) (agg f (drop (1 :: nat) s))"
+axiomatization where agg_def:   "if int (length s) = (0 :: int) then agg f s = zero else agg f s = op (f (s ! (0 :: nat))) (agg f (drop (1 :: nat) s))"
   for s :: "'a list"
   and f :: "'a \<Rightarrow> t"
 theorem agg_sing:

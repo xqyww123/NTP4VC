@@ -4,7 +4,7 @@ begin
 definition mem :: "int \<Rightarrow> int list \<Rightarrow> _"
   where "mem x a \<longleftrightarrow> (\<exists>(i :: int). ((0 :: int) \<le> i \<and> i < int (length a)) \<and> a ! nat i = x)" for x a
 consts placed :: "int list \<Rightarrow> int \<Rightarrow> bool"
-axiomatization where placed'def:   "placed a i = True \<longleftrightarrow> a ! nat i = i"
+axiomatization where placed_def:   "placed a i = True \<longleftrightarrow> a ! nat i = i"
   for a :: "int list"
   and i :: "int"
 theorem mex'vc:

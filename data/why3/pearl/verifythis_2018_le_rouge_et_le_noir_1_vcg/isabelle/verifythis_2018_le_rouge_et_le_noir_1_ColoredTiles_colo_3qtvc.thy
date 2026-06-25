@@ -9,9 +9,9 @@ definition valid :: "color list \<Rightarrow> _"
   where "valid c \<longleftrightarrow> (\<forall>(i :: int). (0 :: int) \<le> i \<and> i < int (length c) \<longrightarrow> c ! nat i = Red \<longrightarrow> tworedneighbors c i)" for c
 consts fc :: "int \<Rightarrow> color"
 consts fc1 :: "int \<Rightarrow> color"
-axiomatization where fc'def:   "fc y0 = Red"
+axiomatization where fc_def:   "fc y0 = Red"
   for y0 :: "int"
-axiomatization where fc'def1:   "fc1 y0 = Black"
+axiomatization where fc1_def:   "fc1 y0 = Black"
   for y0 :: "int"
 theorem colo_3'vc:
   fixes c :: "color list"

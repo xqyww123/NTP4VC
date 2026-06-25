@@ -21,7 +21,7 @@ axiomatization where queue'inj:   "a = b"
 definition sequence :: "'a queue \<Rightarrow> 'a list"
   where "sequence q = front q @ rev (rear q)" for q
 consts empty :: "'a queue"
-axiomatization where empty'def:   "sequence (empty :: 'a queue) = (Nil :: 'a list)"
+axiomatization where empty_def:   "sequence (empty :: 'a queue) = (Nil :: 'a list)"
 theorem create'vc:
   fixes r :: "'a list"
   fixes f :: "'a list"

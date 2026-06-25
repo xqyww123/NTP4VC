@@ -5,7 +5,7 @@ fun braun :: "'a tree \<Rightarrow> _"
   where "braun (Empty :: 'a tree) = True"
       | "braun (Node l x r) = ((bintree_Size.size l = bintree_Size.size r \<or> bintree_Size.size l = bintree_Size.size r + (1 :: int)) \<and> braun l \<and> braun r)" for l x r
 consts get_tree :: "'a tree \<Rightarrow> int \<Rightarrow> 'a"
-axiomatization where get_tree'def:   "case t of (Empty :: 'a tree) \<Rightarrow> False | Node l x r \<Rightarrow> (if i = (0 :: int) then get_tree t i = x else if i cmod (2 :: int) = (1 :: int) then get_tree t i = get_tree l (i cdiv (2 :: int)) else get_tree t i = get_tree r (i cdiv (2 :: int) - (1 :: int)))"
+axiomatization where get_tree_def:   "case t of (Empty :: 'a tree) \<Rightarrow> False | Node l x r \<Rightarrow> (if i = (0 :: int) then get_tree t i = x else if i cmod (2 :: int) = (1 :: int) then get_tree t i = get_tree l (i cdiv (2 :: int)) else get_tree t i = get_tree r (i cdiv (2 :: int) - (1 :: int)))"
  if "(0 :: int) \<le> i"
  and "i < bintree_Size.size t"
  and "braun t"

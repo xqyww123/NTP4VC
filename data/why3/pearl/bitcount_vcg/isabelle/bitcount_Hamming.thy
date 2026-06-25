@@ -11,7 +11,7 @@ axiomatization where nth_diff_closure_def:   "nth_diff_closure y y1 y2 = True \<
 definition hammingD_logic :: "32 word \<Rightarrow> 32 word \<Rightarrow> int"
   where "hammingD_logic a b = numof (nth_diff_closure a b) (0 :: int) (32 :: int)" for a b
 consts fun_or :: "('a \<Rightarrow> bool) \<Rightarrow> ('a \<Rightarrow> bool) \<Rightarrow> 'a \<Rightarrow> bool"
-axiomatization where fun_or'def:   "fun_or f g x = True \<longleftrightarrow> f x = True \<or> g x = True"
+axiomatization where fun_or_def:   "fun_or f g x = True \<longleftrightarrow> f x = True \<or> g x = True"
   for f :: "'a \<Rightarrow> bool"
   and g :: "'a \<Rightarrow> bool"
   and x :: "'a"

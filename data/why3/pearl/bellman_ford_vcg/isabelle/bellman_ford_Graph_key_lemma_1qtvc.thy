@@ -15,7 +15,7 @@ axiomatization where edges_def'1:   "y |\<in>| vertices"
   for x :: "vertex"
   and y :: "vertex"
 consts s :: "vertex"
-axiomatization where s'def:   "s |\<in>| vertices"
+axiomatization where s_def:   "s |\<in>| vertices"
 inductive path :: "vertex \<Rightarrow> vertex list \<Rightarrow> vertex \<Rightarrow> bool" where
    Path_empty: "path x (Nil :: vertex list) x" for x :: "vertex"
  | Path_cons: "edge x y \<Longrightarrow> path y l z \<Longrightarrow> path x (Cons x l) z" for x :: "vertex" and y :: "vertex" and l :: "vertex list" and z :: "vertex"

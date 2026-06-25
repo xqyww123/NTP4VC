@@ -12,7 +12,7 @@ typedecl  register
 datatype  instr = Iload "addr" "int" | Ineg "int" | Iadd "int" "int" | Ipush "int" | Ipop "int"
 typedecl  registers
 consts update :: "(int \<Rightarrow> int) \<Rightarrow> int \<Rightarrow> int \<Rightarrow> int \<Rightarrow> int"
-axiomatization where update'def:   "update reg1 r v r' = (if r' = r then v else reg1 r')"
+axiomatization where update_def:   "update reg1 r v r' = (if r' = r then v else reg1 r')"
   for reg1 :: "int \<Rightarrow> int"
   and r :: "int"
   and v :: "int"
@@ -26,7 +26,7 @@ fun exec_list :: "instr list \<Rightarrow> state \<Rightarrow> state"
   where "exec_list (Nil :: instr list) s = s" for s
       | "exec_list (Cons i l) s = exec_list l (exec i s)" for i l s
 consts expr_post :: "expr \<Rightarrow> int \<Rightarrow> state \<Rightarrow> state \<Rightarrow> bool"
-axiomatization where expr_post'def:   "expr_post e r s s' = True \<longleftrightarrow> mem s' = mem s \<and> reg s' r = eval (mem s) e \<and> st s' = st s \<and> (\<forall>(r' :: int). r' < r \<longrightarrow> reg s' r' = reg s r')"
+axiomatization where expr_post_def:   "expr_post e r s s' = True \<longleftrightarrow> mem s' = mem s \<and> reg s' r = eval (mem s) e \<and> st s' = st s \<and> (\<forall>(r' :: int). r' < r \<longrightarrow> reg s' r' = reg s r')"
   for e :: "expr"
   and r :: "int"
   and s :: "state"
